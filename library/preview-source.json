@@ -1,0 +1,28 @@
+{
+  "authorArchiveSha256": "2f2a0fcc62cd204f529c0ed7c2b8e342746dfe7e9a1077fa76983497941d8344",
+  "preview": {
+    "height": 540,
+    "sha256": "694c2d38e463b123c0dca422803ef2341d24e6dd1eb6e8af416752eab6a7e0b4",
+    "sizeBytes": 260480,
+    "width": 960
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivePath": "overrides/kubejs/assets/ui/textures/mainbg.png",
+    "height": 1600,
+    "references": [
+      "overrides/config/fancymenu/customization/mainMenu.txt"
+    ],
+    "sha256": "f1ce96779a6236f09a840d0009710f54ad1aece2624ece77f8cabdb64b246ca4",
+    "sizeBytes": 680133,
+    "width": 2048
+  },
+  "transformation": {
+    "format": "JPEG",
+    "method": "center crop and Lanczos resize",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}
