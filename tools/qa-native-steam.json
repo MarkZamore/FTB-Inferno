@@ -1,0 +1,1143 @@
+{
+  "schemaVersion": 1,
+  "upstreamLockSha256": "75846e41c23e4cab6fbe2d49afd8ab02ecc483d17bdeb09a905cc3aed6d9dfa7",
+  "minecraftVersion": "1.18.2",
+  "loader": {
+    "type": "forge",
+    "version": "40.2.34"
+  },
+  "mods": [
+    {
+      "id": "ae2",
+      "version": "11.7.6"
+    },
+    {
+      "id": "aeinfinitybooster",
+      "version": "1.18.2-1.1.0+9"
+    },
+    {
+      "id": "akashictome",
+      "version": "1.5-20"
+    },
+    {
+      "id": "alexsdelight",
+      "version": "1.3.3"
+    },
+    {
+      "id": "alexsmobs",
+      "version": "1.18.6"
+    },
+    {
+      "id": "allarrowsinfinityfix",
+      "version": "1.4.1"
+    },
+    {
+      "id": "apotheosis",
+      "version": "5.8.1"
+    },
+    {
+      "id": "appleskin",
+      "version": "2.5.1+mc1.18.2"
+    },
+    {
+      "id": "architectury",
+      "version": "4.12.94"
+    },
+    {
+      "id": "arnicalib",
+      "version": "5.7.3"
+    },
+    {
+      "id": "ars_creo",
+      "version": "2.2.0"
+    },
+    {
+      "id": "ars_instrumentum",
+      "version": "2.4.1"
+    },
+    {
+      "id": "ars_nouveau",
+      "version": "2.9.0"
+    },
+    {
+      "id": "artifacts",
+      "version": "1.18.2-4.2.4"
+    },
+    {
+      "id": "attributefix",
+      "version": "14.0.4"
+    },
+    {
+      "id": "autoreglib",
+      "version": "1.7-53"
+    },
+    {
+      "id": "avaritia",
+      "version": "4.0.1.1"
+    },
+    {
+      "id": "balm",
+      "version": "3.2.6"
+    },
+    {
+      "id": "bcc",
+      "version": "1.1.21-build.48+mc1.18.2"
+    },
+    {
+      "id": "beehivetooltips",
+      "version": "1.4.2"
+    },
+    {
+      "id": "betteradvancements",
+      "version": "0.2.0.146"
+    },
+    {
+      "id": "bettermodsbutton",
+      "version": "3.2.4"
+    },
+    {
+      "id": "bhmenu",
+      "version": "2.4.2"
+    },
+    {
+      "id": "biomesoplenty",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "blockrunner",
+      "version": "3.1.0"
+    },
+    {
+      "id": "blockui",
+      "version": "1.18.2-0.0.71-ALPHA"
+    },
+    {
+      "id": "bloodmagic",
+      "version": "1.18.2-3.2.6-41"
+    },
+    {
+      "id": "bloodsmeltery",
+      "version": "1.1.4a"
+    },
+    {
+      "id": "bonsaitrees3",
+      "version": "3.2.1"
+    },
+    {
+      "id": "bookshelf",
+      "version": "13.3.56"
+    },
+    {
+      "id": "bossmusicmod",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "brutalbosses",
+      "version": "1.18.2-5.8"
+    },
+    {
+      "id": "bucketlib",
+      "version": "1.18.2-0.5.5.0"
+    },
+    {
+      "id": "buildinggadgets",
+      "version": "3.13.2-build.21+mc1.18.2"
+    },
+    {
+      "id": "bygonenether",
+      "version": "1.3.2"
+    },
+    {
+      "id": "caelus",
+      "version": "1.18.1-3.0.0.2"
+    },
+    {
+      "id": "campfirespawnandtweaks",
+      "version": "3.5"
+    },
+    {
+      "id": "canes_wonderful_spiders",
+      "version": "1.0.0"
+    },
+    {
+      "id": "capsule",
+      "version": "1.18.2-6.0.99"
+    },
+    {
+      "id": "carrynametag",
+      "version": "1.0.1.3-1.18"
+    },
+    {
+      "id": "carryon",
+      "version": "1.17.2.15"
+    },
+    {
+      "id": "cataclysm",
+      "version": "1.0"
+    },
+    {
+      "id": "ceramicbucket",
+      "version": "1.18.2-3.0.5.0"
+    },
+    {
+      "id": "ceramicshears",
+      "version": "1.18.2-1.6.1.1"
+    },
+    {
+      "id": "champions",
+      "version": "1.18.2-2.1.6.3"
+    },
+    {
+      "id": "charginggadgets",
+      "version": "1.7.0"
+    },
+    {
+      "id": "chipped",
+      "version": "2.0.1"
+    },
+    {
+      "id": "chiselsandbits",
+      "version": "1.2.116"
+    },
+    {
+      "id": "citadel",
+      "version": "1.11.3"
+    },
+    {
+      "id": "clearview",
+      "version": "4.0.1"
+    },
+    {
+      "id": "clickmachine",
+      "version": "6.0.5"
+    },
+    {
+      "id": "cloth_config",
+      "version": "6.5.133"
+    },
+    {
+      "id": "clumps",
+      "version": "8.0.0+17"
+    },
+    {
+      "id": "codechickenlib",
+      "version": "4.1.4.488"
+    },
+    {
+      "id": "cofh_core",
+      "version": "9.2.3"
+    },
+    {
+      "id": "collective",
+      "version": "7.7"
+    },
+    {
+      "id": "configured",
+      "version": "2.0.1"
+    },
+    {
+      "id": "constructionwand",
+      "version": "1.18.2-2.9"
+    },
+    {
+      "id": "controlling",
+      "version": "9.0+23"
+    },
+    {
+      "id": "cookingforblockheads",
+      "version": "12.2.0"
+    },
+    {
+      "id": "cosmeticarmorreworked",
+      "version": "1.18.2-v2a"
+    },
+    {
+      "id": "craftingtweaks",
+      "version": "14.0.9"
+    },
+    {
+      "id": "crafttweaker",
+      "version": "9.1.213"
+    },
+    {
+      "id": "crashutilities",
+      "version": "4.1"
+    },
+    {
+      "id": "create",
+      "version": "0.5.1.i"
+    },
+    {
+      "id": "createaddition",
+      "version": "1.18.2-1.0.0"
+    },
+    {
+      "id": "creativecore",
+      "version": "2.11.27"
+    },
+    {
+      "id": "ctm",
+      "version": "1.18.2-1.1.5+5"
+    },
+    {
+      "id": "curios",
+      "version": "1.18.2-5.0.9.2"
+    },
+    {
+      "id": "curiouselytra",
+      "version": "1.18.2-5.0.2.0"
+    },
+    {
+      "id": "curiouslights",
+      "version": "1.3.0+1.18.2"
+    },
+    {
+      "id": "customvillagertrades",
+      "version": "18.25.0"
+    },
+    {
+      "id": "cyclopscore",
+      "version": "1.17.10"
+    },
+    {
+      "id": "darkmodeeverywhere",
+      "version": "1.18.2-1.1.3"
+    },
+    {
+      "id": "darkutils",
+      "version": "10.1.7"
+    },
+    {
+      "id": "defaultoptions",
+      "version": "14.1.2"
+    },
+    {
+      "id": "delightful",
+      "version": "3.2.1"
+    },
+    {
+      "id": "ding",
+      "version": "1.5.0"
+    },
+    {
+      "id": "domum_ornamentum",
+      "version": "1.18.2-1.0.77-ALPHA"
+    },
+    {
+      "id": "dragonfight",
+      "version": "1.18.2-2.2"
+    },
+    {
+      "id": "e4steam",
+      "version": "0.3.4"
+    },
+    {
+      "id": "elevatorid",
+      "version": "1.18.2-1.8.4"
+    },
+    {
+      "id": "embeddium",
+      "version": "0.3.18+mc1.18.2"
+    },
+    {
+      "id": "emojiful",
+      "version": "1.18.2-3.0.1"
+    },
+    {
+      "id": "enchanted",
+      "version": "1.18.2-1.1.6"
+    },
+    {
+      "id": "enchantmentrequirements",
+      "version": "1.2.0"
+    },
+    {
+      "id": "enchdesc",
+      "version": "10.0.12"
+    },
+    {
+      "id": "enderstorage",
+      "version": "2.9.0.182"
+    },
+    {
+      "id": "engineersdecor",
+      "version": "1.1.28"
+    },
+    {
+      "id": "enhancedai",
+      "version": "1.6.11"
+    },
+    {
+      "id": "entangled",
+      "version": "1.3.21"
+    },
+    {
+      "id": "entangledfix",
+      "version": "1.0"
+    },
+    {
+      "id": "euphoria_patcher",
+      "version": "1.8.6-r5.7.1-forge"
+    },
+    {
+      "id": "evilcraft",
+      "version": "1.2.23"
+    },
+    {
+      "id": "evilcraftcompat",
+      "version": "1.2.23"
+    },
+    {
+      "id": "expandability",
+      "version": "6.0.0"
+    },
+    {
+      "id": "experienceobelisk",
+      "version": "2.0.4"
+    },
+    {
+      "id": "extrachampions",
+      "version": "1.2.1"
+    },
+    {
+      "id": "extremesoundmuffler",
+      "version": "3.31_forge-1.18.2"
+    },
+    {
+      "id": "fancymenu",
+      "version": "3.4.6"
+    },
+    {
+      "id": "farmersdelight",
+      "version": "1.18.2-1.2.3"
+    },
+    {
+      "id": "fastsuite",
+      "version": "3.0.2"
+    },
+    {
+      "id": "fe_transformer",
+      "version": "1.1.2"
+    },
+    {
+      "id": "feature_nbt_deadlock_be_gone",
+      "version": "2.0.0+1.18.2"
+    },
+    {
+      "id": "ferritecore",
+      "version": "4.2.2"
+    },
+    {
+      "id": "findme",
+      "version": "3.0.6"
+    },
+    {
+      "id": "finitewater",
+      "version": "4.0-1.18.2"
+    },
+    {
+      "id": "fluiddrawerslegacy",
+      "version": "1.18.2-forge-2.3.9"
+    },
+    {
+      "id": "fluxnetworks",
+      "version": "7.0.9.15"
+    },
+    {
+      "id": "flywheel",
+      "version": "0.6.11-107"
+    },
+    {
+      "id": "foodeffects",
+      "version": "1.1.3"
+    },
+    {
+      "id": "forge",
+      "version": "40.2.34"
+    },
+    {
+      "id": "framedblocks",
+      "version": "5.11.5"
+    },
+    {
+      "id": "framedcompactdrawers",
+      "version": "1.18-4.1.0"
+    },
+    {
+      "id": "friendlyfire",
+      "version": "11.0.4"
+    },
+    {
+      "id": "ftbauxilium",
+      "version": "18.2.10"
+    },
+    {
+      "id": "ftbbackups2",
+      "version": "1.0.23"
+    },
+    {
+      "id": "ftbchunks",
+      "version": "1802.3.19-build.362"
+    },
+    {
+      "id": "ftbessentials",
+      "version": "1802.2.2-build.83"
+    },
+    {
+      "id": "ftbic",
+      "version": "1802.1.6-build.220"
+    },
+    {
+      "id": "ftblibrary",
+      "version": "1802.3.11-build.177"
+    },
+    {
+      "id": "ftbpc",
+      "version": "1.0.1-build.5+mc1.18.2"
+    },
+    {
+      "id": "ftbpromoter",
+      "version": "18.2.51"
+    },
+    {
+      "id": "ftbquests",
+      "version": "1802.3.16-build.479"
+    },
+    {
+      "id": "ftbteamislands",
+      "version": "1801-2.4-build.28"
+    },
+    {
+      "id": "ftbteams",
+      "version": "1802.2.11-build.107"
+    },
+    {
+      "id": "ftbultimine",
+      "version": "1802.3.4-build.93"
+    },
+    {
+      "id": "fullstackwatchdog",
+      "version": "1.0.1+1.19.2-forge"
+    },
+    {
+      "id": "fusion",
+      "version": "1.2.12"
+    },
+    {
+      "id": "gag",
+      "version": "1.2.1-build.16"
+    },
+    {
+      "id": "gamestages",
+      "version": "8.1.3"
+    },
+    {
+      "id": "gateways",
+      "version": "2.3.0"
+    },
+    {
+      "id": "geckolib3",
+      "version": "3.0.57"
+    },
+    {
+      "id": "gircredstone",
+      "version": "3.2.3"
+    },
+    {
+      "id": "gottschcore",
+      "version": "2.1.0"
+    },
+    {
+      "id": "grapplemod",
+      "version": "1.18.2-v13"
+    },
+    {
+      "id": "gunswithoutroses",
+      "version": "1.18.2-1.0.14"
+    },
+    {
+      "id": "hardernaturalhealing",
+      "version": "1.18.1-1.39.0.13"
+    },
+    {
+      "id": "healingcampfire",
+      "version": "5.2"
+    },
+    {
+      "id": "hexerei",
+      "version": "0.2.2"
+    },
+    {
+      "id": "ichunutil",
+      "version": "1.0.1"
+    },
+    {
+      "id": "immersiveengineering",
+      "version": "1.18.2-8.4.0-161"
+    },
+    {
+      "id": "incontrol",
+      "version": "1.18-6.1.14"
+    },
+    {
+      "id": "infernalexp",
+      "version": "2.5.0"
+    },
+    {
+      "id": "infernou",
+      "version": "1.0"
+    },
+    {
+      "id": "insanelib",
+      "version": "1.5.3"
+    },
+    {
+      "id": "inventoryessentials",
+      "version": "4.0.3"
+    },
+    {
+      "id": "inventorysorter",
+      "version": "19.0.4"
+    },
+    {
+      "id": "ironchest",
+      "version": "1.18.2-13.2.11"
+    },
+    {
+      "id": "itemcollectors",
+      "version": "1.1.12"
+    },
+    {
+      "id": "itemfilters",
+      "version": "1802.2.8-build.50"
+    },
+    {
+      "id": "itshallnottick",
+      "version": "1.0.22-build.34"
+    },
+    {
+      "id": "jei",
+      "version": "9.7.2.1001"
+    },
+    {
+      "id": "jeimultiblocks",
+      "version": "0.0.2"
+    },
+    {
+      "id": "jeitweaker",
+      "version": "3.0.0.9"
+    },
+    {
+      "id": "jeresources",
+      "version": "0.14.2.206"
+    },
+    {
+      "id": "jumpoverfences",
+      "version": "1.0.2"
+    },
+    {
+      "id": "justenoughprofessions",
+      "version": "1.3.0"
+    },
+    {
+      "id": "konkrete",
+      "version": "1.8.0"
+    },
+    {
+      "id": "kubejs",
+      "version": "1802.5.5-build.569"
+    },
+    {
+      "id": "kubejs_create",
+      "version": "1802.2.4-build.16"
+    },
+    {
+      "id": "kubejs_immersive_engineering",
+      "version": "1802.2.1-build.35"
+    },
+    {
+      "id": "laserio",
+      "version": "1.4.5"
+    },
+    {
+      "id": "lazydfu",
+      "version": "0.1.3"
+    },
+    {
+      "id": "libnonymous",
+      "version": "2.1.0"
+    },
+    {
+      "id": "libx",
+      "version": "1.18.2-3.2.19"
+    },
+    {
+      "id": "lightoverlay",
+      "version": "6.0.5"
+    },
+    {
+      "id": "logbegone",
+      "version": "1.0.4"
+    },
+    {
+      "id": "lootjs",
+      "version": "2.7.7"
+    },
+    {
+      "id": "lootr",
+      "version": "0.3.30.74"
+    },
+    {
+      "id": "lucent",
+      "version": "1.2.2"
+    },
+    {
+      "id": "magnumtorch",
+      "version": "3.1.4"
+    },
+    {
+      "id": "mantle",
+      "version": "1.9.54"
+    },
+    {
+      "id": "maxhealthfix",
+      "version": "5.0.4"
+    },
+    {
+      "id": "mcjtylib",
+      "version": "1.18-6.0.20"
+    },
+    {
+      "id": "meetyourfight",
+      "version": "1.18.2-1.2.5"
+    },
+    {
+      "id": "melody",
+      "version": "1.0.1"
+    },
+    {
+      "id": "minecolonies",
+      "version": "1.18.2-1.1.148-BETA"
+    },
+    {
+      "id": "minecraft",
+      "version": "1.18.2"
+    },
+    {
+      "id": "minetogether",
+      "version": "6.3.2"
+    },
+    {
+      "id": "mixinextras",
+      "version": "0.3.5"
+    },
+    {
+      "id": "modnametooltip",
+      "version": "1.18.0"
+    },
+    {
+      "id": "modonomicon",
+      "version": "1.18.2-1.33.1"
+    },
+    {
+      "id": "mousetweaks",
+      "version": "2.21"
+    },
+    {
+      "id": "multipiston",
+      "version": "1.18.2-1.2.15-ALPHA"
+    },
+    {
+      "id": "myrtrees",
+      "version": "1.1.0-build.29"
+    },
+    {
+      "id": "nameless_trinkets",
+      "version": "1.18.2-1.7.5"
+    },
+    {
+      "id": "naturesaura",
+      "version": "36.3"
+    },
+    {
+      "id": "naturescompass",
+      "version": "1.18.2-1.9.7-forge"
+    },
+    {
+      "id": "nethersdelight",
+      "version": "2.2"
+    },
+    {
+      "id": "no_nv_flash",
+      "version": "1.4.0.2"
+    },
+    {
+      "id": "nomoretorchspam",
+      "version": "1.18.2-1.0.0"
+    },
+    {
+      "id": "nuclear_contraptions",
+      "version": "1.1.0"
+    },
+    {
+      "id": "occultism",
+      "version": "1.18.2-1.84.0"
+    },
+    {
+      "id": "oculus",
+      "version": "1.6.4"
+    },
+    {
+      "id": "oretweaker",
+      "version": "3.4.1"
+    },
+    {
+      "id": "overloadedarmorbar",
+      "version": "6.0.0"
+    },
+    {
+      "id": "patchouli",
+      "version": "1.18.2-71.1"
+    },
+    {
+      "id": "peepomod",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "petslow",
+      "version": "0.5.8"
+    },
+    {
+      "id": "phantomconfig",
+      "version": "1.0.1"
+    },
+    {
+      "id": "pigpen",
+      "version": "8.0.1"
+    },
+    {
+      "id": "placebo",
+      "version": "6.6.7"
+    },
+    {
+      "id": "plonk",
+      "version": "10.0.4"
+    },
+    {
+      "id": "polylib",
+      "version": "1801.0.3-build.109"
+    },
+    {
+      "id": "ponderjs",
+      "version": "1.1.10"
+    },
+    {
+      "id": "ppfluids",
+      "version": "1.18.2-1.1.0"
+    },
+    {
+      "id": "prettypipes",
+      "version": "1.12.8"
+    },
+    {
+      "id": "productivebees",
+      "version": "1.18.2-0.9.3.0"
+    },
+    {
+      "id": "puzzleslib",
+      "version": "3.5.10"
+    },
+    {
+      "id": "quark",
+      "version": "3.2-358"
+    },
+    {
+      "id": "reauth",
+      "version": "4.0.7"
+    },
+    {
+      "id": "rechiseled",
+      "version": "1.1.5b"
+    },
+    {
+      "id": "recipestages",
+      "version": "3.0.0.10"
+    },
+    {
+      "id": "reeses_sodium_options",
+      "version": "1.0.8"
+    },
+    {
+      "id": "reliquary",
+      "version": "1.18.2-2.0.19.1161"
+    },
+    {
+      "id": "rftoolsbase",
+      "version": "1.18-3.0.12"
+    },
+    {
+      "id": "rftoolsbuilder",
+      "version": "1.18-4.1.4"
+    },
+    {
+      "id": "rgp_client",
+      "version": "2.0.7+mc18.2-lexforge"
+    },
+    {
+      "id": "rhino",
+      "version": "1802.2.1-build.255"
+    },
+    {
+      "id": "ringsofascension",
+      "version": "1.0.0"
+    },
+    {
+      "id": "rsgauges",
+      "version": "1.2.18"
+    },
+    {
+      "id": "rubidium",
+      "version": "0.5.6"
+    },
+    {
+      "id": "runelic",
+      "version": "11.0.1"
+    },
+    {
+      "id": "sdrp",
+      "version": "3.0.4-build.28+mc1.18.2"
+    },
+    {
+      "id": "selene",
+      "version": "1.18.2-1.17.17"
+    },
+    {
+      "id": "serverconfigupdater",
+      "version": "2.2"
+    },
+    {
+      "id": "shetiphiancore",
+      "version": "3.10.17"
+    },
+    {
+      "id": "shutupexperimentalsettings",
+      "version": "1.0.5"
+    },
+    {
+      "id": "simplecobblegen",
+      "version": "1.0.2"
+    },
+    {
+      "id": "simpletomb",
+      "version": "1.18.2-1.1.0"
+    },
+    {
+      "id": "simplylight",
+      "version": "1.18.2-1.4.5-build.43"
+    },
+    {
+      "id": "smartbrainlib",
+      "version": "1.9"
+    },
+    {
+      "id": "smoothchunk",
+      "version": "1.18.2-1.9"
+    },
+    {
+      "id": "solcarrot",
+      "version": "1.18.1-1.12.0"
+    },
+    {
+      "id": "sophisticatedbackpacks",
+      "version": "1.18.2-3.20.3.1063"
+    },
+    {
+      "id": "sophisticatedcore",
+      "version": "1.18.2-0.6.4.604"
+    },
+    {
+      "id": "soulshards",
+      "version": "1.18.2-1.3.4"
+    },
+    {
+      "id": "spacecatasb",
+      "version": "18.14.0"
+    },
+    {
+      "id": "spark",
+      "version": "1.10.38"
+    },
+    {
+      "id": "squatgrow",
+      "version": "2.0.2-build.38+mc1.18.2"
+    },
+    {
+      "id": "stateobserver",
+      "version": "1.2.1"
+    },
+    {
+      "id": "storagedrawers",
+      "version": "10.2.1"
+    },
+    {
+      "id": "structurize",
+      "version": "1.18.2-1.0.424-ALPHA"
+    },
+    {
+      "id": "summoningrituals",
+      "version": "1.18.2-1.1.8"
+    },
+    {
+      "id": "supermartijn642configlib",
+      "version": "1.1.8"
+    },
+    {
+      "id": "supermartijn642corelib",
+      "version": "1.1.21"
+    },
+    {
+      "id": "swingthroughgrass",
+      "version": "1.18.2-1.9.1"
+    },
+    {
+      "id": "tamedrespawn",
+      "version": "1.18-1.1.0"
+    },
+    {
+      "id": "tconstruct",
+      "version": "3.7.2.167"
+    },
+    {
+      "id": "terrablender",
+      "version": "1.2.0.126"
+    },
+    {
+      "id": "tesseract",
+      "version": "1.0.38"
+    },
+    {
+      "id": "textrues_embeddium_options",
+      "version": "0.1.1+mc1.18.2"
+    },
+    {
+      "id": "theoneprobe",
+      "version": "1.18-5.1.2"
+    },
+    {
+      "id": "thermal",
+      "version": "9.2.2"
+    },
+    {
+      "id": "thermal_foundation",
+      "version": "9.2.2"
+    },
+    {
+      "id": "thermal_innovation",
+      "version": "9.2.1"
+    },
+    {
+      "id": "theurgy",
+      "version": "1.18.2-1.3.6"
+    },
+    {
+      "id": "tipsmod",
+      "version": "5.0.11"
+    },
+    {
+      "id": "tipthescales",
+      "version": "5.0.6"
+    },
+    {
+      "id": "toastcontrol",
+      "version": "6.0.3"
+    },
+    {
+      "id": "toolkit",
+      "version": "2.2.4-build.14+mc1.18.2"
+    },
+    {
+      "id": "torohealth",
+      "version": "1.18-forge-2"
+    },
+    {
+      "id": "totemmod",
+      "version": "0.3.2"
+    },
+    {
+      "id": "tramplestopper",
+      "version": "3.1.0-build.27+mc1.18.2"
+    },
+    {
+      "id": "trashcans",
+      "version": "1.0.18"
+    },
+    {
+      "id": "travel_anchors",
+      "version": "1.18.2-3.3"
+    },
+    {
+      "id": "travelerstitles",
+      "version": "1.18.2-Forge-2.1.1"
+    },
+    {
+      "id": "travellersboots",
+      "version": "1.5.0-pre2"
+    },
+    {
+      "id": "universalbonemeal",
+      "version": "3.1.0"
+    },
+    {
+      "id": "warriorrage",
+      "version": "1.0.5"
+    },
+    {
+      "id": "witherstormmod",
+      "version": "2.2.1"
+    },
+    {
+      "id": "wlrs",
+      "version": "1.13.1-1.18.2"
+    },
+    {
+      "id": "woodenhopper",
+      "version": "1.18.1-1.2.2.1"
+    },
+    {
+      "id": "wyml",
+      "version": "1.1.4"
+    },
+    {
+      "id": "xpfromharvest",
+      "version": "1.2.2"
+    },
+    {
+      "id": "yungsapi",
+      "version": "1.18.2-Forge-2.2.9"
+    }
+  ],
+  "worldSharingEvidence": {
+    "runtimeProfile": "1.18.2-forge-40.2.34",
+    "launcherAssemblySha256": "b8e95ff9777adb41000055b11001c19adf6ed1771a99f30e590152b9e617b970",
+    "probeSha256": "7bed82d66b80b70ddf234f4c6cc29b385b08ab8a9d0f529ba82d4703d1f76909",
+    "steamComponentSha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c",
+    "modCount": 277,
+    "nativeWorldCreation": "PASS",
+    "nativePauseBefore": "PASS",
+    "nativePublishAndSettingsClose": "PASS",
+    "nativeActiveReportsAfterPublish": "PASS",
+    "hostAndSyntheticGuestCommandDenial": "PASS",
+    "nativeCommandsDisabled": true,
+    "worldLevelDatSha256": "bb7e62b514d603ccfc4d01f4328a54e098b3769ca29ed4b6077d9bcba3c9f671",
+    "actualRussianSteamReadyChatText": "PASS",
+    "privateSteamEndpointRecorded": false,
+    "nativeChatStyleAndActions": "INCOMPLETE",
+    "mineTogetherSha256": "00921782715e8cebd3a71516ee1597eb05889eb85972c03715205adc254d9cf2",
+    "chatProbeFinding": "MineTogether GuiMixin redirects Gui.getChat to the selected MTChatComponent. Its add methods pass the original unmodified Component to MineTogetherChat.vanillaChat, the original Gui.f_92988_. R2 sampled selected channel rather than local history.",
+    "nativeReopen": "NOT RUN",
+    "reopenBlocker": "Owned hidden-client clearLevel invoked forced progress rendering and stalled in GLFW.glfwSwapBuffers, while the server kept ticking. Runner stopped by owner. R3 saves on the server and uses normal client shutdown; it can reopen a known disposable world in a separate process by verified level.dat SHA.",
+    "r3ProbeSha256": "bf1b9c6d5aaad94a3676c1416f0c3269bf7e1c706ebcdff51a3bf84c9781b1ed",
+    "computerUse": false,
+    "realSteamGuest": "NOT RUN"
+  }
+}
