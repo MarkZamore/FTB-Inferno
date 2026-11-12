@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "minecraftVersion": "1.18.2",
+  "forgeVersion": "40.2.34",
+  "javaMajorVersion": 17,
+  "launcherAssemblySha256": "446d7905c9c23f3e55dd1da55f6c41e9727eb84e5524be80b77f86835a82c69e",
+  "testAgentSha256": "bf1b9c6d5aaad94a3676c1416f0c3269bf7e1c706ebcdff51a3bf84c9781b1ed",
+  "upstreamLockSha256": "75846e41c23e4cab6fbe2d49afd8ab02ecc483d17bdeb09a905cc3aed6d9dfa7",
+  "loadedModCount": 277,
+  "computerUse": false,
+  "exitCode": 0,
+  "checks": {
+    "world_reopened": {
+      "gameMode": "SURVIVAL",
+      "commands": false
+    },
+    "pause_before_publish": {
+      "shareToLan": 1,
+      "worldSettingsOrCheats": false
+    },
+    "published": {
+      "nativeListener": true,
+      "settingsClosedOnPublication": true
+    },
+    "native_permissions": {
+      "checks": {
+        "guestBefore": false,
+        "hostBefore": false,
+        "savedAllowsCommands": false,
+        "hostAfter": false,
+        "savedSurvivalMode": true,
+        "guestAfter": false
+      },
+      "syntheticGuest": true,
+      "actualPlayerList": true
+    },
+    "pause_after_publish": {
+      "worldSettingsOrCheats": false,
+      "shareToLanGone": true,
+      "reports": true
+    },
+    "chat": {
+      "localPortLines": 1,
+      "nativeLocalHistory": true,
+      "privateEndpointRecorded": false,
+      "greenCopyableAddress": true,
+      "readyLines": 1,
+      "redCloseAction": true,
+      "blueInviteAction": true
+    },
+    "world_saved": {
+      "levelDatSha256": "0f3e2c7774a0bc428982b3bdb6a9fdc751ba3631c2f8b1e5b8b5b9f3a45cc5c5",
+      "levelDatBytes": 285424
+    },
+    "complete": {
+      "guestConnection": "NOT RUN",
+      "nativeSteamHost": "PASS"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "authorArchiveSha256": "2f2a0fcc62cd204f529c0ed7c2b8e342746dfe7e9a1077fa76983497941d8344",
+  "individuallyVerified": {
+    "flywheel": {
+      "jarJarCoordinate": "com.jozufozu.flywheel:flywheel-forge-1.18.2",
+      "nativeVersion": "0.6.11-107",
+      "nestedPath": "META-INF/jarjar/flywheel-forge-1.18.2-0.6.11-107.jar",
+      "nestedSha256": "6a0c17d9bc39866e159cac281bc5ece35d045655263ef49c5de7be57b01d2d58",
+      "path": "mods/create-1.18.2-0.5.1.i.jar",
+      "reason": "The nested Forge JAR declares this exact Flywheel Legacy CurseForge project in mods.toml.",
+      "sourceSha256": "5311dbc98d734d7cf0f38f3a9a149234136b912228cdf01b746fbe32d41d0fe2",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/flywheel"
+    },
+    "ftbauxilium": {
+      "ftbReleaseFileId": 874256595,
+      "nativeVersion": "18.2.10",
+      "path": "mods/ftb-auxilium-forge-18.2.10.jar",
+      "reason": "The FTB Team JAR ships as a client-only author override. FTB release API records the exact size and SHA256 without a CurseForge project. No standalone download page was verified.",
+      "sourceSha256": "812cc0c35d7fc21cb839484527a01c1048b02fc5dcc2805caa679c1c9fce9099",
+      "websiteUrl": "https://feed-the-beast.com/modpacks/99-modpack/versions"
+    },
+    "mixinextras": {
+      "jarJarCoordinate": "io.github.llamalad7:mixinextras-forge",
+      "nativeVersion": "0.3.5",
+      "nestedPath": "META-INF/jarjar/mixinextras-forge-0.3.5.jar",
+      "nestedSha256": "edf39b18f803e6201abc7a7c583dd0c9aebb1c638f4e64170505b4837fac8967",
+      "path": "mods/fancymenu_forge_3.4.6_MC_1.18.2.jar",
+      "reason": "The nested Forge JAR declares this author repository in mods.toml. The CurseForge NeoForge-on-Forge fix is a separate project.",
+      "sourceSha256": "971b1b0ddc215f47d0055d81aa7cd4bfee1e15b63e95ed23490972e23387106c",
+      "websiteUrl": "https://github.com/LlamaLad7/MixinExtras"
+    },
+    "rgp_client": {
+      "declaredWebsite": "https://rocketplatform.net/",
+      "ftbReleaseFileId": 874253930,
+      "nativeVersion": "2.0.7+mc18.2-lexforge",
+      "path": "mods/rgp-client-2.0.7+mc18.2-lexforge.jar",
+      "reason": "The client-only author override declares the Rocket Platform company homepage, which has no download for this mod. FTB release API records the exact size and SHA256 without a CurseForge project.",
+      "sourceSha256": "c690016d66bff27ade6d6d562e9b05124f52d5eac1a96cbc07efa7274740917e",
+      "websiteUrl": "https://feed-the-beast.com/modpacks/99-modpack/versions"
+    }
+  },
+  "nativeEvidence": {
+    "authorModJarCount": 268,
+    "excludedIds": {
+      "e4steam": {
+        "path": "mods/e4steam-forge-mc1.18.2-1.20.2-v0.3.4-lanmc-native-ui.2.jar",
+        "reason": "launcher-managed Steam component",
+        "sha256": "3f397fc193f14d3c543b5ef9b4613bc149a21ca8e14bd93c39de3d1bc6f9553c",
+        "version": "0.3.4"
+      },
+      "forge": {
+        "reason": "loader platform",
+        "version": "40.2.34"
+      },
+      "minecraft": {
+        "reason": "game platform",
+        "version": "1.18.2"
+      }
+    },
+    "gitBlobSha256": "72983904645f355c7d9d7fd968b7fbd73bbf2bc3b279e24e6e8fa27b08e13590",
+    "loadedAuthorModCount": 274,
+    "nativeModCount": 277,
+    "observedLockLineEndings": "CRLF. The checked-in LF lock contains the same parsed JSON and exact per-file hashes.",
+    "observedLockSha256": "75846e41c23e4cab6fbe2d49afd8ab02ecc483d17bdeb09a905cc3aed6d9dfa7",
+    "path": "tools/qa-native-steam.json"
+  },
+  "officialCurseForgeProjectRecords": {
+    "loadedModCount": 270,
+    "method": "Match native IDs to a unique top-level declaration in the exact locked JAR. Resolve its locked CurseForge project ID through FTB public project metadata. The author resource-pack file is not a mod.",
+    "normalizedCacheSha256": "3f2d2a8be32488ff6913e0b8928ea23736f5ed8ee2ad8446a8511a137047a9bc",
+    "packVersionEndpoint": "https://api.feed-the-beast.com/v1/modpacks/public/modpack/99/100318",
+    "projectCount": 266,
+    "projectEndpointTemplate": "https://api.modpacks.ch/public/curseforge/{projectId}"
+  },
+  "packVersion": "1.12.0",
+  "schemaVersion": 1,
+  "upstreamLockSha256": "ea22fe14c8901ff250d98ed89e14e600aea4f894f888f690e1f675512517a576"
+}

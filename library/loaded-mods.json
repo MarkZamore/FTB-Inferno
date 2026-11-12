@@ -1,0 +1,1925 @@
+{
+  "loader": {
+    "type": "forge",
+    "version": "40.2.34"
+  },
+  "minecraftVersion": "1.18.2",
+  "mods": [
+    {
+      "id": "ae2",
+      "name": "Applied Energistics 2",
+      "source": "mods/appliedenergistics2-forge-11.7.6.jar",
+      "version": "11.7.6"
+    },
+    {
+      "id": "aeinfinitybooster",
+      "name": "AEInfinityBooster",
+      "source": "mods/AEInfinityBooster-1.18.2-1.1.0+9.jar",
+      "version": "1.18.2-1.1.0+9"
+    },
+    {
+      "id": "akashictome",
+      "name": "Akashic Tome",
+      "source": "mods/AkashicTome-1.5-20.jar",
+      "version": "1.5-20"
+    },
+    {
+      "id": "alexsdelight",
+      "name": "Alex's Delight",
+      "source": "mods/alexsdelight-1.18.2-1.3.3.jar",
+      "version": "1.3.3"
+    },
+    {
+      "id": "alexsmobs",
+      "name": "Alex's Mobs",
+      "source": "mods/alexsmobs-1.18.6.jar",
+      "version": "1.18.6"
+    },
+    {
+      "id": "allarrowsinfinityfix",
+      "name": "All Arrows Infinity Fix",
+      "source": "mods/allarrowsinfinityfix-1.4.1-forge-mc1.19.3.jar",
+      "version": "1.4.1"
+    },
+    {
+      "id": "apotheosis",
+      "name": "Apotheosis",
+      "source": "mods/Apotheosis-1.18.2-5.8.1.jar",
+      "version": "5.8.1"
+    },
+    {
+      "id": "appleskin",
+      "name": "AppleSkin",
+      "source": "mods/appleskin-forge-mc1.18.2-2.5.1.jar",
+      "version": "2.5.1+mc1.18.2"
+    },
+    {
+      "id": "architectury",
+      "name": "Architectury",
+      "source": "mods/architectury-4.12.94-forge.jar",
+      "version": "4.12.94"
+    },
+    {
+      "id": "arnicalib",
+      "name": "ArnicaLib",
+      "source": "mods/arnicalib-1.18.2-5.7.3.jar",
+      "version": "5.7.3"
+    },
+    {
+      "id": "ars_creo",
+      "name": "Ars Creo",
+      "source": "mods/ars_creo-1.18.2-2.2.0.jar",
+      "version": "2.2.0"
+    },
+    {
+      "id": "ars_instrumentum",
+      "name": "Ars Instrumentum",
+      "source": "mods/ars_instrumentum-1.18.2-2.5.0.jar",
+      "version": "2.4.1"
+    },
+    {
+      "id": "ars_nouveau",
+      "name": "Ars Nouveau",
+      "source": "mods/ars_nouveau-1.18.2-2.9.0.jar",
+      "version": "2.9.0"
+    },
+    {
+      "id": "artifacts",
+      "name": "Artifacts",
+      "source": "mods/artifacts-1.18.2-4.2.4.jar",
+      "version": "1.18.2-4.2.4"
+    },
+    {
+      "id": "attributefix",
+      "name": "AttributeFix",
+      "source": "mods/AttributeFix-Forge-1.18.2-14.0.4.jar",
+      "version": "14.0.4"
+    },
+    {
+      "id": "autoreglib",
+      "name": "AutoRegLib",
+      "source": "mods/AutoRegLib-1.7-53.jar",
+      "version": "1.7-53"
+    },
+    {
+      "id": "avaritia",
+      "name": "Avaritia",
+      "source": "mods/Avaritia-1.18.2-4.0.1.6-universal.jar",
+      "version": "4.0.1.1"
+    },
+    {
+      "id": "balm",
+      "name": "Balm",
+      "source": "mods/balm-3.2.6.jar",
+      "version": "3.2.6"
+    },
+    {
+      "id": "bcc",
+      "name": "Better Compatibility Checker",
+      "source": "mods/BetterCompatibilityChecker-1.1.21-build.48+mc1.18.2.jar",
+      "version": "1.1.21-build.48+mc1.18.2"
+    },
+    {
+      "id": "beehivetooltips",
+      "name": "Beehive Tooltips",
+      "source": "mods/beehive-tooltips-forge-1.4.2.jar",
+      "version": "1.4.2"
+    },
+    {
+      "id": "betteradvancements",
+      "name": "Better Advancements",
+      "source": "mods/BetterAdvancements-1.18.2-0.2.0.146.jar",
+      "version": "0.2.0.146"
+    },
+    {
+      "id": "bettermodsbutton",
+      "name": "Better Mods Button",
+      "source": "mods/BetterModsButton-v3.2.4-1.18.2-Forge.jar",
+      "version": "3.2.4"
+    },
+    {
+      "id": "bhmenu",
+      "name": "BHMenu",
+      "source": "mods/BHMenu-Forge-1.18.2-2.4.2.jar",
+      "version": "2.4.2"
+    },
+    {
+      "id": "biomesoplenty",
+      "name": "Biomes O' Plenty",
+      "source": "mods/BiomesOPlenty-1.18.2-16.0.0.134.jar",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "blockrunner",
+      "name": "Block Runner",
+      "source": "mods/BlockRunner-v3.1.0-1.18.2-Forge.jar",
+      "version": "3.1.0"
+    },
+    {
+      "id": "blockui",
+      "name": "UI Library Mod",
+      "source": "mods/blockui-1.18.2-0.0.71-ALPHA.jar",
+      "version": "1.18.2-0.0.71-ALPHA"
+    },
+    {
+      "id": "bloodmagic",
+      "name": "Blood Magic",
+      "source": "mods/BloodMagic-1.18.2-3.2.6-41.jar",
+      "version": "1.18.2-3.2.6-41"
+    },
+    {
+      "id": "bloodsmeltery",
+      "name": "Blood Smeltery",
+      "source": "mods/Blood-Smeltery-1.18.2-1.1.4a.jar",
+      "version": "1.1.4a"
+    },
+    {
+      "id": "bonsaitrees3",
+      "name": "Bonsai Trees 3",
+      "source": "mods/bonsaitrees3-3.2.1.jar",
+      "version": "3.2.1"
+    },
+    {
+      "id": "bookshelf",
+      "name": "Bookshelf",
+      "source": "mods/Bookshelf-Forge-1.18.2-13.3.56.jar",
+      "version": "13.3.56"
+    },
+    {
+      "id": "bossmusicmod",
+      "name": "Boss Music Mod",
+      "source": "mods/Boss Music Mod 1.18.jar",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "brutalbosses",
+      "name": "brutalbosses mod",
+      "source": "mods/brutalbosses-1.18.2-5.8.jar",
+      "version": "1.18.2-5.8"
+    },
+    {
+      "id": "bucketlib",
+      "name": "BucketLib",
+      "source": "mods/bucketlib-1.18.2-0.5.5.0.jar",
+      "version": "1.18.2-0.5.5.0"
+    },
+    {
+      "id": "buildinggadgets",
+      "name": "Building Gadgets",
+      "source": "mods/buildinggadgets-3.13.2-build.21+mc1.18.2.jar",
+      "version": "3.13.2-build.21+mc1.18.2"
+    },
+    {
+      "id": "bygonenether",
+      "name": "Bygone Nether",
+      "source": "mods/bygonenether-1.3.2-1.18.2.jar",
+      "version": "1.3.2"
+    },
+    {
+      "id": "caelus",
+      "name": "Caelus API",
+      "source": "mods/caelus-forge-1.18.1-3.0.0.2.jar",
+      "version": "1.18.1-3.0.0.2"
+    },
+    {
+      "id": "campfirespawnandtweaks",
+      "name": "Campfire Spawn and Tweaks",
+      "source": "mods/campfirespawnandtweaks-1.18.2-3.5.jar",
+      "version": "3.5"
+    },
+    {
+      "id": "canes_wonderful_spiders",
+      "name": "Canes Wonderful Spiders",
+      "source": "mods/Canes Wonderful Spiders.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "capsule",
+      "name": "Capsule",
+      "source": "mods/Capsule-1.18.2-6.0.99.jar",
+      "version": "1.18.2-6.0.99"
+    },
+    {
+      "id": "carrynametag",
+      "name": "Carry the Nametag",
+      "source": "mods/carrynametag-1.0.1.3-1.18.jar",
+      "version": "1.0.1.3-1.18"
+    },
+    {
+      "id": "carryon",
+      "name": "Carry On",
+      "source": "mods/carryon-1.18.2-1.17.2.15.jar",
+      "version": "1.17.2.15"
+    },
+    {
+      "id": "cataclysm",
+      "name": "Cataclysm Mod",
+      "source": "mods/L_Enders Cataclysm-0.51-changed Them -1.18.2.jar",
+      "version": "1.0"
+    },
+    {
+      "id": "ceramicbucket",
+      "name": "Ceramic Bucket",
+      "source": "mods/ceramicbucket-1.18.2-3.0.5.0.jar",
+      "version": "1.18.2-3.0.5.0"
+    },
+    {
+      "id": "ceramicshears",
+      "name": "Ceramic Shears",
+      "source": "mods/ceramicshears-1.18.2-1.6.1.1.jar",
+      "version": "1.18.2-1.6.1.1"
+    },
+    {
+      "id": "champions",
+      "name": "Champions",
+      "source": "mods/champions-forge-1.18.2-2.1.6.3.jar",
+      "version": "1.18.2-2.1.6.3"
+    },
+    {
+      "id": "charginggadgets",
+      "name": "Charging Gadgets",
+      "source": "mods/charginggadgets-1.7.0.jar",
+      "version": "1.7.0"
+    },
+    {
+      "id": "chipped",
+      "name": "Chipped",
+      "source": "mods/chipped-forge-1.18.2-2.0.1.jar",
+      "version": "2.0.1"
+    },
+    {
+      "id": "chiselsandbits",
+      "name": "Chisels & bits",
+      "source": "mods/ChiselsBits-forge-1.18.2-1.2.116-universal.jar",
+      "version": "1.2.116"
+    },
+    {
+      "id": "citadel",
+      "name": "Citadel",
+      "source": "mods/citadel-1.11.3-1.18.2.jar",
+      "version": "1.11.3"
+    },
+    {
+      "id": "clearview",
+      "name": "Lava Clear View",
+      "source": "mods/LavaClearView-1.18.2-forge-4.0.1.jar",
+      "version": "4.0.1"
+    },
+    {
+      "id": "clickmachine",
+      "name": "Click Machine",
+      "source": "mods/ClickMachine-1.18.2-6.0.5.jar",
+      "version": "6.0.5"
+    },
+    {
+      "id": "cloth_config",
+      "name": "Cloth Config v4 API",
+      "source": "mods/cloth-config-6.5.133-forge.jar",
+      "version": "6.5.133"
+    },
+    {
+      "id": "clumps",
+      "name": "Clumps",
+      "source": "mods/Clumps-forge-1.18.2-8.0.0+17.jar",
+      "version": "8.0.0+17"
+    },
+    {
+      "id": "codechickenlib",
+      "name": "CodeChicken Lib",
+      "source": "mods/CodeChickenLib-1.18.2-4.1.4.488-universal.jar",
+      "version": "4.1.4.488"
+    },
+    {
+      "id": "cofh_core",
+      "name": "CoFH Core",
+      "source": "mods/cofh_core-1.18.2-9.2.3.47.jar",
+      "version": "9.2.3"
+    },
+    {
+      "id": "collective",
+      "name": "Collective",
+      "source": "mods/collective-1.18.2-7.7.jar",
+      "version": "7.7"
+    },
+    {
+      "id": "configured",
+      "name": "Configured",
+      "source": "mods/configured-2.0.1-1.18.2.jar",
+      "version": "2.0.1"
+    },
+    {
+      "id": "constructionwand",
+      "name": "Construction Wand",
+      "source": "mods/constructionwand-1.18.2-2.9.jar",
+      "version": "1.18.2-2.9"
+    },
+    {
+      "id": "controlling",
+      "name": "Controlling",
+      "source": "mods/Controlling-forge-1.18.2-9.0+23.jar",
+      "version": "9.0+23"
+    },
+    {
+      "id": "cookingforblockheads",
+      "name": "CookingForBlockheads",
+      "source": "mods/cookingforblockheads-forge-1.18.2-12.2.0.jar",
+      "version": "12.2.0"
+    },
+    {
+      "id": "cosmeticarmorreworked",
+      "name": "CosmeticArmorReworked",
+      "source": "mods/CosmeticArmorReworked-1.18.2-v2a.jar",
+      "version": "1.18.2-v2a"
+    },
+    {
+      "id": "craftingtweaks",
+      "name": "CraftingTweaks",
+      "source": "mods/craftingtweaks-forge-1.18.2-14.0.9.jar",
+      "version": "14.0.9"
+    },
+    {
+      "id": "crafttweaker",
+      "name": "CraftTweaker",
+      "source": "mods/CraftTweaker-forge-1.18.2-9.1.213.jar",
+      "version": "9.1.213"
+    },
+    {
+      "id": "crashutilities",
+      "name": "Crash Utilities",
+      "source": "mods/crashutilities-4.1.jar",
+      "version": "4.1"
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "source": "mods/create-1.18.2-0.5.1.i.jar",
+      "version": "0.5.1.i"
+    },
+    {
+      "id": "createaddition",
+      "name": "Create Crafts & Additions",
+      "source": "mods/createaddition-1.18.2-1.0.0.jar",
+      "version": "1.18.2-1.0.0"
+    },
+    {
+      "id": "creativecore",
+      "name": "CreativeCore",
+      "source": "mods/CreativeCore_FORGE_v2.11.27_mc1.18.2.jar",
+      "version": "2.11.27"
+    },
+    {
+      "id": "ctm",
+      "name": "ConnectedTexturesMod",
+      "source": "mods/CTM-1.18.2-1.1.5+5.jar",
+      "version": "1.18.2-1.1.5+5"
+    },
+    {
+      "id": "curios",
+      "name": "Curios API",
+      "source": "mods/curios-forge-1.18.2-5.0.9.2.jar",
+      "version": "1.18.2-5.0.9.2"
+    },
+    {
+      "id": "curiouselytra",
+      "name": "Curious Elytra",
+      "source": "mods/curiouselytra-forge-1.18.2-5.0.2.0.jar",
+      "version": "1.18.2-5.0.2.0"
+    },
+    {
+      "id": "curiouslights",
+      "name": "Curious Lights",
+      "source": "mods/curiouslights-forge-1.3.0+1.18.2.jar",
+      "version": "1.3.0+1.18.2"
+    },
+    {
+      "id": "customvillagertrades",
+      "name": "Custom Villager Trades",
+      "source": "mods/customvillagertrades-forge-18.25.0.jar",
+      "version": "18.25.0"
+    },
+    {
+      "id": "cyclopscore",
+      "name": "Cyclops Core",
+      "source": "mods/CyclopsCore-1.18.2-1.17.10.jar",
+      "version": "1.17.10"
+    },
+    {
+      "id": "darkmodeeverywhere",
+      "name": "DarkModeEverywhere",
+      "source": "mods/DarkModeEverywhere-1.18.2-1.1.3.jar",
+      "version": "1.18.2-1.1.3"
+    },
+    {
+      "id": "darkutils",
+      "name": "DarkUtilities",
+      "source": "mods/DarkUtilities-Forge-1.18.2-10.1.7.jar",
+      "version": "10.1.7"
+    },
+    {
+      "id": "defaultoptions",
+      "name": "Default Options",
+      "source": "mods/defaultoptions-forge-1.18.2-14.1.2.jar",
+      "version": "14.1.2"
+    },
+    {
+      "id": "delightful",
+      "name": "Delightful",
+      "source": "mods/Delightful-1.18.2-3.2.1.jar",
+      "version": "3.2.1"
+    },
+    {
+      "id": "ding",
+      "name": "Ding",
+      "source": "mods/Ding-1.18.2-Forge-1.5.0.jar",
+      "version": "1.5.0"
+    },
+    {
+      "id": "domum_ornamentum",
+      "name": "Domum Ornamentum",
+      "source": "mods/domum_ornamentum-1.18.2-1.0.77-ALPHA-universal.jar",
+      "version": "1.18.2-1.0.77-ALPHA"
+    },
+    {
+      "id": "dragonfight",
+      "name": "dragonfight mod",
+      "source": "mods/dragonfight-1.18.2-2.2.jar",
+      "version": "1.18.2-2.2"
+    },
+    {
+      "id": "elevatorid",
+      "name": "Elevator Mod",
+      "source": "mods/elevatorid-1.18.2-1.8.4.jar",
+      "version": "1.18.2-1.8.4"
+    },
+    {
+      "id": "embeddium",
+      "name": "Embeddium",
+      "source": "mods/embeddium-0.3.18+mc1.18.2.jar",
+      "version": "0.3.18+mc1.18.2"
+    },
+    {
+      "id": "emojiful",
+      "name": "Emojiful",
+      "source": "mods/emojiful-1.18.2-3.0.1.jar",
+      "version": "1.18.2-3.0.1"
+    },
+    {
+      "id": "enchanted",
+      "name": "Enchanted",
+      "source": "mods/enchanted-1.18.2-1.1.6.jar",
+      "version": "1.18.2-1.1.6"
+    },
+    {
+      "id": "enchantmentrequirements",
+      "name": "Enchantment Requirements",
+      "source": "mods/EnchantmentRequirements-1.18.2-1.2.0.jar",
+      "version": "1.2.0"
+    },
+    {
+      "id": "enchdesc",
+      "name": "EnchantmentDescriptions",
+      "source": "mods/EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar",
+      "version": "10.0.12"
+    },
+    {
+      "id": "enderstorage",
+      "name": "EnderStorage",
+      "source": "mods/EnderStorage-1.18.2-2.9.0.182-universal.jar",
+      "version": "2.9.0.182"
+    },
+    {
+      "id": "engineersdecor",
+      "name": "Engineer's Decor",
+      "source": "mods/engineersdecor-1.18.2-1.1.28.jar",
+      "version": "1.1.28"
+    },
+    {
+      "id": "enhancedai",
+      "name": "Enhanced AI",
+      "source": "mods/EnhancedAI-1.6.11-mc1.18.2.jar",
+      "version": "1.6.11"
+    },
+    {
+      "id": "entangled",
+      "name": "Entangled",
+      "source": "mods/entangled-1.3.21-forge-mc1.18.jar",
+      "version": "1.3.21"
+    },
+    {
+      "id": "entangledfix",
+      "name": "Entangled Fix",
+      "source": "mods/entangledfix-1.0.jar",
+      "version": "1.0"
+    },
+    {
+      "id": "euphoria_patcher",
+      "name": "Euphoria Patcher",
+      "source": "mods/EuphoriaPatcher-1.8.6-r5.7.1-forge.jar",
+      "version": "1.8.6-r5.7.1-forge"
+    },
+    {
+      "id": "evilcraft",
+      "name": "EvilCraft",
+      "source": "mods/EvilCraft-1.18.2-1.2.23.jar",
+      "version": "1.2.23"
+    },
+    {
+      "id": "evilcraftcompat",
+      "name": "EvilCraft-Compat",
+      "source": "mods/EvilCraft-1.18.2-1.2.23.jar",
+      "version": "1.2.23"
+    },
+    {
+      "id": "expandability",
+      "name": "ExpandAbility",
+      "source": "mods/expandability-6.0.0.jar",
+      "version": "6.0.0"
+    },
+    {
+      "id": "experienceobelisk",
+      "name": "Cognition",
+      "source": "mods/Cognition-v2.0.4-1.18.2.jar",
+      "version": "2.0.4"
+    },
+    {
+      "id": "extrachampions",
+      "name": "ExtraChampions",
+      "source": "mods/extrachampions-1.18.2-1.2.1.jar",
+      "version": "1.2.1"
+    },
+    {
+      "id": "extremesoundmuffler",
+      "name": "Extreme Sound Muffler",
+      "source": "mods/extremesoundmuffler-3.30_forge-1.18.2.jar",
+      "version": "3.31_forge-1.18.2"
+    },
+    {
+      "id": "fancymenu",
+      "name": "FancyMenu",
+      "source": "mods/fancymenu_forge_3.4.6_MC_1.18.2.jar",
+      "version": "3.4.6"
+    },
+    {
+      "id": "farmersdelight",
+      "name": "Farmer's Delight",
+      "source": "mods/FarmersDelight-1.18.2-1.2.3.jar",
+      "version": "1.18.2-1.2.3"
+    },
+    {
+      "id": "fastsuite",
+      "name": "Fast Suite",
+      "source": "mods/FastSuite-1.18.2-3.0.2.jar",
+      "version": "3.0.2"
+    },
+    {
+      "id": "fe_transformer",
+      "name": "FE Transformer",
+      "source": "mods/fetransformer-1.18.2-1.1.2.jar",
+      "version": "1.1.2"
+    },
+    {
+      "id": "feature_nbt_deadlock_be_gone",
+      "name": "Feature NBT Deadlock Be Gone",
+      "source": "mods/feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar",
+      "version": "2.0.0+1.18.2"
+    },
+    {
+      "id": "ferritecore",
+      "name": "Ferrite Core",
+      "source": "mods/ferritecore-4.2.2-forge.jar",
+      "version": "4.2.2"
+    },
+    {
+      "id": "findme",
+      "name": "FindMe",
+      "source": "mods/findme-3.0.6-forge.jar",
+      "version": "3.0.6"
+    },
+    {
+      "id": "finitewater",
+      "name": "No more Infinite Water",
+      "source": "mods/finitewater-4.0-1.18.2.jar",
+      "version": "4.0-1.18.2"
+    },
+    {
+      "id": "fluiddrawerslegacy",
+      "name": "Fluid Drawers Legacy",
+      "source": "mods/FluidDrawersLegacy-1.18.2-forge-2.3.9.jar",
+      "version": "1.18.2-forge-2.3.9"
+    },
+    {
+      "id": "fluxnetworks",
+      "name": "Flux Networks",
+      "source": "mods/FluxNetworks-1.18.2-7.0.9.15.jar",
+      "version": "7.0.9.15"
+    },
+    {
+      "id": "flywheel",
+      "name": "Flywheel",
+      "source": "mods/create-1.18.2-0.5.1.i.jar",
+      "version": "0.6.11-107"
+    },
+    {
+      "id": "foodeffects",
+      "name": "Food Effects",
+      "source": "mods/foodeffects-1.18.2-1.1.3.jar",
+      "version": "1.1.3"
+    },
+    {
+      "id": "framedblocks",
+      "name": "FramedBlocks",
+      "source": "mods/FramedBlocks-5.11.5.jar",
+      "version": "5.11.5"
+    },
+    {
+      "id": "framedcompactdrawers",
+      "name": "Framed Compacting Drawers",
+      "source": "mods/framedcompactdrawers-1.18-4.1.0.jar",
+      "version": "1.18-4.1.0"
+    },
+    {
+      "id": "friendlyfire",
+      "name": "FriendlyFire",
+      "source": "mods/FriendlyFire-Forge-1.18.2-11.0.4.jar",
+      "version": "11.0.4"
+    },
+    {
+      "id": "ftbauxilium",
+      "name": "FTB Auxilium",
+      "source": "mods/ftb-auxilium-forge-18.2.10.jar",
+      "version": "18.2.10"
+    },
+    {
+      "id": "ftbbackups2",
+      "name": "FTB Backups 2",
+      "source": "mods/ftbbackups2-forge-1.18.2-1.0.23.jar",
+      "version": "1.0.23"
+    },
+    {
+      "id": "ftbchunks",
+      "name": "FTB Chunks",
+      "source": "mods/ftb-chunks-forge-1802.3.19-build.362.jar",
+      "version": "1802.3.19-build.362"
+    },
+    {
+      "id": "ftbessentials",
+      "name": "FTB Essentials",
+      "source": "mods/ftb-essentials-1802.2.2-build.83.jar",
+      "version": "1802.2.2-build.83"
+    },
+    {
+      "id": "ftbic",
+      "name": "FTB Industrial Contraptions",
+      "source": "mods/ftb-industrial-contraptions-1802.1.6-build.220.jar",
+      "version": "1802.1.6-build.220"
+    },
+    {
+      "id": "ftblibrary",
+      "name": "FTB Library",
+      "source": "mods/ftb-library-forge-1802.3.11-build.177.jar",
+      "version": "1802.3.11-build.177"
+    },
+    {
+      "id": "ftbpc",
+      "name": "FTB Pack Companion",
+      "source": "mods/ftb-pack-companion-1.0.1-build.5+mc1.18.2.jar",
+      "version": "1.0.1-build.5+mc1.18.2"
+    },
+    {
+      "id": "ftbpromoter",
+      "name": "FTB Promoter",
+      "source": "mods/ftbpromoter-18.2.51.jar",
+      "version": "18.2.51"
+    },
+    {
+      "id": "ftbquests",
+      "name": "FTB Quests",
+      "source": "mods/ftb-quests-forge-1802.3.16-build.479.jar",
+      "version": "1802.3.16-build.479"
+    },
+    {
+      "id": "ftbteamislands",
+      "name": "FTB Team Islands",
+      "source": "mods/ftb-team-islands-forge-1801-2.4-build.28.jar",
+      "version": "1801-2.4-build.28"
+    },
+    {
+      "id": "ftbteams",
+      "name": "FTB Teams",
+      "source": "mods/ftb-teams-forge-1802.2.11-build.107.jar",
+      "version": "1802.2.11-build.107"
+    },
+    {
+      "id": "ftbultimine",
+      "name": "FTB Ultimine",
+      "source": "mods/ftb-ultimine-forge-1802.3.4-build.93.jar",
+      "version": "1802.3.4-build.93"
+    },
+    {
+      "id": "fullstackwatchdog",
+      "name": "FullStack Watchdog",
+      "source": "mods/fullstackwatchdog-1.0.1+1.19.2-forge.jar",
+      "version": "1.0.1+1.19.2-forge"
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "source": "mods/fusion-1.2.12-forge-mc1.18.jar",
+      "version": "1.2.12"
+    },
+    {
+      "id": "gag",
+      "name": "Gadgets Against Grind",
+      "source": "mods/gag-forge-1.2.1-build.16.jar",
+      "version": "1.2.1-build.16"
+    },
+    {
+      "id": "gamestages",
+      "name": "GameStages",
+      "source": "mods/GameStages-Forge-1.18.2-8.1.3.jar",
+      "version": "8.1.3"
+    },
+    {
+      "id": "gateways",
+      "name": "Gateways To Eternity",
+      "source": "mods/GatewaysToEternity-1.18.2-2.3.0.jar",
+      "version": "2.3.0"
+    },
+    {
+      "id": "geckolib3",
+      "name": "GeckoLib",
+      "source": "mods/geckolib-forge-1.18-3.0.57.jar",
+      "version": "3.0.57"
+    },
+    {
+      "id": "gircredstone",
+      "name": "TC Redstone",
+      "source": "mods/TC-Redstone-1.18.2-3.2.3.jar",
+      "version": "3.2.3"
+    },
+    {
+      "id": "gottschcore",
+      "name": "GottschCore",
+      "source": "mods/GottschCore-mc1.18.2-f40.1.0-v2.1.0.jar",
+      "version": "2.1.0"
+    },
+    {
+      "id": "grapplemod",
+      "name": "Grappling Hook Mod",
+      "source": "mods/grappling_hook_mod-1.18.2-v13.jar",
+      "version": "1.18.2-v13"
+    },
+    {
+      "id": "gunswithoutroses",
+      "name": "Guns Without Roses",
+      "source": "mods/gunswithoutroses-1.18.2-1.0.14.jar",
+      "version": "1.18.2-1.0.14"
+    },
+    {
+      "id": "hardernaturalhealing",
+      "name": "Harder Natural Healing Mod",
+      "source": "mods/HarderNaturalHealing-1.18.1-1.39.0.13.jar",
+      "version": "1.18.1-1.39.0.13"
+    },
+    {
+      "id": "healingcampfire",
+      "name": "Healing Campfire",
+      "source": "mods/healingcampfire-1.18.2-5.2.jar",
+      "version": "5.2"
+    },
+    {
+      "id": "hexerei",
+      "name": "Hexerei",
+      "source": "mods/hexerei-0.2.2.jar",
+      "version": "0.2.2"
+    },
+    {
+      "id": "ichunutil",
+      "name": "iChunUtil",
+      "source": "mods/iChunUtil-1.18.2-Forge-1.0.1.jar",
+      "version": "1.0.1"
+    },
+    {
+      "id": "immersiveengineering",
+      "name": "Immersive Engineering",
+      "source": "mods/ImmersiveEngineering-1.18.2-8.4.0-161.jar",
+      "version": "1.18.2-8.4.0-161"
+    },
+    {
+      "id": "incontrol",
+      "name": "InControl",
+      "source": "mods/incontrol-1.18-6.1.14.jar",
+      "version": "1.18-6.1.14"
+    },
+    {
+      "id": "infernalexp",
+      "name": "Infernal Expansion",
+      "source": "mods/infernal-expansion-1.18.2-2.5.0.jar",
+      "version": "2.5.0"
+    },
+    {
+      "id": "infernou",
+      "name": "Infernou",
+      "source": "mods/infernou-1.18.2-1.0.jar",
+      "version": "1.0"
+    },
+    {
+      "id": "insanelib",
+      "name": "InsaneLib",
+      "source": "mods/InsaneLib-1.5.3-mc1.18.2.jar",
+      "version": "1.5.3"
+    },
+    {
+      "id": "inventoryessentials",
+      "name": "Inventory Essentials",
+      "source": "mods/inventoryessentials-forge-1.18.2-4.0.3.jar",
+      "version": "4.0.3"
+    },
+    {
+      "id": "inventorysorter",
+      "name": "Simple Inventory Sorter",
+      "source": "mods/inventorysorter-1.18.2-19.0.4.jar",
+      "version": "19.0.4"
+    },
+    {
+      "id": "ironchest",
+      "name": "Iron Chests",
+      "source": "mods/ironchest-1.18.2-13.2.11.jar",
+      "version": "1.18.2-13.2.11"
+    },
+    {
+      "id": "itemcollectors",
+      "name": "Item Collectors",
+      "source": "mods/itemcollectors-1.1.12-forge-mc1.18.jar",
+      "version": "1.1.12"
+    },
+    {
+      "id": "itemfilters",
+      "name": "Item Filters",
+      "source": "mods/item-filters-forge-1802.2.8-build.50.jar",
+      "version": "1802.2.8-build.50"
+    },
+    {
+      "id": "itshallnottick",
+      "name": "It Shall Not Tick",
+      "source": "mods/ItShallNotTick-1.0.22-build.34.jar",
+      "version": "1.0.22-build.34"
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items",
+      "source": "mods/jei-1.18.2-9.7.2.1001.jar",
+      "version": "9.7.2.1001"
+    },
+    {
+      "id": "jeimultiblocks",
+      "name": "Just Enough Immersive Multiblocks",
+      "source": "mods/jeimultiblocks-1.18.2-0.0.2.jar",
+      "version": "0.0.2"
+    },
+    {
+      "id": "jeitweaker",
+      "name": "JEI Tweaker",
+      "source": "mods/JEITweaker-1.18.2-3.0.0.9.jar",
+      "version": "3.0.0.9"
+    },
+    {
+      "id": "jeresources",
+      "name": "Just Enough Resources",
+      "source": "mods/JustEnoughResources-1.18.2-0.14.2.206.jar",
+      "version": "0.14.2.206"
+    },
+    {
+      "id": "jumpoverfences",
+      "name": "Jump Over Fences",
+      "source": "mods/jumpoverfences-forge-1.18.2-1.0.2.jar",
+      "version": "1.0.2"
+    },
+    {
+      "id": "justenoughprofessions",
+      "name": "Just Enough Professions (JEP)",
+      "source": "mods/JustEnoughProfessions-1.18.2-1.3.0.jar",
+      "version": "1.3.0"
+    },
+    {
+      "id": "konkrete",
+      "name": "Konkrete",
+      "source": "mods/konkrete_forge_1.8.0_MC_1.18-1.18.2.jar",
+      "version": "1.8.0"
+    },
+    {
+      "id": "kubejs",
+      "name": "KubeJS",
+      "source": "mods/kubejs-forge-1802.5.5-build.569.jar",
+      "version": "1802.5.5-build.569"
+    },
+    {
+      "id": "kubejs_create",
+      "name": "KubeJS Create",
+      "source": "mods/kubejs-create-forge-1802.2.4-build.16.jar",
+      "version": "1802.2.4-build.16"
+    },
+    {
+      "id": "kubejs_immersive_engineering",
+      "name": "KubeJS Immersive Engineering",
+      "source": "mods/kubejs-immersive-engineering-1802.2.1-build.35.jar",
+      "version": "1802.2.1-build.35"
+    },
+    {
+      "id": "laserio",
+      "name": "LaserIO",
+      "source": "mods/laserio-1.4.5.jar",
+      "version": "1.4.5"
+    },
+    {
+      "id": "lazydfu",
+      "name": "LazyDFU",
+      "source": "mods/lazydfu-1.0-1.18+.jar",
+      "version": "0.1.3"
+    },
+    {
+      "id": "libnonymous",
+      "name": "libnonymous",
+      "source": "mods/libnonymous-2.1.0.jar",
+      "version": "2.1.0"
+    },
+    {
+      "id": "libx",
+      "name": "LibX",
+      "source": "mods/LibX-1.18.2-3.2.19.jar",
+      "version": "1.18.2-3.2.19"
+    },
+    {
+      "id": "lightoverlay",
+      "name": "Light Overlay",
+      "source": "mods/light-overlay-6.0.5-forge.jar",
+      "version": "6.0.5"
+    },
+    {
+      "id": "logbegone",
+      "name": "Log Begone",
+      "source": "mods/Log-Begone-Forge-1.18-1.0.4.jar",
+      "version": "1.0.4"
+    },
+    {
+      "id": "lootjs",
+      "name": "LootJS",
+      "source": "mods/lootjs-forge-1.18.2-2.7.7.jar",
+      "version": "2.7.7"
+    },
+    {
+      "id": "lootr",
+      "name": "Lootr",
+      "source": "mods/lootr-forge-1.18.2-0.3.30.74.jar",
+      "version": "0.3.30.74"
+    },
+    {
+      "id": "lucent",
+      "name": "Lucent",
+      "source": "mods/lucent-1.18.2-1.2.2.jar",
+      "version": "1.2.2"
+    },
+    {
+      "id": "magnumtorch",
+      "name": "Magnum Torch",
+      "source": "mods/MagnumTorch-v3.1.4-1.18.2-Forge.jar",
+      "version": "3.1.4"
+    },
+    {
+      "id": "mantle",
+      "name": "Mantle",
+      "source": "mods/Mantle-1.18.2-1.9.54.jar",
+      "version": "1.9.54"
+    },
+    {
+      "id": "maxhealthfix",
+      "name": "MaxHealthFix",
+      "source": "mods/MaxHealthFix-Forge-1.18.2-5.0.4.jar",
+      "version": "5.0.4"
+    },
+    {
+      "id": "mcjtylib",
+      "name": "McJtyLib",
+      "source": "mods/mcjtylib-1.18-6.0.20.jar",
+      "version": "1.18-6.0.20"
+    },
+    {
+      "id": "meetyourfight",
+      "name": "Meet Your Fight",
+      "source": "mods/meetyourfight-1.18.2-1.2.5.jar",
+      "version": "1.18.2-1.2.5"
+    },
+    {
+      "id": "melody",
+      "name": "Melody",
+      "source": "mods/melody_forge_1.0.1_MC_1.18.2.jar",
+      "version": "1.0.1"
+    },
+    {
+      "id": "minecolonies",
+      "name": "MineColonies",
+      "source": "mods/minecolonies-1.18.2-1.1.148-BETA.jar",
+      "version": "1.18.2-1.1.148-BETA"
+    },
+    {
+      "id": "minetogether",
+      "name": "MineTogether",
+      "source": "mods/minetogether-forge-1.18.2-6.3.2.jar",
+      "version": "6.3.2"
+    },
+    {
+      "id": "mixinextras",
+      "name": "MixinExtras",
+      "source": "mods/fancymenu_forge_3.4.6_MC_1.18.2.jar",
+      "version": "0.3.5"
+    },
+    {
+      "id": "modnametooltip",
+      "name": "Mod Name Tooltip",
+      "source": "mods/modnametooltip-1.18.1-1.18.0.jar",
+      "version": "1.18.0"
+    },
+    {
+      "id": "modonomicon",
+      "name": "Modonomicon",
+      "source": "mods/modonomicon-1.18.2-1.33.1.jar",
+      "version": "1.18.2-1.33.1"
+    },
+    {
+      "id": "mousetweaks",
+      "name": "Mouse Tweaks",
+      "source": "mods/MouseTweaks-forge-mc1.18-2.21.jar",
+      "version": "2.21"
+    },
+    {
+      "id": "multipiston",
+      "name": "Multi-Piston",
+      "source": "mods/multi-piston-1.18.2-1.2.15-ALPHA.jar",
+      "version": "1.18.2-1.2.15-ALPHA"
+    },
+    {
+      "id": "myrtrees",
+      "name": "Myrtrees",
+      "source": "mods/myrtrees-forge-1.1.0-build.29.jar",
+      "version": "1.1.0-build.29"
+    },
+    {
+      "id": "nameless_trinkets",
+      "name": "Nameless Trinkets",
+      "source": "mods/Nameless Trinkets-1.18.2-1.7.5.jar",
+      "version": "1.18.2-1.7.5"
+    },
+    {
+      "id": "naturesaura",
+      "name": "Nature's Aura",
+      "source": "mods/NaturesAura-36.3.jar",
+      "version": "36.3"
+    },
+    {
+      "id": "naturescompass",
+      "name": "Nature's Compass",
+      "source": "mods/NaturesCompass-1.18.2-1.9.7-forge.jar",
+      "version": "1.18.2-1.9.7-forge"
+    },
+    {
+      "id": "nethersdelight",
+      "name": "Nethers Delight",
+      "source": "mods/NethersDelight-1.18.2-2.2.0.jar",
+      "version": "2.2"
+    },
+    {
+      "id": "no_nv_flash",
+      "name": "No Night Vision Flashing",
+      "source": "mods/no_nv_flash-1.18.2-1.4.0.2.jar",
+      "version": "1.4.0.2"
+    },
+    {
+      "id": "nomoretorchspam",
+      "name": "No More Torch Spam",
+      "source": "mods/nomoretorchspam-1.18.2-1.0.0.jar",
+      "version": "1.18.2-1.0.0"
+    },
+    {
+      "id": "nuclear_contraptions",
+      "name": "Nuclear Contraptions",
+      "source": "mods/nuclearcontraptions-1.18.2-1.1.0.jar",
+      "version": "1.1.0"
+    },
+    {
+      "id": "occultism",
+      "name": "Occultism",
+      "source": "mods/occultism-1.18.2-1.84.0.jar",
+      "version": "1.18.2-1.84.0"
+    },
+    {
+      "id": "oculus",
+      "name": "Oculus",
+      "source": "mods/oculus-mc1.18.2-1.6.4.jar",
+      "version": "1.6.4"
+    },
+    {
+      "id": "oretweaker",
+      "name": "Ore Tweaker",
+      "source": "mods/OreTweaker-1.18.2-3.4.1.jar",
+      "version": "3.4.1"
+    },
+    {
+      "id": "overloadedarmorbar",
+      "name": "Overloaded Armor Bar",
+      "source": "mods/Overloaded Armor Bar 6.0.0.jar",
+      "version": "6.0.0"
+    },
+    {
+      "id": "patchouli",
+      "name": "Patchouli",
+      "source": "mods/Patchouli-1.18.2-71.1.jar",
+      "version": "1.18.2-71.1"
+    },
+    {
+      "id": "peepomod",
+      "name": "Alex's Mobs Mod Music",
+      "source": "mods/Alex's Mobs Music Mod 1.18.jar",
+      "version": "0.0NONE"
+    },
+    {
+      "id": "petslow",
+      "name": "PetSlow",
+      "source": "mods/petslow-0.5.8.jar",
+      "version": "0.5.8"
+    },
+    {
+      "id": "phantomconfig",
+      "name": "Phantom Config",
+      "source": "mods/phantomconfig-1.0.1.jar",
+      "version": "1.0.1"
+    },
+    {
+      "id": "pigpen",
+      "name": "PigPen",
+      "source": "mods/PigPen-Forge-1.18.2-8.0.1.jar",
+      "version": "8.0.1"
+    },
+    {
+      "id": "placebo",
+      "name": "Placebo",
+      "source": "mods/Placebo-1.18.2-6.6.7.jar",
+      "version": "6.6.7"
+    },
+    {
+      "id": "plonk",
+      "name": "Plonk",
+      "source": "mods/plonk-1.18.2-10.0.4.jar",
+      "version": "10.0.4"
+    },
+    {
+      "id": "polylib",
+      "name": "PolyLib",
+      "source": "mods/polylib-forge-1801.0.3-build.109.jar",
+      "version": "1801.0.3-build.109"
+    },
+    {
+      "id": "ponderjs",
+      "name": "PonderJS",
+      "source": "mods/ponderjs-1.18.2-1.1.10.jar",
+      "version": "1.1.10"
+    },
+    {
+      "id": "ppfluids",
+      "name": "Pretty Fluid Pipes",
+      "source": "mods/PrettyPipesFluids-1.18.2-1.1.0.jar",
+      "version": "1.18.2-1.1.0"
+    },
+    {
+      "id": "prettypipes",
+      "name": "Pretty Pipes",
+      "source": "mods/PrettyPipes-1.12.8.jar",
+      "version": "1.12.8"
+    },
+    {
+      "id": "productivebees",
+      "name": "Productive Bees",
+      "source": "mods/productivebees-1.18.2-0.9.3.0.jar",
+      "version": "1.18.2-0.9.3.0"
+    },
+    {
+      "id": "puzzleslib",
+      "name": "Puzzles Lib",
+      "source": "mods/PuzzlesLib-v3.5.10-1.18.2-Forge.jar",
+      "version": "3.5.10"
+    },
+    {
+      "id": "quark",
+      "name": "Quark",
+      "source": "mods/Quark-3.2-358.jar",
+      "version": "3.2-358"
+    },
+    {
+      "id": "reauth",
+      "name": "ReAuth",
+      "source": "mods/ReAuth-1.18-Forge-4.0.7.jar",
+      "version": "4.0.7"
+    },
+    {
+      "id": "rechiseled",
+      "name": "Rechiseled",
+      "source": "mods/rechiseled-1.1.5b-forge-mc1.18.jar",
+      "version": "1.1.5b"
+    },
+    {
+      "id": "recipestages",
+      "name": "Recipe Stages",
+      "source": "mods/RecipeStages-3.0.0.10.jar",
+      "version": "3.0.0.10"
+    },
+    {
+      "id": "reeses_sodium_options",
+      "name": "TexTrue's Rubidium Options (TexTrue's Embeddium Options)",
+      "source": "mods/textrues_embeddium_options-0.1.1+mc1.18.2.jar",
+      "version": "1.0.8"
+    },
+    {
+      "id": "reliquary",
+      "name": "Reliquary",
+      "source": "mods/reliquary-1.18.2-2.0.19.1161.jar",
+      "version": "1.18.2-2.0.19.1161"
+    },
+    {
+      "id": "rftoolsbase",
+      "name": "RFToolsBase",
+      "source": "mods/rftoolsbase-1.18-3.0.12.jar",
+      "version": "1.18-3.0.12"
+    },
+    {
+      "id": "rftoolsbuilder",
+      "name": "RFToolsBuilder",
+      "source": "mods/rftoolsbuilder-1.18-4.1.4.jar",
+      "version": "1.18-4.1.4"
+    },
+    {
+      "id": "rgp_client",
+      "name": "Rocket Game Platform Client",
+      "source": "mods/rgp-client-2.0.7+mc18.2-lexforge.jar",
+      "version": "2.0.7+mc18.2-lexforge"
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "source": "mods/rhino-forge-1802.2.1-build.255.jar",
+      "version": "1802.2.1-build.255"
+    },
+    {
+      "id": "ringsofascension",
+      "name": "Rings of Ascension",
+      "source": "mods/RingsOfAscension-1.18.2-1.0.1.jar",
+      "version": "1.0.0"
+    },
+    {
+      "id": "rsgauges",
+      "name": "Gauges and Switches",
+      "source": "mods/rsgauges-1.18.2-1.2.18.jar",
+      "version": "1.2.18"
+    },
+    {
+      "id": "rubidium",
+      "name": "Rubidium (Embeddium)",
+      "source": "mods/embeddium-0.3.18+mc1.18.2.jar",
+      "version": "0.5.6"
+    },
+    {
+      "id": "runelic",
+      "name": "Runelic",
+      "source": "mods/Runelic-Forge-1.18.2-11.0.1.jar",
+      "version": "11.0.1"
+    },
+    {
+      "id": "sdrp",
+      "name": "Simple Discord Rich Presence",
+      "source": "mods/SimpleDiscordRichPresence-forge-3.0.4-build.28+mc1.18.2.jar",
+      "version": "3.0.4-build.28+mc1.18.2"
+    },
+    {
+      "id": "selene",
+      "name": "Selene",
+      "source": "mods/selene-1.18.2-1.17.17.jar",
+      "version": "1.18.2-1.17.17"
+    },
+    {
+      "id": "serverconfigupdater",
+      "name": "ServerConfig Updater",
+      "source": "mods/serverconfigupdater-2.2.jar",
+      "version": "2.2"
+    },
+    {
+      "id": "shetiphiancore",
+      "name": "ShetiPhian-Core",
+      "source": "mods/shetiphiancore-forge-1.18.2-3.10.17.jar",
+      "version": "3.10.17"
+    },
+    {
+      "id": "shutupexperimentalsettings",
+      "name": "Shutup Experimental Settings!",
+      "source": "mods/shutupexperimentalsettings-1.0.5.jar",
+      "version": "1.0.5"
+    },
+    {
+      "id": "simplecobblegen",
+      "name": "Simple Cobble Gen",
+      "source": "mods/simplecobblegen-1.18.2-1.0.2.jar",
+      "version": "1.0.2"
+    },
+    {
+      "id": "simpletomb",
+      "name": "Simple Tombstone",
+      "source": "mods/simpletomb-1.18.2-1.1.0.jar",
+      "version": "1.18.2-1.1.0"
+    },
+    {
+      "id": "simplylight",
+      "name": "Simply Light",
+      "source": "mods/simplylight-1.18.2-1.4.5-build.43.jar",
+      "version": "1.18.2-1.4.5-build.43"
+    },
+    {
+      "id": "smartbrainlib",
+      "name": "SmartBrainLib",
+      "source": "mods/SmartBrainLib-forge-1.18.2-1.9.jar",
+      "version": "1.9"
+    },
+    {
+      "id": "smoothchunk",
+      "name": "Smoothchunk mod",
+      "source": "mods/smoothchunk-1.18.2-1.9.jar",
+      "version": "1.18.2-1.9"
+    },
+    {
+      "id": "solcarrot",
+      "name": "Spice of Life: Carrot Edition",
+      "source": "mods/SoL-Carrot-1.18.1-1.12.0.jar",
+      "version": "1.18.1-1.12.0"
+    },
+    {
+      "id": "sophisticatedbackpacks",
+      "name": "Sophisticated Backpacks",
+      "source": "mods/sophisticatedbackpacks-1.18.2-3.20.3.1063.jar",
+      "version": "1.18.2-3.20.3.1063"
+    },
+    {
+      "id": "sophisticatedcore",
+      "name": "Sophisticated Core",
+      "source": "mods/sophisticatedcore-1.18.2-0.6.4.604.jar",
+      "version": "1.18.2-0.6.4.604"
+    },
+    {
+      "id": "soulshards",
+      "name": "SoulShards",
+      "source": "mods/soulshards-1.18.2-1.3.4.jar",
+      "version": "1.18.2-1.3.4"
+    },
+    {
+      "id": "spacecatasb",
+      "name": "Armor Set Bonuses",
+      "source": "mods/spacecatasb-forge-18.14.0.jar",
+      "version": "18.14.0"
+    },
+    {
+      "id": "spark",
+      "name": "spark",
+      "source": "mods/spark-1.10.38-forge.jar",
+      "version": "1.10.38"
+    },
+    {
+      "id": "squatgrow",
+      "name": "Squat Grow",
+      "source": "mods/squatgrow-forge-2.0.2-build.38+mc1.18.2.jar",
+      "version": "2.0.2-build.38+mc1.18.2"
+    },
+    {
+      "id": "stateobserver",
+      "name": "StateObserver",
+      "source": "mods/StateObserver-forge-1.18.2-1.2.1.jar",
+      "version": "1.2.1"
+    },
+    {
+      "id": "storagedrawers",
+      "name": "Storage Drawers",
+      "source": "mods/StorageDrawers-1.18.2-10.2.1.jar",
+      "version": "10.2.1"
+    },
+    {
+      "id": "structurize",
+      "name": "Structurize",
+      "source": "mods/structurize-1.18.2-1.0.424-ALPHA.jar",
+      "version": "1.18.2-1.0.424-ALPHA"
+    },
+    {
+      "id": "summoningrituals",
+      "name": "Summoning Rituals",
+      "source": "mods/summoningrituals-1.18.2-1.1.8.jar",
+      "version": "1.18.2-1.1.8"
+    },
+    {
+      "id": "supermartijn642configlib",
+      "name": "SuperMartijn642's Config Library",
+      "source": "mods/supermartijn642configlib-1.1.8-forge-mc1.18.jar",
+      "version": "1.1.8"
+    },
+    {
+      "id": "supermartijn642corelib",
+      "name": "SuperMartijn642's Core Lib",
+      "source": "mods/supermartijn642corelib-1.1.21-forge-mc1.18.jar",
+      "version": "1.1.21"
+    },
+    {
+      "id": "swingthroughgrass",
+      "name": "SwingThroughGrass",
+      "source": "mods/swingthroughgrass-1.18.2-1.9.1.jar",
+      "version": "1.18.2-1.9.1"
+    },
+    {
+      "id": "tamedrespawn",
+      "name": "tamedrespawn",
+      "source": "mods/TamedRespawn-1.18-1.1.0.jar",
+      "version": "1.18-1.1.0"
+    },
+    {
+      "id": "tconstruct",
+      "name": "Tinkers' Construct",
+      "source": "mods/TConstruct-1.18.2-3.7.2.167.jar",
+      "version": "3.7.2.167"
+    },
+    {
+      "id": "terrablender",
+      "name": "TerraBlender",
+      "source": "mods/TerraBlender-forge-1.18.2-1.2.0.126.jar",
+      "version": "1.2.0.126"
+    },
+    {
+      "id": "tesseract",
+      "name": "Tesseract",
+      "source": "mods/tesseract-1.0.38-forge-mc1.18.jar",
+      "version": "1.0.38"
+    },
+    {
+      "id": "textrues_embeddium_options",
+      "name": "TexTrue's Embeddium Options",
+      "source": "mods/textrues_embeddium_options-0.1.1+mc1.18.2.jar",
+      "version": "0.1.1+mc1.18.2"
+    },
+    {
+      "id": "theoneprobe",
+      "name": "The One Probe",
+      "source": "mods/theoneprobe-1.18-5.1.2.jar",
+      "version": "1.18-5.1.2"
+    },
+    {
+      "id": "thermal",
+      "name": "Thermal Series",
+      "source": "mods/thermal_foundation-1.18.2-9.2.2.58.jar",
+      "version": "9.2.2"
+    },
+    {
+      "id": "thermal_foundation",
+      "name": "Thermal Foundation",
+      "source": "mods/thermal_foundation-1.18.2-9.2.2.58.jar",
+      "version": "9.2.2"
+    },
+    {
+      "id": "thermal_innovation",
+      "name": "Thermal Innovation",
+      "source": "mods/thermal_innovation-1.18.2-9.2.1.19.jar",
+      "version": "9.2.1"
+    },
+    {
+      "id": "theurgy",
+      "name": "Theurgy",
+      "source": "mods/theurgy-1.18.2-1.3.6.jar",
+      "version": "1.18.2-1.3.6"
+    },
+    {
+      "id": "tipsmod",
+      "name": "Tips",
+      "source": "mods/Tips-Forge-1.18.2-5.0.11.jar",
+      "version": "5.0.11"
+    },
+    {
+      "id": "tipthescales",
+      "name": "TipTheScales",
+      "source": "mods/TipTheScales-forge-1.18.2-5.0.6.jar",
+      "version": "5.0.6"
+    },
+    {
+      "id": "toastcontrol",
+      "name": "Toast Control",
+      "source": "mods/ToastControl-1.18.2-6.0.3.jar",
+      "version": "6.0.3"
+    },
+    {
+      "id": "toolkit",
+      "name": "Tool Kit",
+      "source": "mods/ToolKit-2.2.4-build.14+mc1.18.2.jar",
+      "version": "2.2.4-build.14+mc1.18.2"
+    },
+    {
+      "id": "torohealth",
+      "name": "ToroHealth",
+      "source": "mods/torohealth-1.18-forge-2.jar",
+      "version": "1.18-forge-2"
+    },
+    {
+      "id": "totemmod",
+      "name": "Wither Skeleton Totems",
+      "source": "mods/Wither Totems [Forge]-0.3.2.jar",
+      "version": "0.3.2"
+    },
+    {
+      "id": "tramplestopper",
+      "name": "Trample Stopper",
+      "source": "mods/TrampleStopper-3.1.0-build.27+mc1.18.2.jar",
+      "version": "3.1.0-build.27+mc1.18.2"
+    },
+    {
+      "id": "trashcans",
+      "name": "Trash Cans",
+      "source": "mods/trashcans-1.0.18-forge-mc1.18.jar",
+      "version": "1.0.18"
+    },
+    {
+      "id": "travel_anchors",
+      "name": "Travel Anchors",
+      "source": "mods/TravelAnchors-1.18.2-3.3.jar",
+      "version": "1.18.2-3.3"
+    },
+    {
+      "id": "travelerstitles",
+      "name": "Traveler's Titles",
+      "source": "mods/TravelersTitles-1.18.2-Forge-2.1.1.jar",
+      "version": "1.18.2-Forge-2.1.1"
+    },
+    {
+      "id": "travellersboots",
+      "name": "Traveller's Boots",
+      "source": "mods/travellersboots-1.18-1.6.0.jar",
+      "version": "1.5.0-pre2"
+    },
+    {
+      "id": "universalbonemeal",
+      "name": "Universal Bone Meal",
+      "source": "mods/UniversalBoneMeal-v3.1.0-1.18.2-Forge.jar",
+      "version": "3.1.0"
+    },
+    {
+      "id": "warriorrage",
+      "name": "Warrior Rage",
+      "source": "mods/warriorrage-forge-1.18.2-1.0.5.jar",
+      "version": "1.0.5"
+    },
+    {
+      "id": "witherstormmod",
+      "name": "Cracker's Wither Storm Mod",
+      "source": "mods/witherstormmod-1.18.2-2.2.1.jar",
+      "version": "2.2.1"
+    },
+    {
+      "id": "wlrs",
+      "name": "Waterlogged Redstone",
+      "source": "mods/wlrs-1.13.1-1.18.2.jar",
+      "version": "1.13.1-1.18.2"
+    },
+    {
+      "id": "woodenhopper",
+      "name": "Wooden Hopper",
+      "source": "mods/woodenhopper-1.18.1-1.2.2.1.jar",
+      "version": "1.18.1-1.2.2.1"
+    },
+    {
+      "id": "wyml",
+      "name": "WhyYouMakeLag",
+      "source": "mods/wyml-forge-1.18.2-1.1.4.jar",
+      "version": "1.1.4"
+    },
+    {
+      "id": "xpfromharvest",
+      "name": "XP From Harvest",
+      "source": "mods/XPFromHarvest-1.18.2-1.2.2.jar",
+      "version": "1.2.2"
+    },
+    {
+      "id": "yungsapi",
+      "name": "YUNG's API",
+      "source": "mods/YungsApi-1.18.2-Forge-2.2.9.jar",
+      "version": "1.18.2-Forge-2.2.9"
+    }
+  ],
+  "schemaVersion": 1,
+  "sourceJars": {
+    "mods/AEInfinityBooster-1.18.2-1.1.0+9.jar": "d28c99fc2e2762fadf30cd015e82a7ebf3358a51f510037ea86865dcafb9f547",
+    "mods/AkashicTome-1.5-20.jar": "156c495d55c312522ca51e46db272dbfba209d0c2fc70c95466d1cd487859f92",
+    "mods/Alex's Mobs Music Mod 1.18.jar": "7b7abdae16780ee5a8048e11c43da80809d01c62e075185f62891de79df6cc46",
+    "mods/Apotheosis-1.18.2-5.8.1.jar": "3befe23aa4a1c645378c934005d16f113a4321eaf5d93a296e0cd2bf25072c82",
+    "mods/AttributeFix-Forge-1.18.2-14.0.4.jar": "65d1ab8167dabf4eb49fff3b9c96c371420d354cf70a01c719ee1e73298122a2",
+    "mods/AutoRegLib-1.7-53.jar": "41ece668218c074bf2f30be5883cd90ad1a48dad6537a7fefca720230f688140",
+    "mods/Avaritia-1.18.2-4.0.1.6-universal.jar": "7d19caf75a3f5d6204927509c1d4f02a4932db6405a836c9a673a994cd2f7be6",
+    "mods/BHMenu-Forge-1.18.2-2.4.2.jar": "3d65eb61298b60a0b5b9c173ca68ae8565f9ae2f188152ddab10f2227869f017",
+    "mods/BetterAdvancements-1.18.2-0.2.0.146.jar": "bbc34adba33f50323d5735c59ebf1efff20eec80ecb5e95643dca6a4406ea220",
+    "mods/BetterCompatibilityChecker-1.1.21-build.48+mc1.18.2.jar": "a6733c9dd43167c4929af5d800103c41c47ed014da326bd898edc1f477b9bc33",
+    "mods/BetterModsButton-v3.2.4-1.18.2-Forge.jar": "e35990a13856ff24b2bc6bf790f0fb630272cced1cfd460823ba9291d2b36268",
+    "mods/BiomesOPlenty-1.18.2-16.0.0.134.jar": "1d2a95bc7f32944ac5b8332dfd14b6b4168ff47ed1d72dde64604f27550c4bdb",
+    "mods/BlockRunner-v3.1.0-1.18.2-Forge.jar": "a0e6aa93642cbad3eaff04b665ee7b08a46059fe6be3c650c6df70a34199f836",
+    "mods/Blood-Smeltery-1.18.2-1.1.4a.jar": "d6da85d3b9ad3673af9f4fbca4a7faf734832548cbcb7722960eda020b5b6404",
+    "mods/BloodMagic-1.18.2-3.2.6-41.jar": "c690d50ae07ffe7343246a4ab306f0705f670846041a8cea3084175eb53da8e4",
+    "mods/Bookshelf-Forge-1.18.2-13.3.56.jar": "f9af6c0177c0de060047a00435ca6f1057f694b3c5e3fe0cd0738aef4146c18f",
+    "mods/Boss Music Mod 1.18.jar": "b50e8e5cf231176d19f8d304da7d5286414fa62ac6befb1c261b046b7f83dada",
+    "mods/CTM-1.18.2-1.1.5+5.jar": "0f10c8a205c3b9e2da0f61822f7f850e2593e3cf61845c1fc12d7213eab87fcc",
+    "mods/Canes Wonderful Spiders.jar": "f1d71a7125816529f9f596a24367b8e83decef92525ddf959c8abad4a54b408f",
+    "mods/Capsule-1.18.2-6.0.99.jar": "508099f9dd92e919d04ba0bc94855e23da60d1270b5b1a25c0ce4f0476418e6f",
+    "mods/ChiselsBits-forge-1.18.2-1.2.116-universal.jar": "92726c7bfba30905f44df86b0772f25a01f5f34fa49d8ddcad8972f59b472b6d",
+    "mods/ClickMachine-1.18.2-6.0.5.jar": "dc18bd8465ef185c01e7f5113fd2d5b8cb2c06808d31d02cc84fd73a5e7a8587",
+    "mods/Clumps-forge-1.18.2-8.0.0+17.jar": "8e5586c4f85f7dafab0942933de124e232f5368d2745bf2d17bc06b5054654fa",
+    "mods/CodeChickenLib-1.18.2-4.1.4.488-universal.jar": "cb9655514fe7a1abc31a4eee6a0e8d4e8dde4be4ee63314a37c2476711799c25",
+    "mods/Cognition-v2.0.4-1.18.2.jar": "e55a97a3d8cd871de028bbf2da4f92398f9ba74a5b72d1346579fbd951143ee2",
+    "mods/Controlling-forge-1.18.2-9.0+23.jar": "dffc08569ae8e1e339c84762f363a16c06134b428351ba30cb556693c5fbfb35",
+    "mods/CosmeticArmorReworked-1.18.2-v2a.jar": "51969243d8868cd6bbee58699d8eb6603f4f8e5fdf848365215b29f0469cc77a",
+    "mods/CraftTweaker-forge-1.18.2-9.1.213.jar": "d27b4739f7b4da0fe92141000e4cfc5bef617202de6eb9bb4bb2147e9e1e9c6e",
+    "mods/CreativeCore_FORGE_v2.11.27_mc1.18.2.jar": "61ee38c59dd71aab64f960309e0328c2f79516fd2cb5d381a9ec7e7b2b6fb750",
+    "mods/CyclopsCore-1.18.2-1.17.10.jar": "ee3bbc9603fe512070d10b7706de216fa5732984d462b840f949c452c95869d2",
+    "mods/DarkModeEverywhere-1.18.2-1.1.3.jar": "97efb78f92f29fd3edbdbc813fd88667a4b4161090a014586237ef2c94a3287f",
+    "mods/DarkUtilities-Forge-1.18.2-10.1.7.jar": "9f60a84e01fcc7090b3bffde8f901cc78878767ab37d063a67f4be6f982f6eab",
+    "mods/Delightful-1.18.2-3.2.1.jar": "fdddfa9dec001929dfd382bea71a56f668dadb9db179a9f72182110a2bf44c7d",
+    "mods/Ding-1.18.2-Forge-1.5.0.jar": "6820f6500f7855eac2b141f07a3e1ace315b2ad303edc8c5d1cfb905b2c17451",
+    "mods/EnchantmentDescriptions-Forge-1.18.2-10.0.12.jar": "2643905fb6e5b631083aaefc9467b605e2537f9c67bd3475e7882c805ff38362",
+    "mods/EnchantmentRequirements-1.18.2-1.2.0.jar": "afb948ea5e9d4ab638a46a7a8a761fa19ee02f57bc92ebda5a83fe5e11278d23",
+    "mods/EnderStorage-1.18.2-2.9.0.182-universal.jar": "8a3bbfefac7986a9493d9425488e749531bd02a1b01d7d28b7333a6d8a92b575",
+    "mods/EnhancedAI-1.6.11-mc1.18.2.jar": "e8e7692abbfdf1fe77b773b4c3d80f3eba8ae6e4fbc64da1bf8b204f48df3300",
+    "mods/EuphoriaPatcher-1.8.6-r5.7.1-forge.jar": "0cb6eeeb379c78459d28fa2f1e4ee44b0bdb43617dc6e9e202f3be4da1610a85",
+    "mods/EvilCraft-1.18.2-1.2.23.jar": "abba6e35bcc28d6f39503766982f5b77327e0bc459a24527af0c4fd2e41fd9b0",
+    "mods/FarmersDelight-1.18.2-1.2.3.jar": "b192b64908d4fd963151b79329d6f0c5d5d1a1273f7e82849b3c08b720311028",
+    "mods/FastSuite-1.18.2-3.0.2.jar": "094877c11e159d155ef92be55f7fc5b9be59c6a9125b8f190ead1b2972ff6745",
+    "mods/FluidDrawersLegacy-1.18.2-forge-2.3.9.jar": "61a804516b24a6aaf4dc573f1e67e52f6a6ff01917f4b161a85670d92a0f9c50",
+    "mods/FluxNetworks-1.18.2-7.0.9.15.jar": "07be413ba4304f51663a58f20d84e8e1b834b6a1424b8dd3921b0c688f6d3323",
+    "mods/FramedBlocks-5.11.5.jar": "93c83900916cebcb025577f71459e23d82bcc0510cc38549e4d31b26757dea55",
+    "mods/FriendlyFire-Forge-1.18.2-11.0.4.jar": "c396c6ad8d76c179b5c4704cff6aae616ec8a9cb32588b3b939d649a44f1bb16",
+    "mods/GameStages-Forge-1.18.2-8.1.3.jar": "18a085212babe4f4552044c0fbcc5b82712820402ebace296d2bfad57de1e40d",
+    "mods/GatewaysToEternity-1.18.2-2.3.0.jar": "6d58e260a4cec9ed768c02e655e7c687c8b86769ecbdb921e46fd0b136c21128",
+    "mods/GottschCore-mc1.18.2-f40.1.0-v2.1.0.jar": "12366e39c1d11e3b76c825d49f4a8c6d754bfebb855660c9a6b78e9d4a09dab1",
+    "mods/HarderNaturalHealing-1.18.1-1.39.0.13.jar": "9a7f88fde35820307a029066ff4aaa6be8556baac77eeaedb29569c097637305",
+    "mods/ImmersiveEngineering-1.18.2-8.4.0-161.jar": "6e9b1ad1fc29d10863465bb48c65ad4d5df74042a5b0ee50c6289b687cd38a74",
+    "mods/InsaneLib-1.5.3-mc1.18.2.jar": "62d6c18d860053b2d71478552358ac1a3d55573c9e61571b44c4066eda14d9be",
+    "mods/ItShallNotTick-1.0.22-build.34.jar": "c8241779fe9b80588ce05d7872f6462dec7c024d15c594f5a6d30fc5611c5be9",
+    "mods/JEITweaker-1.18.2-3.0.0.9.jar": "00bebcdf16c086504ce70422b066ae307083960313bbdb1d845d936281cebb7d",
+    "mods/JustEnoughProfessions-1.18.2-1.3.0.jar": "6433c9d90a2e6e19d9d79e3b80e3e8f9f19cb0fc8bcf547552cd5321e96e2825",
+    "mods/JustEnoughResources-1.18.2-0.14.2.206.jar": "8e1deac149d63113b3acfd11a4226a6df2940566028f1daead83b29de42144f5",
+    "mods/L_Enders Cataclysm-0.51-changed Them -1.18.2.jar": "2a119d6b282eb08f6baf83ffb0738bd3a2c7ed926da58b0a66c58068d6246f2c",
+    "mods/LavaClearView-1.18.2-forge-4.0.1.jar": "4cc536727c44b204e835f1f6b20733e05daaee8e0154430168415f462840a46c",
+    "mods/LibX-1.18.2-3.2.19.jar": "70677e254a44e2e14b0c849a5252d41fa127b4018a040769187260fdbf86e0e7",
+    "mods/Log-Begone-Forge-1.18-1.0.4.jar": "7ddc5dd585294c1cb1dbce02d75341563ac4fc9ab9ff6ffe912adfb43096e1cc",
+    "mods/MagnumTorch-v3.1.4-1.18.2-Forge.jar": "6be00dee1cf268d4b9692b1eb4d0388277be5b43fd80aff762580e512de53036",
+    "mods/Mantle-1.18.2-1.9.54.jar": "6d3845b4a835c19552ea7052ea26570c8c92d70b29451c35978b2f48cca156e2",
+    "mods/MaxHealthFix-Forge-1.18.2-5.0.4.jar": "50a9627f9004c05194ea9ec9e474356c8a0e6c7fff5369e5ff7d09f6c06412bf",
+    "mods/MouseTweaks-forge-mc1.18-2.21.jar": "f092cf2bf00d4298ed20fd80718fd20154041e7b39a026870d2773d6ecc23344",
+    "mods/Nameless Trinkets-1.18.2-1.7.5.jar": "be1ffbebb6160b1b584d48ad0d5a775c56e110490a1e74dea1aae7731cef51b3",
+    "mods/NaturesAura-36.3.jar": "5496d2d38a797f327cf739f73bed0375ad5bcedbfd05f56d697ccbc7e2ea7eb7",
+    "mods/NaturesCompass-1.18.2-1.9.7-forge.jar": "f6efa4d29917f5d6acd8bb904aa5393824c0871059fe5dbfe76f6eedb557134f",
+    "mods/NethersDelight-1.18.2-2.2.0.jar": "b23673044c02d6e29981b4c24ca0099a20bf19089db13a4d4bfaf376680408af",
+    "mods/OreTweaker-1.18.2-3.4.1.jar": "ed8be5c98c490325113bef64179e8c6f7a473d8a59a441baa6793e8abc42783d",
+    "mods/Overloaded Armor Bar 6.0.0.jar": "3f0c504366f79b54faadd500b6928bdc81bdf8fac38c8336a23c7c792f365c9f",
+    "mods/Patchouli-1.18.2-71.1.jar": "1bcd352f81124b24832b536b62c138663682527886d4aaced595e7baa50e3ebb",
+    "mods/PigPen-Forge-1.18.2-8.0.1.jar": "2bf78dcdf55917e4b13911eaad7f69c4e2c1d470f8345f58f9a7f8174d52a89a",
+    "mods/Placebo-1.18.2-6.6.7.jar": "3ad270729e720fa745f0a044871fea22fd6853c83346b5685030f90458e4514a",
+    "mods/PrettyPipes-1.12.8.jar": "9a644372f128004a575d9af17666b2e8a1a07d45b0d2138c8fb26977faf116f9",
+    "mods/PrettyPipesFluids-1.18.2-1.1.0.jar": "a0c01fd9df84b7367318d1416f993cad934bae90bcfbd8b720436777ced1a5bb",
+    "mods/PuzzlesLib-v3.5.10-1.18.2-Forge.jar": "67fc0b05ca0fa755dda681c20aaf29e55b8845841451efc6c40631b91b95d9d2",
+    "mods/Quark-3.2-358.jar": "046c5cbc31259eb175d010bac36aa82cf6678254caca79cd65022f5b28e031cd",
+    "mods/ReAuth-1.18-Forge-4.0.7.jar": "83c6481471bf521014148de78502440672a6b17d0862938f7365b31d90370030",
+    "mods/RecipeStages-3.0.0.10.jar": "49a0a1878f8eb0318ebd30a90115b36116eef029068c130da62443355e3bbe08",
+    "mods/RingsOfAscension-1.18.2-1.0.1.jar": "15ef87340e9284237402f2579d43d8bf3110842a32537df36fb7060d50c25637",
+    "mods/Runelic-Forge-1.18.2-11.0.1.jar": "c86676989f009a748e0d1c8a9216e77653a3158d2da425e83c85163403eb802d",
+    "mods/SimpleDiscordRichPresence-forge-3.0.4-build.28+mc1.18.2.jar": "2893d461c3c15a71d35e022083b0ba1f01e4f8e26d814cb1d455f01aa83f661e",
+    "mods/SmartBrainLib-forge-1.18.2-1.9.jar": "a7863c232113cb445204779c0a786271e1a17b6526c6e5576a0048628addf580",
+    "mods/SoL-Carrot-1.18.1-1.12.0.jar": "2aab044994714950c686cb6d83841ddf827a2ff5d9df40a4a23d9febeddd0cbd",
+    "mods/StateObserver-forge-1.18.2-1.2.1.jar": "5b69ce913510c660820e9ec183046b84447b65c28ae2e08263ddf7cc0c409d71",
+    "mods/StorageDrawers-1.18.2-10.2.1.jar": "5a7bcfe6a289d3857ca4fd2609f7d0ee3e2cca9228dad81d138d0675f80c5c99",
+    "mods/TC-Redstone-1.18.2-3.2.3.jar": "bd12209a1b0ff1011216c5dcd38ce2a93a4e9415c82286b7c7a7e8029836afb7",
+    "mods/TConstruct-1.18.2-3.7.2.167.jar": "f3ee9421fc214dcfd863b304fd09e9ad09b21e12f75a80b2133063972e23e6bd",
+    "mods/TamedRespawn-1.18-1.1.0.jar": "0e97ffb029e5e548171f06a6e4c340cabec527585b18709cd8bc4854a702bbcc",
+    "mods/TerraBlender-forge-1.18.2-1.2.0.126.jar": "77efe21003e4968460652dda1454f4777ca0a5c77fe84d698259cf4472dafa04",
+    "mods/TipTheScales-forge-1.18.2-5.0.6.jar": "e766a96d31c96d3b211bcc2401a406508c8a78e32bde7aac1667504aaca453a2",
+    "mods/Tips-Forge-1.18.2-5.0.11.jar": "509d82a8a55ee80689cc5df4adc8d670969de0707af17e1e72b71b21b674cc1c",
+    "mods/ToastControl-1.18.2-6.0.3.jar": "4aad431e39bd040298b3c213c1a1d60e7c9536d6c247ed9bd88b63b031ebc1c7",
+    "mods/ToolKit-2.2.4-build.14+mc1.18.2.jar": "459a516ff22eeff8cccb1df41c61e5350841daad047aef45f7ab19771bed97b6",
+    "mods/TrampleStopper-3.1.0-build.27+mc1.18.2.jar": "5ca866f69f4879fd36f5772ce08f4fac99b033ab13839931ccb1691a7132b1af",
+    "mods/TravelAnchors-1.18.2-3.3.jar": "82920c905afdeb302db740cd6c3db1e3faab556b794e5bbee41f9438a00b0772",
+    "mods/TravelersTitles-1.18.2-Forge-2.1.1.jar": "276fd59dead88823d0287eaf956eef203ed506e85ad84b0757da64f16bb8f0ea",
+    "mods/UniversalBoneMeal-v3.1.0-1.18.2-Forge.jar": "aab7d85c857b5e1d16236f8642ee2b9b6d02ca70b959718b39c436e3f6eb4b67",
+    "mods/Wither Totems [Forge]-0.3.2.jar": "2590eb7b9cf1e17e59a128fdbefe730eadb216908bd571e34d2556c4df85e681",
+    "mods/XPFromHarvest-1.18.2-1.2.2.jar": "b03d5d76d4455b44503863694e8787efb376b2c29a5dc8f6be4e06b12dd7efad",
+    "mods/YungsApi-1.18.2-Forge-2.2.9.jar": "3e280c99a638c9ec8c4fe1cf85aa502d09cea16a01e923134d64ab73a980192c",
+    "mods/alexsdelight-1.18.2-1.3.3.jar": "9656ac014e821f4ec403be92a3fbbdc8d26debadb34f5a388659d89efb0face3",
+    "mods/alexsmobs-1.18.6.jar": "32198d95d5c6caa4346db4f71f6b43a72fb89cd22e1b3df4c745c63e390e4b76",
+    "mods/allarrowsinfinityfix-1.4.1-forge-mc1.19.3.jar": "a5924af088843f5b5ed6724559255190e86540532dfae4ffe153ddf47f7d3877",
+    "mods/appleskin-forge-mc1.18.2-2.5.1.jar": "a10e8e746db51b70f4e9f8aa0359ac0663ed2e04d5d30ca54e0d0e01d2c48961",
+    "mods/appliedenergistics2-forge-11.7.6.jar": "86f06ffdd7b73848cbb82ff23cf6bba6b2949e0562ae8a5f68bf0eed86eba8d2",
+    "mods/architectury-4.12.94-forge.jar": "e5fee3917f1abd665a3a4402358d9e65cd988964c1b099a522baa22056234397",
+    "mods/arnicalib-1.18.2-5.7.3.jar": "9b35e1c3c9b76094e5dc143f1679e9751ed2804565b1e1aad414c065ac07509f",
+    "mods/ars_creo-1.18.2-2.2.0.jar": "e43362ec4c401f43707e625e24d11a61ddd7acd265bca86b897ad8e37d7d05bb",
+    "mods/ars_instrumentum-1.18.2-2.5.0.jar": "9c95b3806a5812a6f57785e732e01b06230f253da49d41bc5a52ebac251c170b",
+    "mods/ars_nouveau-1.18.2-2.9.0.jar": "35aa0b3ecb218e3355d99d7302bf3f633b982f9072b39abcdb0fc176ebeecdff",
+    "mods/artifacts-1.18.2-4.2.4.jar": "ee5d12f944e1318ca8f949450b0a41eaf8495a07e500bcdaaaa2c72ea2526d9c",
+    "mods/balm-3.2.6.jar": "5e0387007d4f5b5be03eb79f46abdb04a29caac881c8e92bcc4cafbcb1c0a118",
+    "mods/beehive-tooltips-forge-1.4.2.jar": "c0669a118c7c4831597de9b3fd3c0e8e598d9794dc47ce04469df44242b7c6c5",
+    "mods/blockui-1.18.2-0.0.71-ALPHA.jar": "92009286fa6cb1aaf4894ad0aea2a6b0bb1354dfa40a8ff9806ec94bdec728e4",
+    "mods/bonsaitrees3-3.2.1.jar": "67661fd4a459c9274fd3d24a1cba896743e5e754d68953904d058a65ac0572ae",
+    "mods/brutalbosses-1.18.2-5.8.jar": "da71aa9460acc09058c1294508b08b76b490f8f345e59c429ae87d8b5916e190",
+    "mods/bucketlib-1.18.2-0.5.5.0.jar": "2384f235d12d143ac5bdbe6bbab939690685ba6a7e36205939371978dacb7122",
+    "mods/buildinggadgets-3.13.2-build.21+mc1.18.2.jar": "5eae7d0201adc89c4d6cdf80defb2807768a269090bb4ce7bc7c901cd208813a",
+    "mods/bygonenether-1.3.2-1.18.2.jar": "5271fc468a25e5bc2b98463edf2877485187c3f4da2caccc8a83b631fa1d2e37",
+    "mods/caelus-forge-1.18.1-3.0.0.2.jar": "41efaa71d1649ac777eac334419fa4f464570ea47ceb9710f9318cf1e9e2836c",
+    "mods/campfirespawnandtweaks-1.18.2-3.5.jar": "45a62958e0c478f35896e06592d1f0e9b49db2d5374c7a02f6c0042704e090cb",
+    "mods/carrynametag-1.0.1.3-1.18.jar": "b29783c4f51313c1ed1ab4d00baa0ff74b255a0783c407ca9f51d1d7521b8ad4",
+    "mods/carryon-1.18.2-1.17.2.15.jar": "1134bf092769f4f10a8f981c10ced52eeaf7d84475f9b48d8e644ce7956843f5",
+    "mods/ceramicbucket-1.18.2-3.0.5.0.jar": "8240d68c5294213bf60494ff3dd53a26606b223636e2c7e6b98a10033cd59a82",
+    "mods/ceramicshears-1.18.2-1.6.1.1.jar": "9124f853ac7af7cb2579fa466aaa1705f8703a2078ccccab58d6d1a0a587a236",
+    "mods/champions-forge-1.18.2-2.1.6.3.jar": "84935a566d05d2304bea009cc6a4606bdc5c3b2f257624b2028dde57e9a6cf41",
+    "mods/charginggadgets-1.7.0.jar": "08a26d261e1d051808cfbbf2fb0c408ffd09279a25befbc6dedc23393ca882de",
+    "mods/chipped-forge-1.18.2-2.0.1.jar": "15d499e88b09d7dff3509387f353ce27981f7817b84fddb23703d45279aaaa4e",
+    "mods/citadel-1.11.3-1.18.2.jar": "4e4ae44dc790473390a14bc8d098f5a3876f236a2af9f12ab6be8cf2bcb72a7c",
+    "mods/cloth-config-6.5.133-forge.jar": "4806e7cff230dc7ccf653be1502a3d8a1fff1f259a07823bfc5ff7a2fbb489dc",
+    "mods/cofh_core-1.18.2-9.2.3.47.jar": "e0208bf4524841e0a28c791f070d5d36dfd3d7e61720385bdd24c098046ed38e",
+    "mods/collective-1.18.2-7.7.jar": "994753ec9be993bca4ec65342f842d00e4cfa9456875cba31e7b38963aff39aa",
+    "mods/configured-2.0.1-1.18.2.jar": "5180d7d9626f764ae2eda7c1aed946dbba8002f4bfecfeed0a43779c597d4b04",
+    "mods/constructionwand-1.18.2-2.9.jar": "6f373e2d25215006fb885030afefa68a83541a17b5d2c5167ca0baf9c7e92960",
+    "mods/cookingforblockheads-forge-1.18.2-12.2.0.jar": "4201ea207da01c2d4593f6df0f0ff7a4c538fc5e92fd0767ff37bfde6ee2e231",
+    "mods/craftingtweaks-forge-1.18.2-14.0.9.jar": "6964725f575d7f56d9c674bacb8fd8c613662a0f50589c40e6d4865ff1ac81bf",
+    "mods/crashutilities-4.1.jar": "64e66e79b3298374d653e65c56fc2049389c61f2391880a457a8bd4dbc2cf8ec",
+    "mods/create-1.18.2-0.5.1.i.jar": "5311dbc98d734d7cf0f38f3a9a149234136b912228cdf01b746fbe32d41d0fe2",
+    "mods/createaddition-1.18.2-1.0.0.jar": "359d3811abfcc775822b758a575649dee3c14660dab03f16ce1235687d2b330f",
+    "mods/curios-forge-1.18.2-5.0.9.2.jar": "327b6a611cdd10be9d789e082cb7c91ef8afa822dcb3daf112aee71012fdfd13",
+    "mods/curiouselytra-forge-1.18.2-5.0.2.0.jar": "2c0e1be19ad6d960c9a9a84bd811fae1de4b6d846890d243903d99109d8fcc93",
+    "mods/curiouslights-forge-1.3.0+1.18.2.jar": "83cd82e26bd67af46ab445661f98e045be1055da98ab2b77d18e85a4a87e2723",
+    "mods/customvillagertrades-forge-18.25.0.jar": "8ec5cf0f8b08812d6deb90e887405fe6f4e9da62bf7524dc890313eb2f3ebe63",
+    "mods/defaultoptions-forge-1.18.2-14.1.2.jar": "892774522ac9534616abf205c3419ab1c05d6ee28c318e9b978ddf8570ae0e5e",
+    "mods/domum_ornamentum-1.18.2-1.0.77-ALPHA-universal.jar": "6917f4605dc7bb8a7843bb5c5ef1439a1b2c1edbad0be69a36835044087227eb",
+    "mods/dragonfight-1.18.2-2.2.jar": "e63bc238c764dbe0d043870a45f267ab49a0f746301ac1e0b57ec8b723c1a4aa",
+    "mods/elevatorid-1.18.2-1.8.4.jar": "1798ba3fd9082e5436b3d429f5c81393a9aed2042a5e1ab8ad0c6895d283ac8f",
+    "mods/embeddium-0.3.18+mc1.18.2.jar": "7c14d289a85d7bb5cfeb61dd8674e7d02535e6ac9e1a1e2723f10323fbe59f99",
+    "mods/emojiful-1.18.2-3.0.1.jar": "696cecdb674e3239269515141f4b48052c0713a8ecb9532bbe29499ed72da95f",
+    "mods/enchanted-1.18.2-1.1.6.jar": "3ecab5455bd4928be44d8fd4edc078665053d98642f850160f874e22656e85a5",
+    "mods/engineersdecor-1.18.2-1.1.28.jar": "5a41e73e89fdb96f2061a8378459920fc5ecad7407a867337a8c62c9f7770f24",
+    "mods/entangled-1.3.21-forge-mc1.18.jar": "99c347b73fd3d5bd4a4d786a20ad6777f6aa31c5139d3db3011fbf67c77819b7",
+    "mods/entangledfix-1.0.jar": "eeba10b3a7671d6427c89af3ed4092bb575efb6925374e502567d3c9c7ecf6bf",
+    "mods/expandability-6.0.0.jar": "641ff7f67c2f2beded4850cb75a2ea9a04351e0507d526c4611753512ff5702a",
+    "mods/extrachampions-1.18.2-1.2.1.jar": "c16fd99668990192457dc5111e6f4a517527e7fd1489be787b36d8ead145b52f",
+    "mods/extremesoundmuffler-3.30_forge-1.18.2.jar": "70d49bb3147828e3256bc88f79dd16c6f89c1419a3f197deb1ac5b5569979013",
+    "mods/fancymenu_forge_3.4.6_MC_1.18.2.jar": "971b1b0ddc215f47d0055d81aa7cd4bfee1e15b63e95ed23490972e23387106c",
+    "mods/feature_nbt_deadlock_be_gone_forge-2.0.0+1.18.2.jar": "6969fe1c361e5cb7a6b2fd7d9512acf2cf0b3194545615b88626a8b9843f778d",
+    "mods/ferritecore-4.2.2-forge.jar": "f8bf79f6eb2e31dc1e347697c18effdc87ac9d1c7e7060c50ffdef3ad41da139",
+    "mods/fetransformer-1.18.2-1.1.2.jar": "31fb0da915d51f8603da8e2a0b4c0165eaccf007b5baf2bdd2fefee1dbed3815",
+    "mods/findme-3.0.6-forge.jar": "4444299d2ed1553bb6172e750bd13a0c66d77c6f4a00fbc903aa5b00c8a9fe6e",
+    "mods/finitewater-4.0-1.18.2.jar": "a340d32cfa0fdb29eedf8e999bb04390befd2a642114dda30a5a265172da3798",
+    "mods/foodeffects-1.18.2-1.1.3.jar": "d20f972791343152d5510b08d17fc42953fc81d3797ea587558da8d9f9b62552",
+    "mods/framedcompactdrawers-1.18-4.1.0.jar": "701a9a0cb381d57c9e440f3698ac8b6adaf5fdb787342bb8cf7e9e50fd885d43",
+    "mods/ftb-auxilium-forge-18.2.10.jar": "812cc0c35d7fc21cb839484527a01c1048b02fc5dcc2805caa679c1c9fce9099",
+    "mods/ftb-chunks-forge-1802.3.19-build.362.jar": "6113e3127f788851ad03716ae6da1158703826c510b8a85ac3d5a59589ef01cc",
+    "mods/ftb-essentials-1802.2.2-build.83.jar": "3c535ad07120b47ec1a68b40833b915c0805a07714d69068514748db21020826",
+    "mods/ftb-industrial-contraptions-1802.1.6-build.220.jar": "3c665c0860752d45db5e81af2084957e94bdd9a727753ade20494f85709e5026",
+    "mods/ftb-library-forge-1802.3.11-build.177.jar": "2a958287cdf3ae47eb8682f7bc9dfa779d27bd203207acbbe6e2ec54642f618c",
+    "mods/ftb-pack-companion-1.0.1-build.5+mc1.18.2.jar": "345830d4fbe06919716ce7e99391dcc20c31212b5edea45d4efe33f494bbda8b",
+    "mods/ftb-quests-forge-1802.3.16-build.479.jar": "7622250c06c87d1abfa70dd869d15f03d109e3a07b0d0e69052e940853b35217",
+    "mods/ftb-team-islands-forge-1801-2.4-build.28.jar": "f31a642451db24a22e6dd2f0927992d88aa8346031b4c4c2ce12bd99926676d1",
+    "mods/ftb-teams-forge-1802.2.11-build.107.jar": "e026cb1e2af513b590c2cf7fbacfe69f05a52e1c238eeb272e51b45bdccd143b",
+    "mods/ftb-ultimine-forge-1802.3.4-build.93.jar": "d76291c33247906ee495fe34eac9c96b18e51d2f6a3c1f0f09c3f3aa64adb891",
+    "mods/ftbbackups2-forge-1.18.2-1.0.23.jar": "dd356fc2c41409bd18a0f8c6240b1a14dcdbefbbec26297a53248d4b8086d75a",
+    "mods/ftbpromoter-18.2.51.jar": "394d0c7cdaa2a25d49f12fae6b44ae32f814ec7ccbb71c41460d08fbf3494aa9",
+    "mods/fullstackwatchdog-1.0.1+1.19.2-forge.jar": "0c845a2812e374edeb6085844294098bb7f774fef4d19fc88c334eadf7b73aa4",
+    "mods/fusion-1.2.12-forge-mc1.18.jar": "3ce81916722a71d0fd8999a6d0ecae658057b38534c984fc86a6b51c920c9b49",
+    "mods/gag-forge-1.2.1-build.16.jar": "1a04c4818eceecc433d3f46e7de1ff6de31f72ab7647b60303c6d16adc5fdd28",
+    "mods/geckolib-forge-1.18-3.0.57.jar": "b6d0954f7b777b43e72f202116c8ccbb1e37757a1142759303ab636a9077b8ba",
+    "mods/grappling_hook_mod-1.18.2-v13.jar": "9fb8c46c94fb6c6df49d83a0a0ebc9b66d2d30a441e30f23785926e55670a627",
+    "mods/gunswithoutroses-1.18.2-1.0.14.jar": "fda54ea07dff7ab31a1beb59185192a46fb6199436d05e6befcdcdfca8c048da",
+    "mods/healingcampfire-1.18.2-5.2.jar": "b2d8a7d4005427f67d45cd9a8e4691dbbf15f16b153e3580be32a070458d49a2",
+    "mods/hexerei-0.2.2.jar": "e05e05d76b720e15a62425fe74b32552753ce973423d1c1cdb9fed3b2ee642c8",
+    "mods/iChunUtil-1.18.2-Forge-1.0.1.jar": "669638a850ac414d166a083e6fa360059a3321a9a52b0aebf3190df2fb4c3777",
+    "mods/incontrol-1.18-6.1.14.jar": "609587b1aa4b23f68d4201fe63fa34a83aec30cee2dd8a87e1434b50932971a7",
+    "mods/infernal-expansion-1.18.2-2.5.0.jar": "3d100d349e5c80925fb3f456b31772a54bca9396690793dc7198f260c0e42546",
+    "mods/infernou-1.18.2-1.0.jar": "e13dad7200bd854d6c3c6202f9f45a5d723c096376877f23cf6109b86ec5240e",
+    "mods/inventoryessentials-forge-1.18.2-4.0.3.jar": "c6a65e8620a1a7d6e93ac122bdcae9c716948eb563b770f92eb678b432cc220c",
+    "mods/inventorysorter-1.18.2-19.0.4.jar": "63699e7fb6d789bef3e3fff7ee52c52305b94d3f8f82fdd9ef802b576ef8459b",
+    "mods/ironchest-1.18.2-13.2.11.jar": "e73328dd9cf6c28e3b63d260cfb1e4c62eb93a1e171c167ca50c2567e096a4d1",
+    "mods/item-filters-forge-1802.2.8-build.50.jar": "61eb98855748e5f01706e838c72ba35f27077bdb0a48f6ea36c964dd2311ce36",
+    "mods/itemcollectors-1.1.12-forge-mc1.18.jar": "c29b6579f01cbb80c6fc2881745f6abf1faa0cf68880951b5c0a12bb0bfd0575",
+    "mods/jei-1.18.2-9.7.2.1001.jar": "b647023956683079a80dd31d3c42bdb4348a927b0441d507e24931501b8cca9e",
+    "mods/jeimultiblocks-1.18.2-0.0.2.jar": "02c017bc03b369645cd6024580c245481e889dc77bc14a96d0e4c6f7f552b725",
+    "mods/jumpoverfences-forge-1.18.2-1.0.2.jar": "86501b9ff6298fcec58cf97c03a372fa5d5f2f06039b0869b8b6b59d884880f1",
+    "mods/konkrete_forge_1.8.0_MC_1.18-1.18.2.jar": "f5ddb9c687890cf244e4a039a31fdf23d95eaadbc29a0a7bd1fd6a68af5a6d9d",
+    "mods/kubejs-create-forge-1802.2.4-build.16.jar": "b040e7b8ac0966a5ecafa82966976b6e94a700ba6ba44c3494f3472abb5e6925",
+    "mods/kubejs-forge-1802.5.5-build.569.jar": "a3fdde9433d75ac1f5ae72d3f5b74d2dfb3a59d8b28bad18a5c526cb32f814d0",
+    "mods/kubejs-immersive-engineering-1802.2.1-build.35.jar": "8af424346160d9fc5daa8525e1b098e1955427267ca62bdddf46a6cb2262f138",
+    "mods/laserio-1.4.5.jar": "5eecb26dfcb6ec5593c39770942643b154f4e9406a54313bd97ec0d21d548121",
+    "mods/lazydfu-1.0-1.18+.jar": "0f2cd2caba33e696fd810c8ea1c27c2e0a651bbeec54c7ac971840f238e40513",
+    "mods/libnonymous-2.1.0.jar": "28766ce614bc8987b7feca15fac928aa53f8e974b63674cc49eb783a276c4e58",
+    "mods/light-overlay-6.0.5-forge.jar": "40a5cbbbcba696bc037c82359f111517ff67df0de73e6903de834a7e252995a6",
+    "mods/lootjs-forge-1.18.2-2.7.7.jar": "b1ee29071108ff14de0256f8c25b43d5af9d32cea22fe1f50693c7d618d5d100",
+    "mods/lootr-forge-1.18.2-0.3.30.74.jar": "aa38cb961c3f57172a0b5630c23c4200c63ea9161e1c37780ad526c2caa1c4ef",
+    "mods/lucent-1.18.2-1.2.2.jar": "461d7ea2e9d3174c2e86777c69b7631b8fd3fa31720f151efd563ffaf3f073b2",
+    "mods/mcjtylib-1.18-6.0.20.jar": "ab0162117c3702bc1a57b8cf024bc386750483faedd9da1cb4e612ea916ee919",
+    "mods/meetyourfight-1.18.2-1.2.5.jar": "05bed770368e030bd86d20d3006069333ece8db2c7a86fd36b06e964a7a30c06",
+    "mods/melody_forge_1.0.1_MC_1.18.2.jar": "5029f2936d858bbf776a9bdff61718ff09641a83247a1802d538bd367ecae7cf",
+    "mods/minecolonies-1.18.2-1.1.148-BETA.jar": "530abb999f910dc70c319fd7bab963f3663cb051c6268f6fc38625e89e572eb9",
+    "mods/minetogether-forge-1.18.2-6.3.2.jar": "00921782715e8cebd3a71516ee1597eb05889eb85972c03715205adc254d9cf2",
+    "mods/modnametooltip-1.18.1-1.18.0.jar": "b7a11414d83a6da36d854540b762151095e0f3f7eeac4ef166150cca466d323e",
+    "mods/modonomicon-1.18.2-1.33.1.jar": "00cdf3ad496a58ad995e636d2fb66b61aa30a79404b9c2329f5baee62d263e15",
+    "mods/multi-piston-1.18.2-1.2.15-ALPHA.jar": "04f5a21d503e7f69a92f962d625fdb845f5531486d33212646884451e1ff7afe",
+    "mods/myrtrees-forge-1.1.0-build.29.jar": "385a753188ba4db9aae35dcc789a226f5f6513e2a7fac6df9d54359b662faec0",
+    "mods/no_nv_flash-1.18.2-1.4.0.2.jar": "fe53899a0a7c3027ded9a2ef03e41157b19aee3ceb3e4d4c7432d21c14fddf8d",
+    "mods/nomoretorchspam-1.18.2-1.0.0.jar": "4bfbae09d62fa6ee0986940d1f6e999a4ed2bea8952bfc6c2808d2957a31648c",
+    "mods/nuclearcontraptions-1.18.2-1.1.0.jar": "2f6139990077cd136531af17b5edc35efa503fa9c2f100404ec11c45d78b8895",
+    "mods/occultism-1.18.2-1.84.0.jar": "f0d75328eaa6f3854fa264dce88b0a82606526bb0da5b2ef358cf8122a027f54",
+    "mods/oculus-mc1.18.2-1.6.4.jar": "7731a22424f21f2637a6ad565c12d9b063bbefc4d516a292cb80d9e0ac9798ba",
+    "mods/petslow-0.5.8.jar": "86f474b77b634d4665cc54b35938a75e2efe54c00681c31bd05fb2b4da26bb20",
+    "mods/phantomconfig-1.0.1.jar": "7556f9c4db1af62d112baeaf10f47eb76f3979b58cc23dbfd873b1d225bdd3a0",
+    "mods/plonk-1.18.2-10.0.4.jar": "e9742badadef127be6fea9a72a525d0cd61744085921ae881d0491c6473725eb",
+    "mods/polylib-forge-1801.0.3-build.109.jar": "66cdf01aa2fab936c1da6cb4db2fd8818de41a861a88f0ffdfffb4ba20a55f84",
+    "mods/ponderjs-1.18.2-1.1.10.jar": "c51cbc757b4e0fa6926a03ea2e3dd35c945cebf39f1a0662db71d41f09749980",
+    "mods/productivebees-1.18.2-0.9.3.0.jar": "03bf658b851281eaa529ba8dab8aab60ad0172cb227ca125888beae06bec9931",
+    "mods/rechiseled-1.1.5b-forge-mc1.18.jar": "bbf8c4fcc84246b87caec47357bd0b644a4b2e1185b9c125422aa8c13fa75775",
+    "mods/reliquary-1.18.2-2.0.19.1161.jar": "415a1089ae7bc21397e3fffc160c00e4e2519214092dbff43f248827be338d7a",
+    "mods/rftoolsbase-1.18-3.0.12.jar": "bf3bc751aa624a0ac8a7d0e850fb95e2a59fa53a7f9fab327da2ddd2e61f2faf",
+    "mods/rftoolsbuilder-1.18-4.1.4.jar": "706d2b3c243a8f1776bb391123405dc53878e4bba5848ffde6ae52146385b508",
+    "mods/rgp-client-2.0.7+mc18.2-lexforge.jar": "c690016d66bff27ade6d6d562e9b05124f52d5eac1a96cbc07efa7274740917e",
+    "mods/rhino-forge-1802.2.1-build.255.jar": "72c08867dabd2bb863753b4ac4afb0fbb08931ac51f5241b044fa51d0236f4f2",
+    "mods/rsgauges-1.18.2-1.2.18.jar": "a147e85a75271fbce6267e5affd49f1a2326c8f1f79424e3efe5d30d8f076af4",
+    "mods/selene-1.18.2-1.17.17.jar": "b06590edf24f91d655bb59f585950c11ef8c72c798b7d40dc6a4c16fbf2603a3",
+    "mods/serverconfigupdater-2.2.jar": "0f981eabcc9a761f12782686aa0fcc16a209bea3675b3ae8c4d295694819a103",
+    "mods/shetiphiancore-forge-1.18.2-3.10.17.jar": "355d4bc4b17576c94dceaf6bf2f8611b2fa060f989ded41b33d1a6a4813a608c",
+    "mods/shutupexperimentalsettings-1.0.5.jar": "ac97131b1e1e9e21e0f855d093ef96ce8ac0aa172c0399d65be95df03af6caab",
+    "mods/simplecobblegen-1.18.2-1.0.2.jar": "92f57568921fbee5c4c02177a7703d3bfb5633a3c709aeead5608883819794e7",
+    "mods/simpletomb-1.18.2-1.1.0.jar": "b5673de8d57e2d849bd64831fa8097506b3073e8a7fcca27ebd98032efb6342b",
+    "mods/simplylight-1.18.2-1.4.5-build.43.jar": "797008879bb74da4c41fe99763c05e9d1442e6a7e883df8552af0045c9414dfd",
+    "mods/smoothchunk-1.18.2-1.9.jar": "527f05a6def553b0c0eabfe492bfd977b8267cf53de3e48420b0cbe6d08131d9",
+    "mods/sophisticatedbackpacks-1.18.2-3.20.3.1063.jar": "5b5b0c67f301b385e074ab6900930f4f6c3c3e0355c8611cd378bf27c023948d",
+    "mods/sophisticatedcore-1.18.2-0.6.4.604.jar": "25a32678b13b06c1b1aa0ed9e9e244eb1b33d5095989758684e51dc014125627",
+    "mods/soulshards-1.18.2-1.3.4.jar": "f0716fd7c454c43c28d657b17586324a92d48b576df1575754b5973c239241f6",
+    "mods/spacecatasb-forge-18.14.0.jar": "852eb2483687512b174db2728bf7339cd9bc4d7909f99349148070668aba2550",
+    "mods/spark-1.10.38-forge.jar": "9de840f1c5d4a31b04d43c99ba815d5c044940417c5575dcaec0451b7aa6089c",
+    "mods/squatgrow-forge-2.0.2-build.38+mc1.18.2.jar": "c9b303478c1a498e343e1549a907d9f93711509f93ad8943f7a394088563a800",
+    "mods/structurize-1.18.2-1.0.424-ALPHA.jar": "1aa15d4fe6026b740f57ffbcb05320a42901679a95fc5ec2dd519dbcc6aa1df4",
+    "mods/summoningrituals-1.18.2-1.1.8.jar": "bf9eb4d008d08f3db39b97b5abcde237f575ff1a0e5afc3fbc39b97f2c5eb3f8",
+    "mods/supermartijn642configlib-1.1.8-forge-mc1.18.jar": "52f0dc54f277ce1153fe8512ed27256899927d01ff9b643e230df34735cc5ec7",
+    "mods/supermartijn642corelib-1.1.21-forge-mc1.18.jar": "d7731abdbb97964cc0618470c22644fdfc4e0dcbf3238cf11b0d841e27361dae",
+    "mods/swingthroughgrass-1.18.2-1.9.1.jar": "0c66b80a721e2dc10267c55c07af67f9d2de60dded81dc958a3fbee2547a3179",
+    "mods/tesseract-1.0.38-forge-mc1.18.jar": "2556d11c7a2e6f715b57dd82de5820e5110c46e2b265f77e4786f4542caf72e4",
+    "mods/textrues_embeddium_options-0.1.1+mc1.18.2.jar": "2e5800269e07ffc0ded6046d637de6b2b91de61838024c54eb3b2ee67394be8a",
+    "mods/theoneprobe-1.18-5.1.2.jar": "dd310b00d1cd3c5cd0c2d47b1dd9931832371c0e3b45f624a810b81bd055ee27",
+    "mods/thermal_foundation-1.18.2-9.2.2.58.jar": "2ebb58af57b0e64482b7809cf7f4c19c5725dc671317893302694660110def8f",
+    "mods/thermal_innovation-1.18.2-9.2.1.19.jar": "d7c3177534cc5d36307805bcf25049b30db5322b4ce0a1228268762260d5598e",
+    "mods/theurgy-1.18.2-1.3.6.jar": "8578fbbc0566c0cc18373478f93314e02db563528670562c7f275834355cb6c6",
+    "mods/torohealth-1.18-forge-2.jar": "9e748a29fb55acfe8866301e2886967b38a7e783d632b93e8fae0dda0e16dfb6",
+    "mods/trashcans-1.0.18-forge-mc1.18.jar": "4ce44024fb03e3289f8e3436fbdaf6deee44f12686e20c2bf325e8fb9abb03a4",
+    "mods/travellersboots-1.18-1.6.0.jar": "e8a1e31d13d1141b893726f90fcff4dab669f122533cdd2cc387d0f7ad4ae403",
+    "mods/warriorrage-forge-1.18.2-1.0.5.jar": "6a0aaea82f92dd53ee0a773d5fd1e2904c5b3e19ac951962f8f5fe0b9e430c10",
+    "mods/witherstormmod-1.18.2-2.2.1.jar": "0fa6f8116ce989e28621ec7acaac9e89dd170cf8b3d23d952f2446ecec4295a9",
+    "mods/wlrs-1.13.1-1.18.2.jar": "73e4a829acfb9fbfe416cc1bb964b3a75de7ac8492754be4c560a40c64fe6d36",
+    "mods/woodenhopper-1.18.1-1.2.2.1.jar": "2b40684611ff0e94e20510a00180f89d23f18377a07ec861d6f5dfd19e2810bf",
+    "mods/wyml-forge-1.18.2-1.1.4.jar": "13f53dd73a16c9beddbd47aa1e1bcc83450a0741ff39347fdbab993a34e27050"
+  },
+  "upstreamLockSha256": "ea22fe14c8901ff250d98ed89e14e600aea4f894f888f690e1f675512517a576"
+}
