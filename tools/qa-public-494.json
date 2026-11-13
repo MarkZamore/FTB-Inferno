@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "packId": "minecraft-12",
+  "packVersion": "1.12.0",
+  "publishedPackRevision": "be001bbd365d18d2badcf2439cdd9f80e56d9f76",
+  "upstreamLockSha256": "ea22fe14c8901ff250d98ed89e14e600aea4f894f888f690e1f675512517a576",
+  "launcher": {
+    "releaseNumber": 494,
+    "sourceRevision": "3ec258af1343b25d670d6565e265e6b2c22c8a17",
+    "publicExeSha256": "bb67baae177477254ca82d7931608fd12127b0d704eee046db8d808913e6dda4",
+    "assemblySha256": "372c5af3f15981aac818ea231b699179b11568f8e82043fc8eb0908a43a28b6c"
+  },
+  "nativeProbe": {
+    "agentSha256": "919a204db9eaa80a8dfb464ca202f952f06d7226b575eef8a655c9f11ee61f13",
+    "runEventsSha256": "ecffc1d476a0f95fcf72a2fa9b289b474c07d6a1c0829d77de9b5dd6de692332",
+    "toolingLibrarySha256": "488579e21a6cc0dd9803da01e9e1d85f708aa3859d39503b91b7b2be51e62897",
+    "descriptorSha256": "2e9ed7ef3e7596d9c5180136a0fd5b94dbc147b03ace718fc2aeb4f8d08536ae",
+    "modCount": 277,
+    "windowTitles": [
+      {
+        "expected": "FTB Inferno",
+        "matches": true,
+        "nativeWindow": true,
+        "actual": "FTB Inferno",
+        "phase": "startup"
+      },
+      {
+        "expected": "FTB Inferno",
+        "matches": true,
+        "nativeWindow": true,
+        "actual": "FTB Inferno",
+        "phase": "world_before_steam"
+      },
+      {
+        "expected": "FTB Inferno",
+        "matches": true,
+        "nativeWindow": true,
+        "actual": "FTB Inferno",
+        "phase": "world_after_steam"
+      }
+    ],
+    "checks": {
+      "world_reopened": {
+        "commands": false,
+        "gameMode": "SURVIVAL"
+      },
+      "pause_before_publish": {
+        "nativeButtonCallback": true,
+        "worldSettingsOrCheats": false,
+        "shareToLan": 1
+      },
+      "published": {
+        "settingsClosedOnPublication": true,
+        "nativeListener": true
+      },
+      "native_permissions": {
+        "actualPlayerList": true,
+        "syntheticGuest": true,
+        "checks": {
+          "guestAfter": false,
+          "savedSurvivalMode": true,
+          "hostAfter": false,
+          "savedAllowsCommands": false,
+          "hostBefore": false,
+          "guestBefore": false
+        }
+      },
+      "pause_after_publish": {
+        "reports": true,
+        "shareToLanGone": true,
+        "worldSettingsOrCheats": false
+      },
+      "chat": {
+        "blueInviteAction": true,
+        "redCloseAction": true,
+        "readyLines": 1,
+        "greenCopyableAddress": true,
+        "privateEndpointRecorded": false,
+        "nativeLocalHistory": true,
+        "localPortLines": 1
+      },
+      "world_saved": {
+        "levelDatBytes": 285425,
+        "levelDatSha256": "641d56e6d24a2a766225de01951a65519306ca893f5e0170cadd46179d9788b3"
+      },
+      "complete": {
+        "nativeSteamHost": "PASS",
+        "guestConnection": "NOT RUN"
+      }
+    },
+    "computerUse": false,
+    "twoSteamAccounts": "NOT RUN"
+  },
+  "publicInstall": {
+    "outcome": "PASS",
+    "revision": "be001bbd365d18d2badcf2439cdd9f80e56d9f76",
+    "manifestSha256": "88a117a8dfcb4e5b9a4cca78ecc3bf1bfffc8c2615e11a7309eb8b1463c883b3",
+    "librarySha256": "488579e21a6cc0dd9803da01e9e1d85f708aa3859d39503b91b7b2be51e62897",
+    "launcherAssemblySha256": "372c5af3f15981aac818ea231b699179b11568f8e82043fc8eb0908a43a28b6c",
+    "gameAssets": 171,
+    "gameAssetBytes": 478654021,
+    "installedFiles": 4642,
+    "installedBytes": 490008971.0
+  }
+}
