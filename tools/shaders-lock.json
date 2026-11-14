@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+      "source": "https://cdn.modrinth.com/data/HVnmMxH1/versions/836bPNGo/ComplementaryReimagined_r5.7.1.zip",
+      "sizeBytes": 522970,
+      "sha256": "24a20634a7832d422d3cd5023be16829f26840e25c69404dd418306ea79f63f0"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+      "source": "https://cdn.modrinth.com/data/R6NEzAwj/versions/d8rcvDTp/ComplementaryUnbound_r5.7.1.zip",
+      "sizeBytes": 522973,
+      "sha256": "5cbf4d99bc7ce4f0df5c15974d276e0949bf6974d48d88a77d5e307b0b9be8af"
+    }
+  ]
+}
