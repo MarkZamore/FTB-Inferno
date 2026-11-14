@@ -1,0 +1,953 @@
+{
+	id: "05CA73477688D2AB"
+	group: "7044F2C841148E69"
+	order_index: 6
+	filename: "spellworking_101"
+	title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.1\"}"
+	icon: "ars_nouveau:source_gem"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.spellworking_101.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.3\"}"
+			x: -0.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.4\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.5}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.6\"}"
+			]
+			dependencies: [
+				"30BFD136F6B44257"
+				"00E0DB64568AA664"
+			]
+			size: 1.25d
+			id: "0B83AC9D22A3A363"
+			tasks: [{
+				id: "0C62B70377F44E98"
+				type: "item"
+				item: "ars_nouveau:red_archwood_sapling"
+			}]
+			rewards: [{
+				id: "2FE2835DFFFD4AA4"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.7\"}"
+			icon: "ars_nouveau:imbuement_chamber"
+			x: -0.5d
+			y: 5.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.8\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.9}"
+				""
+				"{inferno_quests.chapters.spellworking_101.10}"
+				""
+				"{inferno_quests.chapters.spellworking_101.11}"
+				""
+				"{inferno_quests.chapters.spellworking_101.12}"
+			]
+			dependencies: ["0B83AC9D22A3A363"]
+			dependency_requirement: "one_completed"
+			min_width: 250
+			id: "6BBA6FE9EE790FAA"
+			tasks: [
+				{
+					id: "7ABE9B1AC02B105D"
+					type: "item"
+					item: "ars_nouveau:imbuement_chamber"
+				}
+				{
+					id: "7A4F5B47DD735C5D"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "462707EB7B3E8403"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 16
+				}
+				{
+					id: "3F609E5F01C24C28"
+					type: "item"
+					item: "woodenhopper:wooden_hopper"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.13\"}"
+			icon: "ars_nouveau:agronomic_sourcelink"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.14\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.15}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.16\"}"
+				""
+				"{inferno_quests.chapters.spellworking_101.17}"
+			]
+			min_required_dependencies: 1
+			dependencies: ["6BBA6FE9EE790FAA"]
+			min_width: 250
+			id: "41FDF75C443C7BCD"
+			tasks: [{
+				id: "7A4EE895E0DC0C3A"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.18\"}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "sourcelink"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4EEC9353846A4DD0"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+				count: 3
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.19\"}"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.20\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.21\"}"
+				""
+				"{inferno_quests.chapters.spellworking_101.22}"
+				""
+				"{inferno_quests.chapters.spellworking_101.23}"
+			]
+			dependencies: ["40D4850B34EC5677"]
+			id: "14164898F7962235"
+			tasks: [{
+				id: "20722631D11C327D"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "73D041C6CA414664"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+				}
+				{
+					id: "42B4E0211C5D173B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.24\"}"
+			x: -4.0d
+			y: 3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.25\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.26}"
+				" "
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.27\"}"
+			]
+			dependencies: ["505683302888DD1F"]
+			optional: true
+			id: "6E08A8BEA63DB628"
+			tasks: [{
+				id: "7FE68A26590E0C0B"
+				type: "item"
+				item: {
+					id: "ars_nouveau:annotated_codex"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7EF41C37B3127B47"
+				type: "item"
+				item: "ars_nouveau:glyph_craft"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.28\"}"
+			x: -2.5d
+			y: 3.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.29\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.30}"
+				""
+				"{inferno_quests.chapters.spellworking_101.31}"
+				""
+				"{inferno_quests.chapters.spellworking_101.32}"
+				""
+				"{inferno_quests.chapters.spellworking_101.33}"
+			]
+			dependencies: ["0B83AC9D22A3A363"]
+			min_width: 275
+			id: "505683302888DD1F"
+			tasks: [{
+				id: "29E2BCDBFCF270FD"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [
+				{
+					id: "7854E029365C91CA"
+					type: "item"
+					item: "ars_nouveau:source_gem_block"
+					count: 4
+				}
+				{
+					id: "4D9D34D005CCCD22"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17DAA9815D171E6D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.34\"}"
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: -2.5d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.35\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.36}"
+				""
+				"{inferno_quests.chapters.spellworking_101.37}"
+				""
+				"{inferno_quests.chapters.spellworking_101.38}"
+			]
+			dependencies: ["41FDF75C443C7BCD"]
+			min_width: 275
+			id: "7985ABCCCC272CE3"
+			tasks: [
+				{
+					id: "2A74FA351A3B2FFB"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "46FC25F9005AB129"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "7B6415CEF1315689"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+				}
+			]
+			rewards: [
+				{
+					id: "4446E5277758886E"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53C3FD8E1F402655"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 7
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.39\"}"
+			x: 1.5d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.40\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.41}"
+				""
+				"{inferno_quests.chapters.spellworking_101.42}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.43\"}"
+			]
+			dependencies: ["41FDF75C443C7BCD"]
+			min_width: 225
+			id: "14CBBDEBFB6749EE"
+			tasks: [{
+				id: "3156D7D3A120F4FC"
+				type: "item"
+				item: "ars_nouveau:ritual_brazier"
+			}]
+			rewards: [
+				{
+					id: "742399E8793B829A"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CBD86A48DB769FB"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
+					count: 3
+				}
+				{
+					id: "3E6B6C5F9CEBEC27"
+					type: "item"
+					item: "minecraft:lapis_block"
+				}
+				{
+					id: "73C441D2317E432B"
+					type: "item"
+					item: "ars_nouveau:purple_archwood_log"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.44\"}"
+			icon: "ars_nouveau:manipulation_essence"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.45\"}"
+			description: ["{inferno_quests.chapters.spellworking_101.46}"]
+			dependencies: [
+				"6BBA6FE9EE790FAA"
+				"0B83AC9D22A3A363"
+			]
+			id: "0CA8F708AD880F5F"
+			tasks: [
+				{
+					id: "1FA87B1C782FE961"
+					type: "item"
+					item: "ars_nouveau:purple_archwood_sapling"
+				}
+				{
+					id: "367A5EF704254C1A"
+					type: "item"
+					item: "ars_nouveau:blue_archwood_sapling"
+				}
+				{
+					id: "32BF69E609F3BCFF"
+					type: "item"
+					item: "ars_nouveau:green_archwood_sapling"
+				}
+				{
+					id: "5687C1784A182567"
+					type: "item"
+					item: "ars_nouveau:manipulation_essence"
+				}
+			]
+			rewards: [{
+				id: "45BEE76E04F8650E"
+				type: "item"
+				item: "ars_nouveau:glyph_fell"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.47\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.48}"
+				""
+				"{inferno_quests.chapters.spellworking_101.49}"
+			]
+			dependencies: [
+				"505683302888DD1F"
+				"6BBA6FE9EE790FAA"
+				"7985ABCCCC272CE3"
+			]
+			id: "791BC8C1D59A8770"
+			tasks: [{
+				id: "0EE3DBAFA40E6CA6"
+				type: "item"
+				item: {
+					id: "ars_nouveau:wand"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "745D9511061F6B1A"
+				type: "item"
+				item: "ars_nouveau:glyph_fortune"
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_pickup"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.50\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.51}"
+				""
+				"{inferno_quests.chapters.spellworking_101.52}"
+			]
+			dependencies: [
+				"14164898F7962235"
+				"505683302888DD1F"
+			]
+			min_width: 275
+			id: "107EB4111DE1555C"
+			tasks: [{
+				id: "67E9C9AE2E13291D"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.53\"}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "inferno:tier_one_glyph"
+					}
+				}
+			}]
+			rewards: [{
+				id: "09E31571ADC3DEF0"
+				type: "item"
+				item: "ars_nouveau:void_jar"
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_accelerate"
+			x: -2.5d
+			y: 0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.54\"}"
+			description: ["{inferno_quests.chapters.spellworking_101.55}"]
+			dependencies: [
+				"107EB4111DE1555C"
+				"0C66312A6733D93E"
+			]
+			id: "666D5BF7A37EE6CA"
+			tasks: [{
+				id: "472D2AE7DEA44040"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.56\"}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "inferno:tier_two_glyph"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0386F76A642E03DC"
+				type: "item"
+				item: "ars_nouveau:glyph_firework"
+			}]
+		}
+		{
+			icon: "ars_nouveau:glyph_summon_undead"
+			x: -2.5d
+			y: -1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.57\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.58}"
+				""
+				"{inferno_quests.chapters.spellworking_101.59}"
+			]
+			dependencies: [
+				"666D5BF7A37EE6CA"
+				"17C5BCEE8A406DD2"
+			]
+			id: "3A21E8B6FF8F6C68"
+			tasks: [{
+				id: "1836B17F6F8A0485"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.60\"}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "inferno:tier_three_glyph"
+					}
+				}
+			}]
+			rewards: [{
+				id: "52C5966F68D542DD"
+				type: "item"
+				item: "ars_nouveau:glyph_intangible"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.61\"}"
+			x: -4.0d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.62\"}"
+			description: ["{inferno_quests.chapters.spellworking_101.63}"]
+			dependencies: ["7985ABCCCC272CE3"]
+			id: "4791DF6BD19CB8F5"
+			tasks: [{
+				id: "6DC90FC098838822"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [
+				{
+					id: "31E1CC0577434E63"
+					type: "item"
+					item: "ars_nouveau:glyph_grow"
+				}
+				{
+					id: "5F3A0673DED1673E"
+					type: "item"
+					item: "ars_nouveau:glyph_harvest"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.64\"}"
+			x: -4.0d
+			y: 5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.65\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.66}"
+				""
+				"{inferno_quests.chapters.spellworking_101.67}"
+			]
+			dependencies: ["4791DF6BD19CB8F5"]
+			id: "2C91A8D6917F4220"
+			tasks: [{
+				id: "718E75868AA8EFD2"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5ED954A99F29CC3A"
+				type: "item"
+				item: {
+					id: "ars_nouveau:spell_parchment"
+					Count: 1b
+					tag: { }
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.68\"}"
+			x: -5.5d
+			y: 6.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.69\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.70}"
+				""
+				"{inferno_quests.chapters.spellworking_101.71}"
+			]
+			dependencies: ["4791DF6BD19CB8F5"]
+			id: "12D2AD9546589490"
+			tasks: [{
+				id: "1BA531CF48F479B3"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "08EF95618639CC41"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_steed"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.72\"}"
+			icon: "ars_nouveau:arcane_bricks"
+			x: -7.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.73\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.74}"
+				" "
+				"{inferno_quests.chapters.spellworking_101.75}"
+				""
+				"{inferno_quests.chapters.spellworking_101.76}"
+			]
+			dependencies: ["12D2AD9546589490"]
+			min_width: 225
+			id: "532C9E50AA176258"
+			tasks: [{
+				id: "39104C99C8670747"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.77\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ars_nouveau:arcane_bricks"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_alternating"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_basket"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_herring"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_mosaic"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_smooth_slab"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_smooth"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:ab_clover"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_clover"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_herring"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_basket"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_mosaic"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_alternating"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sas_ashlar"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3923AADE7BE4A93C"
+				type: "item"
+				item: "ars_nouveau:glyph_slowfall"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.78\"}"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.79\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.80}"
+				" "
+				"{inferno_quests.chapters.spellworking_101.81}"
+			]
+			dependencies: ["14164898F7962235"]
+			min_width: 225
+			id: "0C66312A6733D93E"
+			tasks: [{
+				id: "3390A335E31A0FBE"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [{
+				id: "3A24C84112B2B99D"
+				type: "item"
+				item: "ars_nouveau:glyph_exchange"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.82\"}"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.83\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.84\"}"
+				""
+				"{inferno_quests.chapters.spellworking_101.85}"
+			]
+			dependencies: ["0C66312A6733D93E"]
+			min_width: 225
+			id: "17C5BCEE8A406DD2"
+			tasks: [{
+				id: "7CCB01DCC17E5A96"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+			rewards: [{
+				id: "708B60C6F9818C27"
+				type: "item"
+				item: "ars_nouveau:glyph_lightning"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.86\"}"
+			icon: "ars_nouveau:basic_spell_turret"
+			x: -5.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.87\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.88}"
+				" "
+				"{inferno_quests.chapters.spellworking_101.89}"
+				""
+				"{inferno_quests.chapters.spellworking_101.90}"
+			]
+			dependencies: ["2C91A8D6917F4220"]
+			min_width: 225
+			id: "5F9C5850EC49892F"
+			tasks: [{
+				id: "25B96DA726D036F5"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.91\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ars_nouveau:basic_spell_turret"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:spell_turret"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:timer_spell_turret"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0004FA25E59D0A37"
+				type: "item"
+				item: "ars_nouveau:spell_prism"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.92\"}"
+			icon: {
+				id: "ars_nouveau:novice_robes"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 8.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.93\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.94}"
+				" "
+				"{inferno_quests.chapters.spellworking_101.95}"
+				" "
+				"{inferno_quests.chapters.spellworking_101.96}"
+			]
+			dependencies: ["4791DF6BD19CB8F5"]
+			min_width: 225
+			id: "56A23171B3AFC700"
+			tasks: [
+				{
+					id: "7937A5BA3526A81E"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.97\"}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*boot"
+						}
+					}
+				}
+				{
+					id: "072B57477AF855CA"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.98\"}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*leg"
+						}
+					}
+				}
+				{
+					id: "2E6ED30565289FE1"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.99\"}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*robe"
+						}
+					}
+				}
+				{
+					id: "222A3B0ED824BA83"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.100\"}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "ars.*hood"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6A01E631FA2BE277"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "319581B4C4A11A2D"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_mirror"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.spellworking_101.101\"}"
+			x: 1.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.102\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.103}"
+				""
+				"{inferno_quests.chapters.spellworking_101.104}"
+				""
+				"{inferno_quests.chapters.spellworking_101.105}"
+			]
+			dependencies: [
+				"0CA8F708AD880F5F"
+				"14CBBDEBFB6749EE"
+			]
+			id: "03B037B2A279A055"
+			tasks: [{
+				id: "24F7D342E4DBB70C"
+				type: "item"
+				item: "ars_nouveau:ritual_awakening"
+			}]
+			rewards: [
+				{
+					id: "503C70BEAD4F04D9"
+					type: "item"
+					item: "minecraft:budding_amethyst"
+					count: 4
+				}
+				{
+					id: "02ECB17F4FB3A534"
+					type: "item"
+					item: "ars_nouveau:dominion_wand"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.106\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.107}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.spellworking_101.108\"}"
+			]
+			dependencies: ["14CBBDEBFB6749EE"]
+			id: "2D50A20C9FA4575F"
+			tasks: [{
+				id: "70E2BD596B03933E"
+				type: "item"
+				item: "ars_nouveau:ritual_flight"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.spellworking_101.109\"}"
+			description: [
+				"{inferno_quests.chapters.spellworking_101.110}"
+				""
+				"{inferno_quests.chapters.spellworking_101.111}"
+				""
+				"{inferno_quests.chapters.spellworking_101.112}"
+			]
+			dependencies: ["14CBBDEBFB6749EE"]
+			min_width: 225
+			id: "3D408FF0728E10E6"
+			tasks: [{
+				id: "05DE634CC122E21C"
+				type: "item"
+				item: "ars_nouveau:ritual_wilden_summon"
+			}]
+		}
+	]
+}

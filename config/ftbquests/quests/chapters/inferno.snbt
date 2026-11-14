@@ -1,0 +1,62 @@
+{
+	id: "244B8999B84F8C5D"
+	group: ""
+	order_index: 0
+	filename: "inferno"
+	title: "{\"translate\":\"inferno_quests.chapters.inferno.1\"}"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.5d
+		width: 12.0d
+		height: 6.0d
+		rotation: 0.0d
+		image: "inferno:textures/quest/infernologo.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		title: "{\"translate\":\"inferno_quests.chapters.inferno.2\"}"
+		icon: "reliquary:emperor_chalice"
+		disable_toast: true
+		x: 0.0d
+		y: 0.0d
+		shape: "pentagon"
+		subtitle: "{\"translate\":\"inferno_quests.chapters.inferno.3\"}"
+		description: [
+			"{inferno_quests.chapters.inferno.4}"
+			""
+			"{inferno_quests.chapters.inferno.5}"
+			""
+			"{inferno_quests.chapters.inferno.6}"
+			""
+			"{inferno_quests.chapters.inferno.7}"
+		]
+		size: 3.0d
+		min_width: 400
+		id: "1E603EB3AC423718"
+		tasks: [{
+			id: "5545725EFB787FE2"
+			type: "checkmark"
+			title: "{\"translate\":\"inferno_quests.chapters.inferno.8\"}"
+		}]
+		rewards: [{
+			id: "20F47CA1BDCE22B9"
+			type: "item"
+			item: {
+				id: "minecraft:totem_of_undying"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"A Second Chance\"}"
+					}
+				}
+			}
+		}]
+	}]
+}

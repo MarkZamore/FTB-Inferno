@@ -1,0 +1,1738 @@
+{
+	id: "72464C26AF8BCEB2"
+	group: "7044F2C841148E69"
+	order_index: 3
+	filename: "sanguine_sting"
+	title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.1\"}"
+	icon: "evilcraft:burning_gem_stone"
+	subtitle: ["{inferno_quests.chapters.sanguine_sting.2}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.3\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.4}"]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"0E1B46B766608D33"
+				"644F597940F79FF6"
+			]
+			id: "00E0DB64568AA664"
+			tasks: [{
+				id: "2B1C367BEC2CA218"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.5\"}"
+			x: -2.0d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.6\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.7}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.8\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.9}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.10}"
+			]
+			dependencies: ["34E8389197884E32"]
+			size: 1.25d
+			min_width: 275
+			id: "66240316682D0D18"
+			tasks: [{
+				id: "1DFFB389187EDEFD"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [
+				{
+					id: "2A76D7164440EDB6"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 4
+				}
+				{
+					id: "7E57CF744B45215C"
+					type: "item"
+					item: "bloodmagic:divinationsigil"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.11\"}"
+			x: -4.0d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.12\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.13}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.14}"
+			]
+			dependencies: ["66240316682D0D18"]
+			id: "711049B56861B200"
+			tasks: [{
+				id: "544F15D28845E048"
+				type: "item"
+				item: {
+					id: "bloodmagic:sacrificialdagger"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "496751C6ABC0647E"
+					type: "item"
+					item: "tconstruct:blood_cake"
+				}
+				{
+					id: "3DCE1FE890FEBF08"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.15\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.16}"]
+			dependencies: ["711049B56861B200"]
+			id: "0BEBDF5D45C3425F"
+			tasks: [{
+				id: "6944FBFE13500EF9"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [{
+				id: "6B0361517FF52514"
+				type: "item"
+				item: {
+					id: "bloodmagic:alchemy_flask"
+					Count: 1b
+					tag: {
+						CustomPotionEffects: [{
+							"forge:id": "bloodmagic:flight"
+							Ambient: 0b
+							CurativeItems: [{
+								Count: 1b
+								id: "minecraft:milk_bucket"
+							}]
+							ShowIcon: 1b
+							ShowParticles: 1b
+							Duration: 12000
+							Id: -93
+							Amplifier: 0b
+						}]
+						RepairCost: 0
+						effectholder: [{
+							Duration: 12000
+							Id: -93
+							LengthDurationMod: 1.0d
+							Amplifier: 0b
+							AmpDurationMod: 1.0d
+						}]
+						Damage: 0
+						display: {
+							Lore: [
+								"{\"underlined\":true,\"color\":\"white\",\"text\":\"More of these\"}"
+								"{\"underlined\":true,\"color\":\"white\",\"text\":\"can be crafted!\"}"
+							]
+							Name: "{\"text\":\"Infernal Flight Elixer\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.17\"}"
+			x: -2.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.18\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.19}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.20\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.21}"
+			]
+			dependencies: ["0BEBDF5D45C3425F"]
+			min_width: 250
+			id: "46F71E271A6E156F"
+			tasks: [{
+				id: "5B0FB9D1CA5C3749"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E24501F38D07D48"
+					type: "item"
+					item: "bloodmagic:reagentfastminer"
+				}
+				{
+					id: "5724DE48992250C3"
+					type: "item"
+					item: "bloodmagic:reagentlava"
+				}
+				{
+					id: "462BD5ACFAABEE37"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Sinful Sorcery \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.22\"}"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.23\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.24}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.25}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.26}"
+			]
+			dependencies: [
+				"66240316682D0D18"
+				"46F71E271A6E156F"
+			]
+			id: "0E1B46B766608D33"
+			tasks: [{
+				id: "253C1023220B9457"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "07E1C3E7FCF566B8"
+					type: "item"
+					item: "bloodmagic:speedrune"
+					count: 2
+				}
+				{
+					id: "5C8F9204BD82C508"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune"
+					count: 4
+				}
+				{
+					id: "55DCA86D71C5831C"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.27\"}"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.28\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.29\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.30}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.31}"
+			]
+			hide_dependency_lines: false
+			dependencies: [
+				"4E4DCF7B00B213EC"
+				"66240316682D0D18"
+			]
+			min_width: 225
+			id: "68908252483EADB4"
+			tasks: [{
+				id: "5FE05EE391AB5081"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [
+				{
+					id: "0F5FAF2403B29BA5"
+					type: "item"
+					item: "tconstruct:blood_slime_sapling"
+				}
+				{
+					id: "61503792109647E5"
+					type: "item"
+					item: "tconstruct:blood_ichor_slime_grass"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.32\"}"
+			x: 0.0d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.33\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.34}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.35}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.36}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.37}"
+			]
+			dependencies: ["66240316682D0D18"]
+			min_width: 225
+			id: "4CD6DCE22C556C2B"
+			tasks: [{
+				id: "6C9CDFD408CD77A1"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+			}]
+			rewards: [{
+				id: "0FC64198916D2FAE"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+				count: 8
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.38\"}"
+			x: -4.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.39\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.40}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.41}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.42}"
+			]
+			dependencies: ["711049B56861B200"]
+			size: 0.75d
+			min_width: 225
+			id: "77ED4454B14E656E"
+			tasks: [{
+				id: "4F63893F547F76CA"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "4708CFEE2C061256"
+					type: "item"
+					item: "soulshards:soul_cage"
+				}
+				{
+					id: "2EC608B3521413AD"
+					type: "item"
+					item: "darkutils:vector_plate"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.43\"}"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.44\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.45\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.46}"
+			]
+			dependencies: [
+				"68908252483EADB4"
+				"48FCC30F618EDB2A"
+				"0E1B46B766608D33"
+			]
+			id: "62441F581D09D0D7"
+			tasks: [{
+				id: "108EA225566336AC"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.47\"}"
+			x: 2.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.48\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.49}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.50\"}"
+			]
+			dependencies: ["0E1B46B766608D33"]
+			id: "01684F54D75112D2"
+			tasks: [{
+				id: "1C77067A09C0F291"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [{
+				id: "503637E3A4542F9C"
+				type: "item"
+				item: "bloodmagic:accelerationrune2"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.51\"}"
+			icon: "bloodmagic:largebloodstonebrick"
+			x: 4.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.52\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.53}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.54\"}"
+			]
+			dependencies: [
+				"01684F54D75112D2"
+				"18C31B38BD5CAE38"
+			]
+			id: "05ABC4381E5988E2"
+			tasks: [{
+				id: "7D283A6D2152DF6D"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [{
+				id: "62C4DB1D450784C6"
+				type: "item"
+				item: "bloodmagic:sacrificerune2"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.55\"}"
+			icon: "bloodmagic:dungeon_metal"
+			x: 6.0d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.56\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.57}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.58\"}"
+			]
+			dependencies: [
+				"05ABC4381E5988E2"
+				"59C95564BCD8B73D"
+			]
+			id: "61C97531051E2C83"
+			tasks: [{
+				id: "1A46D3B46ABC14BE"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.59\"}"
+			icon: "bloodmagic:activationcrystalweak"
+			x: 2.0d
+			y: -6.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.60\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.61}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.62}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.63}"
+			]
+			dependencies: ["01684F54D75112D2"]
+			min_width: 275
+			id: "746DD4DDF7E7F94D"
+			tasks: [
+				{
+					id: "524317B82E824051"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+				{
+					id: "33337F91696B5C82"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "12996AE9F0AF025E"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.64\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bloodmagic:airscribetool"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "bloodmagic:firescribetool"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "bloodmagic:waterscribetool"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "bloodmagic:earthscribetool"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "34FB60139787745A"
+				type: "item"
+				item: {
+					id: "bloodmagic:ritualdiviner"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.65\"}"
+			icon: "bloodmagic:inversion_pillar"
+			x: 3.0d
+			y: -6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.66\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.67\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.68}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.69}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.70}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.71}"
+			]
+			dependencies: ["746DD4DDF7E7F94D"]
+			min_width: 275
+			id: "3A795BF773CB8BE9"
+			tasks: [{
+				id: "1F27E19E31E90846"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.72\"}"
+				icon: "bloodmagic:inversion_pillar"
+				timer: 0L
+				observe_type: 0
+				to_observe: "bloodmagic:inversion_pillar"
+			}]
+			rewards: [{
+				id: "23F185BB8F15E2BF"
+				type: "item"
+				item: "bloodmagic:simplekey"
+				count: 3
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.73\"}"
+			x: 4.0d
+			y: 1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.74\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.75}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.76}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.77\"}"
+			]
+			dependencies: ["05ABC4381E5988E2"]
+			min_width: 250
+			id: "3AC787E68BA1CE40"
+			tasks: [{
+				id: "087D960F4AE1FD04"
+				type: "item"
+				item: {
+					id: "bloodmagic:duskscribetool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.78\"}"
+			x: 2.0d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.79\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.80}"]
+			dependencies: [
+				"62441F581D09D0D7"
+				"01684F54D75112D2"
+			]
+			id: "302D7A433CE3A8F0"
+			tasks: [{
+				id: "28D8BEDF2159A503"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.81\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.82}"]
+			dependencies: [
+				"302D7A433CE3A8F0"
+				"05ABC4381E5988E2"
+			]
+			id: "0D5C0C9780D5615A"
+			tasks: [{
+				id: "58429ABA054127A3"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.83\"}"
+			x: 4.0d
+			y: -6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.84\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.85}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.86}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.87}"
+			]
+			dependencies: ["3A795BF773CB8BE9"]
+			min_width: 225
+			id: "23EE65BDEC00414C"
+			tasks: [{
+				id: "5E2722EBFC9E243B"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [{
+				id: "707F5322A743470F"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.88\"}"
+			x: 2.0d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.89\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.90}"]
+			dependencies: ["01684F54D75112D2"]
+			id: "0FC9FCD2E3E59525"
+			tasks: [{
+				id: "5CF3977D7A7C3464"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [{
+				id: "30DFF3E19FBDEA6E"
+				type: "item"
+				item: {
+					id: "bloodmagic:sanguinereverter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.91\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.92}"]
+			dependencies: [
+				"0FC9FCD2E3E59525"
+				"23EE65BDEC00414C"
+			]
+			id: "18C31B38BD5CAE38"
+			tasks: [{
+				id: "5842AFF7B8A506CF"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+			rewards: [{
+				id: "02D437E56DF01CAA"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.93\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.94}"]
+			dependencies: [
+				"61C97531051E2C83"
+				"0D5C0C9780D5615A"
+			]
+			id: "61E1D2D5383EEDE9"
+			tasks: [{
+				id: "20C7F632BABF7DC8"
+				type: "item"
+				item: "bloodmagic:archmagebloodorb"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.95\"}"
+			x: 6.0d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.96\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.97}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.98}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3AC787E68BA1CE40"]
+			min_width: 275
+			id: "59C95564BCD8B73D"
+			tasks: [{
+				id: "7CC45152286EB835"
+				type: "item"
+				item: "bloodmagic:rawdemonite"
+			}]
+			rewards: [{
+				id: "3C06A3905B0BA5A9"
+				type: "item"
+				item: "bloodmagic:minekey"
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				id: "bloodmagic:miningsigil"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.99\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.100}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.101}"
+			]
+			dependencies: ["68908252483EADB4"]
+			id: "1C77C53830EDC138"
+			tasks: [{
+				id: "70EFD82A0734278C"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.102\"}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "bloodmagic:divinationsigil"
+										Count: 1b
+									}]
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "bloodmagic.*sigil"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C72D93C33BDB528"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+				count: 3
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.103\"}"
+			icon: {
+				id: "bloodmagic:livinghelmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 1.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.104\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.105}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.106}"
+			]
+			dependencies: ["302D7A433CE3A8F0"]
+			min_width: 225
+			id: "4FA0EE5959FCFF4C"
+			tasks: [
+				{
+					id: "08238B3A0A03D225"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5B305B398FC79BA2"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "135EAA909F510912"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "422F0C011EFB1A9D"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5700522486084EF4"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulsword"
+						Count: 1b
+						tag: {
+							soulSwordDamage: 6.5d
+							soulSwordDrop: 2.0d
+							soulSwordActiveDrain: 0.05d
+							soulSwordHealth: 0.0d
+							soulSwordAttackSpeed: -2.6d
+							demonWillType: "destructive"
+							Damage: 0
+							soulSwordStaticDrop: 1.0d
+							soulSwordSpeed: 0.0d
+							activated: 1b
+						}
+					}
+				}
+				{
+					id: "6F19DF8630D39FF9"
+					type: "item"
+					item: "bloodmagic:syntheticpoint"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.107\"}"
+			icon: "evilcraft:inverted_potentia_empowered"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.108\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.109}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.110}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.111}"
+			]
+			dependencies: ["3ABC87C8FA5907B7"]
+			min_width: 250
+			id: "48FCC30F618EDB2A"
+			tasks: [
+				{
+					id: "0E1357886CA34577"
+					type: "item"
+					item: "evilcraft:lightning_grenade"
+				}
+				{
+					id: "0871F38ABBA02255"
+					type: "item"
+					item: "evilcraft:inverted_potentia_empowered"
+				}
+			]
+			rewards: [{
+				id: "1AD7FEC5E0B4E1EE"
+				type: "item"
+				item: "thermal:lightning_grenade"
+				count: 8
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.112\"}"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.113\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.114}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.115}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.116}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.117\"}"
+			]
+			dependencies: ["4E07E560443913CB"]
+			min_width: 275
+			id: "3ABC87C8FA5907B7"
+			tasks: [{
+				id: "0FABC59A561943AB"
+				type: "item"
+				item: {
+					id: "evilcraft:weather_container"
+					Count: 1b
+					tag: {
+						weather: "LIGHTNING"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E3D6B69E1A462ED"
+					type: "item"
+					item: {
+						id: "immersiveengineering:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2528132CAC3E8CCF"
+					type: "item"
+					item: "immersiveengineering:toolupgrade_shield_shock"
+				}
+				{
+					id: "3674E03D6F420818"
+					type: "item"
+					item: "immersiveengineering:shader_bag_epic"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.118\"}"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.119\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.120}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.121\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.122}"
+			]
+			dependencies: [
+				"4400854E6FB51089"
+				"415B8E563D2776BA"
+			]
+			min_width: 225
+			id: "6432DBA95A7EEAF5"
+			tasks: [{
+				id: "038CEB8D9E257E4E"
+				type: "item"
+				item: "evilcraft:vengeance_ring"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.123\"}"
+			icon: "meetyourfight:phantoplasm"
+			x: -2.0d
+			y: 2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.124\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.125}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.126\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.127}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.128}"
+			]
+			dependencies: ["02DC6172CAC06ACB"]
+			min_width: 225
+			id: "056EEDF7742269CD"
+			tasks: [{
+				id: "51171AC46282699B"
+				type: "custom"
+				title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.129\"}"
+				icon: "meetyourfight:phantoplasm"
+			}]
+			rewards: [
+				{
+					id: "6ED31376FFB4CAF5"
+					type: "choice"
+					table_id: 3034938566571511788L
+				}
+				{
+					id: "71D5069599F274EF"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"You just got hit by a \",{\"text\":\"Vengeance Spirit\",\"color\":\"red\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "529245264AEA787C"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Check the chapter \",{\"text\":\"Sanguine Sting \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "evilcraft:box_of_eternal_closure"
+			x: 0.0d
+			y: 8.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.130\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.131}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.132}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.133\"}"
+			]
+			dependencies: ["6432DBA95A7EEAF5"]
+			id: "4328DF563A31B8E2"
+			tasks: [
+				{
+					id: "6A397364DFA5333E"
+					type: "item"
+					item: "evilcraft:box_of_eternal_closure"
+				}
+				{
+					id: "5CBD72CAC527C580"
+					type: "item"
+					item: "evilcraft:vengeance_focus"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.134\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.135}"]
+			dependencies: ["782C16B8A56859A2"]
+			id: "10E38F1F0A1C9FF7"
+			tasks: [{
+				id: "3CABCBF784F7EDF0"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.136\"}"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.137\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.138}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.139}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.140\"}"
+			]
+			dependencies: ["10E38F1F0A1C9FF7"]
+			min_width: 225
+			id: "31BC1CFAAFDF0005"
+			tasks: [{
+				id: "2066C9DE477BB6D5"
+				type: "item"
+				item: "evilcraft:condensed_blood"
+			}]
+			rewards: [
+				{
+					id: "49B58A40DB6CE46C"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 8
+				}
+				{
+					id: "4FFDE2A268BAEBFB"
+					type: "item"
+					item: "ppfluids:low_fluid_extraction_module"
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: 6.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.141\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.142}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.143}"
+			]
+			dependencies: ["10E38F1F0A1C9FF7"]
+			id: "415B8E563D2776BA"
+			tasks: [{
+				id: "4DBE655C65D146FB"
+				type: "item"
+				disable_toast: true
+				item: "evilcraft:dark_gem_crushed"
+			}]
+			rewards: [{
+				id: "5E8D5EA3AAFA5CCF"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_0"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "evilcraft:exalted_crafter_wooden"
+			x: -2.0d
+			y: 8.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.144\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.145}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.146\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.147\"}"
+			]
+			dependencies: ["415B8E563D2776BA"]
+			id: "104F25FDDD00F7DC"
+			tasks: [{
+				id: "0F832D553BDDEA03"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.148\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "evilcraft:exalted_crafter_wooden"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:exalted_crafter_wooden_empowered"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:exalted_crafter"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:exalted_crafter_empowered"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.149\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.150}"]
+			dependencies: [
+				"31BC1CFAAFDF0005"
+				"11159BF1C52963EC"
+			]
+			id: "0137EA0E1018FB3E"
+			tasks: [{
+				id: "646E6E2DCAE95C9F"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.151\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.152}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.153}"
+			]
+			dependencies: ["0137EA0E1018FB3E"]
+			id: "644F597940F79FF6"
+			tasks: [{
+				id: "260C71E55D3915F0"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "282749B16ABFED7D"
+				type: "item"
+				item: "evilcraft:blood_waxed_coal"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.154\"}"
+			x: 1.5d
+			y: 6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.155\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.156}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.157}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0137EA0E1018FB3E"]
+			id: "47FF72912A95A0F8"
+			tasks: [{
+				id: "7AD31ACD310D99B4"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_chest"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "288A001D827F1F69"
+					type: "item"
+					item: {
+						id: "evilcraft:colossal_blood_chest"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 10000
+							}
+						}
+					}
+				}
+				{
+					id: "030C049960C45751"
+					type: "item"
+					item: "evilcraft:undead_planks"
+					count: 26
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.158\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.159}"]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"644F597940F79FF6"
+				"0E1B46B766608D33"
+			]
+			id: "7CC309573DDB01B4"
+			tasks: [{
+				id: "0DC5332C3F41E672"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.160\"}"
+			icon: "evilcraft:promise_speed_0"
+			x: 4.0d
+			y: 6.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.161\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.162}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.163\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.164}"
+			]
+			dependencies: ["644F597940F79FF6"]
+			min_width: 225
+			id: "5D210E8AE88C3085"
+			tasks: [{
+				id: "18B1CAA0B9B76486"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.165\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "evilcraft:promise_speed_0"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:promise_efficiency_0"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:promise_tier_1"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:promise_tier_2"
+								Count: 1b
+							}
+							{
+								id: "evilcraft:promise_tier_3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "087A1029F43B98E6"
+				type: "item"
+				item: "evilcraft:promise_speed_0"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.166\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.167}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.168}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0137EA0E1018FB3E"]
+			id: "2CC35F5241CF274D"
+			tasks: [{
+				id: "2A1769FA23F6DD04"
+				type: "item"
+				item: {
+					id: "evilcraft:purifier"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 3000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "613183CE5BA96E86"
+				type: "item"
+				item: "evilcraft:blook"
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "evilcraft:invigorating_pendant"
+				Count: 1b
+				tag: {
+					Fluid: {
+						FluidName: "minecraft:empty"
+						Amount: 0
+					}
+					capacity: 5000
+				}
+				ForgeCaps: {
+					Parent: {
+						FluidName: "minecraft:empty"
+						Amount: 0
+						capacity: 5000
+					}
+				}
+			}
+			x: 1.5d
+			y: 7.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.169\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.170}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.171}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0137EA0E1018FB3E"]
+			id: "290D2B29F45140DF"
+			tasks: [{
+				id: "322AA1E4949D0E64"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.172\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									Parent: {
+										FluidName: "minecraft:empty"
+										Amount: 0
+										capacity: 5000
+									}
+								}
+								id: "evilcraft:invigorating_pendant"
+								Count: 1b
+								tag: {
+									Fluid: {
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									capacity: 5000
+								}
+							}
+							{
+								ForgeCaps: {
+									Parent: {
+										FluidName: "minecraft:empty"
+										Amount: 0
+										capacity: 5000
+									}
+								}
+								id: "evilcraft:primed_pendant"
+								Count: 1b
+								tag: {
+									inventoryItem: [ ]
+									Fluid: {
+										FluidName: "minecraft:empty"
+										Amount: 0
+									}
+									capacity: 5000
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.173\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.174}"]
+			hide_dependency_lines: true
+			dependencies: ["5D210E8AE88C3085"]
+			id: "29F5D8B8FF49650E"
+			tasks: [{
+				id: "0F87A2AAAE914391"
+				type: "item"
+				item: "evilcraft:effortless_ring"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.175\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.176}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.177}"
+			]
+			dependencies: ["7CC309573DDB01B4"]
+			id: "3C3DDA4AACA93877"
+			tasks: [{
+				id: "229817F9E3EE9874"
+				type: "item"
+				item: {
+					id: "evilcraft:vengeance_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 3s
+								id: "evilcraft:vengeance"
+							}
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.178\"}"
+			x: 4.0d
+			y: 2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.179\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.180}"]
+			dependencies: ["00E0DB64568AA664"]
+			id: "41CEDCD59A9441EA"
+			tasks: [{
+				id: "16201578440D1515"
+				type: "item"
+				item: "evilcraft:burning_gem_stone"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.181\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.182\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.183}"
+			]
+			dependencies: ["41CEDCD59A9441EA"]
+			id: "41403E8DA74547EC"
+			tasks: [{
+				id: "3E8F00CCD5440D54"
+				type: "item"
+				item: "evilcraft:gem_stone_torch"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.184\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.185}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.186}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.187}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.188}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.189\"}"
+			]
+			dependencies: ["5D210E8AE88C3085"]
+			size: 1.5d
+			min_width: 225
+			id: "764A921F275D4C81"
+			tasks: [{
+				id: "36FF4CE26AC59D09"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_furnace"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "109B6230CF03927F"
+				type: "item"
+				item: "evilcraft:dark_blood_brick"
+				count: 33
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.190\"}"
+			description: [
+				"{inferno_quests.chapters.sanguine_sting.191}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.192}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.193\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4328DF563A31B8E2"
+				"0137EA0E1018FB3E"
+			]
+			id: "0B7876FE25316AA9"
+			tasks: [{
+				id: "7E58D9D326F682DC"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_reanimator"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							FluidName: "minecraft:empty"
+							Amount: 0
+							capacity: 10000
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.194\"}"
+			x: 6.0d
+			y: 6.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.195\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sanguine_sting.196\"}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.197}"
+				""
+				"{inferno_quests.chapters.sanguine_sting.198}"
+			]
+			dependencies: ["5D210E8AE88C3085"]
+			min_width: 225
+			id: "6FF738D09AB4B63B"
+			tasks: [{
+				id: "5408498BB9557E3E"
+				type: "item"
+				item: "evilcraft:piercing_vengeance_focus"
+			}]
+			rewards: [{
+				id: "0361BBB67FDCF77E"
+				type: "item"
+				item: "evilcraft:garmonbozia"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.199\"}"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 6.0d
+			y: 9.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.200\"}"
+			description: ["{inferno_quests.chapters.sanguine_sting.201}"]
+			dependencies: ["764A921F275D4C81"]
+			size: 0.75d
+			id: "19CA89B3EA96BF99"
+			tasks: [{
+				id: "3D7224ACF619F951"
+				type: "kill"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sanguine_sting.202\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.sanguine_sting.203\"}"]
+			dependencies: ["4CD6DCE22C556C2B"]
+			id: "571BC20E3675397C"
+			tasks: [{
+				id: "729F3BA11BDD364D"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [{
+				id: "3BF5A45819D7E4AA"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+	]
+}

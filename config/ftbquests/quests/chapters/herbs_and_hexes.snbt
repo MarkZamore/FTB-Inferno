@@ -1,0 +1,686 @@
+{
+	id: "725EDA2FFB903A70"
+	group: "7044F2C841148E69"
+	order_index: 0
+	filename: "herbs_and_hexes"
+	title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.1\"}"
+	icon: {
+		id: "hexerei:witch_helmet"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.3\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.4}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.5\"}"
+			]
+			dependencies: ["1E159C4397566D99"]
+			id: "5BEF3806AA751650"
+			tasks: [{
+				id: "12D61693ABFE16E1"
+				type: "item"
+				item: "hexerei:sage_seed"
+			}]
+			rewards: [
+				{
+					id: "1F420908762372FD"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+				{
+					id: "494FFFD3B72A2885"
+					type: "item"
+					item: "hexerei:sage"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.6\"}"
+			x: -1.5d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.7\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.8}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.9}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.10\"}"
+			]
+			dependencies: [
+				"105D0A853D0574B2"
+				"5BEF3806AA751650"
+				"072E5523AD494DA3"
+			]
+			id: "1B6A27ED6C7AFAFA"
+			tasks: [{
+				id: "500E19369C3E1393"
+				type: "item"
+				item: "hexerei:sage_burning_plate"
+			}]
+			rewards: [
+				{
+					id: "736B4BCE1BC5F3AC"
+					type: "item"
+					item: {
+						id: "hexerei:dried_sage_bundle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 16
+				}
+				{
+					id: "23D2F7210C38AFBB"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.11\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.12}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.13}"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "1E159C4397566D99"
+			tasks: [{
+				id: "71EF8C14E27CE91D"
+				type: "item"
+				item: "minecraft:grass_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.14\"}"
+			description: ["{inferno_quests.chapters.herbs_and_hexes.15}"]
+			dependencies: ["55099E0F763B39CA"]
+			id: "072E5523AD494DA3"
+			tasks: [{
+				id: "64601FE3CFCEAC1E"
+				type: "item"
+				item: "hexerei:herb_drying_rack"
+			}]
+			rewards: [{
+				id: "0B50105BD3392BDF"
+				type: "item"
+				item: "hexerei:candelabra"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.16\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.17}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.18\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.19\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.20\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.21\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.22\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.23\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.24\"}"
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.25\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"105D0A853D0574B2"
+				"5BEF3806AA751650"
+			]
+			id: "02032142312EF2C3"
+			tasks: [{
+				id: "306E4023CAAE3BA9"
+				type: "item"
+				item: "inferno:mutandis"
+			}]
+			rewards: [
+				{
+					id: "5F07158A5BC7ABBD"
+					type: "item"
+					item: "hexerei:mahogany_sapling"
+					count: 4
+				}
+				{
+					id: "541AAEEDD0AF398F"
+					type: "item"
+					item: "minecraft:egg"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.26\"}"
+			icon: {
+				id: "hexerei:mahogany_broom"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.27\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.28\"}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.29}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.30}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.31}"
+			]
+			dependencies: [
+				"66240316682D0D18"
+				"733CF6CD13AFD6EF"
+			]
+			min_width: 225
+			id: "7FF716071976EE5F"
+			tasks: [{
+				id: "7C6DDD63ECF1D00A"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.32\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:willow_broom"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "hexerei:mahogany_broom"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1009A43ECCD944A8"
+				type: "item"
+				item: {
+					id: "hexerei:broom_keychain"
+					Count: 1b
+					tag: {
+						Items: [{
+							Slot: 0b
+							id: "hexerei:willow_broom"
+							Count: 1b
+							tag: { }
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.33\"}"
+			icon: {
+				id: "hexerei:witch_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.34\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.35}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.36}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.37\"}"
+			]
+			dependencies: ["278B1A270F796408"]
+			id: "245597079E6BF6C8"
+			tasks: [
+				{
+					id: "77EF8BB46E0E7EFF"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.38\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "hexerei:witch_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "hexerei:mushroom_witch_hat"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6D132B20CF6BDB2A"
+					type: "item"
+					item: {
+						id: "hexerei:witch_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AEC11052479B547"
+					type: "item"
+					item: {
+						id: "hexerei:witch_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6B754CD1736553E0"
+					type: "item"
+					item: "hexerei:large_satchel"
+				}
+				{
+					id: "49B5D34D1F749093"
+					type: "item"
+					item: {
+						id: "hexerei:herb_jar"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "68B90314D623C2AC"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "ars_nouveau:mana_regen"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "hexerei:book_of_shadows"
+				Count: 1b
+				tag: {
+					bookmarks: { }
+					chapter: 0
+					opened: 0b
+					page: 0
+				}
+			}
+			x: -3.0d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.39\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.40}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.41}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.42}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.43}"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "749A942B3D54169A"
+			tasks: [
+				{
+					id: "532D03C9153128EB"
+					type: "item"
+					item: {
+						id: "hexerei:book_of_shadows"
+						Count: 1b
+						tag: {
+							bookmarks: { }
+							chapter: 0
+							opened: 0b
+							page: 0
+						}
+					}
+				}
+				{
+					id: "1AF28BB211E4E817"
+					type: "item"
+					item: "hexerei:book_of_shadows_altar"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.44\"}"
+			icon: "hexerei:mahogany_log"
+			x: 1.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.45\"}"
+			description: ["{inferno_quests.chapters.herbs_and_hexes.46}"]
+			dependencies: ["105D0A853D0574B2"]
+			id: "151CCB8CDE754681"
+			tasks: [
+				{
+					id: "4616D8E9FB6CC5E8"
+					type: "item"
+					item: "hexerei:mahogany_sapling"
+				}
+				{
+					id: "04F717E2A8C6E29A"
+					type: "item"
+					item: "hexerei:mahogany_log"
+				}
+			]
+			rewards: [{
+				id: "17A3AE37ED249000"
+				type: "item"
+				item: "hexerei:mahogany_door"
+				count: 2
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.47\"}"
+			icon: "hexerei:willow_log"
+			x: 1.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.48\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.49}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.50\"}"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "1832646704A3189D"
+			tasks: [
+				{
+					id: "57488E658F4DDD5E"
+					type: "item"
+					item: "hexerei:willow_sapling"
+				}
+				{
+					id: "55B519EF8C38A6AC"
+					type: "item"
+					item: "hexerei:willow_log"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.51\"}"
+			icon: "hexerei:belladonna_flowers"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.52\"}"
+			description: ["{inferno_quests.chapters.herbs_and_hexes.53}"]
+			dependencies: [
+				"02032142312EF2C3"
+				"5BEF3806AA751650"
+			]
+			id: "733CF6CD13AFD6EF"
+			tasks: [
+				{
+					id: "369A8E7C0C1874EB"
+					type: "item"
+					item: "hexerei:belladonna_flowers"
+				}
+				{
+					id: "62E8551A5824CAD6"
+					type: "item"
+					item: "hexerei:mandrake_root"
+				}
+			]
+		}
+		{
+			icon: "hexerei:medium_satchel"
+			x: 0.75d
+			y: 2.75d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.54\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.55}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.56\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7FF716071976EE5F"]
+			size: 0.5d
+			id: "0DD7221C49A6319F"
+			tasks: [{
+				id: "2F5ED579EA5644EB"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.57\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:small_satchel"
+								Count: 1b
+							}
+							{
+								id: "hexerei:medium_satchel"
+								Count: 1b
+							}
+							{
+								id: "hexerei:large_satchel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.58\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.59}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.60}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.61}"
+			]
+			dependencies: ["151CCB8CDE754681"]
+			id: "065D0AE23BF94A08"
+			tasks: [{
+				id: "7526F18221EB636F"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "hexerei:broom_netherite_tip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.75d
+			y: 3.25d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.62\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.63}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.64\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.65\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7FF716071976EE5F"]
+			size: 0.5d
+			id: "732661A0FAABA67D"
+			tasks: [{
+				id: "497A8A10BB847D3C"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.66\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "hexerei:broom_netherite_tip"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "hexerei:broom_waterproof_tip"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 1.375d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.67\"}"
+			description: ["{inferno_quests.chapters.herbs_and_hexes.68}"]
+			hide_dependency_lines: true
+			dependencies: ["7FF716071976EE5F"]
+			size: 0.75d
+			id: "22D53F3C2C431D3B"
+			tasks: [{
+				id: "271B603D71A2AFF8"
+				type: "item"
+				item: {
+					id: "hexerei:herb_enhanced_broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.69\"}"
+			icon: "hexerei:crow_spawn_egg"
+			x: 3.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.70\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.71}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.72}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.73}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.74}"
+				""
+				"{inferno_quests.chapters.herbs_and_hexes.75}"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			optional: true
+			min_width: 275
+			id: "178AA754B36354E6"
+			tasks: [
+				{
+					id: "18555D0AA29A38E4"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.76\"}"
+					icon: "hexerei:crow_spawn_egg"
+					timer: 0L
+					observe_type: 5
+					to_observe: "hexerei:crow"
+				}
+				{
+					id: "22272B6FDD58B8AC"
+					type: "item"
+					item: "hexerei:seed_mixture"
+				}
+				{
+					id: "49374C3A3BC8CFDD"
+					type: "item"
+					item: {
+						id: "hexerei:crow_flute"
+						Count: 1b
+						tag: {
+							crowList: { }
+							helpCommandSelected: 0
+							commandSelected: 0
+							dyeColor1: -1
+							commandMode: 0b
+							dyeColor2: -1
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.77\"}"
+			description: [
+				"{inferno_quests.chapters.herbs_and_hexes.78}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.herbs_and_hexes.79\"}"
+			]
+			dependencies: ["02032142312EF2C3"]
+			id: "51DDAEA8672B9CC0"
+			tasks: [{
+				id: "4C743135EBCE9059"
+				type: "item"
+				item: "myrtrees:rubberwood_sapling"
+			}]
+		}
+	]
+}

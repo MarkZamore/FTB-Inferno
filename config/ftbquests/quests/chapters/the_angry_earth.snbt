@@ -1,0 +1,232 @@
+{
+	id: "6C2B4DABB8F6A232"
+	group: "24F72A50D728E97E"
+	order_index: 0
+	filename: "the_angry_earth"
+	title: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.1\"}"
+	icon: "create:handheld_worldshaper"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.the_angry_earth.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.3\"}"
+			description: ["{inferno_quests.chapters.the_angry_earth.4}"]
+			dependencies: [
+				"7FE9FAFBDB354644"
+				"652CA912545038EA"
+			]
+			id: "5AD7FB5A14AEF209"
+			tasks: [{
+				id: "1A3BE67B55F9D964"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.5\"}"
+			x: -2.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.6\"}"
+			description: ["{inferno_quests.chapters.the_angry_earth.7}"]
+			dependencies: ["652CA912545038EA"]
+			id: "24E59E06D96DB266"
+			tasks: [{
+				id: "3E5B94EA7A578923"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.8\"}"
+			description: ["{inferno_quests.chapters.the_angry_earth.9}"]
+			dependencies: ["652CA912545038EA"]
+			id: "41F0E230BEB57D63"
+			tasks: [{
+				id: "4D948253A3D7A568"
+				type: "item"
+				item: "ars_nouveau:creative_source_jar"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.10\"}"
+			description: [
+				"{inferno_quests.chapters.the_angry_earth.11}"
+				""
+				"{inferno_quests.chapters.the_angry_earth.12}"
+			]
+			dependencies: ["652CA912545038EA"]
+			id: "167E92A9F512EAB0"
+			tasks: [{
+				id: "5B433A099F319727"
+				type: "item"
+				item: {
+					id: "evilcraft:creative_blood_drop"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 500
+						}
+						capacity: 1000
+					}
+					ForgeCaps: {
+						Parent: {
+							FluidName: "evilcraft:blood"
+							Amount: 500
+							capacity: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.13\"}"
+			x: -3.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.14\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.the_angry_earth.15\"}"
+				""
+				"{inferno_quests.chapters.the_angry_earth.16}"
+			]
+			dependencies: ["652CA912545038EA"]
+			id: "3D53054987A2F5F0"
+			tasks: [{
+				id: "354694713521509D"
+				type: "item"
+				item: "ars_nouveau:creative_spell_book"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.17\"}"
+			x: -3.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.18\"}"
+			description: [
+				"{inferno_quests.chapters.the_angry_earth.19}"
+				""
+				"{inferno_quests.chapters.the_angry_earth.20}"
+			]
+			dependencies: ["652CA912545038EA"]
+			id: "2F57328373DF4196"
+			tasks: [{
+				id: "3851D0939FBAA57D"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.21\"}"
+			x: -2.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.22\"}"
+			description: ["{inferno_quests.chapters.the_angry_earth.23}"]
+			dependencies: ["652CA912545038EA"]
+			id: "42F524A88232672C"
+			tasks: [{
+				id: "10F2D6370A7C826B"
+				type: "item"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:creative_slot"
+								Count: 1b
+								tag: {
+									slot: "abilities"
+								}
+							}
+							{
+								id: "itemfilters:strong_nbt"
+								Count: 1b
+								tag: {
+									value: {
+										slot: "abilities"
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.24\"}"
+			description: [
+				"{inferno_quests.chapters.the_angry_earth.25}"
+				""
+				"{inferno_quests.chapters.the_angry_earth.26}"
+				""
+				"{inferno_quests.chapters.the_angry_earth.27}"
+			]
+			dependencies: ["652CA912545038EA"]
+			id: "0966630DAB07735A"
+			tasks: [{
+				id: "49B94E289B55A585"
+				type: "item"
+				item: {
+					id: "create:handheld_worldshaper"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{inferno_quests.chapters.the_angry_earth.28}"
+			description: ["{inferno_quests.chapters.the_angry_earth.29}"]
+			dependencies: [
+				"7FE9FAFBDB354644"
+				"652CA912545038EA"
+			]
+			id: "5F18C93E2907CFF5"
+			tasks: [{
+				id: "682529637989FFFD"
+				type: "item"
+				item: "apotheosis:boss_summoner"
+			}]
+			rewards: [{
+				id: "2298CD957EF998D2"
+				type: "item"
+				item: "apotheosis:boss_summoner"
+				count: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.the_angry_earth.30\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.the_angry_earth.31\"}"]
+			dependencies: ["652CA912545038EA"]
+			optional: true
+			id: "6200E4452551CC6C"
+			tasks: [{
+				id: "17E67E03282AA47D"
+				type: "item"
+				item: "ftbic:creative_battery"
+			}]
+		}
+	]
+}

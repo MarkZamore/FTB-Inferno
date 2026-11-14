@@ -6,3 +6,5 @@
 /tools/network-logging-policy.json text eol=lf
 /tools/network_logging_policy.py text eol=lf
 *.json text eol=lf
+/config/ftbquests/quests/**/*.snbt -text
+/config/ftbquests/quests/*.snbt -text

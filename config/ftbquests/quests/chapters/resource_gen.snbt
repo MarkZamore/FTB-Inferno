@@ -1,0 +1,1411 @@
+{
+	id: "3FEEBB1A6C49A700"
+	group: "3165B92DB1BC8401"
+	order_index: 1
+	filename: "resource_gen"
+	title: "{\"translate\":\"inferno_quests.chapters.resource_gen.1\"}"
+	icon: "minecraft:lava_bucket"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.resource_gen.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.3\"}"
+			icon: "minecraft:cobblestone"
+			x: -5.0d
+			y: -5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.4\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.5}"
+				""
+				"{inferno_quests.chapters.resource_gen.6}"
+				""
+				"{inferno_quests.chapters.resource_gen.7}"
+				""
+				"{inferno_quests.chapters.resource_gen.8}"
+				"{image:inferno:textures/quest/cobble.png width:1000 height:674 align:1 fit:true}"
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"00E0DB64568AA664"
+				"4E07E560443913CB"
+			]
+			min_width: 300
+			id: "136605F4DEC7544A"
+			tasks: [{
+				id: "19926F4E0DB3723B"
+				type: "item"
+				item: "simplecobblegen:cobble_generator"
+			}]
+			rewards: [
+				{
+					id: "50F6DE983D0BB579"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "2688FACA6304C301"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.9\"}"
+			icon: "minecraft:basalt"
+			x: -6.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.10\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.11}"
+				""
+				"{inferno_quests.chapters.resource_gen.12}"
+				""
+				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			dependency_requirement: "one_started"
+			min_width: 225
+			id: "4E2F724CF086FE0E"
+			tasks: [
+				{
+					id: "45D7779BB02AF267"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "2904509C6862C9E1"
+					type: "item"
+					item: "minecraft:blue_ice"
+				}
+				{
+					id: "7A6BA359D90D9852"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+			]
+			rewards: [
+				{
+					id: "767DE8DA3D116738"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64
+				}
+				{
+					id: "6BD03E248E94821E"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "biomesoplenty:blood"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.13\"}"
+			x: -5.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.14\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.15}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.16\"}"
+			]
+			dependencies: ["34E8389197884E32"]
+			id: "118612040F3AE9F7"
+			tasks: [{
+				id: "3CBE265D7B6C72F5"
+				type: "item"
+				item: "bonsaitrees3:bonsaipot"
+			}]
+			rewards: [{
+				id: "0B168D214F07CBD2"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.17\"}"
+			x: -6.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.18\"}"
+			description: ["{inferno_quests.chapters.resource_gen.19}"]
+			dependencies: ["118612040F3AE9F7"]
+			id: "76D68C3A83E6317F"
+			tasks: [{
+				id: "3AC5A920BE7BD2EC"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+			rewards: [{
+				id: "4FD3625892EB3EC6"
+				type: "item"
+				item: "minecraft:hopper"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.20\"}"
+			icon: {
+				id: "minecraft:netherite_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.21\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.22}"
+				""
+				"{inferno_quests.chapters.resource_gen.23}"
+				"{inferno_quests.chapters.resource_gen.24}"
+				"{inferno_quests.chapters.resource_gen.25}"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "25CBB0FF1661D5B8"
+			tasks: [{
+				id: "064C26B5129011B1"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.resource_gen.26\"}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:tools/axe"
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E93A08F24537856"
+				type: "item"
+				item: {
+					id: "kubejs:foresters_delight"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 1s
+								id: "minecraft:silk_touch"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Bonsai Buddy\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.27\"}"
+			icon: "biomesoplenty:flesh"
+			x: -4.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.28\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.29}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.30\"}"
+				""
+				"{image:inferno:textures/quest/resourcegen.png width:1000 height:739 align:1 fit:true}"
+			]
+			dependencies: ["40D4850B34EC5677"]
+			min_width: 225
+			id: "1D619B0E7776C8EB"
+			tasks: [
+				{
+					id: "4F17C47D492139AD"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "41B0C4C875674C8B"
+					type: "item"
+					item: "biomesoplenty:blood_bucket"
+				}
+			]
+			rewards: [{
+				id: "65BE5E32EE31F67E"
+				type: "item"
+				item: "biomesoplenty:flesh"
+				count: 64
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.31\"}"
+			icon: "tconstruct:blood_slime_sapling"
+			x: -6.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.32\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.33}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.34\"}"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "7ECA8AA3D7EF3D40"
+			tasks: [
+				{
+					id: "7A03ABF9F3E1B35E"
+					type: "item"
+					item: "tconstruct:blood_slime_sapling"
+				}
+				{
+					id: "1E60609026FB56F9"
+					type: "item"
+					item: "tconstruct:blood_ichor_slime_grass"
+				}
+			]
+			rewards: [{
+				id: "759795C5691F7707"
+				type: "item"
+				item: "tconstruct:ichor_slime_ball"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.35\"}"
+			x: -11.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.36\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.37}"
+				""
+				"{inferno_quests.chapters.resource_gen.38}"
+			]
+			dependencies: ["5C0BF701B0990D7C"]
+			min_width: 325
+			id: "535BC7512F991B24"
+			tasks: [{
+				id: "166F4D9CB4C9271D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0197645283BA6024"
+					type: "item"
+					item: "farmersdelight:fish_stew"
+				}
+				{
+					id: "07D7B145843E0723"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2239AB70832E3AB4"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.39\"}"
+			icon: "minecraft:warped_nylium"
+			disable_toast: true
+			x: -14.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "44FACD28DDA3C9B5"
+			tasks: [
+				{
+					id: "1BF803B16DA00C10"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.40\"}"
+					disable_toast: true
+					item: "minecraft:warped_fungus"
+				}
+				{
+					id: "4B0497B6BB5DEB2E"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.41\"}"
+					disable_toast: true
+					item: "minecraft:string"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.42\"}"
+			icon: "minecraft:warped_nylium"
+			disable_toast: true
+			x: -9.0d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "3BB51DB85CE59DAF"
+			tasks: [
+				{
+					id: "45508907CD9E9FAA"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.43\"}"
+					disable_toast: true
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "3D1D485264107C44"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.44\"}"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "1365B8529FE0F5CB"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.45\"}"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "5111EDCC7EE3CB12"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.46\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "14843DD874C94E52"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.47\"}"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.48\"}"
+			icon: "minecraft:crimson_nylium"
+			disable_toast: true
+			x: -14.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "3D0B70F8B9F97370"
+			tasks: [
+				{
+					id: "42E80B65AF8B9954"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.49\"}"
+					disable_toast: true
+					item: "minecraft:leather"
+				}
+				{
+					id: "4FE8F3C3B62D6E4C"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.50\"}"
+					disable_toast: true
+					item: "minecraft:crimson_fungus"
+				}
+				{
+					id: "5981BCC34A163445"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.51\"}"
+					disable_toast: true
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "200AE0083611DE05"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.52\"}"
+					disable_toast: true
+					item: "minecraft:string"
+				}
+				{
+					id: "6ADD1E7949B3279F"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.53\"}"
+					disable_toast: true
+					item: "minecraft:cooked_porkchop"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.54\"}"
+			icon: "minecraft:crimson_nylium"
+			disable_toast: true
+			x: -9.0d
+			y: -4.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "2CE7A2050E4D7C43"
+			tasks: [
+				{
+					id: "08487988ADDC5CF9"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.55\"}"
+					disable_toast: true
+					item: "minecraft:gold_ingot"
+				}
+				{
+					id: "4BC8DACF9A57BDBF"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.56\"}"
+					item: "minecraft:gold_nugget"
+				}
+				{
+					id: "7C1BB31FC6829BBE"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.57\"}"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "147E06231A9BB185"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.58\"}"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "4FC9FA41C4E58E7A"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.59\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "7D81C4A25DA4E8D6"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.60\"}"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.61\"}"
+			icon: "minecraft:soul_sand"
+			disable_toast: true
+			x: -14.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "13093E6CE55D2203"
+			tasks: [
+				{
+					id: "34F67CC620D4600B"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.62\"}"
+					disable_toast: true
+					item: "minecraft:soul_sand"
+				}
+				{
+					id: "6099999D1891A592"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.63\"}"
+					disable_toast: true
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "325E18FB065EC396"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.64\"}"
+					disable_toast: true
+					item: "minecraft:basalt"
+				}
+				{
+					id: "6F36501561DC284B"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.65\"}"
+					disable_toast: true
+					item: "minecraft:flint"
+				}
+				{
+					id: "4FC1AB762FE2AC55"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.66\"}"
+					disable_toast: true
+					item: "minecraft:bone_meal"
+				}
+				{
+					id: "387AEE319C79377B"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.67\"}"
+					disable_toast: true
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "44E37CF4CCCEE46F"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.68\"}"
+					disable_toast: true
+					item: "minecraft:bone"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.69\"}"
+			icon: "minecraft:soul_sand"
+			disable_toast: true
+			x: -9.0d
+			y: -5.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "678B4D4254032C22"
+			tasks: [
+				{
+					id: "1C4526D6315A52C8"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.70\"}"
+					disable_toast: true
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "0592B973738F9C6B"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.71\"}"
+					disable_toast: true
+					item: "minecraft:bone_block"
+				}
+				{
+					id: "155EEE88138434C6"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.72\"}"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "1C51B7063AD2543A"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.73\"}"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "764EF550C822BAC7"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.74\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "641A40358E6C5D2B"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.75\"}"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.76\"}"
+			icon: "minecraft:basalt"
+			disable_toast: true
+			x: -9.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "6A78E4135B32A9F8"
+			tasks: [
+				{
+					id: "0968E0C6C3E62488"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.77\"}"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "4052DD5C9F074BDD"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.78\"}"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "0E3155909F0BA97B"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.79\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "0EEF686AAF723E99"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.80\"}"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.81\"}"
+			icon: "minecraft:basalt"
+			disable_toast: true
+			x: -14.0d
+			y: -6.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "02F5DBF6255B2B5D"
+			tasks: [
+				{
+					id: "3E6F0B655CF8D939"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.82\"}"
+					disable_toast: true
+					item: "minecraft:blackstone"
+				}
+				{
+					id: "61D50CE343FC66C9"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.83\"}"
+					disable_toast: true
+					item: "minecraft:magma_cream"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.84\"}"
+			icon: "minecraft:netherrack"
+			disable_toast: true
+			x: -14.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "6C5363531654239A"
+			tasks: [
+				{
+					id: "0A20FD36BCF7A7F6"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.85\"}"
+					disable_toast: true
+					item: "minecraft:glowstone_dust"
+				}
+				{
+					id: "5FBA462AF7CD8432"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.86\"}"
+					disable_toast: true
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "5A12D34A8908612E"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.87\"}"
+					disable_toast: true
+					item: "minecraft:red_mushroom"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.88\"}"
+			icon: "minecraft:netherrack"
+			disable_toast: true
+			x: -9.0d
+			y: -7.5d
+			shape: "square"
+			dependencies: ["03A93EA45228E9C0"]
+			id: "5DDF2910BC611BA5"
+			tasks: [
+				{
+					id: "3F2501A850EF3BE4"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.89\"}"
+					disable_toast: true
+					item: "minecraft:quartz"
+				}
+				{
+					id: "73D09000311FB1A9"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.90\"}"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "3EACFF92BAC3CFAD"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.91\"}"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "65DC21D6809816C9"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.92\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "3A74B54F3C120D99"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.93\"}"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.94\"}"
+			icon: "ftbic:empty_can"
+			disable_toast: true
+			x: -13.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.95\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.resource_gen.96\"}"]
+			hide_dependency_lines: false
+			dependencies: ["03A93EA45228E9C0"]
+			id: "37183175A8DE74D3"
+			tasks: [
+				{
+					id: "1AA9242C4553BB20"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.97\"}"
+					disable_toast: true
+					item: "minecraft:coal"
+				}
+				{
+					id: "0FAF7C255802B0A7"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.98\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "12296A320840F8AB"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.99\"}"
+					disable_toast: true
+					item: "reliquary:molten_core"
+				}
+				{
+					id: "57A300E33DF1DFD4"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.100\"}"
+					disable_toast: true
+					item: "minecraft:fire_coral_fan"
+				}
+				{
+					id: "710DFA65C77FCB9E"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.101\"}"
+					disable_toast: true
+					item: "nethersdelight:propelpearl"
+				}
+				{
+					id: "03C1C261FC574A89"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.102\"}"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "5BD3DAAEE4A3B9CC"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.103\"}"
+					disable_toast: true
+					item: "minecraft:blaze_powder"
+				}
+			]
+			rewards: [{
+				id: "4D116085D977DB31"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						RepairCost: 7
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 1s
+								id: "minecraft:mending"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:luck_of_the_sea"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Rod of the Infero\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.104\"}"
+			icon: "reliquary:fortune_coin"
+			disable_toast: true
+			x: -10.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.105\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.resource_gen.106\"}"]
+			dependencies: ["03A93EA45228E9C0"]
+			id: "37B6F7FF6F4E1498"
+			tasks: [
+				{
+					id: "0B98FD587604BFE7"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.107\"}"
+					disable_toast: true
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "0E37C7622EB31B33"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.108\"}"
+					disable_toast: true
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "50EA5B9379802528"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.109\"}"
+					icon: "ftbic:copper_nugget"
+					disable_toast: true
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:nuggets/copper"
+						}
+					}
+				}
+				{
+					id: "4BE17BCD18514B96"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.110\"}"
+					disable_toast: true
+					item: "minecraft:redstone"
+				}
+				{
+					id: "06197B139F5DE64E"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.resource_gen.111\"}"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+			rewards: [{
+				id: "7985B19EE553C29F"
+				type: "item"
+				item: {
+					id: "apotheosis:potion_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Potion: "alexsmobs:soulsteal"
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.112\"}"
+			x: -5.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.113\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.114}"
+				""
+				"{inferno_quests.chapters.resource_gen.115}"
+				""
+				"{inferno_quests.chapters.resource_gen.116}"
+			]
+			dependencies: ["118612040F3AE9F7"]
+			id: "1850C606348A5494"
+			tasks: [{
+				id: "1A0483E1E94AE740"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [
+				{
+					id: "46E67C0E2234E645"
+					type: "item"
+					item: "tconstruct:earth_slime_sapling"
+				}
+				{
+					id: "6BC7BF12B849C81B"
+					type: "item"
+					item: "tconstruct:earth_slime_dirt"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.117\"}"
+			x: -11.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.118\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.119\"}"
+				""
+				"{inferno_quests.chapters.resource_gen.120}"
+				""
+				"{inferno_quests.chapters.resource_gen.121}"
+			]
+			dependencies: ["535BC7512F991B24"]
+			min_width: 275
+			id: "03A93EA45228E9C0"
+			tasks: [{
+				id: "28BB8F3D174C32DF"
+				type: "checkmark"
+				icon: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "1617DDD95B219FA8"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:luck"
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.122\"}"
+			x: -11.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.123\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.124\"}"
+				""
+				"{inferno_quests.chapters.resource_gen.125}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.126\"}"
+				""
+				"{inferno_quests.chapters.resource_gen.127}"
+			]
+			dependencies: ["535BC7512F991B24"]
+			min_width: 275
+			id: "3D9659853F508B0C"
+			tasks: [{
+				id: "6A47F2C1BDB07B50"
+				type: "checkmark"
+				icon: "minecraft:water_bucket"
+			}]
+			rewards: [
+				{
+					id: "5D98A07BA1FBE07F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "32905BBBBA15E777"
+					type: "item"
+					item: "farmersdelight:kelp_roll"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.128\"}"
+			icon: "reliquary:fortune_coin"
+			disable_toast: true
+			x: -9.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "7157213FA2345405"
+			tasks: [
+				{
+					id: "732DDCAFAAF22AC0"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:nautilus_shell"
+				}
+				{
+					id: "7A545936B6CEA53F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:kelp"
+				}
+				{
+					id: "0F257A8F154815EF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+				{
+					id: "16D23212D8F4D691"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "reliquary:guardian_spike"
+									Count: 1b
+								}
+								{
+									id: "minecraft:prismarine_crystals"
+									Count: 1b
+								}
+								{
+									id: "minecraft:prismarine_shard"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "79ECCE55FCA5144B"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecolonies:ancienttome"
+						Count: 1b
+						tag: {
+							raidWillHappen: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0F23C406A4F73BBE"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 9s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "6E5D06BC1929C121"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:looting"
+							}]
+						}
+					}
+				}
+				{
+					id: "1E8C80FA4ACD2B74"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.129\"}"
+			icon: "ftbic:empty_can"
+			disable_toast: true
+			x: -13.5d
+			y: 2.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "4A647E320FF1B849"
+			tasks: [
+				{
+					id: "5F614F32AD3A9DB4"
+					type: "item"
+					disable_toast: true
+					item: "ftbic:copper_nugget"
+				}
+				{
+					id: "3B87675271850292"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:ink_sac"
+				}
+				{
+					id: "4EDC546ABB098FBC"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lily_pad"
+				}
+				{
+					id: "1CF577EF27EB4727"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:kelp"
+				}
+				{
+					id: "5522E71B3CA6C7DB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sea_pickle"
+				}
+				{
+					id: "4F907B6AFD616DC0"
+					type: "item"
+					disable_toast: true
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "105B03FC4033D9EC"
+				type: "item"
+				item: {
+					id: "alexsmobs:flying_fish_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.130\"}"
+			icon: "alexsmobs:fish_bones"
+			disable_toast: true
+			x: -11.5d
+			y: 4.0d
+			shape: "square"
+			dependencies: ["3D9659853F508B0C"]
+			id: "55500EFD87E2FD59"
+			tasks: [
+				{
+					id: "269C362C97BCD0EB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:salmon"
+				}
+				{
+					id: "438653134BA98041"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cod"
+				}
+				{
+					id: "656B1055A81FD11A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:tropical_fish"
+				}
+				{
+					id: "3353905B663808D7"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:pufferfish"
+				}
+				{
+					id: "1DE90BA585993177"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lapis_lazuli"
+				}
+			]
+			rewards: [
+				{
+					id: "5BDC3F4937A583F1"
+					type: "item"
+					item: "minecraft:sea_pickle"
+					count: 4
+				}
+				{
+					id: "27F1491752DD5621"
+					type: "item"
+					item: "alexsdelight:lobster_pasta"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.131\"}"
+			x: -6.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.132\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.133}"
+				""
+				"{inferno_quests.chapters.resource_gen.134}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.135\"}"
+			]
+			dependencies: ["25E90C8154CF725D"]
+			min_width: 325
+			id: "1904BBF6EC27CD1A"
+			tasks: [{
+				id: "633EC2F92860AB39"
+				type: "item"
+				item: "farmersdelight:tree_bark"
+			}]
+			rewards: [{
+				id: "637C2633D626D8AE"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						color: 0
+						size: 5
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/woodstripper.nbt"
+						author: "IRSMoh_"
+						display: {
+							color: 8388608
+							Name: "{\"text\":\"Automated Woodstripper\"}"
+						}
+						state: 5
+						label: "Woodstripper.nbt"
+						canRotate: 0b
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.136\"}"
+			x: -4.0d
+			y: -4.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.137\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.138}"
+				""
+				"{inferno_quests.chapters.resource_gen.139}"
+			]
+			dependencies: [
+				"4E07E560443913CB"
+				"5D04E725BEF2F98C"
+			]
+			id: "2F1E6BFBCD59CF57"
+			tasks: [{
+				id: "192F1D75DDDFD3ED"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [
+				{
+					id: "01E72C3EDF327842"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 8
+				}
+				{
+					id: "6A65027692237B23"
+					type: "item"
+					item: "apotheosis:obsidian_arrow"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.140\"}"
+			x: -11.5d
+			y: -7.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.141\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.142\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.143\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.resource_gen.144\"}"
+			]
+			dependencies: ["03A93EA45228E9C0"]
+			min_width: 300
+			id: "199213E533655B1C"
+			tasks: [{
+				id: "00580C867C6370B7"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5199A98CF47A83D9"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.resource_gen.145\"}"
+			x: -5.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.resource_gen.146\"}"
+			description: [
+				"{inferno_quests.chapters.resource_gen.147}"
+				""
+				"{inferno_quests.chapters.resource_gen.148}"
+				""
+				"{inferno_quests.chapters.resource_gen.149}"
+				""
+			]
+			dependencies: ["4E07E560443913CB"]
+			min_width: 225
+			id: "5D04E725BEF2F98C"
+			tasks: [{
+				id: "1E460348EB31D99D"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			rewards: [{
+				id: "016611F860357F34"
+				type: "item"
+				item: "engineersdecor:fluid_barrel"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1080 @@
+{
+	id: "0BF7EAB7F1138FA8"
+	group: "7044F2C841148E69"
+	order_index: 4
+	filename: "sinful_sorcery"
+	title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.1\"}"
+	icon: "occultism:ritual_dummy/craft_miner_djinni_ores"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.sinful_sorcery.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.3\"}"
+			x: 1.0d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.4\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.5}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.6}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.7}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.8}"
+			]
+			dependencies: [
+				"52ABB5B5C3E6A479"
+				"1FEE91D7E37C510C"
+			]
+			min_width: 225
+			id: "1F67AF8D23A3EA97"
+			tasks: [{
+				id: "315D717EED819578"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "67C6433917C7EFC6"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			icon: "occultism:golden_sacrificial_bowl"
+			x: 3.0d
+			y: -2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.9\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.10\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.11}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.12}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0BEBDF5D45C3425F"
+				"6AC1108487763770"
+			]
+			id: "08593BDC72E44835"
+			tasks: [
+				{
+					id: "3A90D4F8EE6152C0"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+				{
+					id: "7C13EEFFAFDE6004"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.13\"}"
+			description: ["{inferno_quests.chapters.sinful_sorcery.14}"]
+			dependencies: ["1F67AF8D23A3EA97"]
+			size: 0.75d
+			id: "245267AF9219137B"
+			tasks: [{
+				id: "7F7523E33E8DBE8C"
+				type: "item"
+				item: "occultism:brush"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.15\"}"
+			x: 7.0d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.16\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.17}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.18}"
+			]
+			dependencies: ["47603D4BADD2EE6B"]
+			id: "354EF66D7CCD8F89"
+			tasks: [{
+				id: "20C8BB40500405E3"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.19\"}"
+			x: 11.0d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.20\"}"
+			description: ["{inferno_quests.chapters.sinful_sorcery.21}"]
+			dependencies: ["1B9A5F52D2890637"]
+			id: "62DDFF4096E14DE7"
+			tasks: [{
+				id: "2B6CCAE0E526EC9A"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{inferno_quests.chapters.sinful_sorcery.22}"
+			x: -1.5d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.23\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.24}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.25}"
+			]
+			dependencies: ["4CD6DCE22C556C2B"]
+			id: "6AC1108487763770"
+			tasks: [{
+				id: "7E29DE6C45662FEF"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+			rewards: [{
+				id: "5603B48AC0732FFF"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.26\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.27}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.28}"
+			]
+			dependencies: [
+				"6AC1108487763770"
+				"0BEBDF5D45C3425F"
+			]
+			id: "52ABB5B5C3E6A479"
+			tasks: [{
+				id: "2EE84F6455EC1615"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+			}]
+			rewards: [{
+				id: "2931E961D9F52326"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+				count: 3
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.29\"}"
+			x: -1.5d
+			y: -2.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.30\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.31}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.32}"
+			]
+			dependencies: ["6AC1108487763770"]
+			id: "1FEE91D7E37C510C"
+			tasks: [{
+				id: "031A7D2621F6E7BF"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+			rewards: [{
+				id: "63ABCD11BCF73A41"
+				type: "item"
+				item: "occultism:otherstone"
+				count: 32
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.33\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.34}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.35}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6BBA6FE9EE790FAA"
+				"6AC1108487763770"
+			]
+			id: "09F2A988AD828E50"
+			tasks: [{
+				id: "110756D9B9FFBDDC"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [{
+				id: "58720013FF1BBB34"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+				count: 3
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.36\"}"
+			description: ["{inferno_quests.chapters.sinful_sorcery.37}"]
+			dependencies: [
+				"09F2A988AD828E50"
+				"46F71E271A6E156F"
+			]
+			id: "6C1E0C9412C3D215"
+			tasks: [{
+				id: "17FC663D9570E141"
+				type: "item"
+				item: "occultism:spirit_attuned_crystal"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.38\"}"
+			icon: "occultism:candle_white"
+			x: 3.0d
+			y: -5.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.39\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.40}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.41}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6AC1108487763770"]
+			min_width: 250
+			id: "284F976179926988"
+			tasks: [
+				{
+					id: "5A752B0F69D9CC78"
+					type: "item"
+					item: {
+						id: "occultism:butcher_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E8FF7ACC998A927"
+					type: "item"
+					item: "occultism:tallow"
+				}
+				{
+					id: "01D726568B2941A3"
+					type: "item"
+					item: "occultism:candle_white"
+				}
+			]
+			rewards: [{
+				id: "3FA5CFCC6E5A81F5"
+				type: "item"
+				item: "occultism:candle_white"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.42\"}"
+			icon: "occultism:book_of_binding_foliot"
+			x: 3.0d
+			y: -4.0d
+			shape: "circle"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.43\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.44}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.45\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.46}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.47}"
+			]
+			dependencies: [
+				"284F976179926988"
+				"1F67AF8D23A3EA97"
+				"08593BDC72E44835"
+			]
+			min_width: 275
+			id: "0ADAF2499B309F49"
+			tasks: [{
+				id: "7F8FF53929FF5C86"
+				type: "item"
+				item: "occultism:book_of_binding_foliot"
+			}]
+			rewards: [{
+				id: "15D27ECA3EFAF9E0"
+				type: "item"
+				item: "ftbic:gold_dust"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.48\"}"
+			icon: "minecraft:end_stone"
+			x: 9.0d
+			y: -4.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.49\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.50\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.51}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.52}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.53}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.54}"
+			]
+			dependencies: ["354EF66D7CCD8F89"]
+			min_width: 275
+			id: "1B9A5F52D2890637"
+			tasks: [
+				{
+					id: "7E8C02DD79A0BA0F"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+				{
+					id: "638DAE974C4B47B8"
+					type: "kill"
+					icon: "occultism:ritual_dummy/possess_endermite"
+					entity: "occultism:possessed_endermite"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "321FCCFBD4EF88C6"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 8
+				}
+				{
+					id: "569D93527F092AD5"
+					type: "item"
+					item: {
+						id: "tconstruct:cleaver"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.25f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.125f
+								"tconstruct:mining_speed": 1.478125f
+								"tconstruct:attack_damage": 9.609375f
+								"tconstruct:harvest_tier": "minecraft:netherite"
+								"tconstruct:durability": 2376.5f
+							}
+							RepairCost: 0
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:creative_slot"
+									level: 1s
+								}
+								{
+									name: "tconstruct:severing"
+									level: 2s
+								}
+								{
+									name: "tconstruct:insatiable"
+									level: 1s
+								}
+								{
+									name: "tconstruct:raging"
+									level: 1s
+								}
+								{
+									name: "tconstruct:experienced"
+									level: 1s
+								}
+								{
+									name: "tconstruct:lacerating"
+									level: 1s
+								}
+								{
+									name: "tconstruct:silky_aoe_shears"
+									level: 1s
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Possessed Blade of the End\"}"
+							}
+							tic_upgrades: [{
+								name: "tconstruct:creative_slot"
+								level: 1s
+							}]
+							tic_materials: [
+								"tconstruct:manyullyn"
+								"tconstruct:bloodbone"
+								"tconstruct:electrum"
+								"tconstruct:nahuatl"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								abilities: 4
+								upgrades: 7
+							}
+							tic_persistent_data: {
+								abilities: 1
+								"tconstruct:creative": {
+									abilities: 4
+									upgrades: 7
+								}
+								upgrades: 2
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.55\"}"
+			icon: {
+				id: "occultism:book_of_binding_bound_djinni"
+				Count: 1b
+				tag: {
+					spiritName: "Marclomed"
+				}
+			}
+			x: 13.0d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.56\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.57\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.58}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.59}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["62DDFF4096E14DE7"]
+			min_width: 275
+			id: "489A1C27B45E66F6"
+			tasks: [{
+				id: "17029EB5FCA796B8"
+				type: "item"
+				item: {
+					id: "occultism:book_of_binding_bound_djinni"
+					Count: 1b
+					tag: {
+						spiritName: "Marclomed"
+					}
+				}
+			}]
+			rewards: [{
+				id: "55E480880713ABC3"
+				type: "item"
+				item: {
+					id: "occultism:iesnium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "occultism:book_of_binding_bound_foliot"
+				Count: 1b
+				tag: {
+					spiritName: "Barzoiraeus"
+				}
+			}
+			x: 5.0d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.60\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.61}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.62}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.63}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.64}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.65}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.66}"
+			]
+			dependencies: ["0ADAF2499B309F49"]
+			min_width: 375
+			id: "47603D4BADD2EE6B"
+			tasks: [
+				{
+					id: "6B70D3FC43112609"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.67\"}"
+					icon: {
+						id: "occultism:book_of_binding_bound_foliot"
+						Count: 1b
+						tag: {
+							spiritName: "Barzoiraeus"
+						}
+					}
+					timer: 0L
+					observe_type: 5
+					to_observe: "occultism:foliot"
+				}
+				{
+					id: "46B8D460892553D4"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.68\"}"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "occultism:ritual_dummy/craft_miner_foliot_unspecialized"
+									Count: 1b
+								}
+								{
+									id: "occultism:ritual_dummy/summon_foliot_lumberjack"
+									Count: 1b
+								}
+								{
+									id: "occultism:ritual_dummy/summon_foliot_transport_items"
+									Count: 1b
+								}
+								{
+									id: "occultism:ritual_dummy/summon_foliot_cleaner"
+									Count: 1b
+								}
+								{
+									id: "occultism:ritual_dummy/summon_foliot_crusher"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "occultism:book_of_calling_foliot_lumberjack"
+				Count: 1b
+				tag: {
+					spiritName: "Jagmider"
+				}
+			}
+			x: 5.0d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.69\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.70}"
+				"{inferno_quests.chapters.sinful_sorcery.71}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.72}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.73\"}"
+				""
+				"{image:inferno:textures/quest/bookofcalling1.png width:183 height:100 align:1}"
+				"{inferno_quests.chapters.sinful_sorcery.74}"
+				""
+				"{image:inferno:textures/quest/bookofcalling2.png width:183 height:100 align:1}"
+				"{inferno_quests.chapters.sinful_sorcery.75}"
+			]
+			dependencies: ["47603D4BADD2EE6B"]
+			min_width: 300
+			id: "428B44308A4529FE"
+			tasks: [{
+				id: "54414A2591468635"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.76\"}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "book_of_calling"
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.77\"}"
+			x: 7.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.78\"}"
+			description: ["{inferno_quests.chapters.sinful_sorcery.79}"]
+			dependencies: [
+				"6C1E0C9412C3D215"
+				"354EF66D7CCD8F89"
+			]
+			id: "3FEED738A6C7DF99"
+			tasks: [{
+				id: "296E0BE39DE81848"
+				type: "item"
+				item: {
+					id: "occultism:satchel"
+					Count: 1b
+					tag: {
+						spiritName: "Drakloritron"
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.80\"}"
+			icon: "occultism:spawn_egg/familiar_greedy"
+			x: 7.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.81\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.82}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.83}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.84\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.85}"
+			]
+			dependencies: ["354EF66D7CCD8F89"]
+			min_width: 275
+			id: "6B1F0D7AB141288B"
+			tasks: [
+				{
+					id: "623CE6525A26D46F"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.86\"}"
+					icon: "occultism:spawn_egg/familiar_greedy"
+					timer: 0L
+					observe_type: 6
+					to_observe: "inferno:occultism_familiars"
+				}
+				{
+					id: "3B7C0117B1778FA5"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.87\"}"
+					disable_toast: true
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "occultism.*familiar"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:not"
+									tag: {
+										items: [{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "egg"
+											}
+										}]
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:not"
+									tag: {
+										items: [{
+											ForgeCaps: {
+												Parent: {
+													hasFamiliar: 0b
+												}
+											}
+											Count: 1b
+											id: "occultism:familiar_ring"
+											tag: { }
+										}]
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:not"
+									tag: {
+										items: [{
+											Count: 1b
+											id: "occultism:ritual_dummy/craft_familiar_ring"
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "occultism:dimensional_mineshaft"
+			x: 12.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.88\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.89}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.90}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.91}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.92}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.93}"
+			]
+			dependencies: ["489A1C27B45E66F6"]
+			size: 1.25d
+			min_width: 275
+			id: "75FDD2C3835E92DC"
+			tasks: [
+				{
+					id: "774AF29DABBAE8CF"
+					type: "item"
+					item: "occultism:dimensional_mineshaft"
+				}
+				{
+					id: "1EAE3F2F3BD6F19C"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.94\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "occultism:miner_foliot_unspecialized"
+									Count: 1b
+									tag: {
+										spiritName: "Mermirimur"
+										Damage: 0
+									}
+								}
+								{
+									id: "occultism:miner_djinni_ores"
+									Count: 1b
+									tag: {
+										spiritName: "Morsorcred"
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "712D359FB5C17756"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "dimensional_mineshaft"
+				}
+				{
+					id: "69EDD5FDD163E719"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Cambion Creations\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Prometheus' Heresy\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.95\"}"
+			x: 12.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.96\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.97}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.98\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"489A1C27B45E66F6"
+				"6B1F0D7AB141288B"
+			]
+			id: "1E5FA60D333DD78B"
+			tasks: [{
+				id: "6C4EA918CA42DACA"
+				type: "item"
+				item: {
+					id: "occultism:familiar_ring"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							hasFamiliar: 0b
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.99\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.100}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.101\"}"
+			]
+			dependencies: ["489A1C27B45E66F6"]
+			id: "28AF4A13EAC305E0"
+			tasks: [{
+				id: "2C6DDC058D45C1C7"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: -4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.102\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.103}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.104}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.105}"
+			]
+			dependencies: ["489A1C27B45E66F6"]
+			min_width: 225
+			id: "4DACAA43DA87CCDF"
+			tasks: [{
+				id: "7BB7FD75EC417A56"
+				type: "item"
+				item: {
+					id: "occultism:chalk_red"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.106\"}"
+			x: 13.5d
+			y: -2.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.107\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.108}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.109}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.110\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.111}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.112\"}"
+			]
+			dependencies: ["489A1C27B45E66F6"]
+			size: 1.25d
+			min_width: 275
+			id: "2DD97E216BFC5744"
+			tasks: [{
+				id: "1718DE01853E06F1"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+		}
+		{
+			icon: "occultism:storage_stabilizer_tier3"
+			x: 13.0d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.113\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.114}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.115\"}"
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.116\"}"
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.117\"}"
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.118\"}"
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.119\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.120\"}"
+				"{image:occultism:textures/gui/book/storage_stabilizer.png width:150 height:150 align:1}"
+			]
+			dependencies: ["2DD97E216BFC5744"]
+			min_width: 275
+			id: "7BC8D3A32E6A7AB3"
+			tasks: [{
+				id: "6626F1696C49558C"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.121\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "occultism:storage_stabilizer_tier1"
+								Count: 1b
+							}
+							{
+								id: "occultism:storage_stabilizer_tier2"
+								Count: 1b
+							}
+							{
+								id: "occultism:storage_stabilizer_tier3"
+								Count: 1b
+							}
+							{
+								id: "occultism:storage_stabilizer_tier4"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.122\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.123}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.124\"}"
+			]
+			dependencies: ["2DD97E216BFC5744"]
+			id: "6546AB0B0CBE58DF"
+			tasks: [{
+				id: "498456F34143DF57"
+				type: "item"
+				item: {
+					id: "occultism:stable_wormhole"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.125\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.126}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.sinful_sorcery.127\"}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.128}"
+			]
+			dependencies: ["2DD97E216BFC5744"]
+			id: "3CEEEC2D84CA8C00"
+			tasks: [{
+				id: "7A72DDEB5D51C0E7"
+				type: "item"
+				item: {
+					id: "occultism:storage_remote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.129\"}"
+			x: 5.0d
+			y: -5.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.sinful_sorcery.130\"}"
+			description: [
+				"{inferno_quests.chapters.sinful_sorcery.131}"
+				""
+				"{inferno_quests.chapters.sinful_sorcery.132}"
+			]
+			dependencies: ["47603D4BADD2EE6B"]
+			id: "4400854E6FB51089"
+			tasks: [{
+				id: "08C1BA8D51986F1E"
+				type: "item"
+				item: "evilcraft:dark_gem_crushed"
+			}]
+			rewards: [
+				{
+					id: "53A53491223D2BF9"
+					type: "item"
+					item: "evilcraft:dark_gem_crushed"
+					count: 4
+				}
+				{
+					id: "4A722884D6E2DCFA"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+							}
+							capacity: 64000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:empty"
+								Amount: 0
+								capacity: 64000
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

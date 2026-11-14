@@ -1,0 +1,1539 @@
+{
+	id: "7CF6C3436646E8C9"
+	group: "3165B92DB1BC8401"
+	order_index: 4
+	filename: "storage"
+	title: "{\"translate\":\"inferno_quests.chapters.storage.1\"}"
+	icon: "ironchest:crystal_chest"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.storage.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.3\"}"
+			icon: "prettypipes:pipe"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.4\"}"
+			description: [
+				"{inferno_quests.chapters.storage.5}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.6\"}"
+				""
+				"{inferno_quests.chapters.storage.7}"
+				""
+				"{image:inferno:textures/quest/pretty_pipes.png width:1000 height:558 align:1 fit:true}"
+			]
+			dependencies: ["7FC5815931F8BD38"]
+			min_width: 300
+			id: "2291F7197FD47DF2"
+			tasks: [
+				{
+					id: "0D2A7FDBB344F48B"
+					type: "item"
+					item: "prettypipes:pipe"
+				}
+				{
+					id: "2EF2F4A94904A261"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.8\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "prettypipes:low_extraction_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_extraction_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_extraction_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:low_retrieval_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_retrieval_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_retrieval_module"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "75EB9FE0654B9950"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 16
+				}
+				{
+					id: "20208CC771062089"
+					type: "item"
+					item: "prettypipes:wrench"
+				}
+				{
+					id: "465C92D0AC35DCA4"
+					type: "item"
+					item: "ppfluids:fluid_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.9\"}"
+			icon: "ae2:certus_quartz_crystal"
+			x: 10.5d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.10\"}"
+			description: [
+				"{inferno_quests.chapters.storage.11}"
+				""
+				"{inferno_quests.chapters.storage.12}"
+				""
+				"{inferno_quests.chapters.storage.13}"
+			]
+			dependencies: ["4C35566F7A3F95BE"]
+			min_width: 250
+			id: "5CC06D18F8AA0DF9"
+			tasks: [
+				{
+					id: "6F5B26417B0CE09E"
+					type: "item"
+					item: "ae2:certus_crystal_seed"
+				}
+				{
+					id: "06D254677971F2FC"
+					type: "item"
+					item: "ae2:certus_quartz_crystal"
+				}
+			]
+			rewards: [{
+				id: "47FA0057CBFE9DA7"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+				count: 64
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.14\"}"
+			description: [
+				"{inferno_quests.chapters.storage.15}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.16\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.17\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.18\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.19\"}"
+			]
+			dependencies: ["4C35566F7A3F95BE"]
+			min_width: 250
+			id: "0E7718635772A156"
+			tasks: [{
+				id: "0829E5EA06AC005D"
+				type: "item"
+				item: "ae2:silicon"
+			}]
+			rewards: [{
+				id: "347CF88CE02498EE"
+				type: "item"
+				item: "ae2:silicon"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.20\"}"
+			icon: "ae2:printed_logic_processor"
+			x: 9.5d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.21\"}"
+			description: [
+				"{inferno_quests.chapters.storage.22}"
+				""
+				"{inferno_quests.chapters.storage.23}"
+			]
+			dependencies: [
+				"0E7718635772A156"
+				"5CC06D18F8AA0DF9"
+			]
+			min_width: 225
+			id: "70C8CB521B147252"
+			tasks: [
+				{
+					id: "45F5A14A1028ED5A"
+					type: "item"
+					item: "ae2:printed_silicon"
+				}
+				{
+					id: "378EEBECC5F06221"
+					type: "item"
+					item: "ae2:printed_logic_processor"
+				}
+				{
+					id: "46BF66153026DA6E"
+					type: "item"
+					item: "ae2:printed_calculation_processor"
+				}
+			]
+			rewards: [
+				{
+					id: "387041692A187A84"
+					type: "item"
+					item: "ae2:printed_silicon"
+					count: 16
+				}
+				{
+					id: "20F8527D964401C4"
+					type: "advancement"
+					auto: "enabled"
+					advancement: "ae2:main/presses"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.24\"}"
+			x: 9.5d
+			y: -3.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.25\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.storage.26\"}"
+				""
+				"{inferno_quests.chapters.storage.27}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.28\"}"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			id: "4C35566F7A3F95BE"
+			tasks: [{
+				id: "25A22A62C82F77B1"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
+			}]
+			rewards: [{
+				id: "208D3C522C441C54"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.29\"}"
+			icon: "ae2:fluix_crystal"
+			x: 12.5d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.30\"}"
+			description: [
+				"{inferno_quests.chapters.storage.31}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.32\"}"
+			]
+			dependencies: ["4E3120210DC26A9E"]
+			id: "4C7077295A32CCA3"
+			tasks: [
+				{
+					id: "21B25AA963E39A15"
+					type: "item"
+					item: "ae2:fluix_crystal_seed"
+				}
+				{
+					id: "37E635D87C00A201"
+					type: "item"
+					item: "ae2:fluix_crystal"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.33\"}"
+			icon: "prettypipes:low_speed_module"
+			x: 5.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.34\"}"
+			description: ["{inferno_quests.chapters.storage.35}"]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "7C2173E4A80ED8D6"
+			tasks: [{
+				id: "17A388DAA6AEA324"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.36\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "prettypipes:low_speed_module"
+								Count: 1b
+							}
+							{
+								id: "prettypipes:medium_speed_module"
+								Count: 1b
+							}
+							{
+								id: "prettypipes:high_speed_module"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.37\"}"
+			description: ["{inferno_quests.chapters.storage.38}"]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "235C48FA155B898E"
+			tasks: [{
+				id: "25D8D0D56E7979B5"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+		}
+		{
+			icon: "prettypipes:round_robin_sorting_modifier"
+			x: 5.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.39\"}"
+			description: [
+				"{inferno_quests.chapters.storage.40}"
+				""
+				"{inferno_quests.chapters.storage.41}"
+			]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "32D0FCBCC414C781"
+			tasks: [
+				{
+					id: "18F474EFF8D91767"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.42\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "prettypipes:low_low_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_low_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_low_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:low_high_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:medium_high_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:high_high_priority_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:round_robin_sorting_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:random_sorting_modifier"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6CB875BB980E2BD6"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.43\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "prettypipes:high_filter_module"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:damage_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:nbt_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:mod_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:tag_filter_modifier"
+									Count: 1b
+								}
+								{
+									id: "prettypipes:filter_increase_modifier"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.44\"}"
+			x: 2.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.45\"}"
+			description: [
+				"{inferno_quests.chapters.storage.46}"
+				""
+				"{image:inferno:textures/quest/pp_item_terminal.png width:1000 height:558 align:1 fit:true}"
+				""
+				"{inferno_quests.chapters.storage.47}"
+				""
+				"{inferno_quests.chapters.storage.48}"
+				""
+				"{inferno_quests.chapters.storage.49}"
+			]
+			dependencies: ["2291F7197FD47DF2"]
+			size: 1.25d
+			id: "7378077C38CBF5EC"
+			tasks: [{
+				id: "517F42EEB9668E20"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			rewards: [
+				{
+					id: "5CA7B5339349F21B"
+					type: "item"
+					item: "prettypipes:stack_size_module"
+					count: 2
+				}
+				{
+					id: "7696F13ABCBDE762"
+					type: "item"
+					item: "prettypipes:low_retrieval_module"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.50\"}"
+			description: ["{inferno_quests.chapters.storage.51}"]
+			dependencies: ["2291F7197FD47DF2"]
+			id: "59FA447ABB1D62CE"
+			tasks: [{
+				id: "74C959BE0A0BAC6E"
+				type: "item"
+				item: "prettypipes:stack_size_module"
+			}]
+		}
+		{
+			icon: "storagedrawers:warped_full_drawers_2"
+			x: 4.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.52\"}"
+			description: [
+				"{inferno_quests.chapters.storage.53}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.54\"}"
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "4507C3F52A1129A2"
+			tasks: [{
+				id: "68B00795C4B6462F"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.55\"}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "fluiddrawerslegacy:fluiddrawer"
+										Count: 1b
+										tag: { }
+									}]
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "storagedrawers:drawers"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "11CC725F433C1905"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.56\"}"
+			description: [
+				"{inferno_quests.chapters.storage.57}"
+				""
+				"{inferno_quests.chapters.storage.58}"
+			]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "5732AD9761689269"
+			tasks: [{
+				id: "68B15C2D951EF071"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.59\"}"
+			description: [
+				"{inferno_quests.chapters.storage.60}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.61\"}"
+			]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "2875E19DF0310A2A"
+			tasks: [{
+				id: "46671515EFB9043A"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "6EF1128189667EBA"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.62\"}"
+			description: ["{inferno_quests.chapters.storage.63}"]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "4164B7E476DE4814"
+			tasks: [{
+				id: "77A4B48887BCF45E"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.64\"}"
+			description: [
+				"{inferno_quests.chapters.storage.65}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.66\"}"
+			]
+			dependencies: ["4507C3F52A1129A2"]
+			id: "73EB2812798F71A7"
+			tasks: [{
+				id: "22CAF40F60984968"
+				type: "item"
+				item: {
+					id: "fluiddrawerslegacy:fluiddrawer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.67\"}"
+			description: [
+				"{inferno_quests.chapters.storage.68}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.69\"}"
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "0EED25F2CDD72AE1"
+			tasks: [{
+				id: "516A3707B7EACFDF"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "6F96ECC2035E8F2E"
+				type: "item"
+				item: "minecolonies:blockminecoloniesrack"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.70\"}"
+			description: ["{inferno_quests.chapters.storage.71}"]
+			dependencies: ["0EED25F2CDD72AE1"]
+			id: "20CB93B209B43F52"
+			tasks: [{
+				id: "782483E6F602A76E"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "40205A0DD2825D7E"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.72\"}"
+			description: ["{inferno_quests.chapters.storage.73}"]
+			dependencies: ["20CB93B209B43F52"]
+			id: "76ACDCBC894D5529"
+			tasks: [{
+				id: "18932D5FFB74C9E0"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "29255AA4254E3E41"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.74\"}"
+			description: ["{inferno_quests.chapters.storage.75}"]
+			dependencies: ["76ACDCBC894D5529"]
+			id: "37A9CC1267FBB5EB"
+			tasks: [{
+				id: "79B33983EEE9EE15"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [{
+				id: "034EB39DA8FF2C46"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.76\"}"
+			description: ["{inferno_quests.chapters.storage.77}"]
+			dependencies: ["37A9CC1267FBB5EB"]
+			id: "3EBBE1DF784FD1A4"
+			tasks: [{
+				id: "3E6F9B834F039687"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [{
+				id: "6A4C6D9EABE27526"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.78\"}"
+			x: 9.5d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.79\"}"
+			description: [
+				"{inferno_quests.chapters.storage.80}"
+				""
+				"{inferno_quests.chapters.storage.81}"
+				""
+				"{inferno_quests.chapters.storage.82}"
+			]
+			dependencies: ["70C8CB521B147252"]
+			min_width: 275
+			id: "464B540C593CE2A2"
+			tasks: [{
+				id: "6FD2646333896E51"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "49D89C51554E0681"
+				type: "item"
+				item: "ae2:vibration_chamber"
+				count: 3
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.83\"}"
+			description: [
+				"{inferno_quests.chapters.storage.84}"
+				""
+				"{inferno_quests.chapters.storage.85}"
+			]
+			dependencies: ["464B540C593CE2A2"]
+			id: "4E3120210DC26A9E"
+			tasks: [{
+				id: "32B42453FA072C63"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "312D898F279777D8"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+				count: 8
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.86\"}"
+			icon: "ae2:fluix_glass_cable"
+			x: 12.5d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.87\"}"
+			description: [
+				"{inferno_quests.chapters.storage.88}"
+				""
+				"{inferno_quests.chapters.storage.89}"
+				""
+				"{inferno_quests.chapters.storage.90}"
+				""
+				"{inferno_quests.chapters.storage.91}"
+			]
+			dependencies: ["4C7077295A32CCA3"]
+			min_width: 250
+			id: "2FF85191B27375BA"
+			tasks: [{
+				id: "2B68948662BEE92D"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.92\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:fluix_glass_cable"
+								Count: 1b
+							}
+							{
+								id: "ae2:fluix_smart_cable"
+								Count: 1b
+							}
+							{
+								id: "ae2:fluix_smart_dense_cable"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A2E8DA810471947"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+				count: 32
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.93\"}"
+			icon: "ae2:cable_interface"
+			x: 14.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.94\"}"
+			description: [
+				"{inferno_quests.chapters.storage.95}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.96\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.97\"}"
+			]
+			dependencies: ["2FF85191B27375BA"]
+			id: "1B7E082459567B7C"
+			tasks: [{
+				id: "16FC509945E0A218"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.98\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:cable_interface"
+								Count: 1b
+							}
+							{
+								id: "ae2:interface"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "03ED5E344A96DD42"
+				type: "item"
+				item: "ae2:speed_card"
+				count: 6
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.99\"}"
+			icon: "ae2:terminal"
+			x: 15.5d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.100\"}"
+			description: [
+				"{inferno_quests.chapters.storage.101}"
+				""
+				"{inferno_quests.chapters.storage.102}"
+			]
+			dependencies: ["43B98C1A57C7301B"]
+			min_width: 225
+			id: "3F7C6770BB85BCE4"
+			tasks: [{
+				id: "781EE1879D869CA7"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.103\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2:terminal"
+								Count: 1b
+							}
+							{
+								id: "ae2:crafting_terminal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "43767301D69A1D3B"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "5A17D9B53963420E"
+					type: "item"
+					item: "ae2:pattern_access_terminal"
+				}
+				{
+					id: "36BBF33698F0FB4F"
+					type: "item"
+					item: {
+						id: "ae2:dense_energy_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.104\"}"
+			icon: "ae2:crafting_accelerator"
+			x: 17.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.105\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.storage.106\"}"
+				""
+				"{inferno_quests.chapters.storage.107}"
+			]
+			dependencies: ["3F7C6770BB85BCE4"]
+			id: "6AA8BEA8D7BC9C41"
+			tasks: [
+				{
+					id: "76BA71FE8D2BF3F2"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.108\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:1k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:4k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:16k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:64k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "ae2:256k_crafting_storage"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3E3268331E2547C4"
+					type: "item"
+					item: "ae2:crafting_accelerator"
+				}
+			]
+			rewards: [{
+				id: "05A4F0950C6C531B"
+				type: "item"
+				item: "ae2:crafting_monitor"
+				count: 3
+			}]
+		}
+		{
+			icon: "ae2:cable_pattern_provider"
+			x: 17.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.109\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.storage.110\"}"
+				""
+				"{inferno_quests.chapters.storage.111}"
+				""
+				"{inferno_quests.chapters.storage.112}"
+				""
+				"{inferno_quests.chapters.storage.113}"
+			]
+			dependencies: ["6AA8BEA8D7BC9C41"]
+			min_width: 275
+			id: "00633EAEC678A9FA"
+			tasks: [
+				{
+					id: "697EB1EC0C20F71A"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.114\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:cable_pattern_provider"
+									Count: 1b
+								}
+								{
+									id: "ae2:pattern_provider"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6621F47FF0AE045C"
+					type: "item"
+					item: "ae2:molecular_assembler"
+				}
+			]
+			rewards: [
+				{
+					id: "76B7F13262301680"
+					type: "item"
+					item: "ae2:pattern_encoding_terminal"
+				}
+				{
+					id: "297FD1BAD95AF8B3"
+					type: "item"
+					item: "ae2:blank_pattern"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.115\"}"
+			icon: "ae2:singularity"
+			x: 15.5d
+			y: 1.5d
+			shape: "circle"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.116\"}"
+			description: [
+				"{inferno_quests.chapters.storage.117}"
+				""
+				"{inferno_quests.chapters.storage.118}"
+				""
+				"{inferno_quests.chapters.storage.119}"
+				""
+				"{inferno_quests.chapters.storage.120}"
+			]
+			dependencies: ["3F7C6770BB85BCE4"]
+			min_width: 225
+			id: "737F2BF851137A16"
+			tasks: [
+				{
+					id: "5240CA7E98D38112"
+					type: "item"
+					item: "ae2:condenser"
+				}
+				{
+					id: "046810F747426B2F"
+					type: "item"
+					item: "ae2:singularity"
+				}
+			]
+			rewards: [{
+				id: "332D5C13762299D3"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.121\"}"
+			icon: "ae2:wireless_terminal"
+			x: 15.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.122\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.storage.123\"}"
+				""
+				"{inferno_quests.chapters.storage.124}"
+				""
+				"{inferno_quests.chapters.storage.125}"
+			]
+			dependencies: ["3F7C6770BB85BCE4"]
+			min_width: 275
+			id: "7549B7F5E64F8759"
+			tasks: [
+				{
+					id: "200BBCA2D3D454B7"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "6E129195ABF6A91D"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "3A5706B354495191"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.126\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ae2:wireless_terminal"
+									Count: 1b
+								}
+								{
+									id: "ae2:wireless_crafting_terminal"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "421750C3CD35D5C7"
+				type: "item"
+				item: "ae2:wireless_booster"
+				count: 4
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.127\"}"
+			description: [
+				"{inferno_quests.chapters.storage.128}"
+				""
+				"{inferno_quests.chapters.storage.129}"
+			]
+			dependencies: ["2FF85191B27375BA"]
+			id: "07D1F8651E94B7A5"
+			tasks: [{
+				id: "05B62284FE8D45EA"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "36CB8090EA95A596"
+				type: "item"
+				item: {
+					id: "ae2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.130\"}"
+			description: [
+				"{inferno_quests.chapters.storage.131}"
+				""
+				"{inferno_quests.chapters.storage.132}"
+				""
+				"{inferno_quests.chapters.storage.133}"
+			]
+			dependencies: ["2FF85191B27375BA"]
+			min_width: 225
+			id: "43B98C1A57C7301B"
+			tasks: [{
+				id: "0CA30528F962B90F"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [
+				{
+					id: "5272FE81BC8CA8DE"
+					type: "item"
+					item: "ae2:storage_bus"
+					count: 8
+				}
+				{
+					id: "77631A5C818D31EC"
+					type: "item"
+					item: "ae2:import_bus"
+					count: 3
+				}
+				{
+					id: "3C99E3E9DA91B1EE"
+					type: "item"
+					item: "ae2:export_bus"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.134\"}"
+			icon: "minecolonies:blockhutwarehouse"
+			x: -0.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.135\"}"
+			description: [
+				"{inferno_quests.chapters.storage.136}"
+				""
+				"{inferno_quests.chapters.storage.137}"
+				""
+				"{inferno_quests.chapters.storage.138}"
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 2
+			dependencies: [
+				"6525AE59A42AEAC7"
+				"2875E19DF0310A2A"
+				"1B7E082459567B7C"
+				"7378077C38CBF5EC"
+			]
+			size: 2.0d
+			min_width: 250
+			id: "510C16FB9C7D033C"
+			tasks: [{
+				id: "0B378CB3899E810C"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "3C527331D04012E5"
+					type: "item"
+					item: "prettypipes:pipe"
+					count: 16
+				}
+				{
+					id: "6BEC79BAFC6D2BAD"
+					type: "item"
+					item: "prettypipes:high_speed_module"
+					count: 8
+				}
+				{
+					id: "5D4CD8E93176B10D"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.139\"}"
+			description: ["{inferno_quests.chapters.storage.140}"]
+			hide_dependency_lines: true
+			dependencies: ["2DD97E216BFC5744"]
+			size: 1.5d
+			id: "7AB285C83E1BDA25"
+			tasks: [{
+				id: "5F42B2275BCC19DD"
+				type: "item"
+				item: "occultism:storage_controller"
+			}]
+		}
+		{
+			icon: "immersiveengineering:conveyor_basic"
+			x: 2.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.141\"}"
+			description: ["{inferno_quests.chapters.storage.142}"]
+			dependencies: [
+				"51DDAEA8672B9CC0"
+				"4513CF899E60912A"
+			]
+			optional: true
+			id: "1DA150B4F8F182EC"
+			tasks: [{
+				id: "16D5B5D1BABC053C"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.143\"}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "ing:conv"
+					}
+				}
+			}]
+			rewards: [{
+				id: "27C53AAD0ECA7CCF"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+				count: 16
+			}]
+		}
+		{
+			icon: "create:belt_connector"
+			x: 4.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.144\"}"
+			description: [
+				"{inferno_quests.chapters.storage.145}"
+				""
+				"{inferno_quests.chapters.storage.146}"
+			]
+			dependencies: ["1DA150B4F8F182EC"]
+			id: "44F22099EAE40BDD"
+			tasks: [
+				{
+					id: "4B88D2A9CF6426F5"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "5BF8E6D7C8D0485A"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.storage.147\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "create:andesite_funnel"
+									Count: 1b
+								}
+								{
+									id: "create:brass_funnel"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.148\"}"
+			description: [
+				"{inferno_quests.chapters.storage.149}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.150\"}"
+				""
+				"{inferno_quests.chapters.storage.151}"
+			]
+			dependencies: ["464B540C593CE2A2"]
+			optional: true
+			id: "1F3381894011DCD4"
+			tasks: [{
+				id: "21CEB239BF955630"
+				type: "item"
+				item: "ae2:vibration_chamber"
+			}]
+			rewards: [{
+				id: "09DD0B9CD82986DA"
+				type: "item"
+				item: "evilcraft:blood_waxed_coal"
+				count: 6
+			}]
+		}
+		{
+			icon: "myrtrees:tree_tap"
+			x: 1.0d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.152\"}"
+			description: [
+				"{inferno_quests.chapters.storage.153}"
+				""
+				"{inferno_quests.chapters.storage.154}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.storage.155\"}"
+			]
+			dependencies: ["51DDAEA8672B9CC0"]
+			optional: true
+			id: "4513CF899E60912A"
+			tasks: [
+				{
+					id: "5003A9815EF542C8"
+					type: "item"
+					item: "myrtrees:tree_tap"
+				}
+				{
+					id: "2D11AC2139E408A9"
+					type: "item"
+					item: "myrtrees:wooden_bucket"
+				}
+			]
+			rewards: [{
+				id: "5D361C5B14F931B5"
+				type: "item"
+				item: "myrtrees:latex"
+				count: 16
+			}]
+		}
+		{
+			icon: "darkutils:vector_plate"
+			x: 5.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.156\"}"
+			description: ["{inferno_quests.chapters.storage.157}"]
+			dependencies: ["44F22099EAE40BDD"]
+			id: "07E39B9E0A0A2703"
+			tasks: [{
+				id: "5B7904BE0DEE803A"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.158\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "darkutils:vector_plate"
+								Count: 1b
+							}
+							{
+								id: "darkutils:vector_plate_fast"
+								Count: 1b
+							}
+							{
+								id: "darkutils:vector_plate_extreme"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.159\"}"
+			description: ["{inferno_quests.chapters.storage.160}"]
+			dependencies: ["55099E0F763B39CA"]
+			id: "6CF1F47FC1105B74"
+			tasks: [{
+				id: "049DA4DA5359EBA5"
+				type: "item"
+				item: "enderstorage:ender_chest"
+			}]
+			rewards: [{
+				id: "2BF221B7788F43E4"
+				type: "item"
+				item: "enderstorage:ender_pouch"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.161\"}"
+			description: ["{inferno_quests.chapters.storage.162}"]
+			dependencies: ["40D4850B34EC5677"]
+			id: "4E1E0D39D0F581BB"
+			tasks: [{
+				id: "2AC8E3CE81DA2C6A"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+			rewards: [{
+				id: "6EAFF5772DCE2E3E"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.storage.163\"}"
+			icon: "aeinfinitybooster:infinity_card"
+			x: 17.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.164\"}"
+			description: [
+				"{inferno_quests.chapters.storage.165}"
+				""
+				"{inferno_quests.chapters.storage.166}"
+			]
+			dependencies: ["7549B7F5E64F8759"]
+			id: "143E702A2622114F"
+			tasks: [{
+				id: "6CF1F6DF5A8C8613"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.167\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "aeinfinitybooster:infinity_card"
+								Count: 1b
+							}
+							{
+								id: "aeinfinitybooster:dimension_card"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "itemcollectors:basic_collector"
+			x: 10.0d
+			y: -6.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.storage.168\"}"
+			description: [
+				"{inferno_quests.chapters.storage.169}"
+				""
+				"{inferno_quests.chapters.storage.170}"
+			]
+			dependencies: ["2F1E6BFBCD59CF57"]
+			id: "1EF3188DBE7823F6"
+			tasks: [{
+				id: "4CF1F65E962C35F8"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.storage.171\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemcollectors:advanced_collector"
+								Count: 1b
+							}
+							{
+								id: "itemcollectors:basic_collector"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "55C5001D4429B353"
+					type: "item"
+					item: "storagedrawers:void_upgrade"
+				}
+				{
+					id: "562154EB26A247C3"
+					type: "item"
+					item: "storagedrawers:emerald_storage_upgrade"
+				}
+			]
+		}
+	]
+}

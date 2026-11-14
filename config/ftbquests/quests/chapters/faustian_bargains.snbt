@@ -1,0 +1,433 @@
+{
+	id: "1B714B3593AF847D"
+	group: "7044F2C841148E69"
+	order_index: 2
+	filename: "faustian_bargains"
+	title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.1\"}"
+	icon: "artifacts:villager_hat"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.faustian_bargains.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.3\"}"
+			icon: "artifacts:villager_hat"
+			x: -1.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.4\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.5\"}"
+				""
+				"{inferno_quests.chapters.faustian_bargains.6}"
+				""
+				"{inferno_quests.chapters.faustian_bargains.7}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.8\"}"
+				""
+				"{inferno_quests.chapters.faustian_bargains.9}"
+			]
+			dependencies: [
+				"4B52BBBF01CDF027"
+				"6A7B93DC1ACE716B"
+				"00E0DB64568AA664"
+				"6AC1108487763770"
+			]
+			size: 1.5d
+			min_width: 375
+			id: "64067A45D5EC178C"
+			tasks: [
+				{
+					id: "3585E48ED5A9FBA7"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.10\"}"
+					icon: "artifacts:villager_hat"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:zombie_villager"
+				}
+				{
+					id: "56D2ED1B7CBF9EBD"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4D7F97FA0AFC0B89"
+				type: "item"
+				team_reward: true
+				item: "minecraft:golden_apple"
+				count: 5
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.11\"}"
+			icon: "naturesaura:outpost_finder"
+			x: -1.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.12\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.13\"}"
+				""
+				"{inferno_quests.chapters.faustian_bargains.14}"
+				""
+				"{inferno_quests.chapters.faustian_bargains.15}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.16\"}"
+			]
+			dependencies: ["64067A45D5EC178C"]
+			min_width: 250
+			id: "7354005CC607E651"
+			tasks: [
+				{
+					id: "6AE790847C69C51B"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.17\"}"
+					icon: "naturesaura:outpost_finder"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:villager"
+				}
+				{
+					id: "0F128193DBD73F86"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:smithing_table"
+				}
+			]
+			rewards: [
+				{
+					id: "3184739089C0C4CD"
+					type: "item"
+					item: "minecraft:oak_door"
+					count: 4
+				}
+				{
+					id: "73A62D899A888BE6"
+					type: "item"
+					item: {
+						id: "gunswithoutroses:diamond_shotgun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.18\"}"
+			x: -1.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.19\"}"
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.20}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.21\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			size: 1.5d
+			id: "6454DF379D047CB2"
+			tasks: [{
+				id: "046934BF0630EE49"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0768C2329AF9CA72"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+				}
+				{
+					id: "0E02DDF3249F487C"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "specialBullet"
+						}
+					}
+				}
+				{
+					id: "3937B4EDA72C362E"
+					type: "item"
+					item: "immersiveengineering:mold_bullet_casing"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.22\"}"
+			x: -4.5d
+			y: -3.0d
+			description: ["{inferno_quests.chapters.faustian_bargains.23}"]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "30D79D1B3A0FD4D7"
+			tasks: [{
+				id: "1645FF1C9D3DB7F5"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.24\"}"
+			x: 3.0d
+			y: -3.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.25}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.26\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.27\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.28\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.29\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.30\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.31\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "3AC62CBC34FF4B3A"
+			tasks: [{
+				id: "0608B1D75FF4F0F3"
+				type: "item"
+				item: "minecraft:smoker"
+			}]
+			rewards: [{
+				id: "5183003AB9744B8C"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.32\"}"
+			x: 3.0d
+			y: -2.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.33}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.34\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.35\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.36\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.37\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.38\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.39\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "12382CCAD88CCC21"
+			tasks: [{
+				id: "16CAA84DF8BFFBD1"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [{
+				id: "37ABA28DD3D5B20C"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.40\"}"
+			x: 3.0d
+			y: -1.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.41}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.42\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.43\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.44\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.45\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.46\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.47\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.48\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "66BC5E274BE73CEC"
+			tasks: [{
+				id: "37483CD47358C57D"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [{
+				id: "506B664F47DC2B0E"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.49\"}"
+			x: 3.0d
+			y: 0.0d
+			description: ["{inferno_quests.chapters.faustian_bargains.50}"]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "6BCD44D693B51AE3"
+			tasks: [{
+				id: "70BB5DABDCC88DB3"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.51\"}"
+			x: -4.5d
+			y: 1.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.52}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.53\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.54\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.55\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.56\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.57\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "4E8D7E6CBC2ADC8A"
+			tasks: [{
+				id: "6A429EE62978F563"
+				type: "item"
+				item: "minecraft:cauldron"
+			}]
+			rewards: [{
+				id: "2FF24425D2219040"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.58\"}"
+			x: -4.5d
+			y: 0.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.59}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.60\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.61\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.62\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.63\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.64\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.65\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "0B3C5110170CC6E6"
+			tasks: [{
+				id: "0F1274C6FA6936C8"
+				type: "item"
+				item: "minecraft:lectern"
+			}]
+			rewards: [{
+				id: "74483CFEA3FCFDE4"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.66\"}"
+			x: -4.5d
+			y: -2.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.67}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.68\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.69\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.70\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.71\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.72\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.73\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "769717BA91DCFD98"
+			tasks: [{
+				id: "4B63F696D53E6584"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [{
+				id: "5143F9D75E1A91E4"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.74\"}"
+			x: -4.5d
+			y: -1.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.75}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.76\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.77\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.78\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.79\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.80\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.81\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "376B750BEA756ED7"
+			tasks: [{
+				id: "6D1670BB03F0D817"
+				type: "item"
+				item: "minecraft:loom"
+			}]
+			rewards: [{
+				id: "3F7ACF7DC4DA1312"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.faustian_bargains.82\"}"
+			x: 3.0d
+			y: 1.0d
+			description: [
+				"{inferno_quests.chapters.faustian_bargains.83}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.84\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.85\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.86\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.87\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.88\"}"
+				"{\"translate\":\"inferno_quests.chapters.faustian_bargains.89\"}"
+			]
+			dependencies: ["7354005CC607E651"]
+			optional: true
+			id: "26D54C473C86B605"
+			tasks: [{
+				id: "40720594B5761DBD"
+				type: "item"
+				item: "minecraft:grindstone"
+			}]
+			rewards: [{
+				id: "1F879B938736E825"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+		}
+	]
+}

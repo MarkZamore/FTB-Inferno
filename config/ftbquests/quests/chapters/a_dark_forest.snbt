@@ -1,0 +1,2613 @@
+{
+	id: "49BED82D4EA2A8A1"
+	group: "3165B92DB1BC8401"
+	order_index: 0
+	filename: "a_dark_forest"
+	title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.1\"}"
+	icon: "minecraft:weeping_vines"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.a_dark_forest.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.3\"}"
+			icon: "minecraft:flint"
+			x: -2.0d
+			y: -3.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.4\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.5\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.6}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.7}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.8}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.9}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.10\"}"
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.11\"}"
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.12\"}"
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.13\"}"
+			]
+			min_width: 275
+			id: "383507AC5D6EB0D8"
+			tasks: [{
+				id: "79BC977DE1BB3580"
+				type: "item"
+				item: "minecraft:flint"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "4007FC8A86B1FF05"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 4
+				}
+				{
+					id: "70C34CF9D69CCA87"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					count: 4
+				}
+				{
+					id: "71FAD46C48A1C0C6"
+					type: "choice"
+					icon: "infernalexp:infernal_painting"
+					table_id: 4094836575743489476L
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.14\"}"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.15\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.16\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.17\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.18}"
+			]
+			dependencies: ["383507AC5D6EB0D8"]
+			id: "1FAE864DC2E733BC"
+			tasks: [{
+				id: "15FDB628FE7FC768"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.19\"}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:pickaxe"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:attack_speed": 1.2f
+										"tconstruct:mining_speed": 3.5f
+										"tconstruct:attack_damage": 1.4250001f
+										"tconstruct:harvest_tier": "minecraft:stone"
+										"tconstruct:durability": 72.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:piercing"
+											level: 1s
+										}
+										{
+											name: "tconstruct:jagged"
+											level: 3s
+										}
+									]
+									Damage: 0
+									tic_materials: [
+										"tconstruct:flint"
+										"tconstruct:flint"
+										"tconstruct:flint"
+									]
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:pickaxe"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:attack_speed": 1.2f
+										"tconstruct:mining_speed": 3.5f
+										"tconstruct:attack_damage": 1.4250001f
+										"tconstruct:harvest_tier": "minecraft:stone"
+										"tconstruct:durability": 72.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:piercing"
+											level: 1s
+										}
+										{
+											name: "tconstruct:jagged"
+											level: 3s
+										}
+									]
+									Damage: 0
+									tic_materials: [
+										"tconstruct:flint"
+										"tconstruct:flint"
+										"tconstruct:flint"
+									]
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "667DB9F7512D0CEC"
+				type: "item"
+				item: {
+					id: "tconstruct:repair_kit"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:flint"
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.20\"}"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.21\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.a_dark_forest.22\"}"]
+			dependencies: ["1FAE864DC2E733BC"]
+			id: "3676C089D399390F"
+			tasks: [{
+				id: "0F417A566A75D367"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "638881C93FFA1BBD"
+				type: "item"
+				item: "minecraft:mushroom_stew"
+				count: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.23\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.24}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.25\"}"
+			]
+			id: "071E0ADF4D7C5678"
+			tasks: [{
+				id: "67B8C9839C80C42A"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [{
+				id: "267955AEE0D3EF69"
+				type: "item"
+				item: "minecraft:flint"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.26\"}"
+			icon: "occultism:spirit_fire"
+			x: -2.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.27\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.28}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.29\"}"
+			]
+			dependencies: [
+				"3676C089D399390F"
+				"071E0ADF4D7C5678"
+			]
+			id: "5C9BF1B7C5963186"
+			tasks: [{
+				id: "1975BC3591B1FD90"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.30\"}"
+				icon: "occultism:spirit_fire"
+				timer: 0L
+				observe_type: 0
+				to_observe: "occultism:spirit_fire"
+			}]
+			rewards: [
+				{
+					id: "24339AFD354843FE"
+					type: "item"
+					item: "occultism:datura"
+					count: 4
+				}
+				{
+					id: "05D4B70ABCC8571C"
+					type: "item"
+					item: "occultism:spirit_torch"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.31\"}"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.32\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.33\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.34\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FAE864DC2E733BC"]
+			id: "4116046D3CB4AF2A"
+			tasks: [{
+				id: "15C3E651313BE3B1"
+				type: "item"
+				item: "minecraft:soul_sand"
+			}]
+			rewards: [
+				{
+					id: "672F049DF1594DF5"
+					type: "item"
+					item: "quark:soul_bead"
+				}
+				{
+					id: "17BE9CE28F7F55C3"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.35\"}"
+			x: 1.0d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.36\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.37}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.38\"}"
+			]
+			dependencies: ["4116046D3CB4AF2A"]
+			id: "4ED3EE383BEC4719"
+			tasks: [{
+				id: "32775A5D6A1ACB21"
+				type: "item"
+				item: "minecraft:mycelium"
+			}]
+			rewards: [{
+				id: "0F91A7AD7123519E"
+				type: "item"
+				item: "minecraft:brown_mushroom"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.39\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.40}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.41\"}"
+			]
+			dependencies: [
+				"4ED3EE383BEC4719"
+				"5C9BF1B7C5963186"
+			]
+			id: "64856BBC8E05AAF0"
+			tasks: [{
+				id: "0A3542A631B77AA7"
+				type: "item"
+				item: "minecraft:warped_nylium"
+			}]
+			rewards: [{
+				id: "02EF2A8FE6D195EF"
+				type: "item"
+				item: "farmersdelight:nether_salad"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.42\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.43}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.44\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.45}"
+			]
+			dependencies: ["5C9BF1B7C5963186"]
+			dependency_requirement: "all_started"
+			id: "31DEFB66D0807111"
+			tasks: [{
+				id: "1434E24E7DC505C3"
+				type: "item"
+				item: "minecraft:warped_fungus"
+			}]
+			rewards: [
+				{
+					id: "165247E1CCDFF660"
+					type: "item"
+					item: "minecraft:flint"
+					count: 4
+				}
+				{
+					id: "2EC652ED7933DA2B"
+					type: "item"
+					item: "minecraft:warped_fungus"
+					count: 4
+				}
+				{
+					id: "60BB89024FF4EC1F"
+					type: "item"
+					item: "inferno:smoked_shroom"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.46\"}"
+			x: -2.0d
+			y: 4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.47\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.48}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.49\"}"
+			]
+			dependencies: [
+				"64856BBC8E05AAF0"
+				"31DEFB66D0807111"
+			]
+			id: "55099E0F763B39CA"
+			tasks: [{
+				id: "66B0393CA1801630"
+				type: "item"
+				item: "minecraft:warped_stem"
+			}]
+			rewards: [{
+				id: "51194D0B53EC588B"
+				type: "item"
+				item: "minecraft:warped_fungus"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.50\"}"
+			x: -5.0d
+			y: 4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.51\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.a_dark_forest.52\"}"]
+			dependencies: ["55099E0F763B39CA"]
+			id: "7833EAA6C05E4950"
+			tasks: [{
+				id: "711108AAC8CBE239"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+			rewards: [
+				{
+					id: "329E1654431D6825"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+				{
+					id: "2E9EFDD76F9FAA10"
+					type: "item"
+					item: "woodenhopper:wooden_hopper"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.53\"}"
+			icon: "farmersdelight:cutting_board"
+			x: 1.0d
+			y: 4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.54\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.55}"]
+			dependencies: ["55099E0F763B39CA"]
+			id: "25E90C8154CF725D"
+			tasks: [
+				{
+					id: "6F1877B1062E6688"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "5129ADE86E1611A8"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3B0C55A42D9F4470"
+				type: "item"
+				item: "farmersdelight:fish_stew"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.56\"}"
+			icon: "farmersdelight:straw"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.57\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.58}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.59\"}"
+			]
+			dependencies: ["25E90C8154CF725D"]
+			id: "6967B3C43AC095A7"
+			tasks: [{
+				id: "523D8CCEB809F415"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+			rewards: [
+				{
+					id: "601E7F78DC3D6EA6"
+					type: "item"
+					item: {
+						id: "biomesoplenty:spider_egg"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Break for a Surprise!\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "5254B2513E554360"
+					type: "item"
+					item: "reliquary:chelicerae"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.60\"}"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 6.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.61\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.62}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.63}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.64}"
+			]
+			dependencies: [
+				"55099E0F763B39CA"
+				"6967B3C43AC095A7"
+			]
+			min_width: 250
+			id: "5C0BF701B0990D7C"
+			tasks: [{
+				id: "6908E76127D3E78F"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5CFE7C5F3306A486"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+				{
+					id: "6073802B67D98E0B"
+					type: "item"
+					item: {
+						id: "minecraft:warped_fungus_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D6EAD562A359453"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:luck_of_the_sea"
+							}]
+						}
+					}
+				}
+				{
+					id: "74BF33A1920AF76B"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "fishing_unlocked"
+				}
+				{
+					id: "24DEFD56B78C95CB"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Azriel's Acquisitions \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Limbo\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.65\"}"
+			icon: "minecraft:golden_apple"
+			x: -4.0d
+			y: -1.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.66\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.67}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.68}"
+			]
+			optional: true
+			id: "128FDA30BC29A493"
+			tasks: [{
+				id: "693D3A95B9CC7268"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2F6D2E1A8CAB2ED4"
+				type: "item"
+				item: {
+					id: "minecraft:golden_apple"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Not for Eating!\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.69\"}"
+			x: 2.5d
+			y: 3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.70\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.71}"]
+			dependencies: ["4B52BBBF01CDF027"]
+			dependency_requirement: "one_started"
+			id: "5304141AB630CCF3"
+			tasks: [{
+				id: "1C83A1D169A37740"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.72\"}"
+				icon: "minecraft:saddle"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:strider"
+			}]
+			rewards: [
+				{
+					id: "3C39011C843B6E54"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:lava"
+								Amount: 1000
+							}
+						}
+					}
+				}
+				{
+					id: "7E5E4FC97121EC01"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Strider\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "1D2E048FFBB57726"
+					type: "item"
+					item: "minecraft:lead"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.73\"}"
+			x: 4.0d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.74\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.75}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.76}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.77}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.78}"
+			]
+			dependencies: ["6004FB8F1A55EAA1"]
+			dependency_requirement: "one_started"
+			size: 1.25d
+			min_width: 225
+			id: "4B52BBBF01CDF027"
+			tasks: [{
+				id: "030E22A6060A0D2F"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+			rewards: [
+				{
+					id: "1DA8E01F26ECE46F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Hoglin\"}"
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "2317881B66DD7792"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Indentured Piglin \"}"
+							}
+						}
+					}
+				}
+				{
+					id: "3805D854B9DAC30B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:warp_scroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1C38F42293816A6E"
+					type: "item"
+					item: "minecraft:ink_sac"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.79\"}"
+			x: 6.5d
+			y: 4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.80\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.81}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.82}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.83}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.84}"
+			]
+			dependencies: ["452795D9520D03DF"]
+			dependency_requirement: "one_completed"
+			min_width: 275
+			id: "6004FB8F1A55EAA1"
+			tasks: [{
+				id: "14A4BA55200B3E3C"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.85\"}"
+				icon: "tconstruct:piglin_head"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:piglin"
+			}]
+			rewards: [{
+				id: "59691AA240D5C526"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.86\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.87}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.88\"}"
+			]
+			dependencies: [
+				"5C0BF701B0990D7C"
+				"00C118CB0E6B46C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "2A07F5A0F699F597"
+			tasks: [{
+				id: "7CC09DE3665D216D"
+				type: "item"
+				item: "minecraft:magma_cream"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.89\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.90}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.91\"}"
+			]
+			dependencies: ["55099E0F763B39CA"]
+			id: "16C79CB1537B7093"
+			tasks: [{
+				id: "3511DF0EE9BD4DFB"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "4A7CDD9A3C55B763"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+				{
+					id: "1D6D2DC7F015D3B5"
+					type: "item"
+					item: "inferno:smoked_shroom"
+					count: 6
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.92\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.93\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.94}"
+			]
+			dependencies: ["6004FB8F1A55EAA1"]
+			id: "624DDC11A0969722"
+			tasks: [{
+				id: "1828EBB7233F7CD4"
+				type: "item"
+				item: {
+					id: "tconstruct:round_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "263A10F6EACADB0E"
+				type: "item"
+				item: {
+					id: "tconstruct:round_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:iron"
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.95\"}"
+			x: 6.5d
+			y: 2.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.96\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.97}"]
+			dependencies: ["6D44BEC648E76C3E"]
+			id: "452795D9520D03DF"
+			tasks: [{
+				id: "1E37735BBE1B77DE"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "63171F8FE2FDA42A"
+					type: "item"
+					item: "quark:golden_frog_leg"
+				}
+				{
+					id: "65B73A3BFA24FCD9"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.98\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.99\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.100}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.101\"}"
+			]
+			dependencies: [
+				"624DDC11A0969722"
+				"2CD5241DDDC9F473"
+			]
+			id: "40D4850B34EC5677"
+			tasks: [{
+				id: "5F7FF7D400B68CB9"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "39760291D5DA5D4F"
+				type: "item"
+				item: "apotheosis:iron_mining_arrow"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.102\"}"
+			x: 6.5d
+			y: 0.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.103\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.104}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.105}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.106\"}"
+			]
+			id: "6D44BEC648E76C3E"
+			tasks: [{
+				id: "16356F722CBC0748"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.107\"}"
+				icon: "minecraft:nether_gold_ore"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:nether_gold_ore"
+			}]
+			rewards: [{
+				id: "45088A533C56D911"
+				type: "item"
+				item: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Piglin Prospector\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{inferno_quests.chapters.a_dark_forest.108}"
+			x: 4.0d
+			y: 10.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.109\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.110}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.111}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.112}"
+			]
+			dependencies: [
+				"2CD5241DDDC9F473"
+				"372AB62538B293D3"
+			]
+			min_width: 275
+			id: "6DF116C5D533A28D"
+			tasks: [{
+				id: "10EBEA27D0285FA1"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [
+				{
+					id: "17660F6E3853E9F7"
+					type: "item"
+					item: "tconstruct:mighty_smelting"
+				}
+				{
+					id: "0B4B2A4B945A43FB"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 64
+					random_bonus: 32
+				}
+				{
+					id: "04CA6BFFEF1DB53F"
+					type: "item"
+					item: "rsgauges:glass_interval_timer"
+				}
+				{
+					id: "3840DC29D9C25268"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "smeltery_crafted"
+				}
+				{
+					id: "6A24EA5DD746BE52"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Innovation of Inconnu\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Prometheus' Heresy\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "580E3BF2250D5950"
+					type: "item"
+					item: {
+						id: "ceramicbucket:ceramic_bucket"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "tconstruct:mushroom_stew"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.113\"}"
+			x: 8.5d
+			y: 2.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.114\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.115}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.116}"
+			]
+			dependencies: ["452795D9520D03DF"]
+			optional: true
+			id: "67EB00FE7807FC12"
+			tasks: [{
+				id: "2DE13F9C262235F6"
+				type: "item"
+				item: {
+					id: "minecraft:golden_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60C5E91D19224783"
+					type: "item"
+					item: {
+						id: "minecraft:golden_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17ECD54EA9147DE6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "19ACC98430F6C4F6"
+					type: "item"
+					item: {
+						id: "minecraft:golden_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.117\"}"
+			x: 4.0d
+			y: 11.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.118\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.119}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.120}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.121}"
+			]
+			dependencies: ["6DF116C5D533A28D"]
+			id: "34E8389197884E32"
+			tasks: [{
+				id: "6D83FEBB5ED6A6D1"
+				type: "item"
+				item: "tconstruct:rose_gold_ingot"
+			}]
+			rewards: [
+				{
+					id: "777FB509D962C899"
+					type: "item"
+					item: "minecraft:rose_bush"
+				}
+				{
+					id: "2DA5145473D59647"
+					type: "item"
+					item: "tconstruct:rose_gold_ingot"
+					count: 2
+				}
+				{
+					id: "530248176BBD57C8"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Sanguine Sting \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.122\"}"
+			x: 6.5d
+			y: 11.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.123\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.124}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.125\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.126}"
+			]
+			dependencies: [
+				"34E8389197884E32"
+				"40D4850B34EC5677"
+			]
+			id: "105D0A853D0574B2"
+			tasks: [{
+				id: "15CB2FA0086CC99F"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [
+				{
+					id: "73579ED829108428"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:lava"
+								Amount: 16000
+							}
+							capacity: 16000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "minecraft:lava"
+								Amount: 16000
+								capacity: 16000
+							}
+						}
+					}
+				}
+				{
+					id: "0B9AAF9AF266F625"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "mixing_cauldron_crafted"
+				}
+				{
+					id: "11CBDE8891D58780"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Herbs and Hexes\",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.127\"}"
+			x: 6.5d
+			y: 14.25d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.128\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.129}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.130}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.131}"
+			]
+			dependencies: ["105D0A853D0574B2"]
+			size: 1.5d
+			id: "782C16B8A56859A2"
+			tasks: [{
+				id: "46059038B4C47A1D"
+				type: "item"
+				item: "evilcraft:dark_gem"
+			}]
+			rewards: [
+				{
+					id: "4C00888979E170C3"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 2
+				}
+				{
+					id: "4196CA0C2014C95A"
+					type: "item"
+					item: "evilcraft:dark_gem"
+					count: 2
+				}
+				{
+					id: "022385F221F00818"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked part of the chapter \",{\"text\":\"Sanguine Sting \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.132\"}"
+			icon: "minecolonies:blockhuttownhall"
+			x: 1.0d
+			y: 14.25d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.133\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.134}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.135\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.136}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.137}"
+			]
+			dependencies: ["12F109B5B72694C3"]
+			size: 1.5d
+			min_width: 300
+			id: "4030CF59E481704A"
+			tasks: [{
+				id: "21339610EE62A8EC"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			rewards: [
+				{
+					id: "488E6389C654C2E0"
+					type: "item"
+					item: "magnumtorch:diamond_magnum_torch"
+				}
+				{
+					id: "3BFC50DCFA327B22"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -2
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/townhall.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Town Hall Capsule\"}"
+							}
+							label: "Townhall.nbt"
+							size: 23
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "5D43ECBF47A0E70F"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Want Not \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "0427211B71C8BA37"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"You must place the Supply Camp before you can start your Colony\",\"bold\":true,\"underlined\":true,\"color\":\"red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.138\"}"
+			x: -3.5d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.139\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.140}"]
+			dependencies: ["190D99BFDBA17B13"]
+			id: "40FB31F573CB41B9"
+			tasks: [{
+				id: "0F8B56EDA246291B"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "4865595DCC12526B"
+				type: "item"
+				item: "minecraft:sand"
+				count: 8
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.141\"}"
+			x: -5.0d
+			y: 1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.142\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.143\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.144\"}"
+			]
+			dependencies: [
+				"16C79CB1537B7093"
+				"7833EAA6C05E4950"
+			]
+			id: "190D99BFDBA17B13"
+			tasks: [{
+				id: "6F7D369A33F13659"
+				type: "item"
+				item: "soulshards:vile_dust"
+			}]
+			rewards: [{
+				id: "7ED061467B260BF5"
+				type: "item"
+				item: "soulshards:vile_dust"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.145\"}"
+			icon: "nethersdelight:plate_of_stuffed_hoglin_snout"
+			x: 8.5d
+			y: 4.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.146\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.147}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.148}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.149\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.150}"
+			]
+			dependencies: ["6004FB8F1A55EAA1"]
+			optional: true
+			min_width: 225
+			id: "7B68B8DCDA015BCF"
+			tasks: [{
+				id: "3A818C0343779379"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.151\"}"
+				icon: "nethersdelight:hoglin_hide"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:hoglin"
+			}]
+			rewards: [
+				{
+					id: "41EE6DD16592BA43"
+					type: "item"
+					item: "nethersdelight:stuffed_hoglin"
+				}
+				{
+					id: "124CE6B7044A294B"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							RepairCost: 15
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 2s
+									id: "apotheosis:scavenger"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 2s
+									id: "minecraft:sharpness"
+								}
+								{
+									lvl: 1s
+									id: "soulshards:soul_stealer"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Infernal Knife\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.152\"}"
+			icon: "tconstruct:seared_melter"
+			x: 2.5d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.153\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.154}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.155}"
+			]
+			dependencies: ["372AB62538B293D3"]
+			id: "2CD5241DDDC9F473"
+			tasks: [
+				{
+					id: "711B78BE33700FBE"
+					type: "item"
+					item: "tconstruct:seared_brick"
+				}
+				{
+					id: "5EBE866497D35475"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "0C8E73D1F5563CA5"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.156\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_heater"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_fuel_tank"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_fuel_tank"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0749E5E2DDFF3957"
+					type: "item"
+					item: "tconstruct:seared_brick"
+					count: 8
+				}
+				{
+					id: "08E62693EA7FEA3D"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.157\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.158}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.159}"
+			]
+			dependencies: [
+				"5C0BF701B0990D7C"
+				"00F31E1EFBD483B5"
+			]
+			dependency_requirement: "one_completed"
+			id: "00C118CB0E6B46C1"
+			tasks: [{
+				id: "3F3021D117ABDFD6"
+				type: "item"
+				item: "nethersdelight:propelpearl"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.160\"}"
+			x: 1.0d
+			y: 8.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.161\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.162}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.163}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.164}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.165}"
+			]
+			dependencies: ["25E90C8154CF725D"]
+			min_width: 275
+			id: "00F31E1EFBD483B5"
+			tasks: [{
+				id: "23F039913D8B3EED"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.166\"}"
+				icon: "nethersdelight:propelplant_stem"
+				timer: 0L
+				observe_type: 0
+				to_observe: "nethersdelight:propelplant_stem"
+			}]
+			rewards: [
+				{
+					id: "74D453FB1C9FD9F1"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+				{
+					id: "7FC0BA0CB9E8AD6A"
+					type: "item"
+					item: "engineersdecor:sign_firehazard"
+				}
+				{
+					id: "53E45B80A37EE07D"
+					type: "item"
+					item: "minecraft:crimson_roots"
+					count: 4
+				}
+				{
+					id: "5D97F007A528FB25"
+					type: "item"
+					item: "nethersdelight:propelplant_cane"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.167\"}"
+			x: 8.5d
+			y: 6.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.168\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.169}"]
+			dependencies: ["624DDC11A0969722"]
+			optional: true
+			id: "34F994C9B96032D3"
+			tasks: [{
+				id: "7CE48D428D814646"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EFEA7D61ED8D5BC"
+				type: "item"
+				item: "nethersdelight:propelpearl"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.170\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.171}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.172\"}"
+			]
+			dependencies: ["40D4850B34EC5677"]
+			id: "377F03B6D2338EFD"
+			tasks: [{
+				id: "05B43D40FB61A2E9"
+				type: "item"
+				item: "minecolonies:barrel_block"
+			}]
+			rewards: [{
+				id: "63E753061021A33C"
+				type: "item"
+				item: "minecolonies:barrel_block"
+				count: 3
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.173\"}"
+			x: 11.5d
+			y: 10.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.174\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.175\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.176\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.177}"
+			]
+			dependencies: ["377F03B6D2338EFD"]
+			size: 1.5d
+			id: "73FE8B3FDB173113"
+			tasks: [{
+				id: "2FBC05AF9051A70D"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+			rewards: [
+				{
+					id: "4E160FFA238DF066"
+					type: "item"
+					item: "farmersdelight:organic_compost"
+					count: 12
+				}
+				{
+					id: "26C67B62EAF9347C"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Fertile Wastes \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Gluttony\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.178\"}"
+			icon: "tconstruct:scorched_brick"
+			x: 1.0d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.179\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.180}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.181\"}"
+			]
+			dependencies: ["2A07F5A0F699F597"]
+			id: "372AB62538B293D3"
+			tasks: [{
+				id: "7B1DE755AB640C0B"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+			}]
+			rewards: [{
+				id: "74A798AEABC6F3C7"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 8
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.182\"}"
+			icon: {
+				id: "gag:time_sand_pouch"
+				Count: 1b
+				tag: {
+					grains: 4200
+				}
+			}
+			x: 8.5d
+			y: 12.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.183\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.184\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.185}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.186}"
+			]
+			dependencies: ["782C16B8A56859A2"]
+			optional: true
+			id: "7C8BDB0D2CB63311"
+			tasks: [{
+				id: "3BC4617CC0434EC0"
+				type: "item"
+				item: {
+					id: "gag:time_sand_pouch"
+					Count: 1b
+					tag: {
+						grains: 5000
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "371EFE5B1138C445"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "45C66BE907B2706E"
+					type: "item"
+					item: "artifacts:panic_necklace"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.187\"}"
+			tags: ["info"]
+			x: 2.5d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.188\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.a_dark_forest.189\"}"]
+			id: "15E3F4B1635701D2"
+			tasks: [{
+				id: "45A3791DAF0633E2"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.190\"}"
+				icon: "minecraft:red_bed"
+				timer: 0L
+				observe_type: 1
+				to_observe: "minecraft:beds"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.191\"}"
+			x: 10.0d
+			y: 4.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.192\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.193}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.194}"
+			]
+			dependencies: ["7B68B8DCDA015BCF"]
+			optional: true
+			min_width: 275
+			id: "771C03085DC07788"
+			tasks: [{
+				id: "716924CEBF8E3CF9"
+				type: "item"
+				item: "infernalexp:raw_hogchop"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4BF1883D6E66DF0F"
+					type: "item"
+					item: {
+						id: "reliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "minecraft:hoglin"
+						}
+					}
+				}
+				{
+					id: "06628D02932EE099"
+					type: "item"
+					item: "hexerei:animal_fat"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.195\"}"
+			x: 4.0d
+			y: 8.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.196\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.197\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.198}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.199}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.200}"
+			]
+			dependencies: [
+				"6DF116C5D533A28D"
+				"455D20C685FC8D0B"
+			]
+			size: 1.5d
+			min_width: 250
+			id: "70391A24AA73AC40"
+			tasks: [{
+				id: "42D57BFFF3210695"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [
+				{
+					id: "79969BCCADA6417F"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/beehouse.nbt"
+							author: "IRSMoh_"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Bee Housing Capsule\"}"
+							}
+							label: "Beehouse.nbt"
+							size: 11
+							state: 5
+							canRotate: 0b
+						}
+					}
+				}
+				{
+					id: "32157CB87CDC35E9"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "naturesaura_unlocked"
+				}
+				{
+					id: "0ED84173872F0429"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Busy Bees \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Gluttony\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.201\"}"
+			x: 11.5d
+			y: 8.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.202\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.203}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.204}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.205}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.206}"
+			]
+			dependencies: ["31A09404EDA92DD4"]
+			size: 1.5d
+			min_width: 275
+			id: "0EC270EA1F87DDFD"
+			tasks: [{
+				id: "47645D56172FF10B"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "5E49CEDB47266733"
+					type: "item"
+					item: "biomesoplenty:pink_cherry_sapling"
+					count: 4
+				}
+				{
+					id: "6DA86513A93D17DF"
+					type: "item"
+					item: "biomesoplenty:white_cherry_sapling"
+					count: 4
+				}
+				{
+					id: "177D6FB68DC83379"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+					count: 8
+				}
+				{
+					id: "0CACD7A399BB4A34"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Unnatural Aura \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Mephistopheles' Anger\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 8.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.207\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.208}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.209}"
+			]
+			dependencies: ["70391A24AA73AC40"]
+			id: "31A09404EDA92DD4"
+			tasks: [{
+				id: "138349CFEDB51DDA"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [
+				{
+					id: "1577F142707CF336"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 4
+				}
+				{
+					id: "23BAE32CFDE5B7ED"
+					type: "item"
+					item: "farmersdelight:honey_cookie"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.210\"}"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.211\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.212}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.213}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.214\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.215}"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			min_width: 275
+			id: "455D20C685FC8D0B"
+			tasks: [{
+				id: "11412FDFA00B9C45"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.216\"}"
+				icon: "minecraft:honeycomb"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:bee"
+			}]
+			rewards: [{
+				id: "20A34D8F766A7D7D"
+				type: "item"
+				item: "productivebees:sturdy_bee_cage"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.217\"}"
+			x: 4.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.218\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.219}"]
+			dependencies: ["4B52BBBF01CDF027"]
+			id: "69F22F13C8B9FE2C"
+			tasks: [{
+				id: "2021F76B370E4720"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.220\"}"
+				icon: "minecraft:bone"
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:wolf"
+			}]
+			rewards: [{
+				id: "5762A873338D21B8"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.221\"}"
+			icon: "tconstruct:bloodbone"
+			tags: ["info"]
+			x: 2.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.222\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.223}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.224}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.225\"}"
+			]
+			min_width: 275
+			id: "096F23F43370EA50"
+			tasks: [{
+				id: "5EC2447A0A44A459"
+				type: "observation"
+				title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.226\"}"
+				icon: "quark:foxhound_spawn_egg"
+				timer: 0L
+				observe_type: 5
+				to_observe: "quark:foxhound"
+			}]
+			rewards: [
+				{
+					id: "7A0808C2DFF5A0D5"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16
+				}
+				{
+					id: "0AC2538A118B2709"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.227\"}"
+			icon: "ftbquests:book"
+			tags: ["info"]
+			x: 1.5d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.228\"}"
+			description: [
+				"{image:inferno:textures/quest/questicons.png width:200 height:100 align:1}"
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.229\"}"
+				"{inferno_quests.chapters.a_dark_forest.230}"
+				"{inferno_quests.chapters.a_dark_forest.231}"
+				"{inferno_quests.chapters.a_dark_forest.232}"
+				"{inferno_quests.chapters.a_dark_forest.233}"
+				"{inferno_quests.chapters.a_dark_forest.234}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.235}"
+			]
+			min_width: 375
+			id: "3FB11199B862B0ED"
+			tasks: [{
+				id: "0529F50AC1FAE03F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "718A9BC4CF627763"
+					type: "item"
+					item: "create:builders_tea"
+				}
+				{
+					id: "5EF9071ADDD05966"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.236\"}"
+			icon: "minecraft:skeleton_skull"
+			tags: ["info"]
+			x: -0.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.237\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.238}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.239}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.240\"}"
+			]
+			dependencies: ["1FAE864DC2E733BC"]
+			size: 0.75d
+			optional: true
+			min_width: 225
+			id: "54C3773415F19C53"
+			tasks: [{
+				id: "38F7580A165E4F6B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.241\"}"
+			x: 4.5d
+			y: 14.25d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.242\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.243}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.244}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.245}"
+				""
+				"{image:inferno:textures/quest/build_tool.png width:225 height:156 align:1}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.246}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.247}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.248}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.249}"
+			]
+			dependencies: ["782C16B8A56859A2"]
+			min_width: 350
+			id: "7CE3248888AC5982"
+			tasks: [{
+				id: "407FDEC2C34A9D68"
+				type: "item"
+				item: "structurize:sceptergold"
+			}]
+			rewards: [
+				{
+					id: "6C8A814F233DBD68"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "minecolonies:supplycampdeployer"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Inferno Supply Camp\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "335512C71D7668F5"
+					type: "item"
+					item: "inferno:bedrock"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 14.25d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.250\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.251\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.252}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.253}"
+			]
+			dependencies: ["7CE3248888AC5982"]
+			min_width: 325
+			id: "12F109B5B72694C3"
+			tasks: [{
+				id: "3D54334B06BA7C8B"
+				type: "item"
+				item: {
+					id: "minecolonies:supplycampdeployer"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Inferno Supply Camp\"}"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "297888AAD50FFC0B"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							RepairCost: 31
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 1s
+									id: "evilcraft:unusing"
+								}
+								{
+									lvl: 8s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 1s
+									id: "minecraft:mending"
+								}
+								{
+									lvl: 3s
+									id: "apotheosis:scavenger"
+								}
+								{
+									lvl: 5s
+									id: "minecraft:sharpness"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Gilded Sword of Command\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "41E5EF745B26D9C2"
+					type: "item"
+					item: {
+						id: "minecraft:iron_block"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Matrixis' Irony\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.254\"}"
+			icon: "ftbquests:book"
+			tags: ["info"]
+			x: 1.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.255\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.256}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.257\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.258}"
+			]
+			id: "13AC02EC122D2DA7"
+			tasks: [{
+				id: "3D01F47E58A97CCE"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.259\"}"
+			icon: "minecraft:leather"
+			x: 2.5d
+			y: 5.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.260\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.261}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.262}"
+			]
+			dependencies: ["4B52BBBF01CDF027"]
+			id: "79680158E7F5BA70"
+			tasks: [
+				{
+					id: "3074B9865F431B9D"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.263\"}"
+					icon: "minecraft:leather"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:cow"
+				}
+				{
+					id: "17654B9AD1B5F555"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.264\"}"
+					icon: "minecraft:feather"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:chicken"
+				}
+				{
+					id: "4F8198BD6ADFDF46"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.265\"}"
+					icon: "minecraft:white_wool"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:sheep"
+				}
+				{
+					id: "525DA529E65306B0"
+					type: "observation"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.266\"}"
+					icon: "minecraft:rabbit_hide"
+					timer: 0L
+					observe_type: 5
+					to_observe: "minecraft:rabbit"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.267\"}"
+			icon: {
+				id: "tconstruct:travelers_chestplate"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.55f
+					}
+					tic_stats: {
+						"tconstruct:attack_damage": 0.0f
+						"tconstruct:durability": 160.0f
+						"tconstruct:armor": 5.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [ ]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						defense: 2
+						upgrades: 3
+					}
+				}
+			}
+			x: -5.0d
+			y: 6.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.268\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.269\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.270}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.271}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.272}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.273\"}"
+			]
+			dependencies: ["5C0BF701B0990D7C"]
+			min_width: 225
+			id: "4907DE361AB24C96"
+			tasks: [
+				{
+					id: "630FB06A4087CE6F"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.274\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:travelers_helmet"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 110.0f
+											"tconstruct:armor": 1.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+								{
+									id: "tconstruct:travelers_chestplate"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 160.0f
+											"tconstruct:armor": 5.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+								{
+									id: "tconstruct:travelers_leggings"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 150.0f
+											"tconstruct:armor": 4.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+								{
+									id: "tconstruct:travelers_boots"
+									Count: 1b
+									tag: {
+										tic_multipliers: { }
+										tic_stats: {
+											"tconstruct:durability": 130.0f
+											"tconstruct:armor": 1.0f
+										}
+										tic_broken: 0b
+										HideFlags: 3
+										tic_modifiers: [ ]
+										Damage: 0
+										tic_persistent_data: {
+											abilities: 1
+											defense: 2
+											upgrades: 3
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "37A858371841CDE7"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.275\"}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "minecraft:turtle_helmet"
+											Count: 1b
+											tag: {
+												Damage: 0
+											}
+										}]
+									}
+								}
+								{
+									id: "itemfilters:or"
+									Count: 1b
+									tag: {
+										items: [
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*helmet"
+												}
+											}
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*chestplate"
+												}
+											}
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*leggings"
+												}
+											}
+											{
+												id: "itemfilters:id_regex"
+												Count: 1b
+												tag: {
+													value: "minecraft.*boots"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.276\"}"
+			icon: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.0d
+			y: 7.25d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.277\"}"
+			description: ["{inferno_quests.chapters.a_dark_forest.278}"]
+			hide_dependency_lines: true
+			dependencies: ["4907DE361AB24C96"]
+			size: 0.5d
+			optional: true
+			id: "626F92AFD11CEA3C"
+			tasks: [{
+				id: "0FE2CBCF5FE1E832"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 3L
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.279\"}"
+			icon: "minecraft:spawner"
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.280\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.281}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.282}"
+				""
+				"{image:inferno:textures/quest/sins.png width:279 height:150 align:1 fit:true}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4116046D3CB4AF2A"]
+			min_width: 275
+			id: "3C1FD52AB36E069A"
+			tasks: [{
+				id: "145E47B919278538"
+				type: "structure"
+				structure: "inferno:sins"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.283\"}"
+			icon: "reliquary:infernal_chalice"
+			tags: ["info"]
+			x: -2.0d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.a_dark_forest.284\"}"
+			description: [
+				"{inferno_quests.chapters.a_dark_forest.285}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.286}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.a_dark_forest.287\"}"
+				""
+				"{inferno_quests.chapters.a_dark_forest.288}"
+			]
+			size: 1.5d
+			min_width: 300
+			id: "5F23A6966EA408C3"
+			tasks: [{
+				id: "70EAD5D192D881DB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0FB267E15E5FCCE3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+	]
+}

@@ -1,0 +1,2074 @@
+{
+	id: "00D5B32BFEBF5A79"
+	group: "3ABD0072BF4C3677"
+	order_index: 0
+	filename: "want_not"
+	title: "{\"translate\":\"inferno_quests.chapters.want_not.1\"}"
+	icon: "minecolonies:blockhutminer"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.want_not.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{inferno_quests.chapters.want_not.3}"
+			x: -2.5d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.4\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.5}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.6\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.7\"}"
+				""
+				"{inferno_quests.chapters.want_not.8}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 275
+			id: "46A72493AFD256CA"
+			tasks: [{
+				id: "5911F3364E930A27"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+			rewards: [
+				{
+					id: "26A14847DDFCB07F"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/university.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Infernal University Capsule\"}"
+							}
+							label: "University.nbt"
+							size: 23
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "126B4986D310D26B"
+					type: "item"
+					item: "quark:warped_bookshelf"
+					count: 4
+				}
+				{
+					id: "20C7F3F37E57AF20"
+					type: "item"
+					item: "ringsofascension:ring_experience"
+				}
+				{
+					id: "110BB642089499AF"
+					type: "item"
+					item: "minecraft:weeping_vines"
+					count: 16
+				}
+				{
+					id: "2DE046CD4DF3BD52"
+					type: "item"
+					item: "minecraft:twisting_vines"
+					count: 16
+				}
+				{
+					id: "110AAB0531E10C4C"
+					type: "item"
+					item: "minecraft:apple"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.9\"}"
+			x: 0.5d
+			y: -3.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.10\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.11\"}"
+				""
+				"{inferno_quests.chapters.want_not.12}"
+				""
+				"{inferno_quests.chapters.want_not.13}"
+				""
+				"{inferno_quests.chapters.want_not.14}"
+				""
+				"{inferno_quests.chapters.want_not.15}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 300
+			id: "06CE7047869A2A71"
+			tasks: [{
+				id: "70988FB21F4E7F10"
+				type: "item"
+				item: "minecolonies:blockhutguardtower"
+			}]
+			rewards: [
+				{
+					id: "4542C6CEF8E5B8E0"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "67D0BA3B118E0575"
+					type: "item"
+					item: "minecolonies:blockhutguardtower"
+				}
+				{
+					id: "1739BCC620E18EBD"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36B69670AA42F7B4"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_boots"
+						Count: 1b
+						tag: {
+							tic_stats: {
+								"tconstruct:durability": 130.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [{
+								name: "tconstruct:snow_boots"
+								level: 1s
+							}]
+							Damage: 0
+							tic_volatile_data: {
+								"tconstruct:snow_boots": 1b
+							}
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "656823356817C3D0"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_leggings"
+						Count: 1b
+						tag: {
+							tic_stats: {
+								"tconstruct:durability": 150.0f
+								"tconstruct:armor": 4.0f
+							}
+							tic_broken: 0b
+							Damage: 0
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "552D7A43F29BED3B"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_chestplate"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.55f
+							}
+							tic_stats: {
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:durability": 160.0f
+								"tconstruct:armor": 5.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [ ]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "5130E63E7ECBDE07"
+					type: "item"
+					item: {
+						id: "tconstruct:travelers_helmet"
+						Count: 1b
+						tag: {
+							tic_stats: {
+								"tconstruct:durability": 110.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							Damage: 0
+							tic_modifiers: [ ]
+							tic_persistent_data: {
+								abilities: 1
+								defense: 2
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.16\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.17\"}"
+				""
+				"{inferno_quests.chapters.want_not.18}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.19\"}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			id: "08E650C5D890F725"
+			tasks: [{
+				id: "3F9CB8731FCA305B"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+			rewards: [
+				{
+					id: "50749BAB8F5E590B"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+					count: 4
+				}
+				{
+					id: "385DE5643778C13F"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64
+				}
+				{
+					id: "7F6FD6C38EFE6981"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/tavern.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Tavern Capsule\"}"
+							}
+							label: "Tavern.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.20\"}"
+			x: 2.0d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.21\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.22}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.23\"}"
+				""
+				"{inferno_quests.chapters.want_not.24}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.25\"}"
+				""
+				"{inferno_quests.chapters.want_not.26}"
+				""
+				"{inferno_quests.chapters.want_not.27}"
+			]
+			dependencies: ["550E386F2FFB787D"]
+			size: 1.5d
+			min_width: 300
+			id: "2A6CCA72F1D483D9"
+			tasks: [{
+				id: "5C0F8C862DA37ADC"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+			rewards: [
+				{
+					id: "329EF753D8A4C5BC"
+					type: "item"
+					item: "minecolonies:scroll_highlight"
+					count: 16
+				}
+				{
+					id: "75329C4359119923"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69B9CA2DA63C6D22"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/builder.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Builder's Hut Capsule\"}"
+							}
+							label: "Builder.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "42D46AB3FEA8036C"
+					type: "item"
+					item: "minecolonies:blockhutbuilder"
+				}
+				{
+					id: "2CBDB1FC2D13B4E4"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"In Service Bound \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+				{
+					id: "70A269DE0D358022"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Unlocked the chapter \",{\"text\":\"Give Them a Fish \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"},\"!\"]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.28\"}"
+			x: 3.5d
+			y: -3.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.29\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.30}"
+				""
+				"{inferno_quests.chapters.want_not.31}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.32\"}"
+				""
+				"{inferno_quests.chapters.want_not.33}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 250
+			id: "58AA514E25448761"
+			tasks: [{
+				id: "3795DA308473650F"
+				type: "item"
+				item: "minecolonies:blockhutcitizen"
+			}]
+			rewards: [
+				{
+					id: "0EEFE0E12133421B"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "14DE03E6EF9708C8"
+					type: "item"
+					item: "minecraft:warped_stem"
+					count: 64
+				}
+				{
+					id: "6375E1385B3C7C4F"
+					type: "item"
+					item: "minecraft:cyan_bed"
+					count: 4
+				}
+			]
+		}
+		{
+			icon: "minecolonies:blockhutcook"
+			x: 0.5d
+			y: -5.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.34\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.35}"
+				""
+				"{inferno_quests.chapters.want_not.36}"
+				""
+				"{inferno_quests.chapters.want_not.37}"
+				""
+				"{inferno_quests.chapters.want_not.38}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 275
+			id: "321EF99D2BEE9665"
+			tasks: [{
+				id: "1BD08114443136BE"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
+			rewards: [
+				{
+					id: "29C8511D6A11FF89"
+					type: "item"
+					item: "minecraft:bread"
+					count: 32
+				}
+				{
+					id: "070DA7A44A8B57E3"
+					type: "item"
+					item: "inferno:smoked_shroom"
+					count: 32
+				}
+				{
+					id: "4F95D09E2C51856F"
+					type: "item"
+					item: "productivebees:milk_bottle"
+					count: 8
+				}
+				{
+					id: "2340404E414C0799"
+					type: "item"
+					item: "kubejs:tiny_charcoal"
+					count: 128
+				}
+				{
+					id: "4D680157130ABCFF"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/restaurant.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Restaurant Capsule\"}"
+							}
+							label: "Restaurant.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			shape: "pentagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.39\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.40}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.41\"}"
+				""
+				"{inferno_quests.chapters.want_not.42}"
+				""
+				"{image:inferno:textures/quest/colony.png width:186 height:100 align:1 fit:true}"
+			]
+			dependencies: ["4030CF59E481704A"]
+			size: 1.5d
+			min_width: 300
+			id: "550E386F2FFB787D"
+			tasks: [{
+				id: "07C2F634B2A05AD3"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			rewards: [
+				{
+					id: "008CAE3D0EA338DC"
+					type: "item"
+					item: "minecolonies:clipboard"
+				}
+				{
+					id: "22C1447B753553D9"
+					type: "item"
+					item: {
+						id: "minecolonies:scroll_tp"
+						Count: 1b
+						tag: { }
+					}
+					count: 4
+				}
+				{
+					id: "2CB0D6570C46D153"
+					type: "item"
+					item: "hexerei:mahogany_sapling"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.43\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.44\"}"
+				""
+				"{inferno_quests.chapters.want_not.45}"
+				""
+				"{inferno_quests.chapters.want_not.46}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			min_width: 300
+			id: "6525AE59A42AEAC7"
+			tasks: [{
+				id: "517891DB263E300F"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
+			rewards: [
+				{
+					id: "03DD38A4CF53746F"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/warehouse.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Infernal Warehouse\"}"
+							}
+							label: "Warehouse.nbt"
+							size: 21
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "0B4E41B804758EE0"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 4
+				}
+				{
+					id: "639ED0E63F8D38BD"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64
+				}
+				{
+					id: "6C0B9BCA6C9106A8"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 32
+				}
+				{
+					id: "379A3C7CBFB78887"
+					type: "item"
+					item: "minecraft:warped_planks"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.47\"}"
+			icon: {
+				id: "kubejs:miners_delight"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: -8.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.48\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.49\"}"
+				""
+				"{inferno_quests.chapters.want_not.50}"
+			]
+			dependencies: ["550E386F2FFB787D"]
+			min_width: 275
+			id: "5364203E3F9EBF2D"
+			tasks: [
+				{
+					id: "75A1D294A136E8FF"
+					type: "item"
+					item: {
+						id: "kubejs:miners_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "490C2FC9DC7ED42B"
+					type: "item"
+					item: {
+						id: "kubejs:foresters_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03EF3E3D920A929C"
+					type: "item"
+					item: {
+						id: "kubejs:diggers_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F611B5BC62A58B6"
+					type: "item"
+					item: {
+						id: "kubejs:farmers_delight"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7C8828FE54EFFA8F"
+					type: "item"
+					item: "meetyourfight:marshy_delight"
+				}
+				{
+					id: "706D867191FFFD11"
+					type: "item"
+					item: "minecolonies:scroll_buff"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.51\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.52}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.53\"}"
+			]
+			dependencies: ["6525AE59A42AEAC7"]
+			id: "5080EA9B5355509C"
+			tasks: [{
+				id: "2087D925E2CC8079"
+				type: "item"
+				item: "minecolonies:blockhutdeliveryman"
+			}]
+			rewards: [{
+				id: "7A9AEBF30314B20E"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						yOffset: -1
+						RepairCost: 0
+						color: 0
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/courier.nbt"
+						author: "FTB"
+						display: {
+							color: 8388608
+							Name: "{\"text\":\"Courier's Hut Capsule\"}"
+						}
+						label: "Courier.nbt"
+						size: 13
+						state: 5
+						canRotate: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.54\"}"
+			icon: "minecolonies:blockstash"
+			x: 6.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.55\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.56}"
+				""
+				"{inferno_quests.chapters.want_not.57}"
+			]
+			dependencies: ["5080EA9B5355509C"]
+			id: "035C600C7C3C5B80"
+			tasks: [
+				{
+					id: "15A457F86C3F5347"
+					type: "item"
+					item: "minecolonies:blockstash"
+				}
+				{
+					id: "2A5D1305330AFD28"
+					type: "item"
+					item: "minecolonies:blockpostbox"
+				}
+			]
+			rewards: [{
+				id: "7FABEBFEDB524181"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+		}
+		{
+			icon: {
+				id: "entangled:block"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.58\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.59}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.60\"}"
+				""
+				"{inferno_quests.chapters.want_not.61}"
+			]
+			dependencies: ["6525AE59A42AEAC7"]
+			min_width: 275
+			id: "0DD6E4979E69956B"
+			tasks: [
+				{
+					id: "21B49B3DD0028773"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "635A928E074B79D9"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "14E0C2938ACBE3D7"
+					type: "item"
+					item: "prettypipes:stack_size_module"
+					count: 6
+				}
+				{
+					id: "49A55C68F9AD0C3D"
+					type: "item"
+					item: "prettypipes:high_speed_module"
+					count: 16
+				}
+				{
+					id: "7E84C29EA235A6DC"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "642D956037B56037"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.62\"}"
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: -6.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.63\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.64\"}"
+				""
+				"{inferno_quests.chapters.want_not.65}"
+				"{inferno_quests.chapters.want_not.66}"
+				"{inferno_quests.chapters.want_not.67}"
+				"{inferno_quests.chapters.want_not.68}"
+				""
+				"{inferno_quests.chapters.want_not.69}"
+			]
+			dependencies: ["46A72493AFD256CA"]
+			optional: true
+			min_width: 275
+			id: "6B8AD325A8E7AD32"
+			tasks: [{
+				id: "18A91579ABFDE36D"
+				type: "checkmark"
+				title: "{\"translate\":\"inferno_quests.chapters.want_not.70\"}"
+			}]
+			rewards: [
+				{
+					id: "70808BD2A63D989C"
+					type: "item"
+					item: "minecolonies:ancienttome"
+				}
+				{
+					id: "2D9AC3C323ECC0AB"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:long_knowledge"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.71\"}"
+			icon: "minecraft:red_bed"
+			tags: ["info"]
+			x: 4.5d
+			y: -7.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.72\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.73}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.74\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.75\"}"
+				"{\"translate\":\"inferno_quests.chapters.want_not.76\"}"
+				"{\"translate\":\"inferno_quests.chapters.want_not.77\"}"
+				"{\"translate\":\"inferno_quests.chapters.want_not.78\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "68A1D2534A26C71E"
+			tasks: [{
+				id: "538B3B00CA233E28"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.79\"}"
+			icon: "minecolonies:blockconstructiontape"
+			tags: ["info"]
+			x: 2.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.80\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.81}"
+				""
+				"{inferno_quests.chapters.want_not.82}"
+				""
+				"{inferno_quests.chapters.want_not.83}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.84\"}"
+				""
+				"{inferno_quests.chapters.want_not.85}"
+			]
+			dependencies: ["2A6CCA72F1D483D9"]
+			optional: true
+			min_width: 275
+			id: "7A67B426C3D571AA"
+			tasks: [{
+				id: "4F4B8918F7C353AB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DD2EEB9F8202D2B"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						yOffset: -1
+						RepairCost: 0
+						color: 0
+						isReward: 1b
+						oneUse: 1b
+						structureName: "config/capsule/rewards/house.nbt"
+						author: "FTB"
+						display: {
+							color: 8388608
+							Name: "{\"text\":\"Housing Capsule\"}"
+						}
+						label: "House.nbt"
+						size: 15
+						state: 5
+						canRotate: 1b
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.86\"}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecolonies:textures/gui/red_wax_information.png"
+				}
+			}
+			tags: ["info"]
+			x: 4.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.87\"}"
+			description: ["{inferno_quests.chapters.want_not.88}"]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			id: "31F6D33494EC4EED"
+			tasks: [{
+				id: "193C845CA052BBB7"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.89\"}"
+			icon: "minecolonies:blockconstructiontape"
+			tags: ["info"]
+			x: 1.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.90\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.91}"
+				""
+				"{inferno_quests.chapters.want_not.92}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.93\"}"
+			]
+			dependencies: ["7A67B426C3D571AA"]
+			optional: true
+			id: "3A7BE7BAFFF1A05C"
+			tasks: [{
+				id: "0129A227A9289BE7"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "43F9288AC4D6C918"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "1826F87FD5754989"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.94\"}"
+			icon: "infernou:uni1"
+			x: -2.5d
+			y: -1.5d
+			shape: "diamond"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.95\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.96}"
+				""
+				"{inferno_quests.chapters.want_not.97}"
+			]
+			dependencies: ["11159BF1C52963EC"]
+			min_width: 275
+			id: "278B1A270F796408"
+			tasks: [
+				{
+					id: "7C8469AFD9EC31D0"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:fortuna_gate"
+						}
+					}
+				}
+				{
+					id: "4CB9589012DDDE1A"
+					type: "item"
+					item: "infernou:uni1"
+				}
+			]
+			rewards: [
+				{
+					id: "4B754C3DFED4F173"
+					type: "item"
+					item: "meetyourfight:fortunes_favor"
+				}
+				{
+					id: "7230F47CD490C025"
+					type: "loot"
+					table_id: 3787699581091702813L
+				}
+				{
+					id: "16AEB19081C875ED"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "7CF2B011260FA4E4"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "799C3983A7365C0E"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.98\"}"
+			icon: "infernou:uni2"
+			x: -2.5d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.99\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.100}"
+				""
+				"{inferno_quests.chapters.want_not.101}"
+				""
+				"{inferno_quests.chapters.want_not.102}"
+				""
+				"{inferno_quests.chapters.want_not.103}"
+				"{\"translate\":\"inferno_quests.chapters.want_not.104\"}"
+			]
+			dependencies: ["46A72493AFD256CA"]
+			min_width: 275
+			id: "11159BF1C52963EC"
+			tasks: [
+				{
+					id: "17A466B4D7E3128C"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:bellringer_gate"
+						}
+					}
+				}
+				{
+					id: "39657EE60FA41863"
+					type: "item"
+					item: "infernou:uni2"
+				}
+			]
+			rewards: [
+				{
+					id: "6A22BECC208C75B9"
+					type: "item"
+					item: "meetyourfight:phantoplasm"
+				}
+				{
+					id: "50B3ACC61037F45D"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "380AAFBFDD55CC69"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7BBE3F2A0BF3A660"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "2ADC380E3DA402A9"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"Upon learning \",{\"text\":\"Infernal Research \",\"color\":\"red\"},\"at the University, you are opening yourself up to getting invaded by monsters.\"]"
+					player_command: false
+				}
+				{
+					id: "2EB87AB4CF572B22"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",\"See the new quest in the chapter \",{\"text\":\"Protecting the Unprotected \",\"color\":\"dark_purple\"},\"under \",{\"text\":\"Desires\",\"color\":\"dark_aqua\"}]"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{inferno_quests.chapters.want_not.105}"
+			icon: "infernou:uni3"
+			x: -2.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.106\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.107}"
+				""
+				"{inferno_quests.chapters.want_not.108}"
+			]
+			dependencies: ["278B1A270F796408"]
+			min_width: 250
+			id: "013A0FDD10A690FD"
+			tasks: [
+				{
+					id: "5E2C8A42CDCA498D"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:swampjaw_gate"
+						}
+					}
+				}
+				{
+					id: "256B247AEF1A85B9"
+					type: "item"
+					item: "infernou:uni3"
+				}
+			]
+			rewards: [
+				{
+					id: "54F6902BB90E8BA4"
+					type: "loot"
+					table_id: 3398023267399237785L
+				}
+				{
+					id: "14AFA66F21E2409F"
+					type: "item"
+					item: "meetyourfight:mossy_tooth"
+				}
+				{
+					id: "1090BD160C43DC9C"
+					type: "loot"
+					table_id: 3787699581091702813L
+				}
+				{
+					id: "7DB566812E1E6504"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+				{
+					id: "6B63D426E5760FDB"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 2
+				}
+				{
+					id: "1FB2FFF1D64E3AF5"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.109\"}"
+			icon: "alexsmobs:void_worm_eye"
+			x: -2.5d
+			y: 1.5d
+			shape: "diamond"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.110\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.111\"}"
+				""
+				"{inferno_quests.chapters.want_not.112}"
+				""
+				"{inferno_quests.chapters.want_not.113}"
+				""
+				"{inferno_quests.chapters.want_not.114}"
+			]
+			dependencies: ["013A0FDD10A690FD"]
+			size: 1.5d
+			min_width: 250
+			id: "7FF70F90D7134D53"
+			tasks: [
+				{
+					id: "466260A25874E8BE"
+					type: "item"
+					item: {
+						id: "gateways:gate_pearl"
+						Count: 1b
+						tag: {
+							gateway: "gateways:voidworm_gate"
+						}
+					}
+				}
+				{
+					id: "28CA6A9755D4FB14"
+					type: "item"
+					item: "infernou:uni4"
+				}
+			]
+			rewards: [
+				{
+					id: "5E58F93DB73358F2"
+					type: "loot"
+					table_id: 4348719427326234630L
+				}
+				{
+					id: "714F1F64DE68D796"
+					type: "item"
+					item: "cataclysm:void_core"
+				}
+				{
+					id: "35952B4C04FDE9A9"
+					type: "loot"
+					table_id: 3398023267399237785L
+				}
+				{
+					id: "76010028F6C16B2F"
+					type: "loot"
+					table_id: 3787699581091702813L
+				}
+				{
+					id: "7A83A407A89ECFBD"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/guardtower.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Guard Tower Capsule\"}"
+							}
+							label: "Guardtower.nbt"
+							size: 9
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 4
+				}
+				{
+					id: "7A153CE3EF41CBC4"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/house.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Housing Capsule\"}"
+							}
+							label: "House.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.115\"}"
+			icon: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			tags: ["info"]
+			x: 0.5d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.116\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.117}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.118\"}"
+				""
+				"{image:inferno:textures/quest/mc_armor_requests.png width:136 height:100 align:1}"
+				""
+				"{inferno_quests.chapters.want_not.119}"
+			]
+			dependencies: ["06CE7047869A2A71"]
+			optional: true
+			min_width: 300
+			id: "598C1A91F6107009"
+			tasks: [{
+				id: "63F1500A87DF6DDB"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "21875B6272EFC5AB"
+					type: "item"
+					item: {
+						id: "tconstruct:cleaver"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:mining_speed": 0.25f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.1f
+								"tconstruct:mining_speed": 2.25f
+								"tconstruct:attack_damage": 5.3999996f
+								"tconstruct:harvest_tier": "minecraft:gold"
+								"tconstruct:durability": 504.0f
+							}
+							RepairCost: 0
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:severing"
+									level: 2s
+								}
+								{
+									name: "tconstruct:raging"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+								{
+									name: "tconstruct:silky_aoe_shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:enhanced"
+									level: 2s
+								}
+							]
+							display: {
+								Name: "{\"text\":\"Sentinel's Delight\"}"
+							}
+							tic_materials: [
+								"tconstruct:rose_gold"
+								"tconstruct:bloodbone"
+								"tconstruct:bone"
+								"tconstruct:rose_gold"
+							]
+							Damage: 0
+							tic_volatile_data: {
+								upgrades: 2
+							}
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+				}
+				{
+					id: "7468703BB895C0CC"
+					type: "item"
+					item: {
+						id: "thermal:hazmat_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.120\"}"
+			disable_toast: true
+			x: -4.0d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.121\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.122\"}"
+				""
+				"{inferno_quests.chapters.want_not.123}"
+			]
+			dependencies: ["11159BF1C52963EC"]
+			size: 1.25d
+			id: "63AB2AEC7CC984DC"
+			tasks: [{
+				id: "0538F8A5CD104BEB"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+			rewards: [
+				{
+					id: "00995608B3A3A010"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 8
+				}
+				{
+					id: "10D89FDEA27425CC"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							author: "FTB"
+							oneUse: 1b
+							structureName: "config/capsule/rewards/mechanic.nbt"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Mechanic Capsule\"}"
+							}
+							label: "Mechanic.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "025D709C870B8507"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "mechanic_unlocked"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.124\"}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecolonies:textures/entity/skills/small/knowledge.png"
+				}
+			}
+			tags: ["info"]
+			x: 5.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.125\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.126}"
+				""
+				"{inferno_quests.chapters.want_not.127}"
+				""
+				"{image:inferno:textures/quest/colonist_stats.png width:236 height:100 align:1}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.128\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "6CB07C7AA476556E"
+			tasks: [{
+				id: "39ECC17033A69435"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5A69E50CCE5A692E"
+					type: "item"
+				}
+				{
+					id: "0939685804A045A2"
+					type: "item"
+					item: "minecolonies:scroll_buff"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.129\"}"
+			x: -4.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.130\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.131}"
+				""
+				"{inferno_quests.chapters.want_not.132}"
+			]
+			dependencies: ["11159BF1C52963EC"]
+			size: 1.25d
+			id: "6FD7F3B3025BE0BC"
+			tasks: [{
+				id: "2642ADF8D8D4FFDB"
+				type: "item"
+				item: "minecolonies:blockhutcrusher"
+			}]
+			rewards: [
+				{
+					id: "13706E7FEC749592"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 64
+				}
+				{
+					id: "4C8A59E28C2A5B25"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "327606BBC8B063DC"
+					type: "loot"
+					table_id: 3059711933873481465L
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.133\"}"
+			x: -4.0d
+			y: -4.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.134\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.135}"
+				""
+				"{inferno_quests.chapters.want_not.136}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.137\"}"
+				""
+				"{inferno_quests.chapters.want_not.138}"
+			]
+			dependencies: ["46A72493AFD256CA"]
+			min_width: 250
+			id: "5D8513450261BCBC"
+			tasks: [{
+				id: "3D31E4E24345A8A9"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+			rewards: [
+				{
+					id: "54D081EC0CEE7C8B"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							yOffset: -1
+							RepairCost: 0
+							color: 0
+							isReward: 1b
+							oneUse: 1b
+							structureName: "config/capsule/rewards/hospital.nbt"
+							author: "FTB"
+							display: {
+								color: 8388608
+								Name: "{\"text\":\"Hospital Capsule\"}"
+							}
+							label: "Hospital.nbt"
+							size: 15
+							state: 5
+							canRotate: 1b
+						}
+					}
+				}
+				{
+					id: "1D0CF4169E804D6A"
+					type: "loot"
+					table_id: 4864474103053531672L
+				}
+				{
+					id: "356A153E6B16DBE6"
+					type: "item"
+					item: "farmersdelight:milk_bottle"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.139\"}"
+			icon: "minecraft:clock"
+			tags: ["info"]
+			x: 2.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.140\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.141\"}"
+				""
+				"{inferno_quests.chapters.want_not.142}"
+				""
+				"{inferno_quests.chapters.want_not.143}"
+				""
+				"{inferno_quests.chapters.want_not.144}"
+				""
+				"{inferno_quests.chapters.want_not.145}"
+			]
+			dependencies: ["7A67B426C3D571AA"]
+			optional: true
+			min_width: 275
+			id: "07CCDBA8016DBB00"
+			tasks: [{
+				id: "0E32934694501AC3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.146\"}"
+			icon: "minecolonies:clipboard"
+			tags: ["info"]
+			x: 2.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.147\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.148}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.149\"}"
+				""
+				"{inferno_quests.chapters.want_not.150}"
+			]
+			dependencies: ["7A67B426C3D571AA"]
+			optional: true
+			id: "665CF04F80042756"
+			tasks: [{
+				id: "50961052635ADDC8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.151\"}"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			tags: ["info"]
+			x: -0.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.152\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.153}"
+				""
+				"{inferno_quests.chapters.want_not.154}"
+				""
+				"{inferno_quests.chapters.want_not.155}"
+				""
+				"{inferno_quests.chapters.want_not.156}"
+			]
+			dependencies: ["06CE7047869A2A71"]
+			optional: true
+			min_width: 275
+			id: "3AFC51DB4C9C4657"
+			tasks: [{
+				id: "00280F547391B688"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.157\"}"
+			icon: "minecraft:crafting_table"
+			tags: ["info"]
+			x: 5.5d
+			y: -7.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.158\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.159}"
+				""
+				"{inferno_quests.chapters.want_not.160}"
+				""
+				"{inferno_quests.chapters.want_not.161}"
+				""
+				"{inferno_quests.chapters.want_not.162}"
+				""
+				"{inferno_quests.chapters.want_not.163}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "55105FE2E105EF8B"
+			tasks: [{
+				id: "337A0AF1F284D520"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.164\"}"
+			icon: "minecraft:player_head"
+			tags: ["info"]
+			x: 6.5d
+			y: -7.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.165\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.166}"
+				""
+				"{inferno_quests.chapters.want_not.167}"
+				""
+				"{inferno_quests.chapters.want_not.168}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.169\"}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.170\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "5CF1E4728C6655FE"
+			tasks: [{
+				id: "03524CF639B08B68"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.171\"}"
+			icon: "minecraft:dirt_path"
+			tags: ["info"]
+			disable_toast: true
+			x: 6.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.172\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.173}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.174\"}"
+				""
+				"{inferno_quests.chapters.want_not.175}"
+				""
+				"{image:inferno:textures/quest/roads.png width:279 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			optional: true
+			min_width: 275
+			id: "3E881B3EFFCFE111"
+			tasks: [{
+				id: "3300E787B8A46C3C"
+				type: "item"
+				title: "{\"translate\":\"inferno_quests.chapters.want_not.176\"}"
+				disable_toast: true
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecolonies:pathblocks"
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.want_not.177\"}"
+			icon: "minecolonies:adventure_token"
+			tags: ["info"]
+			x: 5.5d
+			y: -9.25d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.178\"}"
+			description: [
+				"{inferno_quests.chapters.want_not.179}"
+				""
+				"{inferno_quests.chapters.want_not.180}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.want_not.181\"}"
+				""
+				"{inferno_quests.chapters.want_not.182}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["550E386F2FFB787D"]
+			size: 1.25d
+			optional: true
+			min_width: 275
+			id: "30A65BD125CDC42C"
+			tasks: [{
+				id: "37F6306D2AA1355D"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.want_not.183\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.want_not.184\"}"
+				""
+				"{inferno_quests.chapters.want_not.185}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7FF70F90D7134D53"]
+			size: 1.5d
+			min_width: 225
+			id: "7758D626065640B6"
+			tasks: [{
+				id: "2F28BD55F78B85E8"
+				type: "item"
+				item: "inferno:eden_apple"
+			}]
+		}
+	]
+}

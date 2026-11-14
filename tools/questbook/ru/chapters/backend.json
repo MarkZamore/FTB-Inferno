@@ -1,0 +1,16 @@
+{
+  "Backend": "Служебные квесты",
+  "Iron unlocked": "Железо доступно",
+  "For tooltips": "Для подсказок",
+  "Bees unlocked": "Пчёлы доступны",
+  "Summon a Foliot task": "Задача «Призовите фолиота»",
+  "specifically checks if the TASK \"summon a foliot\" is completed, then completes the other task, as it isn't possible": "Проверяет, выполнена ли именно ЗАДАЧА «Призовите фолиота», затем засчитывает другую задачу, которую иначе выполнить нельзя.",
+  "observe a familiar task": "Задача «Понаблюдайте за фамильяром»",
+  "specifically checks if the TASK \"observe a familiar\" is completed, then completes the other task, as it isn't possible": "Проверяет, выполнена ли именно ЗАДАЧА «Понаблюдайте за фамильяром», затем засчитывает другую задачу, которую иначе выполнить нельзя.",
+  "Ars Unlocked": "Ars Nouveau открыт",
+  "Faustian Bargains Unlocked": "Открыта глава «Сделки Фауста»",
+  "Spellcrafting 101 Unlocked": "Открыта глава «Основы создания заклинаний»",
+  "Kill Something": "Убейте кого-нибудь",
+  "time in ticks": "Время в тиках",
+  "Play for 15 hours": "Сыграйте 15 часов"
+}

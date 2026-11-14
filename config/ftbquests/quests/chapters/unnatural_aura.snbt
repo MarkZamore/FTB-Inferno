@@ -1,0 +1,1003 @@
+{
+	id: "1F25D8EFB8DEFD76"
+	group: "7044F2C841148E69"
+	order_index: 1
+	filename: "unnatural_aura"
+	title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.1\"}"
+	icon: "naturesaura:crimson_aura_mushroom"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.unnatural_aura.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.3\"}"
+			x: -1.0d
+			y: -2.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.4\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.5\"}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.6}"
+			]
+			dependencies: ["2E715A588FA9E513"]
+			min_width: 275
+			id: "30BFD136F6B44257"
+			tasks: [{
+				id: "76596098A53D4C3F"
+				type: "item"
+				item: "naturesaura:wood_stand"
+				count: 8L
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.7\"}"
+			icon: "naturesaura:bottle_two_the_rebottling"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.8\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.9}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.10}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.11}"
+			]
+			dependencies: ["2E715A588FA9E513"]
+			id: "3BCA3AB4E8E386B7"
+			tasks: [
+				{
+					id: "03D251829AD1B57A"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+				{
+					id: "2D421E8C387FDB66"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "28A740B4C0CC57CB"
+				type: "item"
+				item: "naturesaura:crimson_aura_mushroom"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.12\"}"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.13\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.14}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.15}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.16\"}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.17}"
+			]
+			dependencies: [
+				"30BFD136F6B44257"
+				"3BCA3AB4E8E386B7"
+			]
+			min_width: 225
+			id: "0BEFED4E45E00A84"
+			tasks: [{
+				id: "4B9BF494B301639D"
+				type: "item"
+				item: "naturesaura:nature_altar"
+			}]
+			rewards: [
+				{
+					id: "2EFD5F2BDC3037E9"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8
+				}
+				{
+					id: "75CF2664A2232D87"
+					type: "item"
+					item: "naturesaura:crimson_aura_mushroom"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.18\"}"
+			icon: "naturesaura:infused_iron"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.19\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.20}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.21}"
+			]
+			dependencies: ["0BEFED4E45E00A84"]
+			id: "6A7B93DC1ACE716B"
+			tasks: [{
+				id: "38D980A4956E790C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "naturesaura:infused_iron"
+								Count: 1b
+							}
+							{
+								id: "naturesaura:tainted_gold"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.22\"}"
+			icon: "naturesaura:offering_table"
+			x: 4.0d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.23\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.24}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.25}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.26}"
+			]
+			dependencies: [
+				"6A7B93DC1ACE716B"
+				"6BBA6FE9EE790FAA"
+				"571BC20E3675397C"
+			]
+			min_width: 275
+			id: "3D0F0A989EF18326"
+			tasks: [
+				{
+					id: "5DC97AF30F9BA2AE"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "2CD4C4C9E4456AEA"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.27\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.28}"]
+			dependencies: ["3D0F0A989EF18326"]
+			id: "2708CC826E342879"
+			tasks: [{
+				id: "7748C5D278741412"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.29\"}"
+			x: -3.0d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.30\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.31}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.32\"}"
+			]
+			dependencies: ["0EC270EA1F87DDFD"]
+			size: 1.5d
+			id: "2E715A588FA9E513"
+			tasks: [{
+				id: "52150047B776F718"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
+			rewards: [{
+				id: "76B5BA616130CBB1"
+				type: "item"
+				item: "infernalexp:luminous_fungus"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.33\"}"
+			x: -0.75d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.34\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.35}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.36}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.37\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["30BFD136F6B44257"]
+			size: 0.5d
+			id: "5BCA38208920730E"
+			tasks: [{
+				id: "4188EC72735B8692"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.38\"}"
+			x: 2.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.39\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.40}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.41}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.42\"}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.43}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.44}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "48D4F9B16488D30D"
+			tasks: [{
+				id: "51B55D905ACCA099"
+				type: "item"
+				item: "naturesaura:animal_generator"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.45\"}"
+			icon: "minecraft:skeleton_skull"
+			x: 1.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.46\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.47}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.48}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.49\"}"
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.50\"}"
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.51\"}"
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.52\"}"
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.53\"}"
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.54\"}"
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.55\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3BCA3AB4E8E386B7"]
+			optional: true
+			id: "62FD05AA44D9A2F2"
+			tasks: [{
+				id: "27EE5204B5148B41"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.56\"}"
+			icon: {
+				id: "naturesaura:infused_iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.57\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.58}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.59}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.60}"
+			]
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			min_width: 275
+			id: "4FEB85BABA317308"
+			tasks: [
+				{
+					id: "3F75BEDB03632F81"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.61\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:infused_iron_sword"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_pickaxe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_axe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_shovel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_hoe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3D64E02B74E66D55"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.62\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:infused_iron_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_pants"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:infused_iron_shoes"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.25d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.63\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.64}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.65\"}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.66}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["30BFD136F6B44257"]
+			size: 0.5d
+			id: "3B2D95C045871D21"
+			tasks: [{
+				id: "64C53D701D79DC14"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+		}
+		{
+			x: 5.75d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.67\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.68}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.69}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "565F3A35F03BBD89"
+			tasks: [{
+				id: "2BD74F992EA0C361"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+		}
+		{
+			title: "{inferno_quests.chapters.unnatural_aura.70}"
+			x: 2.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.71\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.72}"]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "68D8D4C0636D6D2C"
+			tasks: [{
+				id: "02595EC08A173878"
+				type: "item"
+				item: "naturesaura:slime_split_generator"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.73\"}"
+			x: 3.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.74\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.75}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.76}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "01F7546D35852680"
+			tasks: [{
+				id: "609414E8851ABD9C"
+				type: "item"
+				item: "naturesaura:generator_limit_remover"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.77\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.78}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.79}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "064E6B97237A040E"
+			tasks: [{
+				id: "5789C1C07F03A610"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+		}
+		{
+			x: 5.25d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.80\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.81}"]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "579097E27ADD673E"
+			tasks: [{
+				id: "0736BDD7928D4488"
+				type: "item"
+				item: "naturesaura:aura_trove"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.82\"}"
+			x: 4.0d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.83\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.84}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.85}"
+			]
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "5177FDE229037B34"
+			tasks: [{
+				id: "428AA02D2726B62C"
+				type: "item"
+				item: "naturesaura:shockwave_creator"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.86\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.87}"]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "07FB6D050E325B9F"
+			tasks: [{
+				id: "251F83ED10FACDC6"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.88\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.89}"]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "258CFF1E4B2BB766"
+			tasks: [{
+				id: "78DCE4FCD8F65D7D"
+				type: "item"
+				item: "naturesaura:death_ring"
+			}]
+		}
+		{
+			icon: {
+				id: "naturesaura:sky_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.90\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.91}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.92}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.93}"
+			]
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			min_width: 250
+			id: "0C37A882F7104FFD"
+			tasks: [
+				{
+					id: "2FF8166134BC5F70"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.94\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:sky_sword"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_pickaxe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_axe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_shovel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_hoe"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "59E149C2A9267E76"
+					type: "item"
+					title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.95\"}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "naturesaura:sky_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_chest"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_pants"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "naturesaura:sky_shoes"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.96\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.97}"]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "00AEF380BE2B11A4"
+			tasks: [{
+				id: "626ECD79FA0BDD80"
+				type: "item"
+				item: "naturesaura:netherite_finder"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.98\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.99}"]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "2DCBA3039930D825"
+			tasks: [{
+				id: "60B8797530A3E46D"
+				type: "item"
+				item: "naturesaura:light_staff"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.100\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.101}"]
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "020C81CB20295443"
+			tasks: [{
+				id: "2C7A2E75E05BD336"
+				type: "item"
+				item: "naturesaura:loot_finder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.102\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.103}"]
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "5BEB67F61CCFEEE3"
+			tasks: [{
+				id: "497E96EE649BF202"
+				type: "item"
+				item: "naturesaura:cave_finder"
+			}]
+		}
+		{
+			x: 4.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.104\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.105}"]
+			hide_dependency_lines: true
+			dependencies: ["3D0F0A989EF18326"]
+			size: 0.5d
+			id: "68C30FB614FFAD97"
+			tasks: [{
+				id: "1EA471B66E1C9278"
+				type: "item"
+				item: "naturesaura:spring"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.106\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.107}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.108}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "5FF89325AF61B7EF"
+			tasks: [{
+				id: "1650FEDDC22487C5"
+				type: "item"
+				item: "naturesaura:furnace_heater"
+			}]
+		}
+		{
+			x: 1.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.109\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.110}"]
+			dependencies: ["5FF89325AF61B7EF"]
+			size: 0.5d
+			id: "0FF6C8F5F25545C9"
+			tasks: [{
+				id: "43EF47247A43FE6C"
+				type: "item"
+				item: "naturesaura:blast_furnace_booster"
+			}]
+		}
+		{
+			title: "{inferno_quests.chapters.unnatural_aura.111}"
+			icon: "naturesaura:time_changer"
+			x: 5.25d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.112\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.113}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.114}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.115}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.116\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			min_width: 275
+			id: "631ED5D368818679"
+			tasks: [
+				{
+					id: "75C520CE7F1E7B30"
+					type: "item"
+					item: "naturesaura:time_changer"
+				}
+				{
+					id: "3E0D695E6A877722"
+					type: "item"
+					item: "naturesaura:clock_hand"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.117\"}"
+			x: 5.75d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.118\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.119}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.120}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "56FA229AB8D39083"
+			tasks: [{
+				id: "3D4D4B9B762918A6"
+				type: "item"
+				item: "naturesaura:snow_creator"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.121\"}"
+			x: 6.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.122\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.123}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.124}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.125}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2708CC826E342879"]
+			size: 0.5d
+			id: "1F0A4472406C3AFA"
+			tasks: [{
+				id: "64C1D0F4449C2BA3"
+				type: "item"
+				item: "naturesaura:mover_cart"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.126\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.127}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.128}"
+			]
+			dependencies: ["0BEFED4E45E00A84"]
+			size: 0.5d
+			id: "1028B418BF720515"
+			tasks: [{
+				id: "0797B96DB05F5653"
+				type: "item"
+				item: "naturesaura:aura_detector"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.129\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.130}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.131\"}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0BEFED4E45E00A84"]
+			size: 0.5d
+			id: "6F4EB303EC3FC9A5"
+			tasks: [{
+				id: "5221D5C28ADC1E96"
+				type: "item"
+				item: "naturesaura:animal_container"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.132\"}"
+			x: 2.75d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.133\"}"
+			description: ["{inferno_quests.chapters.unnatural_aura.134}"]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "22653E3335B3F393"
+			tasks: [{
+				id: "2C54D884A2137B2A"
+				type: "item"
+				item: "naturesaura:pickup_stopper"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.135\"}"
+			icon: "naturesaura:grated_chute"
+			x: 3.25d
+			y: -3.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.136\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.137}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.138\"}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.139}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			min_width: 250
+			id: "4A62C006BB60FEFB"
+			tasks: [
+				{
+					id: "01A2E4DA75795D75"
+					type: "item"
+					item: "naturesaura:grated_chute"
+				}
+				{
+					id: "1C1E0A22AE6D311E"
+					type: "item"
+					item: "naturesaura:hopper_upgrade"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.140\"}"
+			x: 2.5d
+			y: -3.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.unnatural_aura.141\"}"
+			description: [
+				"{inferno_quests.chapters.unnatural_aura.142}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.unnatural_aura.143\"}"
+				""
+				"{inferno_quests.chapters.unnatural_aura.144}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6A7B93DC1ACE716B"]
+			size: 0.5d
+			id: "4A2B44E6A8E56D3E"
+			tasks: [{
+				id: "01E678602D3F827C"
+				type: "item"
+				item: "naturesaura:placer"
+			}]
+			rewards: [{
+				id: "6F28AAC122BA64B3"
+				type: "item"
+				item: "naturesaura:farming_stencil"
+			}]
+		}
+	]
+}

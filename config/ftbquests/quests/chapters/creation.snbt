@@ -1,0 +1,400 @@
+{
+	id: "39D48F1A4F9D16B2"
+	group: "46A29AE1E3ACCC77"
+	order_index: 0
+	filename: "creation"
+	title: "{\"translate\":\"inferno_quests.chapters.creation.1\"}"
+	icon: "create:precision_mechanism"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.creation.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.3\"}"
+			x: -2.0d
+			y: 8.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.4\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.creation.5\"}"
+				""
+				"{inferno_quests.chapters.creation.6}"
+				""
+				"{inferno_quests.chapters.creation.7}"
+				""
+				"{inferno_quests.chapters.creation.8}"
+			]
+			dependencies: ["6FD19E493ACD27F3"]
+			min_width: 275
+			id: "2B4C937D7BE6FE06"
+			tasks: [{
+				id: "62C21A62F1357D11"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [
+				{
+					id: "448FE7F48A9349A1"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 3
+				}
+				{
+					id: "0048603319214E7D"
+					type: "item"
+					item: "create:steam_whistle"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.9\"}"
+			x: -2.0d
+			y: 4.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.10\"}"
+			description: [
+				"{inferno_quests.chapters.creation.11}"
+				""
+				"{inferno_quests.chapters.creation.12}"
+			]
+			dependencies: ["75FDD2C3835E92DC"]
+			id: "2D12FFFC26267D74"
+			tasks: [{
+				id: "677BBF40A4063791"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [
+				{
+					id: "5E7855286D41168D"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4
+				}
+				{
+					id: "0E22A24E414DC874"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 4
+				}
+				{
+					id: "0209D1CEA7293725"
+					type: "item"
+					item: "create:shaft"
+					count: 8
+				}
+				{
+					id: "1B27C3B8FF20E08E"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.13\"}"
+			icon: "create:mechanical_press"
+			x: -2.0d
+			y: 5.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.14\"}"
+			description: ["{inferno_quests.chapters.creation.15}"]
+			dependencies: ["2D12FFFC26267D74"]
+			id: "2B83BBEA2A4B4463"
+			tasks: [{
+				id: "1BB4DE9EAA951B5A"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "4D09984858082374"
+					type: "item"
+					item: "create:belt_connector"
+					count: 4
+				}
+				{
+					id: "32CCEAF659DAEF29"
+					type: "item"
+					item: "create:rotation_speed_controller"
+				}
+				{
+					id: "5F37886ECD3A5E62"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "788C604A95561DA9"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.16\"}"
+			icon: "ftbic:copper_plate"
+			x: -2.0d
+			y: 7.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.17\"}"
+			description: ["{inferno_quests.chapters.creation.18}"]
+			dependencies: ["2B83BBEA2A4B4463"]
+			id: "6FD19E493ACD27F3"
+			tasks: [{
+				id: "5655223CC1DC0685"
+				type: "item"
+				item: "ftbic:copper_plate"
+			}]
+			rewards: [
+				{
+					id: "0E76FCB1BABE850D"
+					type: "item"
+					item: "ftbic:copper_plate"
+					count: 8
+				}
+				{
+					id: "3EC1A2AE193E50FD"
+					type: "item"
+					item: "ftbic:iron_plate"
+					count: 8
+				}
+				{
+					id: "5095038A17906E1C"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.19\"}"
+			icon: "create:steam_engine"
+			x: -2.0d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.20\"}"
+			description: [
+				"{inferno_quests.chapters.creation.21}"
+				""
+				"{inferno_quests.chapters.creation.22}"
+			]
+			dependencies: ["2B4C937D7BE6FE06"]
+			min_width: 225
+			id: "142454243365761D"
+			tasks: [
+				{
+					id: "28457C32760A2669"
+					type: "item"
+					item: "create:steam_engine"
+				}
+				{
+					id: "1DD8577C2C95EC47"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+			rewards: [{
+				id: "6FEADAC24ED661C9"
+				type: "item"
+				item: "create:blaze_cake"
+				count: 4
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.23\"}"
+			x: 0.0d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.24\"}"
+			description: [
+				"{inferno_quests.chapters.creation.25}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.creation.26\"}"
+			]
+			dependencies: ["142454243365761D"]
+			min_width: 225
+			id: "25D2F74ACB808472"
+			tasks: [{
+				id: "730B35F898FBA690"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.27\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.creation.28\"}"
+				""
+				"{inferno_quests.chapters.creation.29}"
+				""
+				"{inferno_quests.chapters.creation.30}"
+				""
+				"{inferno_quests.chapters.creation.31}"
+			]
+			dependencies: ["25D2F74ACB808472"]
+			id: "6B7606A65BA8FE12"
+			tasks: [{
+				id: "7100B0BD6B9FC5D9"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [
+				{
+					id: "2B1057557F5A05E1"
+					type: "item"
+					item: "immersiveengineering:capacitor_lv"
+				}
+				{
+					id: "674DD4EBBAE365A2"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+					count: 2
+				}
+				{
+					id: "315D94C18934ECEC"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.32\"}"
+			icon: "create:blaze_burner"
+			x: -4.0d
+			y: 10.0d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.33\"}"
+			description: [
+				"{inferno_quests.chapters.creation.34}"
+				""
+				"{inferno_quests.chapters.creation.35}"
+				""
+				"{inferno_quests.chapters.creation.36}"
+				""
+				"{inferno_quests.chapters.creation.37}"
+			]
+			dependencies: ["142454243365761D"]
+			min_width: 275
+			id: "2B0711C406BE6EF1"
+			tasks: [
+				{
+					id: "5B3F54E291308515"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+				{
+					id: "06C0E4BDD8A514AF"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+			]
+			rewards: [
+				{
+					id: "6D6CEDD93B819D88"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "267958D21382AEDD"
+					type: "item"
+					item: "create:mechanical_arm"
+				}
+				{
+					id: "0AF1F7DB10BDBC3D"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.38\"}"
+			tags: ["info"]
+			x: -2.0d
+			y: 11.5d
+			shape: "gear"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.39\"}"
+			description: [
+				"{inferno_quests.chapters.creation.40}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.creation.41\"}"
+			]
+			dependencies: ["142454243365761D"]
+			size: 1.25d
+			id: "080BD2AA7CCAAA90"
+			tasks: [{
+				id: "5EF8ED8AC5663D05"
+				type: "checkmark"
+				title: "{\"translate\":\"inferno_quests.chapters.creation.42\"}"
+				icon: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "34BE3EC7BA6EA579"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "5E00C24E68437E48"
+					type: "item"
+					item: "create:gantry_shaft"
+				}
+				{
+					id: "25820085BEB474C1"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "4B371F5B2B7CDF21"
+					type: "item"
+					item: "create:belt_connector"
+					count: 8
+				}
+				{
+					id: "5B2A4C72B9639B67"
+					type: "item"
+					item: "create:shaft"
+					count: 8
+				}
+				{
+					id: "4B591B489BC7D9D1"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4
+				}
+				{
+					id: "0D4D7096E825862E"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.creation.43\"}"
+			x: 2.0d
+			y: 11.5d
+			shape: "square"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.creation.44\"}"
+			description: [
+				"{inferno_quests.chapters.creation.45}"
+				""
+				"{inferno_quests.chapters.creation.46}"
+			]
+			dependencies: ["6B7606A65BA8FE12"]
+			size: 1.25d
+			id: "7E18AF24BE2FA2A7"
+			tasks: [{
+				id: "4D676250C60DDD3F"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "575A4EB0EE069700"
+				type: "item"
+				item: "tesseract:tesseract"
+				count: 2
+			}]
+		}
+	]
+}

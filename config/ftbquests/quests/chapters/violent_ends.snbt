@@ -1,0 +1,319 @@
+{
+	id: "0FE9940F0F58E9AB"
+	group: "793D4C72FD32064E"
+	order_index: 0
+	filename: "violent_ends"
+	title: "{\"translate\":\"inferno_quests.chapters.violent_ends.1\"}"
+	icon: "minecraft:dragon_head"
+	subtitle: ["{\"translate\":\"inferno_quests.chapters.violent_ends.2\"}"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -3.75d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.3\"}"
+			description: [
+				"{inferno_quests.chapters.violent_ends.4}"
+				""
+				"{inferno_quests.chapters.violent_ends.5}"
+				""
+				"{inferno_quests.chapters.violent_ends.6}"
+				""
+				"{inferno_quests.chapters.violent_ends.7}"
+			]
+			dependencies: ["2451EBFA3158F0FD"]
+			min_width: 275
+			id: "38DD05361859F906"
+			tasks: [{
+				id: "773CC20724FBE613"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+			rewards: [{
+				id: "6CD2476EA80BEC15"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 12
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.violent_ends.8\"}"
+			icon: "minecraft:dragon_head"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.9\"}"
+			description: [
+				"{inferno_quests.chapters.violent_ends.10}"
+				""
+				"{inferno_quests.chapters.violent_ends.11}"
+			]
+			dependencies: ["38DD05361859F906"]
+			id: "5EA9E1B2197DC462"
+			tasks: [{
+				id: "34EB7D40BB72DAFF"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "762A6E0298B46A10"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 32
+				}
+				{
+					id: "696794EA79F87785"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "1100E78DCF4A31FA"
+					type: "item"
+					item: "minecraft:end_crystal"
+					count: 4
+				}
+				{
+					id: "581CF3F149006CC9"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "dragon_defeated"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.12\"}"
+			description: [
+				"{inferno_quests.chapters.violent_ends.13}"
+				""
+				"{inferno_quests.chapters.violent_ends.14}"
+			]
+			dependencies: ["5EA9E1B2197DC462"]
+			id: "302AE29C5545EB4A"
+			tasks: [{
+				id: "2680A957B4136A0C"
+				type: "item"
+				item: "quark:dragon_scale"
+			}]
+			rewards: [
+				{
+					id: "543EFE09E8078F40"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 16
+				}
+				{
+					id: "18A271155AA441CE"
+					type: "item"
+					item: "quark:dragon_scale"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.15\"}"
+			description: ["{\"translate\":\"inferno_quests.chapters.violent_ends.16\"}"]
+			dependencies: ["1833516DA3102958"]
+			size: 1.25d
+			id: "2451EBFA3158F0FD"
+			tasks: [{
+				id: "4C711E653CABDAA3"
+				type: "item"
+				item: "cataclysm:enderite_ingot"
+			}]
+			rewards: [
+				{
+					id: "6064C0D0408B293B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:source_jar"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								id: "ars_nouveau:source_jar"
+								source: 10000
+								max_source: 10000
+							}
+						}
+					}
+				}
+				{
+					id: "1F7B20002BA36623"
+					type: "item"
+					item: "ars_nouveau:glyph_ender_inventory"
+				}
+				{
+					id: "7AD5CAFFF7B01BF2"
+					type: "item"
+					item: "nethersdelight:warped_moldy_meat"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.17\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.violent_ends.18\"}"
+				""
+				"{inferno_quests.chapters.violent_ends.19}"
+				""
+				"{\"translate\":\"inferno_quests.chapters.violent_ends.20\"}"
+				""
+				"{inferno_quests.chapters.violent_ends.21}"
+			]
+			dependencies: ["302AE29C5545EB4A"]
+			id: "513E078F2B82A9D2"
+			tasks: [{
+				id: "688F7FC0A2174F53"
+				type: "item"
+				item: {
+					id: "gateways:gate_pearl"
+					Count: 1b
+					tag: {
+						gateway: "gateways:voidworm_gate"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2989AE646AD6DFB1"
+					type: "item"
+					item: {
+						id: "evilcraft:invigorating_pendant"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 5000
+							}
+							capacity: 5000
+						}
+						ForgeCaps: {
+							Parent: {
+								FluidName: "evilcraft:blood"
+								Amount: 5000
+								capacity: 5000
+							}
+						}
+					}
+				}
+				{
+					id: "0F2D4304040D48B6"
+					type: "item"
+					item: "delightful:ender_nectar"
+				}
+			]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.violent_ends.22\"}"
+			x: 0.0d
+			y: 3.0d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.23\"}"
+			description: ["{inferno_quests.chapters.violent_ends.24}"]
+			dependencies: ["513E078F2B82A9D2"]
+			size: 2.0d
+			id: "17C6262399CF5FB1"
+			tasks: [{
+				id: "24645F789E9B8F26"
+				type: "kill"
+				icon: "alexsmobs:void_worm_eye"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "591C987F428A0074"
+				type: "item"
+				item: "alexsmobs:void_worm_eye"
+			}]
+		}
+		{
+			title: "{\"translate\":\"inferno_quests.chapters.violent_ends.25\"}"
+			icon: "minecolonies:blockhutuniversity"
+			x: 0.0d
+			y: 5.25d
+			shape: "hexagon"
+			subtitle: "{\"translate\":\"inferno_quests.chapters.violent_ends.26\"}"
+			description: [
+				"{\"translate\":\"inferno_quests.chapters.violent_ends.27\"}"
+				""
+				"{inferno_quests.chapters.violent_ends.28}"
+				""
+				"{inferno_quests.chapters.violent_ends.29}"
+			]
+			dependencies: ["17C6262399CF5FB1"]
+			size: 1.5d
+			min_width: 275
+			id: "69F0B175E8EA2570"
+			tasks: [{
+				id: "0ABFF66F41CFC13F"
+				type: "advancement"
+				advancement: "inferno:eldritchtranscendence"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "185DAE3F8D25E6B8"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "overworld"
+				}
+				{
+					id: "2CE783E5E56F9A02"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "upgrades"
+						}
+					}
+				}
+				{
+					id: "57CC257A346F15D0"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "defense"
+						}
+					}
+				}
+				{
+					id: "797CDD05BA513FD8"
+					type: "item"
+					item: {
+						id: "tconstruct:creative_slot"
+						Count: 1b
+						tag: {
+							slot: "abilities"
+						}
+					}
+				}
+				{
+					id: "50F734748499AFD2"
+					type: "item"
+					item: "apotheosis:gem_dust"
+					count: 4
+				}
+				{
+					id: "36F978B07E838580"
+					type: "item"
+					item: "apotheosis:epic_material"
+					count: 4
+				}
+			]
+		}
+	]
+}

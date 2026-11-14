@@ -2,7 +2,223 @@
   "schemaVersion": 1,
   "authorArchiveSha256": "2f2a0fcc62cd204f529c0ed7c2b8e342746dfe7e9a1077fa76983497941d8344",
   "descriptorSha256": "2e9ed7ef3e7596d9c5180136a0fd5b94dbc147b03ace718fc2aeb4f8d08536ae",
-  "patches": [],
+  "patches": [
+    {
+      "path": "config/ftbquests/quests/data.snbt",
+      "before": {
+        "sizeBytes": 429,
+        "sha256": "82e9f8d275db5f2ff1e2fc3149d595af003c0ae32e1515c507f96a36f46308f9"
+      },
+      "after": {
+        "sizeBytes": 463,
+        "sha256": "7789d5b1f29790f0cb18d5c70409b42866ff54a81649d9a02dc8e6e0ec9b164e"
+      },
+      "replacements": [
+        {
+          "from": "\"Inferno\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.data.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/grapple_hook_mod_enchants.snbt",
+      "before": {
+        "sizeBytes": 727,
+        "sha256": "81abf3bb45d790e3be45465a9c6226472070f8556fded36c61935b911b51e374"
+      },
+      "after": {
+        "sizeBytes": 976,
+        "sha256": "9860324e9e6edbe4915c4305a242d67ac502efb3e63ea77f3c0e86cb9c7372ef"
+      },
+      "replacements": [
+        {
+          "from": "\"Grapple Hook Mod Enchants\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.grapple_hook_mod_enchants.1\\\"}\""
+        },
+        {
+          "from": "\"Wall Running\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.grapple_hook_mod_enchants.2\\\"}\""
+        },
+        {
+          "from": "\"Double Jump\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.grapple_hook_mod_enchants.3\\\"}\""
+        },
+        {
+          "from": "\"Sliding\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.grapple_hook_mod_enchants.4\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/guns_without_roses_enchants.snbt",
+      "before": {
+        "sizeBytes": 921,
+        "sha256": "aae35344a1f561dd059da118311be8c7f233f1b80ad42a6ab1dc78108e98633c"
+      },
+      "after": {
+        "sizeBytes": 1245,
+        "sha256": "e96190c19466ee828fb9f99867093fd1d46d921b51de1242b140f5433c8f5439"
+      },
+      "replacements": [
+        {
+          "from": "\"Guns Without Roses Enchants\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.guns_without_roses_enchants.1\\\"}\""
+        },
+        {
+          "from": "\"Impact\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.guns_without_roses_enchants.2\\\"}\""
+        },
+        {
+          "from": "\"Bullseye\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.guns_without_roses_enchants.3\\\"}\""
+        },
+        {
+          "from": "\"Sleight of Hand\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.guns_without_roses_enchants.4\\\"}\""
+        },
+        {
+          "from": "\"Preserving\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.guns_without_roses_enchants.5\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/infernal_effigy.snbt",
+      "before": {
+        "sizeBytes": 2038,
+        "sha256": "99a441673f6b5d0c326f1e8ded73dd38ac0857e447d43494945d46ea0949b31f"
+      },
+      "after": {
+        "sizeBytes": 2089,
+        "sha256": "2fbf2fd4c2bf41de1facee6e18d2ef3977b38142db68456455690dd4082baed5"
+      },
+      "replacements": [
+        {
+          "from": "\"Infernal Effigy\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.infernal_effigy.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/soul_shards.snbt",
+      "before": {
+        "sizeBytes": 373,
+        "sha256": "0a980bf44b1b0cb3ec9e0ccdc11955765b46da8340a19475a5396acf32421b71"
+      },
+      "after": {
+        "sizeBytes": 424,
+        "sha256": "e38b2b78e283aa72b41f804529567bba9817303c4057f676e59b145f6f89a70c"
+      },
+      "replacements": [
+        {
+          "from": "\"Soul Shards\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.soul_shards.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/tier_1_building_bag.snbt",
+      "before": {
+        "sizeBytes": 785,
+        "sha256": "ae1c67d322d679b948fe6ae804d9d287525cf56515cd13f5ba8d5b82483c01fc"
+      },
+      "after": {
+        "sizeBytes": 836,
+        "sha256": "082f69ec78778f823fac87eb591af765ddc0aec946c337a9fdcc9aede5436706"
+      },
+      "replacements": [
+        {
+          "from": "\"Tier 1 Building Bag\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.tier_1_building_bag.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/tier_2_building_bag.snbt",
+      "before": {
+        "sizeBytes": 686,
+        "sha256": "70bc008617ba05bd4cb4f5e1fb8f8c2b9a52c28e7f71be7ef98c3272864d12d6"
+      },
+      "after": {
+        "sizeBytes": 737,
+        "sha256": "9564900d9911e509af08ccfe9ef2e683c554b1a6c884e47fee6c982a34742ee8"
+      },
+      "replacements": [
+        {
+          "from": "\"Tier 2 Building Bag\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.tier_2_building_bag.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/tier_3_building_bag.snbt",
+      "before": {
+        "sizeBytes": 795,
+        "sha256": "6500ab5a2e4d797bccc8ff9b74c63944ceaeb13e26e31cefc43842523971aee2"
+      },
+      "after": {
+        "sizeBytes": 846,
+        "sha256": "3070df024996dd36bccd27932bb343383ae31f68608a033099ab7c9472bc3a25"
+      },
+      "replacements": [
+        {
+          "from": "\"Tier 3 Building Bag\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.tier_3_building_bag.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/tier_4_building_bag.snbt",
+      "before": {
+        "sizeBytes": 1248,
+        "sha256": "3492f6d87747325e865686c76f2c77182ef97614a1dbcbf54bf47024e0a29b93"
+      },
+      "after": {
+        "sizeBytes": 1299,
+        "sha256": "f497215cdc1b30a36c657de5803898a746af5a12e59e1134d09a806829198de4"
+      },
+      "replacements": [
+        {
+          "from": "\"Tier 4 Building bag\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.tier_4_building_bag.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/tier_5_building_bag.snbt",
+      "before": {
+        "sizeBytes": 1181,
+        "sha256": "568246593acd1b5a0e594b1267fdd10395c31f6b650d87f229daafa17501e8dc"
+      },
+      "after": {
+        "sizeBytes": 1232,
+        "sha256": "bfe81e8adb650cdbe5967ad584742d77887590826a5c8d5aee6ff015d886fbb8"
+      },
+      "replacements": [
+        {
+          "from": "\"Tier 5 Building Bag\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.tier_5_building_bag.1\\\"}\""
+        }
+      ]
+    },
+    {
+      "path": "config/ftbquests/quests/reward_tables/vengeance_spirit_quest_rewards.snbt",
+      "before": {
+        "sizeBytes": 664,
+        "sha256": "67183c8c582f7f4794cfd450c4cad64a855373b6466e67aa03d6ac876a3efbf0"
+      },
+      "after": {
+        "sizeBytes": 715,
+        "sha256": "bab7a37820a56455ff56bb6291d932c2f6a4073a091a053b819e6cfd6eb0c9bf"
+      },
+      "replacements": [
+        {
+          "from": "\"Vengeance Spirit quest rewards\"",
+          "to": "\"{\\\"translate\\\":\\\"inferno_quests.reward_tables.vengeance_spirit_quest_rewards.1\\\"}\""
+        }
+      ]
+    }
+  ],
   "additions": [
     {
       "path": "config/log4j2.xml",
@@ -13,6 +229,825 @@
       "path": "launcher/jvm-args.txt",
       "sizeBytes": 44,
       "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
+    }
+  ],
+  "bookLocalization": [
+    {
+      "path": "config/ftbquests/quests/chapter_groups.snbt",
+      "before": {
+        "sizeBytes": 401,
+        "sha256": "8ce81df790b420289cb53a6666b386fb377bb387dd75c26ef25b642c1999d527"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapter_groups.snbt": {
+          "sizeBytes": 401,
+          "sha256": "8ce81df790b420289cb53a6666b386fb377bb387dd75c26ef25b642c1999d527"
+        }
+      },
+      "output": {
+        "sizeBytes": 663,
+        "sha256": "d7dc0d289b24291b7dbe33feed5c442ab2781b7e7b092d2dd2c6d9303b928bee"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/a_dark_forest.snbt",
+      "before": {
+        "sizeBytes": 63451,
+        "sha256": "fb7199db159d002bbedffb84483a898be346bf8385a667272d4ee330d1912137"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/a_dark_forest.snbt": {
+          "sizeBytes": 63451,
+          "sha256": "fb7199db159d002bbedffb84483a898be346bf8385a667272d4ee330d1912137"
+        }
+      },
+      "output": {
+        "sizeBytes": 60465,
+        "sha256": "3765a7963f41829c86a740eb3b023be645ba3b6b9415733a7504829350c3ae9c"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/backend.snbt",
+      "before": {
+        "sizeBytes": 4605,
+        "sha256": "8c68c6ad29916d05f8a357661d83e0f7a34ae133271850c3025344cae85800cf"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/backend.snbt": {
+          "sizeBytes": 4605,
+          "sha256": "8c68c6ad29916d05f8a357661d83e0f7a34ae133271850c3025344cae85800cf"
+        }
+      },
+      "output": {
+        "sizeBytes": 4961,
+        "sha256": "a644717c9af023dfc2de88fff1c76f7616a008a5e3169ffbb61f99d98f327514"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/busy_bees.snbt",
+      "before": {
+        "sizeBytes": 40420,
+        "sha256": "2a9efeffd4baad2f6a4505d3d418b25db3d13ed8b5aa373a7eae17067419e8ac"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/busy_bees.snbt": {
+          "sizeBytes": 40420,
+          "sha256": "2a9efeffd4baad2f6a4505d3d418b25db3d13ed8b5aa373a7eae17067419e8ac"
+        }
+      },
+      "output": {
+        "sizeBytes": 40542,
+        "sha256": "761b6191f822f8402818b10da7430c110fbc0c7741fcf8da9217983e8ff894d5"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/creation.snbt",
+      "before": {
+        "sizeBytes": 9595,
+        "sha256": "00c55e2844cdc30859023928c35a8c2f809705514a1955f1177bb57efca8bff4"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/creation.snbt": {
+          "sizeBytes": 9595,
+          "sha256": "00c55e2844cdc30859023928c35a8c2f809705514a1955f1177bb57efca8bff4"
+        }
+      },
+      "output": {
+        "sizeBytes": 8578,
+        "sha256": "b692af80926989c7525c4a13430ea31d764e29b5cfe3e4ba5f45e8855df056f8"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/deus_ex_machina.snbt",
+      "before": {
+        "sizeBytes": 14697,
+        "sha256": "7c72e6200a73fa7d4af8d7c459e4c5fea43f9757e927299341f2b69bb75add44"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/deus_ex_machina.snbt": {
+          "sizeBytes": 14697,
+          "sha256": "7c72e6200a73fa7d4af8d7c459e4c5fea43f9757e927299341f2b69bb75add44"
+        }
+      },
+      "output": {
+        "sizeBytes": 13948,
+        "sha256": "14b4b50dc93fa8cd34348a95028a20d671008702944cef298229e52e5f41ec08"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/djinns_and_dragons.snbt",
+      "before": {
+        "sizeBytes": 16303,
+        "sha256": "675e22ae5fc3a50f3c131057a9eca1b9078cb5850ed3cdf26e8354b61d96704a"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/djinns_and_dragons.snbt": {
+          "sizeBytes": 16303,
+          "sha256": "675e22ae5fc3a50f3c131057a9eca1b9078cb5850ed3cdf26e8354b61d96704a"
+        }
+      },
+      "output": {
+        "sizeBytes": 16707,
+        "sha256": "cca8dc60b47535a5a6d05fd120bcf0dafb0bad1c6e443485c2a08a73cf3fbbf1"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/faustian_bargains.snbt",
+      "before": {
+        "sizeBytes": 10901,
+        "sha256": "9f3091a92780fad94273dd77ed6f5143cdd7864893d69ec771665dd72a669891"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/faustian_bargains.snbt": {
+          "sizeBytes": 10901,
+          "sha256": "9f3091a92780fad94273dd77ed6f5143cdd7864893d69ec771665dd72a669891"
+        }
+      },
+      "output": {
+        "sizeBytes": 11998,
+        "sha256": "1e844cd2b9bd4ce9cf67ac610deb019547c4552581b5fa1e874d4ccb70777fc9"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/fertile_wastes.snbt",
+      "before": {
+        "sizeBytes": 21897,
+        "sha256": "599fef88e83843f3f01c7e8ac06ffdc5d80c4f8fd1f24517edcdde6b2268acf6"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/fertile_wastes.snbt": {
+          "sizeBytes": 21897,
+          "sha256": "599fef88e83843f3f01c7e8ac06ffdc5d80c4f8fd1f24517edcdde6b2268acf6"
+        }
+      },
+      "output": {
+        "sizeBytes": 21615,
+        "sha256": "1c07916b1764d730d4b4f7d51647bfd9aa6685add76e42edbb9527d6181d3d27"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/give_them_a_fish.snbt",
+      "before": {
+        "sizeBytes": 9766,
+        "sha256": "9a192f86c955deff3652d3077b46364a06d38719d9b75e17f7830fccdb437c12"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/give_them_a_fish.snbt": {
+          "sizeBytes": 9766,
+          "sha256": "9a192f86c955deff3652d3077b46364a06d38719d9b75e17f7830fccdb437c12"
+        }
+      },
+      "output": {
+        "sizeBytes": 9583,
+        "sha256": "6aac76bbdbe586c195a9029a628917718d5274c977e87393c5b93d6b5d131450"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/herbs_and_hexes.snbt",
+      "before": {
+        "sizeBytes": 14531,
+        "sha256": "c0f3e1dbf6f0fa0de3d8fb4bb4a5b5760ad30cd25fc797cecdcad21e88844dc1"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/herbs_and_hexes.snbt": {
+          "sizeBytes": 14531,
+          "sha256": "c0f3e1dbf6f0fa0de3d8fb4bb4a5b5760ad30cd25fc797cecdcad21e88844dc1"
+        }
+      },
+      "output": {
+        "sizeBytes": 14784,
+        "sha256": "471f10c9b7a4f03afb873649ded01bad25d25d020c933f5150649dc61d73cc4b"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/in_service_bound.snbt",
+      "before": {
+        "sizeBytes": 22684,
+        "sha256": "cb4f84cc7e5e9c93adaa29295414d6eaf8d74f8f0ceef73e5209cbaa5fe585b2"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/in_service_bound.snbt": {
+          "sizeBytes": 22684,
+          "sha256": "cb4f84cc7e5e9c93adaa29295414d6eaf8d74f8f0ceef73e5209cbaa5fe585b2"
+        }
+      },
+      "output": {
+        "sizeBytes": 20743,
+        "sha256": "e78ddb7f0dd91cbe818c5f894f8153975d8e39a7f702c1073b5c9decdf05f2e3"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/inferno.snbt",
+      "before": {
+        "sizeBytes": 2294,
+        "sha256": "6e4081497127e45f5ed7810019877b63e18b54ea4d17e7de665368731d91217c"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/inferno.snbt": {
+          "sizeBytes": 2294,
+          "sha256": "6e4081497127e45f5ed7810019877b63e18b54ea4d17e7de665368731d91217c"
+        }
+      },
+      "output": {
+        "sizeBytes": 1279,
+        "sha256": "63aacf3a4be9ab8c7c5c92bc8b285730a4bd2c388fa9bd2649919cf5baeb0c5d"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/innovation.snbt",
+      "before": {
+        "sizeBytes": 19559,
+        "sha256": "ffcce8d556f0121aeed87b54ceabe6b863bc07df0678083dfb24dc8e2b6762eb"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/innovation.snbt": {
+          "sizeBytes": 19559,
+          "sha256": "ffcce8d556f0121aeed87b54ceabe6b863bc07df0678083dfb24dc8e2b6762eb"
+        }
+      },
+      "output": {
+        "sizeBytes": 18349,
+        "sha256": "bd713440ed83c99eb80790d203f03f7942d8ed4f903b9f9e124e3f87b34eedc5"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/party_times.snbt",
+      "before": {
+        "sizeBytes": 14468,
+        "sha256": "4bc7f643e1da1d4476ec4f94aa376f435e058d9513d7877d35b800a4902bcf14"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/party_times.snbt": {
+          "sizeBytes": 14468,
+          "sha256": "4bc7f643e1da1d4476ec4f94aa376f435e058d9513d7877d35b800a4902bcf14"
+        }
+      },
+      "output": {
+        "sizeBytes": 14449,
+        "sha256": "3a1c7ae7abd2f31db08d178b6a338d67fa96cfbd96b8b1ee4dcf39b849c477c7"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/protect_the_unprotected.snbt",
+      "before": {
+        "sizeBytes": 20702,
+        "sha256": "cb6a11525d57ca78d534b479a321b5ae255bea889b84640daaf6a38d5faf3a3d"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/protect_the_unprotected.snbt": {
+          "sizeBytes": 20702,
+          "sha256": "cb6a11525d57ca78d534b479a321b5ae255bea889b84640daaf6a38d5faf3a3d"
+        }
+      },
+      "output": {
+        "sizeBytes": 21284,
+        "sha256": "8aec961b0dbcfc0d466c6111f52fabcd5c7f1d26e1aaa78bb9c9d4e19fa575a5"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/resource_gen.snbt",
+      "before": {
+        "sizeBytes": 31618,
+        "sha256": "8ac4c18120c07340f7469bcdee7c50e2be69d11ef99622b2b4b41fff65854747"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/resource_gen.snbt": {
+          "sizeBytes": 31618,
+          "sha256": "8ac4c18120c07340f7469bcdee7c50e2be69d11ef99622b2b4b41fff65854747"
+        }
+      },
+      "output": {
+        "sizeBytes": 32729,
+        "sha256": "04b02f1b3a8bf166bcc9a4deb8f73248750828662e073fe6fcab258e43426909"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/sanctuary.snbt",
+      "before": {
+        "sizeBytes": 14243,
+        "sha256": "d37a91078c6c42bc1c65100705e48fb2bc20dd3837855bfc332ab3a08f7963cd"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/sanctuary.snbt": {
+          "sizeBytes": 14243,
+          "sha256": "d37a91078c6c42bc1c65100705e48fb2bc20dd3837855bfc332ab3a08f7963cd"
+        }
+      },
+      "output": {
+        "sizeBytes": 13317,
+        "sha256": "9d17f7374e2c5f5eb72fc46adeb46ab1f3c5d334e72cdd27342c4c5ea9e924f3"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/sanguine_sting.snbt",
+      "before": {
+        "sizeBytes": 42676,
+        "sha256": "2d52bef2256ef1cd7f4dcac05663e9776e754de86581635ed67ffd19d20b2531"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/sanguine_sting.snbt": {
+          "sizeBytes": 42676,
+          "sha256": "2d52bef2256ef1cd7f4dcac05663e9776e754de86581635ed67ffd19d20b2531"
+        }
+      },
+      "output": {
+        "sizeBytes": 39485,
+        "sha256": "20e8fdff2c1688bc37df82432f4ddd08c2751b3ef1bc68d5608fda7c2d1febe2"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/sinful_sorcery.snbt",
+      "before": {
+        "sizeBytes": 27791,
+        "sha256": "bcd4189d3fa3b7d58dcacb8d4d71ff143ca5a030e6d5482d491f1ba46c6766a8"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/sinful_sorcery.snbt": {
+          "sizeBytes": 27791,
+          "sha256": "bcd4189d3fa3b7d58dcacb8d4d71ff143ca5a030e6d5482d491f1ba46c6766a8"
+        }
+      },
+      "output": {
+        "sizeBytes": 24922,
+        "sha256": "63563b19d06b5e4397b5af26fe1ea958f679c820e50428c573e223b2e6142551"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/spellworking_101.snbt",
+      "before": {
+        "sizeBytes": 22012,
+        "sha256": "a8b46ab3bd104a25dbcf70f50720f691ee00199e28d838c51db99f5eca5391a8"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/spellworking_101.snbt": {
+          "sizeBytes": 22012,
+          "sha256": "a8b46ab3bd104a25dbcf70f50720f691ee00199e28d838c51db99f5eca5391a8"
+        }
+      },
+      "output": {
+        "sizeBytes": 21444,
+        "sha256": "262704d314c86fef47d4bbfb6925b8b667b3540e8567786139bed5adcdb79bf4"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/storage.snbt",
+      "before": {
+        "sizeBytes": 35688,
+        "sha256": "44cb8b1e20f896aec8a00524d7886c4135d1b1362a2c0e152a8f332ee1bfe47c"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/storage.snbt": {
+          "sizeBytes": 35688,
+          "sha256": "44cb8b1e20f896aec8a00524d7886c4135d1b1362a2c0e152a8f332ee1bfe47c"
+        }
+      },
+      "output": {
+        "sizeBytes": 33383,
+        "sha256": "ab40f3fbb8f22ee85063569d79a76ebe50d62d2eb22caa2c20e30a153b1b2bf9"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/the_angry_earth.snbt",
+      "before": {
+        "sizeBytes": 5490,
+        "sha256": "f298284d62afb5535bb1200e6d00c1bb9f1d32fbe36ad5448c2745bffd416f1d"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/the_angry_earth.snbt": {
+          "sizeBytes": 5490,
+          "sha256": "f298284d62afb5535bb1200e6d00c1bb9f1d32fbe36ad5448c2745bffd416f1d"
+        }
+      },
+      "output": {
+        "sizeBytes": 5456,
+        "sha256": "bfea853c019138a73138550d0288e117f61c49f9055cccba84dbbf0a5bc21fe4"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/to_reach_beyond.snbt",
+      "before": {
+        "sizeBytes": 14076,
+        "sha256": "c9fe79e03c63992c655ad3151ee825b9169a5f084c9d24f2bcdccea791c5e13d"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/to_reach_beyond.snbt": {
+          "sizeBytes": 14076,
+          "sha256": "c9fe79e03c63992c655ad3151ee825b9169a5f084c9d24f2bcdccea791c5e13d"
+        }
+      },
+      "output": {
+        "sizeBytes": 12023,
+        "sha256": "7a4f48d193c9c090c82a8957a53ced4cf970d8584e17dbb49f0479d2f77c3df2"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/unnatural_aura.snbt",
+      "before": {
+        "sizeBytes": 26093,
+        "sha256": "b1ff5b4b3d7623335cc36465e30c50b36a24c98e679abc0ca34ac4b6d8435a41"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/unnatural_aura.snbt": {
+          "sizeBytes": 26093,
+          "sha256": "b1ff5b4b3d7623335cc36465e30c50b36a24c98e679abc0ca34ac4b6d8435a41"
+        }
+      },
+      "output": {
+        "sizeBytes": 23808,
+        "sha256": "e6524b56861168e9c5b7e9d5338b89732f07baf3b2165c51147b9b5c84ed7050"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/violent_ends.snbt",
+      "before": {
+        "sizeBytes": 7465,
+        "sha256": "a2a85fcf568a66a12cfac03ecaeacfce9a2917b85564f19e36e28717a6121aec"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/violent_ends.snbt": {
+          "sizeBytes": 7465,
+          "sha256": "a2a85fcf568a66a12cfac03ecaeacfce9a2917b85564f19e36e28717a6121aec"
+        }
+      },
+      "output": {
+        "sizeBytes": 6778,
+        "sha256": "88203a94c90e3df098ed5e324840779e62124a22b79b7aa8c8de0ea3a7b91964"
+      }
+    },
+    {
+      "path": "config/ftbquests/quests/chapters/want_not.snbt",
+      "before": {
+        "sizeBytes": 51960,
+        "sha256": "7f863af5a7712a9552526c5c3f40a23dea189d80849739ecac139d14e79b4528"
+      },
+      "inputs": {
+        "config/ftbquests/quests/chapters/want_not.snbt": {
+          "sizeBytes": 51960,
+          "sha256": "7f863af5a7712a9552526c5c3f40a23dea189d80849739ecac139d14e79b4528"
+        }
+      },
+      "output": {
+        "sizeBytes": 44707,
+        "sha256": "0331d5ef261a599ffa14cc3f87c7b5b24aaf9b6cb860187196cdce57b104b780"
+      }
+    },
+    {
+      "path": "kubejs/assets/inferno_quests/lang/en_us.json",
+      "inputs": {
+        "config/ftbquests/quests/chapter_groups.snbt": {
+          "sizeBytes": 401,
+          "sha256": "8ce81df790b420289cb53a6666b386fb377bb387dd75c26ef25b642c1999d527"
+        },
+        "config/ftbquests/quests/chapters/a_dark_forest.snbt": {
+          "sizeBytes": 63451,
+          "sha256": "fb7199db159d002bbedffb84483a898be346bf8385a667272d4ee330d1912137"
+        },
+        "config/ftbquests/quests/chapters/backend.snbt": {
+          "sizeBytes": 4605,
+          "sha256": "8c68c6ad29916d05f8a357661d83e0f7a34ae133271850c3025344cae85800cf"
+        },
+        "config/ftbquests/quests/chapters/busy_bees.snbt": {
+          "sizeBytes": 40420,
+          "sha256": "2a9efeffd4baad2f6a4505d3d418b25db3d13ed8b5aa373a7eae17067419e8ac"
+        },
+        "config/ftbquests/quests/chapters/creation.snbt": {
+          "sizeBytes": 9595,
+          "sha256": "00c55e2844cdc30859023928c35a8c2f809705514a1955f1177bb57efca8bff4"
+        },
+        "config/ftbquests/quests/chapters/deus_ex_machina.snbt": {
+          "sizeBytes": 14697,
+          "sha256": "7c72e6200a73fa7d4af8d7c459e4c5fea43f9757e927299341f2b69bb75add44"
+        },
+        "config/ftbquests/quests/chapters/djinns_and_dragons.snbt": {
+          "sizeBytes": 16303,
+          "sha256": "675e22ae5fc3a50f3c131057a9eca1b9078cb5850ed3cdf26e8354b61d96704a"
+        },
+        "config/ftbquests/quests/chapters/faustian_bargains.snbt": {
+          "sizeBytes": 10901,
+          "sha256": "9f3091a92780fad94273dd77ed6f5143cdd7864893d69ec771665dd72a669891"
+        },
+        "config/ftbquests/quests/chapters/fertile_wastes.snbt": {
+          "sizeBytes": 21897,
+          "sha256": "599fef88e83843f3f01c7e8ac06ffdc5d80c4f8fd1f24517edcdde6b2268acf6"
+        },
+        "config/ftbquests/quests/chapters/give_them_a_fish.snbt": {
+          "sizeBytes": 9766,
+          "sha256": "9a192f86c955deff3652d3077b46364a06d38719d9b75e17f7830fccdb437c12"
+        },
+        "config/ftbquests/quests/chapters/herbs_and_hexes.snbt": {
+          "sizeBytes": 14531,
+          "sha256": "c0f3e1dbf6f0fa0de3d8fb4bb4a5b5760ad30cd25fc797cecdcad21e88844dc1"
+        },
+        "config/ftbquests/quests/chapters/in_service_bound.snbt": {
+          "sizeBytes": 22684,
+          "sha256": "cb4f84cc7e5e9c93adaa29295414d6eaf8d74f8f0ceef73e5209cbaa5fe585b2"
+        },
+        "config/ftbquests/quests/chapters/inferno.snbt": {
+          "sizeBytes": 2294,
+          "sha256": "6e4081497127e45f5ed7810019877b63e18b54ea4d17e7de665368731d91217c"
+        },
+        "config/ftbquests/quests/chapters/innovation.snbt": {
+          "sizeBytes": 19559,
+          "sha256": "ffcce8d556f0121aeed87b54ceabe6b863bc07df0678083dfb24dc8e2b6762eb"
+        },
+        "config/ftbquests/quests/chapters/party_times.snbt": {
+          "sizeBytes": 14468,
+          "sha256": "4bc7f643e1da1d4476ec4f94aa376f435e058d9513d7877d35b800a4902bcf14"
+        },
+        "config/ftbquests/quests/chapters/protect_the_unprotected.snbt": {
+          "sizeBytes": 20702,
+          "sha256": "cb6a11525d57ca78d534b479a321b5ae255bea889b84640daaf6a38d5faf3a3d"
+        },
+        "config/ftbquests/quests/chapters/resource_gen.snbt": {
+          "sizeBytes": 31618,
+          "sha256": "8ac4c18120c07340f7469bcdee7c50e2be69d11ef99622b2b4b41fff65854747"
+        },
+        "config/ftbquests/quests/chapters/sanctuary.snbt": {
+          "sizeBytes": 14243,
+          "sha256": "d37a91078c6c42bc1c65100705e48fb2bc20dd3837855bfc332ab3a08f7963cd"
+        },
+        "config/ftbquests/quests/chapters/sanguine_sting.snbt": {
+          "sizeBytes": 42676,
+          "sha256": "2d52bef2256ef1cd7f4dcac05663e9776e754de86581635ed67ffd19d20b2531"
+        },
+        "config/ftbquests/quests/chapters/sinful_sorcery.snbt": {
+          "sizeBytes": 27791,
+          "sha256": "bcd4189d3fa3b7d58dcacb8d4d71ff143ca5a030e6d5482d491f1ba46c6766a8"
+        },
+        "config/ftbquests/quests/chapters/spellworking_101.snbt": {
+          "sizeBytes": 22012,
+          "sha256": "a8b46ab3bd104a25dbcf70f50720f691ee00199e28d838c51db99f5eca5391a8"
+        },
+        "config/ftbquests/quests/chapters/storage.snbt": {
+          "sizeBytes": 35688,
+          "sha256": "44cb8b1e20f896aec8a00524d7886c4135d1b1362a2c0e152a8f332ee1bfe47c"
+        },
+        "config/ftbquests/quests/chapters/the_angry_earth.snbt": {
+          "sizeBytes": 5490,
+          "sha256": "f298284d62afb5535bb1200e6d00c1bb9f1d32fbe36ad5448c2745bffd416f1d"
+        },
+        "config/ftbquests/quests/chapters/to_reach_beyond.snbt": {
+          "sizeBytes": 14076,
+          "sha256": "c9fe79e03c63992c655ad3151ee825b9169a5f084c9d24f2bcdccea791c5e13d"
+        },
+        "config/ftbquests/quests/chapters/unnatural_aura.snbt": {
+          "sizeBytes": 26093,
+          "sha256": "b1ff5b4b3d7623335cc36465e30c50b36a24c98e679abc0ca34ac4b6d8435a41"
+        },
+        "config/ftbquests/quests/chapters/violent_ends.snbt": {
+          "sizeBytes": 7465,
+          "sha256": "a2a85fcf568a66a12cfac03ecaeacfce9a2917b85564f19e36e28717a6121aec"
+        },
+        "config/ftbquests/quests/chapters/want_not.snbt": {
+          "sizeBytes": 51960,
+          "sha256": "7f863af5a7712a9552526c5c3f40a23dea189d80849739ecac139d14e79b4528"
+        },
+        "config/ftbquests/quests/data.snbt": {
+          "sizeBytes": 429,
+          "sha256": "82e9f8d275db5f2ff1e2fc3149d595af003c0ae32e1515c507f96a36f46308f9"
+        },
+        "config/ftbquests/quests/reward_tables/grapple_hook_mod_enchants.snbt": {
+          "sizeBytes": 727,
+          "sha256": "81abf3bb45d790e3be45465a9c6226472070f8556fded36c61935b911b51e374"
+        },
+        "config/ftbquests/quests/reward_tables/guns_without_roses_enchants.snbt": {
+          "sizeBytes": 921,
+          "sha256": "aae35344a1f561dd059da118311be8c7f233f1b80ad42a6ab1dc78108e98633c"
+        },
+        "config/ftbquests/quests/reward_tables/infernal_effigy.snbt": {
+          "sizeBytes": 2038,
+          "sha256": "99a441673f6b5d0c326f1e8ded73dd38ac0857e447d43494945d46ea0949b31f"
+        },
+        "config/ftbquests/quests/reward_tables/soul_shards.snbt": {
+          "sizeBytes": 373,
+          "sha256": "0a980bf44b1b0cb3ec9e0ccdc11955765b46da8340a19475a5396acf32421b71"
+        },
+        "config/ftbquests/quests/reward_tables/tier_1_building_bag.snbt": {
+          "sizeBytes": 785,
+          "sha256": "ae1c67d322d679b948fe6ae804d9d287525cf56515cd13f5ba8d5b82483c01fc"
+        },
+        "config/ftbquests/quests/reward_tables/tier_2_building_bag.snbt": {
+          "sizeBytes": 686,
+          "sha256": "70bc008617ba05bd4cb4f5e1fb8f8c2b9a52c28e7f71be7ef98c3272864d12d6"
+        },
+        "config/ftbquests/quests/reward_tables/tier_3_building_bag.snbt": {
+          "sizeBytes": 795,
+          "sha256": "6500ab5a2e4d797bccc8ff9b74c63944ceaeb13e26e31cefc43842523971aee2"
+        },
+        "config/ftbquests/quests/reward_tables/tier_4_building_bag.snbt": {
+          "sizeBytes": 1248,
+          "sha256": "3492f6d87747325e865686c76f2c77182ef97614a1dbcbf54bf47024e0a29b93"
+        },
+        "config/ftbquests/quests/reward_tables/tier_5_building_bag.snbt": {
+          "sizeBytes": 1181,
+          "sha256": "568246593acd1b5a0e594b1267fdd10395c31f6b650d87f229daafa17501e8dc"
+        },
+        "config/ftbquests/quests/reward_tables/vengeance_spirit_quest_rewards.snbt": {
+          "sizeBytes": 664,
+          "sha256": "67183c8c582f7f4794cfd450c4cad64a855373b6466e67aa03d6ac876a3efbf0"
+        },
+        "mods/kubejs-forge-1802.5.5-build.569.jar": {
+          "sizeBytes": 1072633,
+          "sha256": "a3fdde9433d75ac1f5ae72d3f5b74d2dfb3a59d8b28bad18a5c526cb32f814d0",
+          "projectId": 238086,
+          "fileId": 4377177
+        },
+        "mods/ftb-quests-forge-1802.3.16-build.479.jar": {
+          "sizeBytes": 1100908,
+          "sha256": "7622250c06c87d1abfa70dd869d15f03d109e3a07b0d0e69052e940853b35217",
+          "projectId": 289412,
+          "fileId": 6113498
+        },
+        "mods/ftb-library-forge-1802.3.11-build.177.jar": {
+          "sizeBytes": 585874,
+          "sha256": "2a958287cdf3ae47eb8682f7bc9dfa779d27bd203207acbbe6e2ec54642f618c",
+          "projectId": 404465,
+          "fileId": 4396792
+        }
+      },
+      "output": {
+        "sizeBytes": 287935,
+        "sha256": "7667e1c374e1f336f9043a8a7e6c58e85075717677eaac9fc83e71881082454e"
+      }
+    },
+    {
+      "path": "kubejs/assets/inferno_quests/lang/ru_ru.json",
+      "inputs": {
+        "config/ftbquests/quests/chapter_groups.snbt": {
+          "sizeBytes": 401,
+          "sha256": "8ce81df790b420289cb53a6666b386fb377bb387dd75c26ef25b642c1999d527"
+        },
+        "config/ftbquests/quests/chapters/a_dark_forest.snbt": {
+          "sizeBytes": 63451,
+          "sha256": "fb7199db159d002bbedffb84483a898be346bf8385a667272d4ee330d1912137"
+        },
+        "config/ftbquests/quests/chapters/backend.snbt": {
+          "sizeBytes": 4605,
+          "sha256": "8c68c6ad29916d05f8a357661d83e0f7a34ae133271850c3025344cae85800cf"
+        },
+        "config/ftbquests/quests/chapters/busy_bees.snbt": {
+          "sizeBytes": 40420,
+          "sha256": "2a9efeffd4baad2f6a4505d3d418b25db3d13ed8b5aa373a7eae17067419e8ac"
+        },
+        "config/ftbquests/quests/chapters/creation.snbt": {
+          "sizeBytes": 9595,
+          "sha256": "00c55e2844cdc30859023928c35a8c2f809705514a1955f1177bb57efca8bff4"
+        },
+        "config/ftbquests/quests/chapters/deus_ex_machina.snbt": {
+          "sizeBytes": 14697,
+          "sha256": "7c72e6200a73fa7d4af8d7c459e4c5fea43f9757e927299341f2b69bb75add44"
+        },
+        "config/ftbquests/quests/chapters/djinns_and_dragons.snbt": {
+          "sizeBytes": 16303,
+          "sha256": "675e22ae5fc3a50f3c131057a9eca1b9078cb5850ed3cdf26e8354b61d96704a"
+        },
+        "config/ftbquests/quests/chapters/faustian_bargains.snbt": {
+          "sizeBytes": 10901,
+          "sha256": "9f3091a92780fad94273dd77ed6f5143cdd7864893d69ec771665dd72a669891"
+        },
+        "config/ftbquests/quests/chapters/fertile_wastes.snbt": {
+          "sizeBytes": 21897,
+          "sha256": "599fef88e83843f3f01c7e8ac06ffdc5d80c4f8fd1f24517edcdde6b2268acf6"
+        },
+        "config/ftbquests/quests/chapters/give_them_a_fish.snbt": {
+          "sizeBytes": 9766,
+          "sha256": "9a192f86c955deff3652d3077b46364a06d38719d9b75e17f7830fccdb437c12"
+        },
+        "config/ftbquests/quests/chapters/herbs_and_hexes.snbt": {
+          "sizeBytes": 14531,
+          "sha256": "c0f3e1dbf6f0fa0de3d8fb4bb4a5b5760ad30cd25fc797cecdcad21e88844dc1"
+        },
+        "config/ftbquests/quests/chapters/in_service_bound.snbt": {
+          "sizeBytes": 22684,
+          "sha256": "cb4f84cc7e5e9c93adaa29295414d6eaf8d74f8f0ceef73e5209cbaa5fe585b2"
+        },
+        "config/ftbquests/quests/chapters/inferno.snbt": {
+          "sizeBytes": 2294,
+          "sha256": "6e4081497127e45f5ed7810019877b63e18b54ea4d17e7de665368731d91217c"
+        },
+        "config/ftbquests/quests/chapters/innovation.snbt": {
+          "sizeBytes": 19559,
+          "sha256": "ffcce8d556f0121aeed87b54ceabe6b863bc07df0678083dfb24dc8e2b6762eb"
+        },
+        "config/ftbquests/quests/chapters/party_times.snbt": {
+          "sizeBytes": 14468,
+          "sha256": "4bc7f643e1da1d4476ec4f94aa376f435e058d9513d7877d35b800a4902bcf14"
+        },
+        "config/ftbquests/quests/chapters/protect_the_unprotected.snbt": {
+          "sizeBytes": 20702,
+          "sha256": "cb6a11525d57ca78d534b479a321b5ae255bea889b84640daaf6a38d5faf3a3d"
+        },
+        "config/ftbquests/quests/chapters/resource_gen.snbt": {
+          "sizeBytes": 31618,
+          "sha256": "8ac4c18120c07340f7469bcdee7c50e2be69d11ef99622b2b4b41fff65854747"
+        },
+        "config/ftbquests/quests/chapters/sanctuary.snbt": {
+          "sizeBytes": 14243,
+          "sha256": "d37a91078c6c42bc1c65100705e48fb2bc20dd3837855bfc332ab3a08f7963cd"
+        },
+        "config/ftbquests/quests/chapters/sanguine_sting.snbt": {
+          "sizeBytes": 42676,
+          "sha256": "2d52bef2256ef1cd7f4dcac05663e9776e754de86581635ed67ffd19d20b2531"
+        },
+        "config/ftbquests/quests/chapters/sinful_sorcery.snbt": {
+          "sizeBytes": 27791,
+          "sha256": "bcd4189d3fa3b7d58dcacb8d4d71ff143ca5a030e6d5482d491f1ba46c6766a8"
+        },
+        "config/ftbquests/quests/chapters/spellworking_101.snbt": {
+          "sizeBytes": 22012,
+          "sha256": "a8b46ab3bd104a25dbcf70f50720f691ee00199e28d838c51db99f5eca5391a8"
+        },
+        "config/ftbquests/quests/chapters/storage.snbt": {
+          "sizeBytes": 35688,
+          "sha256": "44cb8b1e20f896aec8a00524d7886c4135d1b1362a2c0e152a8f332ee1bfe47c"
+        },
+        "config/ftbquests/quests/chapters/the_angry_earth.snbt": {
+          "sizeBytes": 5490,
+          "sha256": "f298284d62afb5535bb1200e6d00c1bb9f1d32fbe36ad5448c2745bffd416f1d"
+        },
+        "config/ftbquests/quests/chapters/to_reach_beyond.snbt": {
+          "sizeBytes": 14076,
+          "sha256": "c9fe79e03c63992c655ad3151ee825b9169a5f084c9d24f2bcdccea791c5e13d"
+        },
+        "config/ftbquests/quests/chapters/unnatural_aura.snbt": {
+          "sizeBytes": 26093,
+          "sha256": "b1ff5b4b3d7623335cc36465e30c50b36a24c98e679abc0ca34ac4b6d8435a41"
+        },
+        "config/ftbquests/quests/chapters/violent_ends.snbt": {
+          "sizeBytes": 7465,
+          "sha256": "a2a85fcf568a66a12cfac03ecaeacfce9a2917b85564f19e36e28717a6121aec"
+        },
+        "config/ftbquests/quests/chapters/want_not.snbt": {
+          "sizeBytes": 51960,
+          "sha256": "7f863af5a7712a9552526c5c3f40a23dea189d80849739ecac139d14e79b4528"
+        },
+        "config/ftbquests/quests/data.snbt": {
+          "sizeBytes": 429,
+          "sha256": "82e9f8d275db5f2ff1e2fc3149d595af003c0ae32e1515c507f96a36f46308f9"
+        },
+        "config/ftbquests/quests/reward_tables/grapple_hook_mod_enchants.snbt": {
+          "sizeBytes": 727,
+          "sha256": "81abf3bb45d790e3be45465a9c6226472070f8556fded36c61935b911b51e374"
+        },
+        "config/ftbquests/quests/reward_tables/guns_without_roses_enchants.snbt": {
+          "sizeBytes": 921,
+          "sha256": "aae35344a1f561dd059da118311be8c7f233f1b80ad42a6ab1dc78108e98633c"
+        },
+        "config/ftbquests/quests/reward_tables/infernal_effigy.snbt": {
+          "sizeBytes": 2038,
+          "sha256": "99a441673f6b5d0c326f1e8ded73dd38ac0857e447d43494945d46ea0949b31f"
+        },
+        "config/ftbquests/quests/reward_tables/soul_shards.snbt": {
+          "sizeBytes": 373,
+          "sha256": "0a980bf44b1b0cb3ec9e0ccdc11955765b46da8340a19475a5396acf32421b71"
+        },
+        "config/ftbquests/quests/reward_tables/tier_1_building_bag.snbt": {
+          "sizeBytes": 785,
+          "sha256": "ae1c67d322d679b948fe6ae804d9d287525cf56515cd13f5ba8d5b82483c01fc"
+        },
+        "config/ftbquests/quests/reward_tables/tier_2_building_bag.snbt": {
+          "sizeBytes": 686,
+          "sha256": "70bc008617ba05bd4cb4f5e1fb8f8c2b9a52c28e7f71be7ef98c3272864d12d6"
+        },
+        "config/ftbquests/quests/reward_tables/tier_3_building_bag.snbt": {
+          "sizeBytes": 795,
+          "sha256": "6500ab5a2e4d797bccc8ff9b74c63944ceaeb13e26e31cefc43842523971aee2"
+        },
+        "config/ftbquests/quests/reward_tables/tier_4_building_bag.snbt": {
+          "sizeBytes": 1248,
+          "sha256": "3492f6d87747325e865686c76f2c77182ef97614a1dbcbf54bf47024e0a29b93"
+        },
+        "config/ftbquests/quests/reward_tables/tier_5_building_bag.snbt": {
+          "sizeBytes": 1181,
+          "sha256": "568246593acd1b5a0e594b1267fdd10395c31f6b650d87f229daafa17501e8dc"
+        },
+        "config/ftbquests/quests/reward_tables/vengeance_spirit_quest_rewards.snbt": {
+          "sizeBytes": 664,
+          "sha256": "67183c8c582f7f4794cfd450c4cad64a855373b6466e67aa03d6ac876a3efbf0"
+        },
+        "mods/kubejs-forge-1802.5.5-build.569.jar": {
+          "sizeBytes": 1072633,
+          "sha256": "a3fdde9433d75ac1f5ae72d3f5b74d2dfb3a59d8b28bad18a5c526cb32f814d0",
+          "projectId": 238086,
+          "fileId": 4377177
+        },
+        "mods/ftb-quests-forge-1802.3.16-build.479.jar": {
+          "sizeBytes": 1100908,
+          "sha256": "7622250c06c87d1abfa70dd869d15f03d109e3a07b0d0e69052e940853b35217",
+          "projectId": 289412,
+          "fileId": 6113498
+        },
+        "mods/ftb-library-forge-1802.3.11-build.177.jar": {
+          "sizeBytes": 585874,
+          "sha256": "2a958287cdf3ae47eb8682f7bc9dfa779d27bd203207acbbe6e2ec54642f618c",
+          "projectId": 404465,
+          "fileId": 4396792
+        }
+      },
+      "output": {
+        "sizeBytes": 412255,
+        "sha256": "fcf3fe745a03378dc69881d139a60e7ddfe7cb3b958b43deee1b9cd3b4161da3"
+      }
     }
   ]
 }

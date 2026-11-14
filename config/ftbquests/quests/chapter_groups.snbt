@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "3165B92DB1BC8401", title: "{\"translate\":\"inferno_quests.chapter_groups.1\"}" }
+		{ id: "3ABD0072BF4C3677", title: "{\"translate\":\"inferno_quests.chapter_groups.2\"}" }
+		{ id: "0674F87ECC0536DF", title: "{\"translate\":\"inferno_quests.chapter_groups.3\"}" }
+		{ id: "7044F2C841148E69", title: "{\"translate\":\"inferno_quests.chapter_groups.4\"}" }
+		{ id: "46A29AE1E3ACCC77", title: "{\"translate\":\"inferno_quests.chapter_groups.5\"}" }
+		{ id: "793D4C72FD32064E", title: "{\"translate\":\"inferno_quests.chapter_groups.6\"}" }
+		{ id: "24F72A50D728E97E", title: "{\"translate\":\"inferno_quests.chapter_groups.7\"}" }
+	]
+}
