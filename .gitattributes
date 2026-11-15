@@ -8,3 +8,5 @@
 *.json text eol=lf
 /config/ftbquests/quests/**/*.snbt -text
 /config/ftbquests/quests/*.snbt -text
+/launcher/controls-preset.txt text eol=lf
+/tools/keybinds/registered-keys.txt text eol=lf

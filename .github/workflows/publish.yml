@@ -1,0 +1,30 @@
+name: Publish controls preset
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - launcher/controls-preset.txt
+      - tools/keybinds/**
+      - .github/workflows/publish.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ftb-inferno-pack-latest
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -B tools/keybinds/check_preset.py
+      - run: python -B tools/keybinds/publish.py
+        env:
+          GH_TOKEN: ${{ github.token }}
