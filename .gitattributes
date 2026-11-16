@@ -10,3 +10,4 @@
 /config/ftbquests/quests/*.snbt -text
 /launcher/controls-preset.txt text eol=lf
 /tools/keybinds/registered-keys.txt text eol=lf
+/launcher/options-default.txt text eol=lf

@@ -1,4 +1,4 @@
-"""Publish the pack-owned controls preset over the current public payload."""
+"""Publish reviewed launcher settings over the current public payload."""
 import io
 import json
 from pathlib import Path
@@ -18,6 +18,8 @@ from stage_shader_update import archive, match, pin
 REPO = "MarkZamore/FTB-Inferno"
 BASE = f"https://github.com/{REPO}/releases/download/pack-latest/"
 PRESET = "launcher/controls-preset.txt"
+OPTIONS = "launcher/options-default.txt"
+LABELS = {PRESET: "controls-preset", OPTIONS: "options-default"}
 
 
 def command(*args):
@@ -33,7 +35,7 @@ def json_bytes(obj):
     return (json.dumps(obj, ensure_ascii=False, indent=2) + "\n").encode()
 
 
-def stage(previous, revision, when, preset, old_library):
+def stage(previous, revision, when, settings, old_library):
     manifest = json.loads(previous)
     if (manifest["packId"], manifest["minecraftVersion"], manifest["loader"]) != (
             "minecraft-12", "1.18.2", {"type": "forge", "version": "40.2.34"}):
@@ -44,28 +46,31 @@ def stage(previous, revision, when, preset, old_library):
             raise ValueError("Library revision mismatch")
         card["revision"] = revision
         library = archive({"library.json": json_bytes(card), "preview.jpg": bundle.read("preview.jpg")})
-    payload = archive({PRESET: preset})
-    payload_pin = pin(payload)
-    asset_name = f"r-{payload_pin['sha256'][:12]}-controls-preset.zip"
     library_pin = pin(library)
     library_name = f"library-{library_pin['sha256']}.zip"
     assets = []
+    payloads = {library_name: library}
     for row in manifest["assets"]:
-        if PRESET in row["covers"]:
-            if row["covers"] != [PRESET]:
-                raise ValueError("Preset shares its archive with other files")
+        if set(row["covers"]) & settings.keys():
+            if len(row["covers"]) != 1:
+                raise ValueError("Launcher settings share an archive with other files")
         else:
             assets.append(row)
-    assets.append({"name": asset_name, "kind": "zipRoot", "covers": [PRESET], **payload_pin})
-    files = [row for row in manifest["files"] if row["path"] != PRESET]
-    files.append({"path": PRESET, **pin(preset)})
+    for path, data in settings.items():
+        payload = archive({path: data})
+        payload_pin = pin(payload)
+        name = f"r-{payload_pin['sha256'][:12]}-{LABELS[path]}.zip"
+        assets.append({"name": name, "kind": "zipRoot", "covers": [path], **payload_pin})
+        payloads[name] = payload
+    files = [row for row in manifest["files"] if row["path"] not in settings]
+    files.extend({"path": path, **pin(data)} for path, data in settings.items())
     if sorted(row["path"] for row in files) != sorted(path for row in assets for path in row["covers"]):
         raise ValueError("Incomplete asset coverage")
     manifest.update(revision=revision, generatedAtUtc=when,
                     library={"name": library_name, "revision": revision, **library_pin},
                     files=sorted(files, key=lambda row: row["path"]),
                     assets=sorted(assets, key=lambda row: row["name"]))
-    return json_bytes(manifest), {asset_name: payload, library_name: library}
+    return json_bytes(manifest), payloads
 
 
 def publish():
@@ -74,11 +79,14 @@ def publish():
     previous = download("pack-manifest.json")
     manifest = json.loads(previous)
     base = manifest["revision"]
-    preset = OUTPUT.read_bytes()
-    if base == revision and {"path": PRESET, **pin(preset)} in manifest["files"]:
-        print("Preset already published", pin(preset))
+    settings = {PRESET: OUTPUT.read_bytes(), OPTIONS: (ROOT / OPTIONS).read_bytes()}
+    if settings[OPTIONS] != b"!skipMultiplayerWarning:true\n":
+        raise ValueError("Unexpected multiplayer warning setting")
+    if base == revision and all({"path": path, **pin(data)} in manifest["files"]
+                                for path, data in settings.items()):
+        print("Launcher settings already published")
         return
-    result, assets = stage(previous, revision, when, preset, download(manifest["library"]["name"]))
+    result, assets = stage(previous, revision, when, settings, download(manifest["library"]["name"]))
     with TemporaryDirectory() as tmp:
         for name, data in assets.items():
             path = Path(tmp) / name
@@ -104,7 +112,7 @@ def publish():
         command("gh", "release", "upload", "pack-latest", str(path), "--clobber", "-R", REPO)
     for attempt in range(6):
         if download("pack-manifest.json") == result:
-            print("Published", revision, pin(preset))
+            print("Published", revision, {path: pin(data) for path, data in settings.items()})
             return
         time.sleep(5)
     raise ValueError("Public manifest did not match the candidate")

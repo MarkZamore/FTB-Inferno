@@ -52,3 +52,7 @@ python -B LocalSources/FTB-Inferno/tools/questbook/build.py review-update $candi
 ## Пресет управления
 
 Раскладка поставляется в `launcher/controls-preset.txt`. Редактирование, проверка и повторная публикация после авторского обновления описаны в [инструкции пресета](tools/keybinds/design.md).
+
+## Предупреждение при входе в сетевую игру
+
+`launcher/options-default.txt` задаёт штатный параметр Minecraft 1.18.2 `skipMultiplayerWarning:true` в чистых и существующих профилях. Правила доступа к сетевой игре задаёт Minecraft. Файл входит в `pack-latest` через workflow сборки вместе с пресетом управления. При полной замене авторской поставки повторно запустите workflow, чтобы восстановить эти два файла в манифесте.

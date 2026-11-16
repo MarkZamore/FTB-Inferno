@@ -1,10 +1,11 @@
-name: Publish controls preset
+name: Publish pack launcher settings
 
 on:
   push:
     branches: [main]
     paths:
       - launcher/controls-preset.txt
+      - launcher/options-default.txt
       - tools/keybinds/**
       - .github/workflows/publish.yml
   workflow_dispatch:
