@@ -13,12 +13,12 @@ from zipfile import ZipFile
 from build_preset import ROOT, OUTPUT
 
 sys.path.insert(0, str(ROOT / "tools"))
+from prepare_author_release import OPTIONS, apply_setting, verify
 from stage_shader_update import archive, match, pin
 
 REPO = "MarkZamore/FTB-Inferno"
 BASE = f"https://github.com/{REPO}/releases/download/pack-latest/"
 PRESET = "launcher/controls-preset.txt"
-OPTIONS = "launcher/options-default.txt"
 LABELS = {PRESET: "controls-preset", OPTIONS: "options-default"}
 
 
@@ -79,14 +79,20 @@ def publish():
     previous = download("pack-manifest.json")
     manifest = json.loads(previous)
     base = manifest["revision"]
-    settings = {PRESET: OUTPUT.read_bytes(), OPTIONS: (ROOT / OPTIONS).read_bytes()}
-    if settings[OPTIONS] != b"!skipMultiplayerWarning:true\n":
-        raise ValueError("Unexpected multiplayer warning setting")
+    required = (ROOT / OPTIONS).read_bytes()
+    author_options = b""
+    old_options = next((row for row in manifest["files"] if row["path"] == OPTIONS), None)
+    if old_options is not None:
+        asset, = (row for row in manifest["assets"] if OPTIONS in row["covers"])
+        with ZipFile(io.BytesIO(match(download(asset["name"]), asset))) as bundle:
+            author_options = match(bundle.read(OPTIONS), old_options)
+    settings = {PRESET: OUTPUT.read_bytes(), OPTIONS: apply_setting(author_options, required)}
     if base == revision and all({"path": path, **pin(data)} in manifest["files"]
                                 for path, data in settings.items()):
         print("Launcher settings already published")
         return
     result, assets = stage(previous, revision, when, settings, download(manifest["library"]["name"]))
+    verify(json.loads(result), assets.__getitem__, settings[OPTIONS])
     with TemporaryDirectory() as tmp:
         for name, data in assets.items():
             path = Path(tmp) / name

@@ -13,7 +13,7 @@
 python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source LocalSources/FTB-Inferno --output $stage
 ```
 
-`tools/overlay.json` сохраняет политику открытия мира через Steam. Для нового авторского выпуска снимите отдельную квитанцию через `prepare.py --client-only` и проверьте её командой `release_overlay.py review-update`. При изменении защищённого входа пересмотрите рецепт и закрепите новые точные байты. После нативной проверки сохраните полный `tools/upstream-lock.json` и выполните `release_overlay.py verify` по готовому манифесту.
+`tools/overlay.json` сохраняет политику открытия мира через Steam. Для нового авторского выпуска снимите отдельную квитанцию через `prepare.py --client-only` и проверьте её командой `release_overlay.py review-update`. При изменении защищённого входа пересмотрите рецепт и закрепите новые точные байты. После нативной проверки сохраните полный `tools/upstream-lock.json` и подготовьте выпуск через `tools/prepare_author_release.py`. Он проверяет авторский слой и обязательную настройку предупреждения.
 
 ## Шейдеры
 
@@ -45,7 +45,7 @@ python -B LocalSources/FTB-Inferno/tools/questbook/build.py verify $authorGame
 python -B LocalSources/FTB-Inferno/tools/questbook/build.py review-update $candidateLock --release-overlay tools/PackData/CurseForge/release_overlay.py
 ```
 
-Если SNBT и версии FTB Quests, FTB Library и KubeJS совпали, проверка переносит привязку overlay на новый архив. Сохраните предложенный рецепт вместе с обновлёнными locks и прогоните штатные `stage --locked` и `verify`. Если автор изменил, добавил или удалил файл квестбука, проверка перечислит эти пути. Сначала сверьте изменения по ID квестов и обновите соответствующие словари, затем пересоберите overlay на проверенных исходных байтах. Проверка покрытия требует перевода каждой новой отображаемой строки.
+Если SNBT и версии FTB Quests, FTB Library и KubeJS совпали, проверка переносит привязку overlay на новый архив. Сохраните предложенный рецепт вместе с обновлёнными locks и выполните `stage --locked`, затем подготовьте выпуск через `tools/prepare_author_release.py`. Если автор изменил, добавил или удалил файл квестбука, проверка перечислит эти пути. Сначала сверьте изменения по ID квестов и обновите соответствующие словари, затем пересоберите overlay на проверенных исходных байтах. Проверка покрытия требует перевода каждой новой отображаемой строки.
 
 Для выпуска одного квестбука поверх существующего проверенного релиза используйте `tools/questbook/stage_release.py $output --base $publishedRevision`. Скрипт сверяет точную ревизию, заменяет только архивы затронутых файлов, добавляет языки и обновляет карточку. При полном авторском обновлении сохраняйте также оба шейдерпака из `tools/shaders-lock.json`.
 
@@ -55,4 +55,10 @@ python -B LocalSources/FTB-Inferno/tools/questbook/build.py review-update $candi
 
 ## Предупреждение при входе в сетевую игру
 
-`launcher/options-default.txt` задаёт штатный параметр Minecraft 1.18.2 `skipMultiplayerWarning:true` в чистых и существующих профилях. Правила доступа к сетевой игре задаёт Minecraft. Файл входит в `pack-latest` через workflow сборки вместе с пресетом управления. При полной замене авторской поставки повторно запустите workflow, чтобы восстановить эти два файла в манифесте.
+`launcher/options-default.txt` задаёт штатный параметр Minecraft 1.18.2 `skipMultiplayerWarning:true` в чистых и существующих профилях. Правила доступа к сетевой игре задаёт Minecraft. Файл входит в `pack-latest` через workflow сборки вместе с пресетом управления. При полном обновлении автора после `release_overlay.py stage --locked` готовьте архивы через инструмент сборки:
+
+```powershell
+python -B LocalSources/FTB-Inferno/tools/prepare_author_release.py --launcher-source . --stage $stage --output $release --revision $revision
+```
+
+Этот инструмент вызывает штатную проверку CurseForge и добавляет обязательную настройку до выдачи готового выпуска. Если автор добавит собственный `launcher/options-default.txt`, инструмент меняет в нём только значение `skipMultiplayerWarning`. Другие файлы настроек автора остаются байт в байт. Проверка перед публикацией сверяет запись манифеста и содержимое архива. Workflow остаётся способом обновить пресет или опубликовать его после полного авторского выпуска.
