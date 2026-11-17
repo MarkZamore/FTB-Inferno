@@ -36,6 +36,7 @@ config/ftbquests/quests/reward_tables/tier_3_building_bag.snbt
 config/ftbquests/quests/reward_tables/tier_4_building_bag.snbt
 config/ftbquests/quests/reward_tables/tier_5_building_bag.snbt
 config/ftbquests/quests/reward_tables/vengeance_spirit_quest_rewards.snbt
+config/lanminecraft/experimental-world-confirmation.jar
 config/log4j2.xml
 kubejs/assets/inferno_quests/lang/en_us.json
 kubejs/assets/inferno_quests/lang/ru_ru.json
